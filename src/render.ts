@@ -174,12 +174,12 @@ export function renderAuroraGuide() {
         <div class="guide__panel will-reveal">
           <h3>Wann es dunkel wird</h3>
           <p>${esc(aurora.darkness.intro)}</p>
-          <table class="dark__table">
+          <div class="scroll-x"><table class="dark__table">
             <thead><tr><th>Datum</th><th>Sonnenuntergang</th><th>Bestes Fenster</th><th>Lage</th></tr></thead>
             <tbody>
               ${aurora.darkness.rows.map((r) => `<tr><td class="mono-cell">${r.date}</td><td class="mono-cell">${r.sunset}</td><td class="mono-cell">${r.window}</td><td>${esc(r.note)}</td></tr>`).join('')}
             </tbody>
-          </table>
+          </table></div>
           <p class="dark__note">${esc(aurora.darkness.note)}</p>
         </div>
         <div class="guide__panel will-reveal">

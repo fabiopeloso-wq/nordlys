@@ -36,7 +36,7 @@
 .field--row { grid-template-columns: 1fr 1fr; gap: 1.1rem; }
 
 .tip {
-  position: relative;
+  position: static;
   width: 17px; height: 17px;
   display: inline-grid; place-items: center;
   border: 1px solid var(--line);
@@ -48,10 +48,11 @@
   flex: none;
 }
 .tip:hover, .tip:focus-visible { color: var(--ember); border-color: var(--ember); }
+/* Tooltip spannt sich über die ganze Zeile (Anker: .field__label / .ferry) —
+   so kann er an keinem Bildschirmrand abgeschnitten werden */
+.field__label, .ferry { position: relative; }
 .tip__text {
-  position: absolute; bottom: calc(100% + 8px); left: 50%;
-  transform: translateX(-50%);
-  width: min(290px, 70vw);
+  position: absolute; bottom: calc(100% + 8px); left: 0; right: 0;
   background: var(--night-deep);
   border: 1px solid var(--line);
   padding: 0.7rem 0.85rem;
@@ -152,9 +153,15 @@
   .budget__layout, .budget__extras { grid-template-columns: 1fr; }
   .budget__out { position: static; }
 }
+@media (max-width: 640px) {
+  .budget__fines td:last-child { white-space: normal; }
+}
 
 /* ============ AURORA-GUIDE ============ */
 .guide__grid { display: grid; gap: 1.4rem; }
+/* Grid-Kinder dürfen schrumpfen — sonst sprengt die Tabelle das Layout auf Mobile */
+.guide__grid > *, .guide__row2 > *, .guide__row3 > * { min-width: 0; }
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .guide__panel {
   border: 1px solid var(--line);
   padding: 1.7rem 1.6rem;
@@ -194,7 +201,7 @@
 
 .guide__row2 { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.4rem; }
 
-.dark__table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.85rem; }
+.dark__table { width: 100%; min-width: 460px; border-collapse: collapse; margin-top: 1rem; font-size: 0.85rem; }
 .dark__table th {
   font-family: var(--font-mono); font-size: 0.62rem;
   letter-spacing: 0.12em; text-transform: uppercase;
@@ -246,6 +253,11 @@
   .planb__grid { grid-template-columns: 1fr 1fr; }
   .kp__scale li { grid-template-columns: 3rem 1fr; }
   .kp__scale .l { display: none; }
+}
+@media (max-width: 700px) {
+  /* KP-Marker-Text darf nicht aus dem Screen laufen */
+  .kp__marker { transform: none; align-items: flex-start; white-space: normal; max-width: 58vw; text-align: left; top: -3rem; }
+  .kp__band { margin-top: 3.4rem; }
 }
 
 /* ============ PACKLISTE ============ */

@@ -146,7 +146,8 @@ export function initBudget() {
   }
 
   function drawBars(items: [string, number][], animate: boolean) {
-    const W = 560;
+    // viewBox an die echte Breite koppeln, sonst werden die Labels auf Mobile winzig
+    const W = Math.max(300, Math.round(barsSvg.clientWidth) || 560);
     const ROW = 42;
     const LABEL_Y = 12;
     const max = Math.max(...items.map(([, v]) => v), 1);
@@ -200,5 +201,10 @@ export function initBudget() {
 
   wrap.addEventListener('input', update);
   wrap.addEventListener('change', update);
+  let rt = 0;
+  window.addEventListener('resize', () => {
+    window.clearTimeout(rt);
+    rt = window.setTimeout(update, 200);
+  });
   update();
 }
