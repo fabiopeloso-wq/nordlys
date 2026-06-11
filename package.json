@@ -1,0 +1,24 @@
+{
+  "name": "nordlys",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/big-shoulders": "^5.2.0",
+    "@fontsource-variable/hanken-grotesk": "^5.2.0",
+    "@fontsource/space-mono": "^5.2.0",
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.20",
+    "maplibre-gl": "^5.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0",
+    "typescript": "^5.7.0",
+    "vite": "^7.0.0"
+  }
+}

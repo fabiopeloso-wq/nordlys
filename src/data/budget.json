@@ -1,0 +1,60 @@
+{
+  "stand": "2026-06-11",
+  "currency": "CHF",
+  "rates": { "EUR": 0.9175, "NOK": 0.0849, "SEK": 0.0844, "DKK": 0.123 },
+  "ratesNote": "Kurse Stand 05.06.2026 (ECB/exchange-rates.org) — fix hinterlegt, damit der Rechner deterministisch bleibt.",
+  "fuelPrices": [
+    { "country": "Schweden", "petrol": 1.48, "diesel": 1.72, "raw": "17.52 / 20.37 SEK" },
+    { "country": "Deutschland", "petrol": 1.75, "diesel": 1.73, "raw": "1.91 / 1.89 EUR" },
+    { "country": "Norwegen", "petrol": 1.80, "diesel": 1.69, "raw": "21.24 / 19.94 NOK" },
+    { "country": "Schweiz", "petrol": 1.90, "diesel": 2.17, "raw": "CHF" },
+    { "country": "Dänemark", "petrol": 2.00, "diesel": 2.00, "raw": "ca. 16.3 DKK (Listenpreis)" }
+  ],
+  "defaults": {
+    "totalKm": 7150,
+    "consumptionPetrol": 9.8,
+    "consumptionDiesel": 7.0,
+    "fuelPriceChf": 1.68,
+    "foodPerDayPerPerson": 15,
+    "days": 16,
+    "persons": 4,
+    "tollChf": 110,
+    "campingNights": 4,
+    "campingPerNight": 30,
+    "miscChf": 50,
+    "reservePct": 10
+  },
+  "ferries": [
+    { "id": "scandlines-hin", "name": "Puttgarden–Rødby (hin)", "chf": 56, "on": true, "note": "online ab 48–61 €, Auto inkl. 4 Pers." },
+    { "id": "oeresund-hin", "name": "Öresundbrücke (hin)", "chf": 52, "on": true, "note": "online 420 DKK (ab 18.05.26), vor Ort 470" },
+    { "id": "moskenes", "name": "Moskenes–Bodø", "chf": 73, "on": true, "note": "605 NOK Auto <6 m + 250 NOK Reservation. Insassen gratis. FRÜH BUCHEN!" },
+    { "id": "fjord", "name": "Fjordfähren (Halsa + Eidsdal)", "chf": 14, "on": true, "note": "2 × 81 NOK, AutoPASS-ferje per Kennzeichen" },
+    { "id": "oeresund-zurueck", "name": "Öresundbrücke (zurück)", "chf": 52, "on": true, "note": "online 420 DKK" },
+    { "id": "scandlines-zurueck", "name": "Rødby–Puttgarden (zurück)", "chf": 56, "on": true, "note": "online ab 48–61 €" }
+  ],
+  "assumptions": [
+    { "key": "fuelPriceChf", "label": "Spritpreis Ø CHF/l", "source": "Gewichteter Schnitt über die Länderanteile der Route (globalpetrolprices.com / ADAC, 06/2026). In NO So-Abend/Mo tanken: −2–3 NOK/l." },
+    { "key": "consumptionPetrol", "label": "Verbrauch Benziner", "source": "Stelvio 2.0 real 9.5–10.6 l/100 km (spritmonitor.de) + Dachbox ca. +0.5 l bei 80–110 km/h (ADAC). Diesel 2.2: real 6.1–7.8 l." },
+    { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E10 (~3460 km) + Rückweg Küste (~3690 km). ca./vor Abreise feinprüfen." },
+    { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (vorab registrieren!) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
+    { "key": "foodPerDayPerPerson", "label": "Essen pro Tag/Person", "source": "15 CHF/Tag bei Grosseinkauf in DE + Nachschub in SE (Lidl/Willys), in NO nur Nötigstes. NO-Lebensmittel ≈ +30 % vs. DE (Eurostat/Numbeo 06/2026)." },
+    { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 4 geplante Nächte." },
+    { "key": "miscChf", "label": "Gas & Kleinkram", "source": "4–6 EN417-Kartuschen à 60–130 NOK (Biltema/XXL/Jula) + Parkgebühren Lofoten." }
+  ],
+  "savings": {
+    "title": "Grosseinkauf-Strategie",
+    "text": "Haltbares + Bier in DE (Tag 1), Frisches in SE, in NO nur Lücken füllen. Spart für 4 Mann über 16 Tage ca. 200–300 CHF. Zollfrei nach NO pro Person: 1 l Spirituosen + 1.5 l Wein + 2 l Bier (tauschbar, ca./prüfen).",
+    "beerFact": "0.5 l Bier im Laden: DE 0.99 € — NO 3.11 €. Sagen wir es so: Das Bier reist mit."
+  },
+  "fines": {
+    "title": "Norwegen-Bussen (ab 15.02.2026)",
+    "rows": [
+      { "over": "+5 km/h", "fine": "1250 NOK", "chf": 106 },
+      { "over": "+10 km/h", "fine": "3350 NOK", "chf": 284 },
+      { "over": "+20 km/h", "fine": "7450–8650 NOK", "chf": 730 },
+      { "over": "+30 km/h (ab 70er-Zone)", "fine": "13 450 NOK", "chf": 1142 }
+    ],
+    "note": "Führerscheinentzug ab ~+26 km/h innerorts / ~+36 km/h auf 70–90er-Strassen. Tempomat rein, Limits ernst nehmen — Norwegen verhandelt nicht. Quelle: lovdata.no",
+    "limits": "Limits NO: 50 innerorts · 80 Landstrasse · 90–110 Autobahn"
+  }
+}

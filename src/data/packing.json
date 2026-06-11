@@ -1,0 +1,85 @@
+{
+  "stand": "2026-06-11",
+  "note": "Ausgelegt auf 68° N Ende August: Tag 12–13 °C, Nacht 7–9 °C (Frost möglich), 15+ Regentage/Monat, Sturmböen-Risiko.",
+  "categories": [
+    {
+      "id": "schlafen", "name": "Schlafen", "icon": "tent",
+      "items": [
+        { "id": "zelte", "label": "2 windstabile Zelte (3–4 Jahreszeiten, kein Wurfzelt)" },
+        { "id": "footprint", "label": "Footprints / Zeltunterlagen" },
+        { "id": "schlafsack", "label": "4 Schlafsäcke — Komfort 0 °C (nicht Limit!)" },
+        { "id": "matte", "label": "4 Isomatten, R-Wert ≥ 3" },
+        { "id": "inlet", "label": "Inlets (+ ein paar Grad, weniger Waschen)" },
+        { "id": "heringe", "label": "Extra-Heringe + Abspannschnur (Sturm!)" },
+        { "id": "tape", "label": "Reparatur-Tape für Zelt & Matte" },
+        { "id": "kissen", "label": "Camp-Kissen oder Packsack mit Fleece" }
+      ]
+    },
+    {
+      "id": "kueche", "name": "Küche", "icon": "stove",
+      "items": [
+        { "id": "kocher", "label": "2 Gaskocher mit EN417-Schraubventil" },
+        { "id": "kartuschen", "label": "4–6 Kartuschen 230 g (Nachschub: Biltema/XXL/Jula)" },
+        { "id": "windschutz", "label": "Windschutz fürs Kochen" },
+        { "id": "topfset", "label": "Topfset + Pfanne (4 Mann = grosse Töpfe)" },
+        { "id": "besteck", "label": "Besteck, Becher, Teller, Schneidbrett, Messer" },
+        { "id": "feuerzeug", "label": "Feuerzeuge + Sturmstreichhölzer" },
+        { "id": "kanister", "label": "Wasserkanister 10–15 l (Tankstellen füllen gratis)" },
+        { "id": "filter", "label": "Wasserfilter als Backup (Bäche)" },
+        { "id": "kuehlbox", "label": "Kühlbox (12 V) für den Grosseinkauf" },
+        { "id": "muell", "label": "Mülltüten — alles geht wieder mit" },
+        { "id": "spuelzeug", "label": "Spülzeug (biologisch abbaubar, nie in Bäche)" }
+      ]
+    },
+    {
+      "id": "kleidung", "name": "Kleidung", "icon": "layers",
+      "items": [
+        { "id": "merino", "label": "Merino-Baselayer (2× pro Person)" },
+        { "id": "fleece", "label": "Fleece oder leichte Daune als Midlayer" },
+        { "id": "hardshell", "label": "Hardshell wasserdicht (≥ 15 000 mm Wassersäule)" },
+        { "id": "regenhose", "label": "Regenhose — kein optionales Item" },
+        { "id": "muetze", "label": "Mütze, Handschuhe, Buff" },
+        { "id": "schuhe", "label": "2 Paar Schuhe: wasserdicht zum Wandern + trocken fürs Camp" },
+        { "id": "socken", "label": "Wandersocken (mehr als du denkst)" },
+        { "id": "badehose", "label": "Badehose — 11 °C Atlantik, einmal muss sein" }
+      ]
+    },
+    {
+      "id": "tech", "name": "Tech & Strom", "icon": "bolt",
+      "items": [
+        { "id": "powerbank", "label": "2 Powerbanks ≥ 20 000 mAh" },
+        { "id": "lader", "label": "12-V-USB-C-PD-Lader (oder Wechselrichter 150–300 W)" },
+        { "id": "stirnlampe", "label": "4 Stirnlampen + Ersatzbatterien (Rotlicht für Aurora-Nächte)" },
+        { "id": "stativ", "label": "Stativ + Kamera, Ersatzakkus warm lagern" },
+        { "id": "offline", "label": "Offline-Karten + Apps installiert (Yr, Windy, Hello Aurora, NorwayLights)" },
+        { "id": "kabel", "label": "Kabel-Etui — eines pro Person, sonst Krieg" }
+      ]
+    },
+    {
+      "id": "auto", "name": "Auto & Recovery", "icon": "car",
+      "items": [
+        { "id": "dachbox", "label": "Dachbox (370–430 l) — Dachlast Stelvio 100 kg beachten" },
+        { "id": "starthilfe", "label": "Starthilfe-Booster oder Kabel" },
+        { "id": "abschleppseil", "label": "Abschleppseil" },
+        { "id": "kompressor", "label": "12-V-Kompressor + Reifen-Flickkit" },
+        { "id": "warnwesten", "label": "Warndreieck + 4 Warnwesten (Pflicht)" },
+        { "id": "birnen", "label": "Ersatzbirnen-Set" },
+        { "id": "eiskratzer", "label": "Eiskratzer — ja, im September, Frostnächte" },
+        { "id": "verbandkasten", "label": "Verbandkasten + Reiseapotheke" }
+      ]
+    },
+    {
+      "id": "dokumente", "name": "Dokumente", "icon": "doc",
+      "items": [
+        { "id": "pass", "label": "Pass/ID (alle 4)" },
+        { "id": "fuehrerschein", "label": "Führerschein + Fahrzeugausweis" },
+        { "id": "gruenekarte", "label": "Grüne Karte (PDF reicht seit 2025)" },
+        { "id": "eti", "label": "TCS-ETI-Nummer / Pannendienst-Kontakt" },
+        { "id": "epass24", "label": "Epass24 vorab registriert (NO-Maut)" },
+        { "id": "faehre", "label": "Fähren-Buchung Moskenes–Bodø (+ Scandlines-Tickets)" },
+        { "id": "unfallprotokoll", "label": "Europäisches Unfallprotokoll" },
+        { "id": "karten", "label": "2 Kreditkarten — Norwegen ist praktisch bargeldlos" }
+      ]
+    }
+  ]
+}

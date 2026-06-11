@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NORDLYS — Uster → Lofoten · 16 Tage · 4 Mann · 1 Stelvio</title>
+  <meta name="description" content="Interaktiver Reiseplan für den Roadtrip von Uster auf die Lofoten: Route, 16 Etappen, Wildcamp-Regeln, Budget-Rechner, Aurora-Guide und Packliste. Ende August 2026." />
+  <meta property="og:title" content="NORDLYS — Uster → Lofoten" />
+  <meta property="og:description" content="7150 km, 5 Fähren, 4 Mann, 1 Stelvio. Nordlichter jagen, wild campen, sparsam leben — der komplette Plan." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0A101E" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+</head>
+<body>
+  <a class="skip-link" href="#crew">Zum Inhalt springen</a>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <canvas class="hero__stars" aria-hidden="true"></canvas>
+    <canvas class="hero__aurora" aria-hidden="true"></canvas>
+    <div class="hero__mountains" aria-hidden="true">
+      <svg class="hero__ridge hero__ridge--far" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,170 L90,120 L160,150 L260,80 L350,140 L470,60 L560,130 L660,90 L780,160 L880,70 L990,140 L1100,50 L1210,130 L1320,90 L1440,150 L1440,220 Z"/>
+      </svg>
+      <svg class="hero__ridge hero__ridge--mid" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,190 L120,130 L230,170 L330,100 L450,160 L570,80 L690,150 L810,110 L930,180 L1040,90 L1170,160 L1290,120 L1440,180 L1440,220 Z"/>
+      </svg>
+      <svg class="hero__ridge hero__ridge--near" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,205 L160,150 L300,195 L430,130 L580,190 L720,120 L860,185 L1000,140 L1150,200 L1300,155 L1440,200 L1440,220 Z"/>
+      </svg>
+    </div>
+    <div class="hero__content">
+      <p class="hero__kicker mono">47.3492° N → 68.1500° N</p>
+      <h1 class="hero__title">NORDLYS</h1>
+      <p class="hero__subline"></p>
+      <div class="hero__countdown mono" role="timer" aria-label="Countdown bis zur Abfahrt">
+        <div class="hero__cd-cell"><span data-cd="d">—</span><small>Tage</small></div>
+        <div class="hero__cd-sep">:</div>
+        <div class="hero__cd-cell"><span data-cd="h">—</span><small>Std</small></div>
+        <div class="hero__cd-sep">:</div>
+        <div class="hero__cd-cell"><span data-cd="m">—</span><small>Min</small></div>
+        <div class="hero__cd-sep">:</div>
+        <div class="hero__cd-cell"><span data-cd="s">—</span><small>Sek</small></div>
+      </div>
+      <p class="hero__cd-label mono" data-cd-label></p>
+    </div>
+    <div class="hero__scrollhint" aria-hidden="true">
+      <span class="mono">Scroll nach Norden</span>
+      <span class="hero__scrollline"></span>
+    </div>
+  </header>
+
+  <div class="journey">
+    <div class="thread" aria-hidden="true">
+      <svg class="thread__svg" preserveAspectRatio="none"><path class="thread__path" /></svg>
+      <div class="thread__ticks"></div>
+    </div>
+
+    <main id="main">
+      <!-- CREW -->
+      <section class="section crew" id="crew" aria-labelledby="crew-title">
+        <div class="container">
+          <p class="section__eyebrow mono">01 · Die Besatzung</p>
+          <h2 class="section__title" id="crew-title">Vier Mann, ein Auto</h2>
+          <p class="section__lead">Ein Stelvio, eine Dachbox, 7150 Kilometer. Jeder hat genau einen Job — und keiner darf ihn abgeben.</p>
+          <div class="crew__grid" data-render="crew"></div>
+        </div>
+      </section>
+
+      <!-- ROUTE -->
+      <section class="section route" id="route" aria-labelledby="route-title">
+        <div class="container container--wide">
+          <p class="section__eyebrow mono">02 · Die Route</p>
+          <h2 class="section__title" id="route-title">Schnell hoch, schön zurück</h2>
+          <p class="section__lead">Durch Schweden in viereinhalb Tagen an den Polarkreis, zurück der norwegischen Küste entlang — Fähre, Fjorde, Trollstigen. Klick auf einen Marker für die Etappe.</p>
+          <div class="route__stats mono" data-render="route-stats"></div>
+          <div class="route__layout">
+            <div class="route__mapwrap">
+              <div class="route__toggle" role="group" aria-label="Routenabschnitt wählen" data-render="route-toggle"></div>
+              <div class="route__map" data-map aria-label="Interaktive Karte der Route"></div>
+            </div>
+            <aside class="route__panel" data-render="route-panel" aria-live="polite"></aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- 16 TAGE -->
+      <section class="section days" id="tage" aria-labelledby="days-title">
+        <div class="days__head container">
+          <p class="section__eyebrow mono">03 · Das Programm</p>
+          <h2 class="section__title" id="days-title">16 Tage</h2>
+          <p class="section__lead">Jeder Tag eine Etappe. Die grossen Ziffern sind keine Deko — sie sind der Fahrplan.</p>
+          <p class="days__progress mono" data-days-progress>TAG 01/16</p>
+        </div>
+        <div class="days__viewport" data-days-viewport>
+          <div class="days__track" data-render="days"></div>
+        </div>
+      </section>
+
+      <!-- REGELN -->
+      <section class="section rules" id="regeln" aria-labelledby="rules-title">
+        <div class="container">
+          <p class="section__eyebrow mono">04 · Wildcampen</p>
+          <h2 class="section__title" id="rules-title">Die Regeln</h2>
+          <p class="section__lead">Vier Länder, vier Rechtslagen. Wer sie kennt, schläft besser — wörtlich.</p>
+          <div class="rules__grid" data-render="rules"></div>
+          <div class="rules__lofoten" data-render="rules-lofoten"></div>
+          <div class="rules__lnt" data-render="rules-lnt"></div>
+        </div>
+      </section>
+
+      <!-- BUDGET -->
+      <section class="section budget" id="budget" aria-labelledby="budget-title">
+        <div class="container">
+          <p class="section__eyebrow mono mono--ember">05 · Camp &amp; Kasse</p>
+          <h2 class="section__title" id="budget-title">Was es kostet</h2>
+          <p class="section__lead">Jede Zahl kommt aus der Recherche (Stand Juni 2026) — und jede kannst du anfassen. Rechne deinen eigenen Trip.</p>
+          <div class="budget__layout" data-render="budget"></div>
+          <div class="budget__extras" data-render="budget-extras"></div>
+        </div>
+      </section>
+
+      <!-- AURORA -->
+      <section class="section guide" id="aurora" aria-labelledby="aurora-title">
+        <div class="container">
+          <p class="section__eyebrow mono">06 · Die Jagd</p>
+          <h2 class="section__title" id="aurora-title">Aurora-Guide</h2>
+          <p class="section__lead">Die Lofoten liegen direkt unter dem Aurora-Oval — schon Kp 1–2 reicht. Der Gegner heisst nicht Sonne, sondern Wolke.</p>
+          <div data-render="aurora"></div>
+        </div>
+      </section>
+
+      <!-- PACKLISTE -->
+      <section class="section packing" id="packen" aria-labelledby="packing-title">
+        <div class="container">
+          <p class="section__eyebrow mono mono--ember">07 · Das Material</p>
+          <h2 class="section__title" id="packing-title">Packliste</h2>
+          <p class="section__lead">Ausgelegt auf 68° Nord: Komfort 0 °C, Sturmleinen, zwei Paar Schuhe. Häkchen bleiben gespeichert.</p>
+          <div data-render="packing"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <p class="footer__label mono">Zielkoordinaten</p>
+        <p class="footer__coords" aria-label="Koordinaten von Reine">67.9320° N<br />13.0877° E</p>
+        <p class="footer__place mono">Reine i Lofoten · Norwegen</p>
+        <button class="footer__star" type="button" aria-label="Polarstern" title="Polarstern">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 1 L18.2 13.8 L31 16 L18.2 18.2 L16 31 L13.8 18.2 L1 16 L13.8 13.8 Z"/></svg>
+        </button>
+        <div class="footer__meta">
+          <p>NORDLYS — gebaut für Fabio, Michi, Giannino &amp; Matt.</p>
+          <p class="footer__credits">Recherche Stand 06/2026 · Karte © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>, © <a href="https://carto.com/attributions" rel="noopener">CARTO</a> · Kein Tracking, keine Cookies — nur localStorage für die Packliste.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="hud mono" data-hud aria-hidden="true">
+    <span data-hud-day>TAG —/16</span>
+    <span class="hud__lat" data-hud-lat>47.3492° N</span>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "stand": "2026-06-11",
+  "countries": [
+    {
+      "code": "DE", "name": "Deutschland", "verdict": "verboten", "verdictLabel": "Wildzelten verboten",
+      "zelt": "Wildzelten ist Ländersache und praktisch überall verboten — 10–500 €, in Naturschutzgebieten bis 5000 €.",
+      "auto": "1 Nacht im Auto an Park-/Rastplätzen ist legal («Wiederherstellung der Fahrtüchtigkeit»). Kein Campingverhalten: nichts rausstellen, nicht draussen kochen.",
+      "feuer": "Offenes Feuer im Wald generell verboten.",
+      "busse": "Wildcampen 10–500 €, NSG bis 5000 €",
+      "tipp": "Unsere Taktik: Rastplatz-Nacht im Auto auf Hin- und Rückweg — Tag 1 und Tag 15.",
+      "source": "bussgeldkatalog.org, Stand 06/2026"
+    },
+    {
+      "code": "DK", "name": "Dänemark", "verdict": "grau", "verdictLabel": "Verboten — mit Schlupflöchern",
+      "zelt": "Wildzelten grundsätzlich verboten. ABER: «Fri teltning» in über 275 Staatswäldern erlaubt (gratis, kleine Zelte, max. 1–2 Nächte) plus ~500 gratis Shelter-Plätze.",
+      "auto": "1 Nacht auf öffentlichen Parkplätzen geduldet, solange es nach Rasten aussieht — nichts rausstellen.",
+      "feuer": "Nur an eingerichteten Feuerstellen.",
+      "busse": "ca. 5–500 € je nach Ort (Naturschutz teuer)",
+      "tipp": "Plätze finden: udinaturen.dk → Filter «Fri teltning» / «Shelter». Wir queren DK aber nur im Transit.",
+      "source": "naturstyrelsen.dk, udinaturen.dk, Stand 06/2026"
+    },
+    {
+      "code": "SE", "name": "Schweden", "verdict": "erlaubt", "verdictLabel": "Allemansrätten",
+      "zelt": "1–2 Nächte fast überall erlaubt — ausserhalb der Sicht-/Hörweite von Wohnhäusern, nicht auf Äckern. In Naturreservaten gelten eigene Regeln.",
+      "auto": "Allemansrätten gilt nicht für Fahrzeuge. Rastplätze: max. 24 h stehen inkl. Übernachten, sofern nicht anders beschildert.",
+      "feuer": "Grundsätzlich erlaubt mit Vorsicht — aber lokale «eldningsförbud» (Feuerverbote) sind im Spätsommer häufig. Vorher checken.",
+      "busse": "Reservats-Verstoss z. B. 1300 SEK (Einzelfall)",
+      "tipp": "Unsere Wildcamp-Nächte 2, 3, 4 und 14 — Wald gibt's genug.",
+      "source": "naturvardsverket.se, trafikverket.se, Stand 06/2026"
+    },
+    {
+      "code": "NO", "name": "Norwegen", "verdict": "erlaubt", "verdictLabel": "Allemannsretten",
+      "zelt": "Zelten in «utmark» (unkultiviertes Land) erlaubt: mindestens 150 m Abstand zu bewohnten Häusern/Hütten, max. 2 Nächte am selben Ort. «Innmark» (Höfe, Wiesen, Gärten) ist tabu.",
+      "auto": "Allemannsretten gilt nur für Menschen, nicht für Autos. Schlafen im legal geparkten Auto ok — ausser ein Schild sagt Nein.",
+      "feuer": "Generelles Feuerverbot 15.04.–15.09. in und bei Wald. Gaskocher sind erlaubt. Verstösse werden richtig teuer.",
+      "busse": "Verbotszonen-Verstoss: Anzeige, realistisch einige 1000 NOK; Feuerverbot: bis Zehntausende NOK",
+      "tipp": "Die Regel der Reise: 150 Meter, 2 Nächte, keine Spuren. Dann ist fast ganz Norwegen euer Schlafzimmer.",
+      "source": "miljodirektoratet.no, lovdata.no, Stand 06/2026"
+    }
+  ],
+  "lofoten": {
+    "title": "Lofoten 2026 — Sonderzone",
+    "intro": "Wegen Overtourism gilt in 6 Gemeinden eine eigene Verordnung (Friluftsforskrift): Zeltverbote Mai–Oktober an den Hotspots.",
+    "banned": [
+      "Reinebringen & Umfeld Reine (Moskenes)",
+      "Vindstad / Bunes-Zugang: nur ausgewiesene Stellen",
+      "Kalle & Rørvika (Vågan)",
+      "Haukland: ganzjährig — ausser in markierten Zonen"
+    ],
+    "allowed": [
+      "Kvalvika Beach (Lofotodden-Nationalpark) — Zelten ok, Drohnen verboten",
+      "Uttakleiv-Zeltwiese: ~300 NOK/Nacht, organisiert",
+      "Abseits der Hotspots auf Vestvågøy/Austvågøy: Allemannsretten gilt normal",
+      "Campingplätze als Backup: Moskenes Camping, Lofoten Beach Camp, Brustranda (ca. 300–500 NOK)"
+    ],
+    "map": "Tagesreferenz: lofotenfriluft.no/turistkart — alle Verbotszonen auf einer Karte.",
+    "source": "lovdata.no FOR-2021-06-22-2418, Stand 06/2026"
+  },
+  "leaveNoTrace": [
+    { "title": "150 Meter", "text": "Abstand zu bewohnten Häusern und Hütten — nie auf innmark oder eingezäuntem Land." },
+    { "title": "2 Nächte max.", "text": "Zelt spät aufstellen, früh abbauen. Kleine Gruppen, kleiner Fussabdruck." },
+    { "title": "Alles wieder mit", "text": "Jeder Müll geht mit — auch der organische. Müllstationen stehen auf der Lofoten-Karte." },
+    { "title": "Feuer = Saison", "text": "15.04.–15.09. gilt in Norwegen Feuerverbot bei Wald. Gaskocher statt Lagerfeuer." },
+    { "title": "Toilette mit Stil", "text": "Mindestens 50 m von Wasser und Wegen, eingraben, Papier mitnehmen. Spülmittel nie in Bäche." },
+    { "title": "Ruhe ab 23 Uhr", "text": "Wildtiere und Weidevieh in Frieden lassen, Gatter schliessen, Musik bleibt im Kopfhörer." },
+    { "title": "Drohne checken", "text": "Im Lofotodden-Nationalpark (Kvalvika, Ryten, Bunes) komplett verboten." }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "stand": "2026-06-11",
+  "kp": {
+    "explainer": "Der Kp-Index (0–9) misst alle 3 Stunden, wie stark das Erdmagnetfeld gestört ist. Je höher, desto weiter südlich wandert das Aurora-Oval.",
+    "threshold": 2,
+    "thresholdLabel": "Ab hier lohnt sich der Blick nach Norden",
+    "scale": [
+      { "kp": 0, "label": "ruhig", "lofoten": "Bei klarem Himmel: schwaches Glimmen am Nordhorizont möglich" },
+      { "kp": 1, "label": "ruhig", "lofoten": "Sichtbar — die Lofoten liegen praktisch unter dem Oval" },
+      { "kp": 2, "label": "leicht aktiv", "lofoten": "Deutliche Bögen, erste Bewegung" },
+      { "kp": 3, "label": "aktiv", "lofoten": "Bänder bis in den Zenit, Farben von Auge" },
+      { "kp": 4, "label": "aktiv+", "lofoten": "Heller Tanz über den ganzen Himmel" },
+      { "kp": 5, "label": "Sturm G1", "lofoten": "Korona im Zenit — raus aus dem Schlafsack, sofort" },
+      { "kp": 6, "label": "Sturm G2", "lofoten": "Jackpot" },
+      { "kp": 7, "label": "Sturm G3", "lofoten": "Einmal-im-Leben-Nacht" },
+      { "kp": 8, "label": "Sturm G4", "lofoten": "—" },
+      { "kp": 9, "label": "Sturm G5", "lofoten": "—" }
+    ],
+    "cycle": "Solarzyklus 25 hat sein Maximum (Okt. 2024) hinter sich, läuft aber weiterhin stark — die kräftigsten Stürme kommen historisch oft erst nach dem Peak. 2026 ist ein gutes Aurora-Jahr. (swpc.noaa.gov, space.com)"
+  },
+  "darkness": {
+    "intro": "Auf 68° N ist es im Hochsommer nie dunkel. Ende August kippt das — von Nacht zu Nacht um ein paar Minuten mehr.",
+    "rows": [
+      { "date": "24.08.", "sunset": "21:14", "window": "23:30–02:30", "depth": "Sonne min. −11°", "note": "Noch keine echte Dunkelheit — nur starke Auroren sichtbar" },
+      { "date": "01.09.", "sunset": "20:38", "window": "23:30–02:40", "depth": "nautisch dunkel", "note": "Saison offiziell eröffnet" },
+      { "date": "07.09.", "sunset": "20:13", "window": "22:40–03:30", "depth": "nautisch dunkel", "note": "Über 4 h Dunkelfenster" }
+    ],
+    "note": "Zeiten lokal (CEST), berechnet für Leknes — vor Abreise auf timeanddate.com gegenchecken. Engpass ist fast immer die Bewölkung, nicht die Sonnenaktivität."
+  },
+  "moon": {
+    "events": [
+      { "date": "28.08.", "phase": "Vollmond", "note": "Mit partieller Mondfinsternis (bis 96 %) in den frühen Morgenstunden — eigenes Himmels-Spektakel zur Ankunft" },
+      { "date": "04.09.", "phase": "Letztes Viertel", "note": "ca./prüfen — der Himmel wird Nacht für Nacht dunkler" },
+      { "date": "11.09.", "phase": "Neumond", "note": "Drei Tage nach der Heimkehr. Timing ist ein Hund." }
+    ],
+    "verdict": "Die hellste Mondphase fällt auf die Lofoten-Woche — heisst: Aurora gibt's trotzdem (Kp 2+ überstrahlt den Mond locker), aber die tiefdunklen Nächte vom 04.–08.09. gehören der Rückroute. Helgeland auf 66° N ist auch Aurora-Land."
+  },
+  "apps": [
+    { "name": "NorwayLights", "why": "Go/Try/Wait-Empfehlung pro Ort — die einfachste Antwort auf «lohnt sich heute?»" },
+    { "name": "SpaceWeatherLive", "why": "Echtzeit Kp, Solarwind, Bz — für alle, die es genau wissen wollen" },
+    { "name": "Hello Aurora", "why": "Community-Sichtungen live + Push-Alerts — wenn's irgendwo leuchtet, weisst du es" },
+    { "name": "Yr.no + Windy", "why": "Norwegischer Wetterdienst + Wolkenradar — die Wolkenlücke ist die halbe Miete" }
+  ],
+  "photo": {
+    "camera": [
+      { "k": "Setup", "v": "Stativ, RAW, 2s-Timer oder Fernauslöser" },
+      { "k": "ISO", "v": "1600–3200" },
+      { "k": "Blende", "v": "f/1.4–2.8 — so offen wie möglich" },
+      { "k": "Belichtung", "v": "2–10 s (schnelle Aurora kurz, schwache lang)" },
+      { "k": "Fokus", "v": "Manuell auf ∞ — am hellen Stern per Liveview scharfstellen" },
+      { "k": "Extras", "v": "Akkus warm halten, Weissabgleich ~3500 K" }
+    ],
+    "phone": [
+      { "k": "Setup", "v": "Stativ oder aufstützen — Verwacklung killt alles" },
+      { "k": "Modus", "v": "Nachtmodus 3–10 s, besser Pro-Modus" },
+      { "k": "ISO", "v": "1600–3200, Fokus manuell auf ∞" },
+      { "k": "Extras", "v": "RAW falls möglich, Stabilisierung auf Stativ ausschalten" }
+    ]
+  },
+  "spots": [
+    { "name": "Skagsanden Beach", "why": "Nasser Sand spiegelt die Aurora — doppeltes Leuchten" },
+    { "name": "Uttakleiv", "why": "Dragon's Eye als Vordergrund, offener Nordhorizont" },
+    { "name": "Haukland", "why": "Heller Sand reflektiert — Ausweichspot neben Uttakleiv" },
+    { "name": "Eggum / Gimsøya", "why": "Dunkelste Küste der Inseln, 180° freie Sicht übers Meer" }
+  ],
+  "badWeather": [
+    { "name": "Lofotr-Wikingermuseum", "where": "Borg, Vestvågøy", "what": "Rekonstruiertes Häuptlingshaus — bestes Schlechtwetter-Programm der Inseln" },
+    { "name": "Klatrekafeen Henningsvær", "where": "Henningsvær", "what": "Klettern und Kaffee unter einem Dach" },
+    { "name": "Sauna mit Meerblick", "where": "z. B. Hov/Gimsøya oder Svolvær", "what": "Aufwärmen, danach (wer mag) 11 Grad Atlantik" },
+    { "name": "Stockfisch-Museum Å", "where": "Å i Lofoten", "what": "Warum hier alles nach Fisch riecht — die Antwort" }
+  ]
+}

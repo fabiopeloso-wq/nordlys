@@ -1,0 +1,105 @@
+/* ============ HERO ============ */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: radial-gradient(120% 90% at 50% 110%, #0d1830 0%, var(--night) 55%);
+}
+
+.hero__stars, .hero__aurora {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+}
+.hero__aurora {
+  mix-blend-mode: screen;
+  /* Aurora lebt im Himmel — unten ausblenden, damit Titel und Berge atmen */
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 48%, transparent 80%);
+  mask-image: linear-gradient(180deg, #000 0%, #000 48%, transparent 80%);
+}
+
+.hero__mountains { position: absolute; inset: auto 0 0 0; height: clamp(120px, 24vh, 240px); }
+.hero__ridge { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero__ridge--far path { fill: #0e1830; }
+.hero__ridge--mid path { fill: #091223; }
+.hero__ridge--near path { fill: var(--night-deep); }
+
+.hero__content {
+  position: relative; z-index: 2;
+  text-align: center;
+  padding: 2rem 1.2rem clamp(7rem, 18vh, 11rem);
+}
+
+.hero__kicker {
+  color: var(--aurora-green);
+  margin-bottom: 1.2rem;
+  font-size: 0.85rem;
+  text-shadow: 0 1px 12px rgba(5, 7, 13, 0.9);
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(4.8rem, 17vw, 13.5rem);
+  line-height: 0.88;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+  color: var(--ice);
+  /* Chanel-Regel: der Glow am Titel flog raus — das Licht kommt von der Aurora selbst */
+}
+
+.hero__subline {
+  font-family: var(--font-mono);
+  font-size: clamp(0.78rem, 1.6vw, 0.95rem);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ice);
+  margin-top: 1.4rem;
+  text-shadow: 0 1px 14px rgba(5, 7, 13, 0.9), 0 0 4px rgba(5, 7, 13, 0.7);
+}
+
+.hero__countdown {
+  display: inline-flex; align-items: stretch; gap: 0.5rem;
+  margin-top: clamp(2rem, 5vh, 3.5rem);
+  padding: 1rem 1.4rem;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--night-deep) 55%, transparent);
+  backdrop-filter: blur(6px);
+}
+.hero__cd-cell { display: flex; flex-direction: column; align-items: center; min-width: 3.2em; }
+.hero__cd-cell span {
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: var(--ice);
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.hero__cd-cell small {
+  font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--ice-dim); margin-top: 0.3rem;
+}
+.hero__cd-sep { font-size: clamp(1.2rem, 3vw, 1.8rem); color: var(--line); align-self: flex-start; padding-top: 0.2em; }
+.hero__cd-label { margin-top: 0.9rem; font-size: 0.72rem; }
+
+.hero__scrollhint {
+  position: absolute; bottom: 1.6rem; left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex; flex-direction: column; align-items: center; gap: 0.7rem;
+}
+.hero__scrollhint .mono { font-size: 0.68rem; }
+.hero__scrollline {
+  width: 1px; height: 52px;
+  background: linear-gradient(180deg, var(--aurora-cyan), transparent);
+  animation: scrollline 2.2s ease-in-out infinite;
+  transform-origin: top;
+}
+@keyframes scrollline {
+  0% { transform: scaleY(0); opacity: 0; }
+  35% { transform: scaleY(1); opacity: 1; }
+  100% { transform: scaleY(1) translateY(18px); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero__scrollline { animation: none; }
+}

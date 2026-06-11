@@ -1,0 +1,181 @@
+{
+  "stand": "2026-06-11",
+  "days": [
+    {
+      "day": 1, "date": "2026-08-24", "title": "Vollgas nach Norden",
+      "route": "Uster → Raum Hamburg", "km": 880, "drive": "8.5 h", "ferry": null,
+      "coord": { "lat": 53.5511, "lng": 9.9937 },
+      "highlights": [
+        "06:00 Abfahrt — die A7 ist lang, der Kaffee stark",
+        "Grosseinkauf am Abend: Haltbares, Fleisch für die Kühlbox — und Bier (in Norwegen +214 %)",
+        "Tankstrategie: in DE nochmals vollmachen"
+      ],
+      "stay": { "type": "auto", "text": "Rastplatz, 1 Nacht im Auto — in DE legal zur «Wiederherstellung der Fahrtüchtigkeit». Stühle bleiben drin." }
+    },
+    {
+      "day": 2, "date": "2026-08-25", "title": "Übers Wasser nach Skandinavien",
+      "route": "Hamburg → Rødby → Öresund → Norrköping", "km": 700, "drive": "7 h", "ferry": "Puttgarden–Rødby · 45 min",
+      "coord": { "lat": 58.6533, "lng": 16.4537 },
+      "highlights": [
+        "Scandlines-Fähre: 45 Minuten Zwangspause mit Ostseeblick",
+        "Öresundbrücke — Online-Ticket vorher kaufen (420 statt 470 DKK)",
+        "Ab der schwedischen Grenze gilt Allemansrätten"
+      ],
+      "stay": { "type": "zelt", "text": "Erstes Wildcamp in den Wäldern bei Kolmården — ausser Sichtweite von Häusern, 1–2 Nächte ok." }
+    },
+    {
+      "day": 3, "date": "2026-08-26", "title": "E4 — die Ostsee rechts",
+      "route": "Norrköping → Höga Kusten", "km": 720, "drive": "7.5 h", "ferry": null,
+      "coord": { "lat": 63.0814, "lng": 18.3534 },
+      "highlights": [
+        "Stockholm grossräumig umfahren (City-Maut sparen)",
+        "Högakustenbron — Schwedens Golden Gate",
+        "Abendlicht am Skuleberget, UNESCO-Welterbeküste"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp am Skuleberget. Wer früh wach ist: Via-Ferrata-Einstieg direkt am Berg." }
+    },
+    {
+      "day": 4, "date": "2026-08-27", "title": "Über den Polarkreis",
+      "route": "Höga Kusten → Töre → Torneträsk", "km": 750, "drive": "8 h", "ferry": null,
+      "coord": { "lat": 68.2167, "lng": 19.7167 },
+      "highlights": [
+        "Töre: hier endet die E4 — ab jetzt E10 Richtung Arktis",
+        "Polarkreis-Querung — Foto ist Pflicht, sorry",
+        "Nacht auf 28.08.: Vollmond mit partieller Mondfinsternis (bis 96 %) in den frühen Morgenstunden"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp am Torneträsk — Lappland-Leere, niemand weit und breit." }
+    },
+    {
+      "day": 5, "date": "2026-08-28", "title": "Ankunft am Ende der Welt",
+      "route": "Torneträsk → Abisko → Narvik → Svolvær", "km": 410, "drive": "5.5 h", "ferry": null,
+      "coord": { "lat": 68.2343, "lng": 14.568 },
+      "highlights": [
+        "Abisko: kurzer Stopp, Blick auf die Lapporten",
+        "Grenze Norwegen — ab Narvik wird die E10 zur Showbühne",
+        "Erste Lofoten-Brücken: ab hier glaubst du die Fotos"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp auf Austvågøy, abseits der Hotspots — 150 m Abstand, max. 2 Nächte." }
+    },
+    {
+      "day": 6, "date": "2026-08-29", "title": "Henningsvær & Gimsøya",
+      "route": "Lofoten lokal", "km": 90, "drive": "flexibel", "ferry": null,
+      "coord": { "lat": 68.3247, "lng": 14.1543 },
+      "highlights": [
+        "Hoven auf Gimsøya: 1–1.5 h für ein Maxi-Panorama",
+        "Unstad: Surfern zuschauen (oder Brett mieten)",
+        "Henningsvær am Abend, wenn die Tagesbusse weg sind"
+      ],
+      "stay": { "type": "zelt", "text": "Camp Richtung Eggum/Gimsøya — dunkelster Nordblick der Inseln. Erste Aurora-Wache." }
+    },
+    {
+      "day": 7, "date": "2026-08-30", "title": "Karibik des Nordens",
+      "route": "Lofoten lokal", "km": 60, "drive": "flexibel", "ferry": null,
+      "coord": { "lat": 68.2117, "lng": 13.5057 },
+      "highlights": [
+        "Haukland Beach — türkis, auch bei 12 Grad",
+        "Küstenpfad Haukland → Uttakleiv (1 h, flach, spektakulär)",
+        "Dusch-Stopp: endlich. Alle danken es dir."
+      ],
+      "stay": { "type": "camping", "text": "Uttakleiv-Zeltwiese (ca. 300 NOK) — Dragon's Eye und Nordhimmel direkt vor dem Zelt." }
+    },
+    {
+      "day": 8, "date": "2026-08-31", "title": "Kvalvika & Ryten",
+      "route": "Lofoten lokal", "km": 50, "drive": "flexibel", "ferry": null,
+      "coord": { "lat": 68.1015, "lng": 13.164 },
+      "highlights": [
+        "Früh am Parkplatz Fredvang sein (ca. 100 NOK, ab 10 Uhr voll)",
+        "Ryten (543 m): der Blick runter auf Kvalvika — das Lofoten-Bild",
+        "Abstieg zum Strand, Nachmittag zwischen Felsen und Brandung"
+      ],
+      "stay": { "type": "zelt", "text": "Kvalvika Beach — Zelten im Lofotodden-Nationalpark erlaubt. Drohne bleibt im Auto (Verbot)." }
+    },
+    {
+      "day": 9, "date": "2026-09-01", "title": "Reine, bevor alle kommen",
+      "route": "Lofoten lokal", "km": 40, "drive": "flexibel", "ferry": null,
+      "coord": { "lat": 67.932, "lng": 13.0877 },
+      "highlights": [
+        "Reinebringen vor 8 Uhr: 1978 Sherpa-Stufen, oben das berühmteste Panorama Norwegens",
+        "Hamnøy-Brücke + Å mit Stockfisch-Museum und Zimtschnecken",
+        "Nusfjord am Abend — gratis und leer, wenn die Kasse zu ist"
+      ],
+      "stay": { "type": "camping", "text": "Moskenes Camping — Dusche, Steckdosen, 5 Minuten zur Fähre von morgen." }
+    },
+    {
+      "day": 10, "date": "2026-09-02", "title": "Fähre & Saltstraumen",
+      "route": "Moskenes → Bodø → Mosjøen", "km": 320, "drive": "4.5 h", "ferry": "Moskenes–Bodø · 3:15 h (reserviert!)",
+      "coord": { "lat": 65.8361, "lng": 13.1907 },
+      "highlights": [
+        "3:15 h Fähre — Lofotenwand von hinten, Abschiedskino",
+        "Saltstraumen: stärkster Gezeitenstrom der Welt (Zeitfenster vorab checken)",
+        "E6 durch Helgeland, zweite Polarkreis-Querung"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp Helgeland (66° N) — immer noch Aurora-Land, und jetzt werden die Nächte richtig dunkel." }
+    },
+    {
+      "day": 11, "date": "2026-09-03", "title": "E6 nach Trondheim",
+      "route": "Mosjøen → Trondheim", "km": 390, "drive": "5.5 h", "ferry": null,
+      "coord": { "lat": 63.4305, "lng": 10.3951 },
+      "highlights": [
+        "Laksforsen: Wasserfall direkt an der E6, Kaffeepause mit Aussicht",
+        "Trondheim am Abend: Nidarosdom, Holzhäuser am Bakklandet",
+        "Stadtessen als Belohnung — einmal nicht aus dem Topf"
+      ],
+      "stay": { "type": "zelt", "text": "Camp im Grünen vor der Stadt — Trondheim hat City-Maut, einmal durch reicht." }
+    },
+    {
+      "day": 12, "date": "2026-09-04", "title": "Atlantikstrasse",
+      "route": "Trondheim → Kristiansund → Molde", "km": 290, "drive": "5 h", "ferry": "Halsa–Kanestraum · 20 min",
+      "coord": { "lat": 63.016, "lng": 7.3559 },
+      "highlights": [
+        "Storseisundet-Brücke — die Strasse, die ins Meer springt",
+        "Eldhusøya-Rundweg: 20 Minuten Atlantik pur",
+        "Ab heute: die dunkelsten Nächte der Reise beginnen"
+      ],
+      "stay": { "type": "camping", "text": "Camping Region Molde (Dusch-Stopp) — Atlantikstrasse-Umfeld ist reguliert, hier nicht wildcampen." }
+    },
+    {
+      "day": 13, "date": "2026-09-05", "title": "Trollstigen & Geiranger",
+      "route": "Molde → Trollstigen → Geiranger → Lom", "km": 240, "drive": "5.5 h", "ferry": "Eidsdal–Linge · 10 min",
+      "coord": { "lat": 61.8381, "lng": 8.5667 },
+      "highlights": [
+        "Trollstigen — 2026 wieder offen; Status am Morgen checken (vegvesen.no)",
+        "Ørnesvingen: der Geirangerfjord von oben, gratis",
+        "Optional Dalsnibba (380 NOK): 1500 m über dem Fjord"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp Bøverdalen am Jotunheimen-Rand — der dunkelste Sternenhimmel der Reise." }
+    },
+    {
+      "day": 14, "date": "2026-09-06", "title": "Langer Ritt nach Süden",
+      "route": "Lom → Oslo → Göteborg", "km": 660, "drive": "8.5 h", "ferry": null,
+      "coord": { "lat": 57.6, "lng": 12.2 },
+      "highlights": [
+        "Gudbrandsdalen runter, Norwegen im Rückspiegel",
+        "Oslo-Umfahrung — die City-Maut bucht Epass24 automatisch ab",
+        "Zurück in Schweden: letzte Allemansrätten-Nacht"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp in den Wäldern von Halland — Abschiedsfeuer fällt aus (Brandregeln), Whisky geht trotzdem." }
+    },
+    {
+      "day": 15, "date": "2026-09-07", "title": "Öresund & Ostsee",
+      "route": "Göteborg → Öresund → Rødby → Raum Hamburg", "km": 620, "drive": "7 h", "ferry": "Rødby–Puttgarden · 45 min",
+      "coord": { "lat": 53.5511, "lng": 9.9937 },
+      "highlights": [
+        "Öresundbrücke bei Tageslicht — 8 km übers Wasser",
+        "Letzte Fähre: Abschluss-Hotdog an Bord ist Tradition",
+        "Deutschland: letzte Nacht der Reise"
+      ],
+      "stay": { "type": "auto", "text": "Rastplatz-Nacht im Auto — Routine inzwischen. Morgen: eigenes Bett." }
+    },
+    {
+      "day": 16, "date": "2026-09-08", "title": "Heimspurt",
+      "route": "Hamburg → Uster", "km": 880, "drive": "8.5 h", "ferry": null,
+      "coord": { "lat": 47.3492, "lng": 8.7208 },
+      "highlights": [
+        "A7 nach Süden, ein letztes Mal Tanken-Kaffee-Tanken",
+        "Abends in Uster: 7150 km, 5 Fähren, 4 Mann, 1 Stelvio",
+        "Fotos sortieren kann bis morgen warten"
+      ],
+      "stay": { "type": "home", "text": "Eigenes Bett. Verdient." }
+    }
+  ]
+}
