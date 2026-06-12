@@ -1,0 +1,89 @@
+{
+  "stand": "2026-06-12",
+  "members": [
+    {
+      "id": "fabio",
+      "name": "Fabio",
+      "role": "Navigator",
+      "ressort": "Route & Logistik",
+      "line": "Hält Etappen, Fähren und Moral zusammen. Kennt jede Mautstation beim Vornamen.",
+      "mandat": "Bringt vier Mann in 16 Tagen nach Reine und zurück — und entscheidet, wann der Plan dem Wetter weichen muss.",
+      "duties": [
+        { "t": "Etappen & Zeitbudget", "d": "7150 km in 16 Etappen, jeder Tag verplant — und für jeden Tag ein Plan B." },
+        { "t": "Fähren & Buchungen", "d": "Scandlines, Öresund, Moskenes–Bodø — letztere sofort bei Fahrplanfreigabe, ab 1.9. gilt der Winterfahrplan." },
+        { "t": "Maut & Grenzen", "d": "Epass24 vorab registriert, Göteborg-Citymaut auf dem Radar, Zollregeln nach Norwegen im Kopf." },
+        { "t": "Go/No-Go-Entscheide", "d": "Wetterfenster schlägt Sturheit — Trollstigen bei Nebel wird getauscht, nicht erzwungen." }
+      ],
+      "prep": [
+        { "task": "Fähre Moskenes–Bodø buchen", "due": "sofort" },
+        { "task": "Epass24 registrieren", "due": "vor Abfahrt" },
+        { "task": "Offline-Karten fürs ganze Auto laden", "due": "Woche davor" }
+      ],
+      "emergency": "Übernimmt den Kunden: Anruf, Erwartungen, neue Timeline — während Giannino das Feldbüro aufbaut.",
+      "stat": { "label": "Plan B", "value": "16/16 Tage" }
+    },
+    {
+      "id": "michi",
+      "name": "Michi",
+      "role": "Küchenchef",
+      "ressort": "Proviant & Feldküche",
+      "line": "Ein Kocher, vier Mägen, null Mitleid. Grosseinkauf ist sein Endgegner.",
+      "mandat": "Vier Mägen, 16 Tage, 15 Stutz pro Tag und Kopf — niemand hungert, und niemand zahlt Norwegen-Preise für Teigwaren.",
+      "duties": [
+        { "t": "Grosseinkauf-Strategie", "d": "Haltbares und Bier in Deutschland, Frisches in Schweden, in Norwegen nur Lücken füllen — spart 200–300 CHF." },
+        { "t": "Feldküche", "d": "Zwei Kocher, grosse Töpfe, Windschutz: warmes Essen auch bei Querwind vom Atlantik." },
+        { "t": "Wasser & Gas", "d": "10–15-l-Kanister an Tankstellen füllen (gratis), EN417-Nachschub bei Biltema, XXL und Jula." },
+        { "t": "Zoll-Mathematik", "d": "Pro Kopf nach Norwegen: 2 l Bier, 1.5 l Wein, 1 l Spirituosen — er rechnet aus, was das für vier heisst." }
+      ],
+      "prep": [
+        { "task": "Menüplan für 16 Tage", "due": "Woche davor" },
+        { "task": "Einkaufsliste für den DE-Grosseinkauf", "due": "vor Abfahrt" },
+        { "task": "Kocher, Kartuschen & Kühlbox testen", "due": "vor Abfahrt" }
+      ],
+      "emergency": "Hält das Basislager am Laufen: Kaffee für die Nachtschicht, Essen zur Deadline — wer arbeitet, wird versorgt.",
+      "stat": { "label": "Sparziel Einkauf", "value": "300 CHF" }
+    },
+    {
+      "id": "giannino",
+      "name": "Giannino",
+      "role": "Funker",
+      "ressort": "Strom, Netz & Aurora-Alarm",
+      "line": "Weckt dich um 01:30 wegen Kp 3. Und du dankst ihm dafür.",
+      "mandat": "Hält die Expedition am Netz: Strom, Empfang, Daten. Und wenn der Himmel angeht, weiss er es zuerst.",
+      "duties": [
+        { "t": "Energie-Haushalt", "d": "Zwei Powerbanks à 20'000 mAh, 12-V-PD-Lader, Kamera-Akkus warm im Schlafsack — nichts ist je leer." },
+        { "t": "Netz & Empfang", "d": "Datenpläne, Hotspot-Hierarchie, Funklöcher entlang der E10 — vor der Abfahrt kartiert." },
+        { "t": "Mobiles Büro", "d": "Das 30-Minuten-Setup: Strom, stabiles Netz, Laptop läuft — ob Rastplatz, Fähre oder Fjordcafé." },
+        { "t": "Aurora-Watch", "d": "Kp-Index, Bz-Wert, Wolkenradar — Hello Aurora und NorwayLights scharf gestellt. Der Nachtwecker ist sein Hoheitsgebiet." }
+      ],
+      "prep": [
+        { "task": "Datenpläne & Roaming für alle klären", "due": "Woche davor" },
+        { "task": "12-V-Setup im Stelvio testen", "due": "vor Abfahrt" },
+        { "task": "Apps & Offline-Karten auf alle Geräte", "due": "vor Abfahrt" }
+      ],
+      "emergency": "Baut das Feldbüro auf: in 30 Minuten Strom, Netz und Bildschirm — remote arbeiten geht auch auf 68° Nord.",
+      "stat": { "label": "Wecker scharf", "value": "ab Kp 3" }
+    },
+    {
+      "id": "matt",
+      "name": "Matt",
+      "role": "Quartiermeister",
+      "ressort": "Camp, Kasse & Bild",
+      "line": "Findet die 150 Meter Abstand auch im Dunkeln. Zelt steht, bevor du fragst.",
+      "mandat": "Verwaltet, was die Expedition trägt: das Lager, das Geld und die Bilder, die bleiben.",
+      "duties": [
+        { "t": "Camp-Spots", "d": "150 m Abstand, max. 2 Nächte, Lofoten-Verbotszonen im Kopf — das Zelt steht legal und im Windschatten." },
+        { "t": "Equipment", "d": "Zelte, Matten, Recovery-Kit: vollständig, trocken, repariert. Die Packliste dieser Seite ist sein Revier." },
+        { "t": "Bordkasse", "d": "Jede Ausgabe getrackt und abends gegen den Budget-Rechner gehalten — Abrechnung ohne Diskussion." },
+        { "t": "Foto & Doku", "d": "Stativ, RAW, ISO 1600–3200, Fokus auf unendlich — wenn die Aurora kommt, ist er schon bereit." }
+      ],
+      "prep": [
+        { "task": "Zelt-Probeaufbau (beide Zelte)", "due": "Woche davor" },
+        { "task": "Bordkassen-System aufsetzen", "due": "vor Abfahrt" },
+        { "task": "Lofoten-Verbotskarte offline speichern", "due": "vor Abfahrt" }
+      ],
+      "emergency": "Deckt die Deadlines: Content geht raus, Zahlungen gehen raus — und das Camp steht noch, wenn alle zurück sind.",
+      "stat": { "label": "Zeltaufbau", "value": "< 10 min" }
+    }
+  ]
+}

@@ -58,7 +58,7 @@
     {
       "id": "auto", "name": "Auto & Recovery", "icon": "car",
       "items": [
-        { "id": "dachbox", "label": "Dachbox (370–430 l) — Dachlast Stelvio 100 kg beachten" },
+        { "id": "kompression", "label": "Kompressionssäcke + Spanngurte — keine Dachbox, jeder Liter zählt" },
         { "id": "starthilfe", "label": "Starthilfe-Booster oder Kabel" },
         { "id": "abschleppseil", "label": "Abschleppseil" },
         { "id": "kompressor", "label": "12-V-Kompressor + Reifen-Flickkit" },

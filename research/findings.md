@@ -68,7 +68,7 @@ Sprit ~1130 · Fähren ~145 · Maut ~200 · Essen (15 CHF/P/Tag) ~960 · Camping
 
 - **Lofoten Ende Aug/Sep:** Tag 12–13 °C, Nacht 7–9 °C (erste Frostnächte möglich), ~15+ Regentage/Monat, Wind Ø 20–25 km/h mit Sturmböen-Risiko. Wassertemp. ~11 °C.
 - **Konsequenz:** Schlafsack **Komfort 0 °C** (nicht Limit!), Isomatte **R ≥ 3**, windstabiles 3–4-Jahreszeiten-Zelt, volle Abspannung, Extra-Heringe.
-- **Dachbox: JA** — 525 l Kofferraum reichen nicht für 4 + Gear. Miete ~50–100 CHF/Wo, Kauf ~520–660 CHF. Stelvio-Dachlast 100 kg (Handbuch prüfen). Mehrverbrauch +0.5–1 l.
+- **Dachbox: NEIN (Entscheid 12.06.2026)** — wir fahren ohne. Konsequenz: 525 l Kofferraum für 4 + Gear → Kompressionssäcke, Spanngurte, straffe Packliste. (Ursprüngliche Empfehlung war JA: Miete ~50–100 CHF/Wo, Kauf ~520–660 CHF, Dachlast 100 kg, Mehrverbrauch +0.5–1 l.)
 - **Duschen:** Campingplatz-Dusche oft ohne Übernachtung (10–50 NOK), Schwimmbäder 70–165 NOK. Plan: alle 3–4 Tage Camping als Dusch-Stopp.
 - **Wasser:** Leitungswasser top, Tankstellen füllen gratis. Bergbäche meist ok → Filter als Backup.
 - **Gas:** EN417-Schraubkartuschen überall (XXL, Biltema, Jula, Coop Obs), 60–130 NOK. Campingaz-Stechkartuschen schwer zu finden!

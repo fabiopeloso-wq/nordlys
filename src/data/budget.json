@@ -34,7 +34,7 @@
   ],
   "assumptions": [
     { "key": "fuelPriceChf", "label": "Spritpreis Ø CHF/l", "source": "Gewichteter Schnitt über die Länderanteile der Route (globalpetrolprices.com / ADAC, 06/2026). In NO So-Abend/Mo tanken: −2–3 NOK/l." },
-    { "key": "consumptionPetrol", "label": "Verbrauch Benziner", "source": "Stelvio 2.0 real 9.5–10.6 l/100 km (spritmonitor.de) + Dachbox ca. +0.5 l bei 80–110 km/h (ADAC). Diesel 2.2: real 6.1–7.8 l." },
+    { "key": "consumptionPetrol", "label": "Verbrauch Benziner", "source": "Stelvio 2.0 real 9.5–10.6 l/100 km (spritmonitor.de), ohne Dachbox bei 80–110 km/h eher am unteren Rand. Diesel 2.2: real 6.1–7.8 l." },
     { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E10 (~3460 km) + Rückweg Küste (~3690 km). ca./vor Abreise feinprüfen." },
     { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (vorab registrieren!) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
     { "key": "foodPerDayPerPerson", "label": "Essen pro Tag/Person", "source": "15 CHF/Tag bei Grosseinkauf in DE + Nachschub in SE (Lidl/Willys), in NO nur Nötigstes. NO-Lebensmittel ≈ +30 % vs. DE (Eurostat/Numbeo 06/2026)." },
