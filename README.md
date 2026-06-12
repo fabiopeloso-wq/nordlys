@@ -46,6 +46,19 @@ UI und Daten sind strikt getrennt — die JSON-Files sind die Single Source of T
 `public/photos/` ist als Slot vorbereitet (siehe README dort). Das Layout
 funktioniert bewusst komplett ohne Fotos.
 
+### Tagesbilder neu beziehen
+
+Die Briefing-Bilder liegen statisch in `public/img/days/` (WebP, von Wikimedia Commons).
+Bei Routenänderung: Suchbegriffe in `scripts/fetch-day-images.mjs` anpassen, dann
+
+```bash
+node scripts/fetch-day-images.mjs candidates   # Kontaktbögen nach review/day-images/
+# sichten, Auswahl in scripts/day-image-picks.json eintragen
+node scripts/fetch-day-images.mjs final        # WebP + Credits erzeugen
+```
+
+und die Credits (`image`-Block pro Tag) in `src/data/itinerary.json` nachführen.
+
 ### Routen-Geometrie neu erzeugen
 
 Die Strassengeometrie der Karte liegt statisch in `src/data/geometry.json`.
@@ -63,6 +76,9 @@ node scripts/fetch-route.mjs
   plus Breitengrad-HUD (47.35° N → 68.15° N) — Scrollen = nach Norden fahren.
 - **Karte** (MapLibre GL + CARTO dark, keyless): Hin-/Rückweg-Toggle, animiertes Einzeichnen,
   klickbare Tages-Marker mit Etappen-Panel. Lazy geladen.
+- **Tagesfenster («Briefing»)**: jede Tageskarte öffnet ein Overlay mit Stimmungsbild
+  (Wikimedia Commons, lokal gebundelt, Credits verlinkt), Tages-Timeline, Highlight mit
+  Fakten und Plan B. ←/→ blättert durch die Tage, Esc schliesst.
 - **Budget-Rechner**: alle Annahmen editierbar, Quellen als Tooltip, SVG-Balken, CHF pro Person.
 - **Packliste**: Häkchen bleiben im Browser gespeichert (`localStorage`, Namespace `nordlys:`),
   Fortschritt pro Kategorie, Print-Stylesheet (`Ctrl+P` druckt nur die Packliste).

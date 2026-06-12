@@ -7,14 +7,14 @@ import rules from './data/rules.json';
 import aurora from './data/aurora.json';
 import { shortDate } from './utils';
 
-const STAY_ICONS: Record<string, string> = {
+export const STAY_ICONS: Record<string, string> = {
   zelt: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M12 4.5 L3 19.5 H9.5 L12 14.5 L14.5 19.5 H21 Z"/><path d="M12 4.5 L12 8"/></svg>',
   auto: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4 16 L5 11.5 C5.3 10.3 6.1 9.5 7.5 9.5 H16.5 C17.9 9.5 18.7 10.3 19 11.5 L20 16 M4 16 H20 M4 16 V18 M20 16 V18"/><circle cx="8" cy="16" r="1.4"/><circle cx="16" cy="16" r="1.4"/></svg>',
   camping: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M8 9 a4 4 0 0 1 8 0 V10.5 H8 Z"/><path d="M9 14 v1.5 M12 14 v2.5 M15 14 v1.5"/></svg>',
   home: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4.5 11 L12 4.5 L19.5 11 V19.5 H4.5 Z"/></svg>',
 };
 
-const STAY_LABELS: Record<string, string> = {
+export const STAY_LABELS: Record<string, string> = {
   zelt: 'Wildcamp · Zelt',
   auto: 'Nacht im Auto',
   camping: 'Camping · Dusch-Stopp',
@@ -22,21 +22,6 @@ const STAY_LABELS: Record<string, string> = {
 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-
-export function renderCrew() {
-  const el = document.querySelector('[data-render="crew"]')!;
-  el.innerHTML = TRIP.crew
-    .map(
-      (m: { name: string; role: string; line: string }, i: number) => `
-      <article class="crew__card will-reveal">
-        <div class="crew__avatar" style="--rot:${i * 90}deg"><span class="crew__initial" style="background-image:linear-gradient(${45 + i * 70}deg, var(--aurora-green), var(--aurora-cyan), var(--aurora-violet))">${esc(m.name[0])}</span></div>
-        <h3 class="crew__name">${esc(m.name)}</h3>
-        <p class="crew__role">${esc(m.role)}</p>
-        <p class="crew__line">${esc(m.line)}</p>
-      </article>`
-    )
-    .join('');
-}
 
 export function renderRouteStats() {
   const s = routeData.summary;
@@ -77,7 +62,11 @@ export function renderRoutePanelDay(dayNum: number) {
       ${d.ferry ? `<div><b>Fähre</b><span>${esc(d.ferry)}</span></div>` : ''}
     </div>
     <ul class="route__panel-high">${d.highlights.map((h) => `<li>${esc(h)}</li>`).join('')}</ul>
-    <p class="route__panel-stay"><b>${STAY_LABELS[d.stay.type]}</b> — ${esc(d.stay.text)}</p>`;
+    <p class="route__panel-stay"><b>${STAY_LABELS[d.stay.type]}</b> — ${esc(d.stay.text)}</p>
+    <button type="button" class="route__panel-open mono" data-open-day="${d.day}" aria-haspopup="dialog">
+      <span>Briefing ${String(d.day).padStart(2, '0')}</span>
+      <span aria-hidden="true">+</span>
+    </button>`;
 }
 
 export function renderDays() {
@@ -103,6 +92,10 @@ export function renderDays() {
           ${STAY_ICONS[d.stay.type]}
           <div><b>${STAY_LABELS[d.stay.type]}</b>${esc(d.stay.text)}</div>
         </div>
+        <button type="button" class="day-card__open mono" aria-haspopup="dialog" aria-label="Briefing für Tag ${d.day} öffnen">
+          <span>Briefing ${String(d.day).padStart(2, '0')}</span>
+          <span class="day-card__open-icon" aria-hidden="true">+</span>
+        </button>
       </article>`;
     })
     .join('');

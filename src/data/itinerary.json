@@ -1,5 +1,5 @@
 {
-  "stand": "2026-06-11",
+  "stand": "2026-06-12",
   "days": [
     {
       "day": 1, "date": "2026-08-24", "title": "Vollgas nach Norden",
@@ -10,7 +10,29 @@
         "Grosseinkauf am Abend: Haltbares, Fleisch für die Kühlbox — und Bier (in Norwegen +214 %)",
         "Tankstrategie: in DE nochmals vollmachen"
       ],
-      "stay": { "type": "auto", "text": "Rastplatz, 1 Nacht im Auto — in DE legal zur «Wiederherstellung der Fahrtüchtigkeit». Stühle bleiben drin." }
+      "stay": { "type": "auto", "text": "Rastplatz, 1 Nacht im Auto — in DE legal zur «Wiederherstellung der Fahrtüchtigkeit». Stühle bleiben drin." },
+      "image": {
+        "src": "img/days/day-01.webp",
+        "alt": "Wasserschloss in der Hamburger Speicherstadt zur blauen Stunde, beleuchtete Backsteinfassaden spiegeln sich im Fleet",
+        "credit": "Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamburg,_Speicherstadt,_Wasserschloss_--_2016_--_3223-9.jpg"
+      },
+      "peak": {
+        "name": "Speicherstadt bei Nacht",
+        "text": "Wenn der Einkauf verstaut ist und die Beine den Tag abschütteln müssen: eine Abendrunde durchs grösste Lagerhausviertel der Welt. Backstein, Fleete, Lichter — der erste Beweis, dass die Reise wirklich läuft.",
+        "facts": [
+          { "k": "Etappe", "v": "880 km · 8.5 h" },
+          { "k": "Abfahrt", "v": "06:00 · Uster" },
+          { "k": "Abendrunde", "v": "UNESCO-Welterbe, gratis" }
+        ]
+      },
+      "plan": [
+        { "t": "06:00", "title": "Abfahrt Uster", "text": "Thermoskaffee, Playlist, A1 → A7. Die ersten 400 km fahren sich von allein." },
+        { "t": "12:30", "title": "Fahrerwechsel + Tanken", "text": "Raum Kassel. In DE ist der Sprit günstiger als in CH — Strategie beginnt hier." },
+        { "t": "17:30", "title": "Grosseinkauf Raum Hamburg", "text": "Haltbares, Kühlbox-Fleisch, Gas — und Bier. Jede Dose spart in Norwegen bares Geld." },
+        { "t": "20:00", "title": "Speicherstadt-Abendrunde", "text": "Beine vertreten zwischen Fleeten und Backstein, dann raus zum Rastplatz." }
+      ],
+      "planB": "Stau-Falle A7 ist der Abschnitt Kassel–Göttingen — Pausen dahinter legen, nicht davor."
     },
     {
       "day": 2, "date": "2026-08-25", "title": "Übers Wasser nach Skandinavien",
@@ -21,7 +43,30 @@
         "Öresundbrücke — Online-Ticket vorher kaufen (420 statt 470 DKK)",
         "Ab der schwedischen Grenze gilt Allemansrätten"
       ],
-      "stay": { "type": "zelt", "text": "Erstes Wildcamp in den Wäldern bei Kolmården — ausser Sichtweite von Häusern, 1–2 Nächte ok." }
+      "stay": { "type": "zelt", "text": "Erstes Wildcamp in den Wäldern bei Kolmården — ausser Sichtweite von Häusern, 1–2 Nächte ok." },
+      "image": {
+        "src": "img/days/day-02.webp",
+        "alt": "Luftaufnahme der Öresundbrücke, die sich über das blaue Meer zur künstlichen Insel Peberholm schwingt",
+        "credit": "Foto: Nick-D · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg"
+      },
+      "peak": {
+        "name": "Öresundbrücke",
+        "text": "Acht Kilometer übers offene Meer, dahinter taucht die Strasse in den Drogden-Tunnel. Auf halber Strecke wechselt das Land — und ab dem schwedischen Ufer gilt Allemansrätten: Ab jetzt ist Schlafen draussen ein Recht.",
+        "facts": [
+          { "k": "Brücke", "v": "7845 m · Pylonen 204 m" },
+          { "k": "Ticket", "v": "online 420 statt 470 DKK" },
+          { "k": "Danach", "v": "Allemansrätten aktiv" }
+        ]
+      },
+      "plan": [
+        { "t": "07:30", "title": "Puttgarden", "text": "Check-in Scandlines, alle 30 Minuten fährt eine. Frühstück an Bord, Ostseeluft auf Deck." },
+        { "t": "10:00", "title": "Durch Dänemark", "text": "Lolland → Seeland, Kopenhagen grossräumig liegen lassen." },
+        { "t": "12:30", "title": "Öresundbrücke", "text": "8 km übers Wasser. Fahrerwahl vorher klären — einer muss ja filmen." },
+        { "t": "14:00", "title": "Frisch-Einkauf Schweden", "text": "Lidl oder Willys: Gemüse, Brot, Fika-Gebäck. Nur +5 % vs. Deutschland." },
+        { "t": "18:00", "title": "Wildcamp Kolmården", "text": "Erste Zeltnacht in den Wäldern — ausser Sichtweite, Spuren null." }
+      ],
+      "planB": null
     },
     {
       "day": 3, "date": "2026-08-26", "title": "E4 — die Ostsee rechts",
@@ -32,7 +77,29 @@
         "Högakustenbron — Schwedens Golden Gate",
         "Abendlicht am Skuleberget, UNESCO-Welterbeküste"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp am Skuleberget. Wer früh wach ist: Via-Ferrata-Einstieg direkt am Berg." }
+      "stay": { "type": "zelt", "text": "Wildcamp am Skuleberget. Wer früh wach ist: Via-Ferrata-Einstieg direkt am Berg." },
+      "image": {
+        "src": "img/days/day-03.webp",
+        "alt": "Die Hängebrücke Högakustenbron von oben, rote Fahrbahn über tiefblauem Wasser der Höga Kusten",
+        "credit": "Foto: David Castor · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:H%C3%B6gakustenbron_12_juli_2024_Bild_6.jpg"
+      },
+      "peak": {
+        "name": "Högakustenbron & Skuleberget",
+        "text": "Schwedens Antwort auf die Golden Gate spannt sich 1.8 km über den Ångermanälven — dahinter beginnt die Höga Kusten, wo sich das Land seit der Eiszeit fast 300 m aus dem Meer gehoben hat. UNESCO-Welterbe mit Abendlicht inklusive.",
+        "facts": [
+          { "k": "Brücke", "v": "1867 m · Spannweite 1210 m" },
+          { "k": "Skuleberget", "v": "ca. 290 m · Klettersteig" },
+          { "k": "Status", "v": "UNESCO-Welterbe" }
+        ]
+      },
+      "plan": [
+        { "t": "07:00", "title": "Abbau & los", "text": "Längster reiner Schwedentag — Stockholm weiträumig westlich umfahren spart City-Maut und Nerven." },
+        { "t": "12:30", "title": "Rast an der Ostsee", "text": "Die E4 läuft ab Gävle fast immer am Wasser. Rastplatz mit Meerblick aussuchen." },
+        { "t": "16:30", "title": "Högakustenbron", "text": "Fotostopp am Südufer — die Brücke wirkt von unten am grössten." },
+        { "t": "18:00", "title": "Camp am Skuleberget", "text": "Zelt mit Blick auf die Welterbeküste. Wer Energie hat, kraxelt morgens in die Via Ferrata." }
+      ],
+      "planB": null
     },
     {
       "day": 4, "date": "2026-08-27", "title": "Über den Polarkreis",
@@ -43,7 +110,30 @@
         "Polarkreis-Querung — Foto ist Pflicht, sorry",
         "Nacht auf 28.08.: Vollmond mit partieller Mondfinsternis (bis 96 %) in den frühen Morgenstunden"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp am Torneträsk — Lappland-Leere, niemand weit und breit." }
+      "stay": { "type": "zelt", "text": "Wildcamp am Torneträsk — Lappland-Leere, niemand weit und breit." },
+      "image": {
+        "src": "img/days/day-04.webp",
+        "alt": "Das U-förmige Tal Lapporten über dem See Torneträsk, Birkenwald im Vordergrund",
+        "credit": "Foto: Ximonic (Simo Räsänen) · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lapporten_as_seen_over_Tornetr%C3%A4sk_from_Bj%C3%B6rkliden,_Kiruna,_Norrbottens_l%C3%A4n,_Sweden,_2022_June.jpg"
+      },
+      "peak": {
+        "name": "Polarkreis & Torneträsk",
+        "text": "Bei 66°33′ N wird aus einem Roadtrip eine Arktis-Expedition — das Schild ist kitschig, das Foto trotzdem Pflicht. Abends wartet der Torneträsk: 70 km Lappland-See, am Horizont das berühmte U von Lapporten. Und nachts schiebt sich der Erdschatten vor den Vollmond.",
+        "facts": [
+          { "k": "Polarkreis", "v": "66°33′ N" },
+          { "k": "Torneträsk", "v": "330 km² · 168 m tief" },
+          { "k": "Nacht", "v": "Mondfinsternis bis 96 %" }
+        ]
+      },
+      "plan": [
+        { "t": "06:30", "title": "Früher Start", "text": "750 km Norden pur. Tanks und Thermoskannen voll." },
+        { "t": "11:30", "title": "Töre", "text": "Unscheinbarer Kreisel, grosse Symbolik: Hier endet die E4, ab jetzt E10 Richtung Arktis." },
+        { "t": "14:00", "title": "Polarkreis", "text": "Querung auf der E10 — Foto am Schild, danach offiziell arktisch unterwegs." },
+        { "t": "17:30", "title": "Camp am Torneträsk", "text": "Zelt zwischen Birken, Blick auf Lapporten. Niemand weit und breit." },
+        { "t": "02:00", "title": "Mondfinsternis", "text": "Wecker stellen: Der Vollmond verfinstert sich bis 96 % — Generalprobe für die Nachtschichten der Aurora-Wochen." }
+      ],
+      "planB": null
     },
     {
       "day": 5, "date": "2026-08-28", "title": "Ankunft am Ende der Welt",
@@ -54,7 +144,31 @@
         "Grenze Norwegen — ab Narvik wird die E10 zur Showbühne",
         "Erste Lofoten-Brücken: ab hier glaubst du die Fotos"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp auf Austvågøy, abseits der Hotspots — 150 m Abstand, max. 2 Nächte." }
+      "stay": { "type": "zelt", "text": "Wildcamp auf Austvågøy, abseits der Hotspots — 150 m Abstand, max. 2 Nächte." },
+      "image": {
+        "src": "img/days/day-05.webp",
+        "alt": "Panorama von Svolvær: Hafen und Häuser vor der schroffen Bergkulisse der Lofoten",
+        "credit": "Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Svolv%C3%A6r,_Lofoten,_Noruega,_2019-09-05,_DD_43.jpg"
+      },
+      "peak": {
+        "name": "E10 ab Narvik — die Showbühne",
+        "text": "Hinter der Grenze bei Bjørnfjell beginnt der Teil, für den die ganze Anfahrt war: Die E10 fädelt sich über Brücken und Dämme von Insel zu Insel, bis in Svolvær die Lofotenwand senkrecht aus dem Meer steht. Ab hier glaubst du die Fotos.",
+        "facts": [
+          { "k": "Kurztag", "v": "nur 410 km — Geniessen" },
+          { "k": "Svolvær", "v": "68.23° N · Lofoten-Hauptort" },
+          { "k": "Einkauf", "v": "Narvik: letzter günstiger Rema" }
+        ]
+      },
+      "plan": [
+        { "t": "08:00", "title": "Gemütlicher Start", "text": "Kurzer Tag — Frühstück mit Seeblick statt Hektik." },
+        { "t": "09:00", "title": "Abisko", "text": "Kurzstopp im Nationalpark, letzter Blick zurück auf Lapporten." },
+        { "t": "11:00", "title": "Grenze Norwegen", "text": "Bjørnfjell-Pass — Zollfreigrenzen im Kopf behalten (Bier zählt)." },
+        { "t": "12:30", "title": "Narvik", "text": "Tanken + Einkauf bei Rema 1000, dann auf die E10 West." },
+        { "t": "15:30", "title": "Brücken-Kino", "text": "Tjeldsundet, Raftsundet — jede Brücke ein neues Panorama. Oft anhalten." },
+        { "t": "17:30", "title": "Svolvær & Camp", "text": "Hafenrunde mit Blick auf die Svolværgeita, dann Wildcamp abseits der Hotspots auf Austvågøy." }
+      ],
+      "planB": null
     },
     {
       "day": 6, "date": "2026-08-29", "title": "Henningsvær & Gimsøya",
@@ -65,7 +179,30 @@
         "Unstad: Surfern zuschauen (oder Brett mieten)",
         "Henningsvær am Abend, wenn die Tagesbusse weg sind"
       ],
-      "stay": { "type": "zelt", "text": "Camp Richtung Eggum/Gimsøya — dunkelster Nordblick der Inseln. Erste Aurora-Wache." }
+      "stay": { "type": "zelt", "text": "Camp Richtung Eggum/Gimsøya — dunkelster Nordblick der Inseln. Erste Aurora-Wache." },
+      "image": {
+        "src": "img/days/day-06.webp",
+        "alt": "Hafen von Henningsvær mit Booten und Holzhäusern vor steilen Lofoten-Gipfeln",
+        "credit": "Foto: Vikebe · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Henningsv%C3%A6r_p%C3%A5_Austv%C3%A5g%C3%B8y.jpg"
+      },
+      "peak": {
+        "name": "Hoven (368 m)",
+        "text": "Der freundlichste Gipfel der Lofoten: eine gute Stunde Aufstieg auf Gimsøya, oben 360 Grad — Meer, Strände, Moor und die Bergketten von Austvågøy bis Vestvågøy. Bestes Verhältnis von Schweiss zu Panorama auf der ganzen Inselgruppe.",
+        "facts": [
+          { "k": "Aufstieg", "v": "368 m · 1–1.5 h" },
+          { "k": "Schwierigkeit", "v": "leicht, markiert" },
+          { "k": "Belohnung", "v": "360°-Maxi-Panorama" }
+        ]
+      },
+      "plan": [
+        { "t": "09:00", "title": "Hoven-Aufstieg", "text": "Vor den Tagesgästen oben sein — der Trail ist kurz, die Aussicht masslos." },
+        { "t": "12:30", "title": "Unstad", "text": "Arktis-Surfern zuschauen (oder selber ein Brett mieten), Zimtschnecke im Surf-Café." },
+        { "t": "15:00", "title": "Eggum-Runde", "text": "Küstenstrasse, Steinstrand, offenes Nordmeer — Aurora-Spot für später ausspähen." },
+        { "t": "18:00", "title": "Henningsvær", "text": "Wenn die Busse weg sind: Hafenrunde, der berühmteste Fussballplatz der Welt, Fischsuppe." },
+        { "t": "22:00", "title": "Erste Aurora-Wache", "text": "Camp mit freiem Nordblick. Kp checken, Kamera bereit, Geduld mitbringen." }
+      ],
+      "planB": "Regentag: KaviarFactory-Galerie in Henningsvær + Kaffee — und auf die Abendlücke warten."
     },
     {
       "day": 7, "date": "2026-08-30", "title": "Karibik des Nordens",
@@ -76,7 +213,30 @@
         "Küstenpfad Haukland → Uttakleiv (1 h, flach, spektakulär)",
         "Dusch-Stopp: endlich. Alle danken es dir."
       ],
-      "stay": { "type": "camping", "text": "Uttakleiv-Zeltwiese (ca. 300 NOK) — Dragon's Eye und Nordhimmel direkt vor dem Zelt." }
+      "stay": { "type": "camping", "text": "Uttakleiv-Zeltwiese (ca. 300 NOK) — Dragon's Eye und Nordhimmel direkt vor dem Zelt." },
+      "image": {
+        "src": "img/days/day-07.webp",
+        "alt": "Türkisblaue Bucht von Haukland Beach von oben, weisser Sand und Bergketten am Horizont",
+        "credit": "Foto: Michele Agostini · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Haukland_Beach_view.jpg"
+      },
+      "peak": {
+        "name": "Haukland → Uttakleiv",
+        "text": "Wasser wie in der Südsee, nur ehrlicher: 11 Grad. Der flache Küstenpfad ums Kap verbindet die zwei schönsten Strände der Lofoten — links Brandung, rechts Felswand, eine Stunde Gehzeit, null Anstrengung, maximale Ausbeute.",
+        "facts": [
+          { "k": "Küstenpfad", "v": "ca. 1 h · flach" },
+          { "k": "Wasser", "v": "~11 °C — Mutprobe" },
+          { "k": "Uttakleiv", "v": "Dragon's Eye + Zeltwiese" }
+        ]
+      },
+      "plan": [
+        { "t": "09:30", "title": "Haukland Beach", "text": "Türkis auch bei Wolken. Wer reingeht, ist 30 Sekunden lang ein Held." },
+        { "t": "12:00", "title": "Küstenpfad", "text": "Haukland → Uttakleiv ums Kap — eine Stunde Postkartenkino." },
+        { "t": "14:00", "title": "Dragon's Eye", "text": "Den berühmten Felsen mit dem Auge suchen — bei Ebbe am einfachsten." },
+        { "t": "16:00", "title": "Dusch-Stopp", "text": "Endlich. Alle danken es dir. Wäsche gleich mitmachen." },
+        { "t": "20:00", "title": "Zeltwiese Uttakleiv", "text": "Abendlicht überm Nordmeer, Nordhimmel direkt vor dem Zelt — Wache zwei." }
+      ],
+      "planB": "Sauwetter: Lofotr-Wikingermuseum in Borg (Methalle, 15 Minuten entfernt) — danach trotzdem an den Strand."
     },
     {
       "day": 8, "date": "2026-08-31", "title": "Kvalvika & Ryten",
@@ -87,7 +247,30 @@
         "Ryten (543 m): der Blick runter auf Kvalvika — das Lofoten-Bild",
         "Abstieg zum Strand, Nachmittag zwischen Felsen und Brandung"
       ],
-      "stay": { "type": "zelt", "text": "Kvalvika Beach — Zelten im Lofotodden-Nationalpark erlaubt. Drohne bleibt im Auto (Verbot)." }
+      "stay": { "type": "zelt", "text": "Kvalvika Beach — Zelten im Lofotodden-Nationalpark erlaubt. Drohne bleibt im Auto (Verbot)." },
+      "image": {
+        "src": "img/days/day-08.webp",
+        "alt": "Kvalvika-Bucht mit goldenem Sandstrand und steilen Felswänden, davor grüne Hänge",
+        "credit": "Foto: Karl Brodowsky · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kvalvika_(Lofoten)_5502_C02.jpg"
+      },
+      "peak": {
+        "name": "Ryten (543 m)",
+        "text": "Oben angekommen liegt dir Kvalvika zu Füssen — goldener Strand, eingeklemmt zwischen Felswänden, dahinter nichts mehr bis Grönland. Das ist DAS Lofoten-Bild. Danach absteigen und den Nachmittag genau an diesem Strand verbringen: Bild betreten, fertig.",
+        "facts": [
+          { "k": "Gipfel", "v": "543 m · 1.5–2 h Aufstieg" },
+          { "k": "Parkplatz", "v": "Fredvang ~100 NOK, ab 10 Uhr voll" },
+          { "k": "Strandnacht", "v": "Nationalpark — Zelten legal" }
+        ]
+      },
+      "plan": [
+        { "t": "07:30", "title": "Parkplatz Fredvang", "text": "Früh sein — ab 10 Uhr ist voll. Tagesgepäck plus Zeltzeug für die Strandnacht." },
+        { "t": "08:00", "title": "Aufstieg Ryten", "text": "Moor, Stufen, dann der Grat. Der Blick kommt auf den letzten Metern — Gänsehaut einplanen." },
+        { "t": "10:30", "title": "Gipfel", "text": "Das Lofoten-Bild in echt. Der berühmte Felsvorsprung fürs Foto liegt kurz unterm Gipfel." },
+        { "t": "12:30", "title": "Abstieg nach Kvalvika", "text": "Direkt runter an den Strand — Mittag zwischen Felsen und Brandung." },
+        { "t": "17:00", "title": "Camp am Strand", "text": "Zelt hinter den Dünen, Sonnenuntergang Richtung offenes Meer. Drohne bleibt im Auto." }
+      ],
+      "planB": "Bei Sturm keine Strandnacht: Glasbläserei Vikten + Nusfjord, Nacht auf dem Campingplatz."
     },
     {
       "day": 9, "date": "2026-09-01", "title": "Reine, bevor alle kommen",
@@ -98,7 +281,31 @@
         "Hamnøy-Brücke + Å mit Stockfisch-Museum und Zimtschnecken",
         "Nusfjord am Abend — gratis und leer, wenn die Kasse zu ist"
       ],
-      "stay": { "type": "camping", "text": "Moskenes Camping — Dusche, Steckdosen, 5 Minuten zur Fähre von morgen." }
+      "stay": { "type": "camping", "text": "Moskenes Camping — Dusche, Steckdosen, 5 Minuten zur Fähre von morgen." },
+      "image": {
+        "src": "img/days/day-09.webp",
+        "alt": "Reine am Reinefjord im Herbst: rote Rorbuer, türkises Wasser und steile Gipfel",
+        "credit": "Foto: Ximonic (Simo Räsänen) · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Reine_at_Reinefjorden,_2010_September.jpg"
+      },
+      "peak": {
+        "name": "Reinebringen (448 m)",
+        "text": "1978 von Sherpas gebaute Steinstufen, dann stehst du über dem berühmtesten Panorama Norwegens: Reine, der Fjord, die Inselkette — alles auf einmal. Der Trick ist die Uhrzeit. Vor 8 Uhr gehört der Berg euch, ab 10 der Welt.",
+        "facts": [
+          { "k": "Aufstieg", "v": "448 m · 1978 Stufen" },
+          { "k": "Startzeit", "v": "vor 08:00 — nicht verhandelbar" },
+          { "k": "Zelten oben", "v": "verboten (Friluftsforskrift)" }
+        ]
+      },
+      "plan": [
+        { "t": "06:30", "title": "Reinebringen", "text": "Stufe um Stufe — oben das Panorama, das jede Lofoten-Doku eröffnet. Noch in Ruhe." },
+        { "t": "09:30", "title": "Zweites Frühstück", "text": "Unten in Reine — verdient. Kaffee mit Fjordblick." },
+        { "t": "11:00", "title": "Hamnøy & Sakrisøy", "text": "Die Fotobrücke, rote und gelbe Rorbuer — Klassiker abhaken, bevor die Busse kommen." },
+        { "t": "13:00", "title": "Å", "text": "Wo die Strasse endet: Stockfischmuseum + Zimtschnecken aus der alten Bäckerei." },
+        { "t": "17:00", "title": "Nusfjord", "text": "Nach Kassenschluss gratis und fast leer — das besterhaltene Fischerdorf Norwegens im Abendlicht." },
+        { "t": "19:30", "title": "Moskenes Camping", "text": "Dusche, Steckdosen, alles laden — 5 Minuten zur Fähre von morgen früh." }
+      ],
+      "planB": "Wolkenbruch: Museen in Å ziehen auch nass — und Reinebringen notfalls auf den Morgen von Tag 10 vorverlegen? Nein: Fähre. Dann eben beim nächsten Mal."
     },
     {
       "day": 10, "date": "2026-09-02", "title": "Fähre & Saltstraumen",
@@ -109,7 +316,31 @@
         "Saltstraumen: stärkster Gezeitenstrom der Welt (Zeitfenster vorab checken)",
         "E6 durch Helgeland, zweite Polarkreis-Querung"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp Helgeland (66° N) — immer noch Aurora-Land, und jetzt werden die Nächte richtig dunkel." }
+      "stay": { "type": "zelt", "text": "Wildcamp Helgeland (66° N) — immer noch Aurora-Land, und jetzt werden die Nächte richtig dunkel." },
+      "image": {
+        "src": "img/days/day-10.webp",
+        "alt": "Luftaufnahme der Strudel des Saltstraumen mit Brücke über der Meerenge",
+        "credit": "Foto: Frankemann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apparent_whirlpools_of_Saltstraumen_seen_from_the_air.jpg"
+      },
+      "peak": {
+        "name": "Saltstraumen",
+        "text": "Alle sechs Stunden drücken sich hier 400 Millionen Kubikmeter Wasser durch eine 150 m enge Rinne — der stärkste Gezeitenstrom der Welt, mit Strudeln von bis zu zehn Metern Durchmesser. Das Zeitfenster entscheidet alles: Bei Stillwasser ist es ein Teich, bei Vollstrom ein Naturgewalt-Kino.",
+        "facts": [
+          { "k": "Strömung", "v": "bis ~40 km/h" },
+          { "k": "Strudel", "v": "bis 10 m Durchmesser" },
+          { "k": "Timing", "v": "Gezeitenkalender checken!" }
+        ]
+      },
+      "plan": [
+        { "t": "07:00", "title": "Fähre Moskenes", "text": "Reserviert, trotzdem früh in der Spur stehen. 3:15 h Überfahrt." },
+        { "t": "08:00", "title": "Abschiedskino", "text": "Von Deck: die ganze Lofotenwand von hinten, langsam kleiner werdend." },
+        { "t": "10:30", "title": "Bodø", "text": "Tanken, Proviant — und das Saltstraumen-Zeitfenster final checken." },
+        { "t": "12:00", "title": "Saltstraumen", "text": "Auf die Brücke oder ans Ufer, Strudel zählen. Geduld: Der Strom baut sich in Wellen auf." },
+        { "t": "14:00", "title": "E6 Helgeland", "text": "Südwärts durchs grüne Norwegen, zweite Polarkreis-Querung — diesmal von oben." },
+        { "t": "19:00", "title": "Camp 66° N", "text": "Noch immer Aurora-Land — und ab jetzt werden die Nächte ernsthaft dunkel. Wache drei." }
+      ],
+      "planB": null
     },
     {
       "day": 11, "date": "2026-09-03", "title": "E6 nach Trondheim",
@@ -120,7 +351,30 @@
         "Trondheim am Abend: Nidarosdom, Holzhäuser am Bakklandet",
         "Stadtessen als Belohnung — einmal nicht aus dem Topf"
       ],
-      "stay": { "type": "zelt", "text": "Camp im Grünen vor der Stadt — Trondheim hat City-Maut, einmal durch reicht." }
+      "stay": { "type": "zelt", "text": "Camp im Grünen vor der Stadt — Trondheim hat City-Maut, einmal durch reicht." },
+      "image": {
+        "src": "img/days/day-11.webp",
+        "alt": "Bunte Speicherhäuser am Fluss Nidelva in Trondheim, gesehen von der Gamle Bybro",
+        "credit": "Foto: Satdeep Gill · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:View_from_Gamle_Bybro,_Trondheim_04.jpg"
+      },
+      "peak": {
+        "name": "Bakklandet & Nidarosdom",
+        "text": "Norwegens alte Krönungsstadt als Zivilisations-Zwischenstopp: die bunten Speicherhäuser an der Nidelva, das «Glücksportal» der Gamle Bybro — und der Nidarosdom, die nördlichste gotische Kathedrale der Welt. Danach das erste Essen seit Tagen, das nicht aus dem Topf kommt.",
+        "facts": [
+          { "k": "Nidarosdom", "v": "Baubeginn 1070 · Gotik am Nordrand" },
+          { "k": "Bakklandet", "v": "Holzhäuser + Cafés an der Nidelva" },
+          { "k": "Budget-Falle", "v": "City-Maut — einmal rein reicht" }
+        ]
+      },
+      "plan": [
+        { "t": "08:00", "title": "Abbau & E6 Süd", "text": "Helgeland zieht vorbei — Wasserfälle rechts, Fjorde links." },
+        { "t": "10:00", "title": "Laksforsen", "text": "17 m Wasserfall direkt an der E6 — Kaffeepause mit Lachsblick." },
+        { "t": "16:30", "title": "Trondheim", "text": "Parkieren, dann zu Fuss: Nidarosdom, Gamle Bybro, Bakklandet-Gassen." },
+        { "t": "19:00", "title": "Stadtessen", "text": "Die eine Restaurant-Belohnung der Reise — Fischsuppe oder Burger, Hauptsache Teller." },
+        { "t": "21:30", "title": "Camp vor der Stadt", "text": "Raus aus der Mautzone, rein ins Grüne." }
+      ],
+      "planB": "Regen passt zu Trondheim: Nidarosdom innen + Rockheim (Pop-Museum) statt Gassen-Bummel."
     },
     {
       "day": 12, "date": "2026-09-04", "title": "Atlantikstrasse",
@@ -131,7 +385,30 @@
         "Eldhusøya-Rundweg: 20 Minuten Atlantik pur",
         "Ab heute: die dunkelsten Nächte der Reise beginnen"
       ],
-      "stay": { "type": "camping", "text": "Camping Region Molde (Dusch-Stopp) — Atlantikstrasse-Umfeld ist reguliert, hier nicht wildcampen." }
+      "stay": { "type": "camping", "text": "Camping Region Molde (Dusch-Stopp) — Atlantikstrasse-Umfeld ist reguliert, hier nicht wildcampen." },
+      "image": {
+        "src": "img/days/day-12.webp",
+        "alt": "Die geschwungene Storseisundet-Brücke der Atlantikstrasse unter dramatischem Wolkenhimmel",
+        "credit": "Foto: DXR · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Storseisundbrua,_Southwest_view_20150604_2.jpg"
+      },
+      "peak": {
+        "name": "Storseisundbrua",
+        "text": "Aus dem richtigen Winkel sieht die Brücke aus, als würde die Strasse ins Meer springen und drüben nie ankommen. Die Atlantikstrasse hüpft auf 8 km über acht Brücken von Schäre zu Schäre — Norwegens «Bauwerk des Jahrhunderts», und bei Westwind das beste Gratis-Kino des Landes.",
+        "facts": [
+          { "k": "Atlanterhavsveien", "v": "8.3 km · 8 Brücken" },
+          { "k": "Storseisundbrua", "v": "260 m · der Foto-Klassiker" },
+          { "k": "Heute Nacht", "v": "dunkelste Phase beginnt" }
+        ]
+      },
+      "plan": [
+        { "t": "08:30", "title": "Trondheim → Westen", "text": "E39 Richtung Halsa, Fjordlandschaft im Morgenlicht." },
+        { "t": "11:00", "title": "Fähre Halsa–Kanestraum", "text": "20 Minuten — AutoPASS bucht übers Kennzeichen, einfach drauffahren." },
+        { "t": "13:00", "title": "Atlantikstrasse", "text": "Storseisundet aus allen Winkeln — der Sprung-Blick kommt vom Aussichtspunkt Süd." },
+        { "t": "14:30", "title": "Eldhusøya", "text": "Rundweg auf Gitterstegen, 20 Minuten Atlantik pur — bei Wind festhalten." },
+        { "t": "17:00", "title": "Camping bei Molde", "text": "Dusch-Stopp, Wäsche, Akkus — das Umfeld hier ist reguliert, also regulär campieren." }
+      ],
+      "planB": "Sturm ist hier kein Plan B, sondern das Programm: Gischt über den Brücken — aus sicherer Distanz zuschauen."
     },
     {
       "day": 13, "date": "2026-09-05", "title": "Trollstigen & Geiranger",
@@ -142,7 +419,31 @@
         "Ørnesvingen: der Geirangerfjord von oben, gratis",
         "Optional Dalsnibba (380 NOK): 1500 m über dem Fjord"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp Bøverdalen am Jotunheimen-Rand — der dunkelste Sternenhimmel der Reise." }
+      "stay": { "type": "zelt", "text": "Wildcamp Bøverdalen am Jotunheimen-Rand — der dunkelste Sternenhimmel der Reise." },
+      "image": {
+        "src": "img/days/day-13.webp",
+        "alt": "Blick vom Trollstigen-Aussichtspunkt auf die Serpentinen, den Wasserfall Stigfossen und das Tal",
+        "credit": "Foto: Stefan Krause · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Trollstigen_HochPanno.jpg"
+      },
+      "peak": {
+        "name": "Trollstigen",
+        "text": "Elf Haarnadelkurven kleben an der Felswand, mittendurch stürzt der Stigfossen 320 m in die Tiefe. Seit 2026 ist die Trollleiter wieder offen — Status am Morgen checken, dann im zweiten Gang hoch und oben von der Plattform zurückschauen. Danach als Zugabe: der Geirangerfjord von oben.",
+        "facts": [
+          { "k": "Kehren", "v": "11 · Steigung ~9 %" },
+          { "k": "Stigfossen", "v": "320 m Wasserfall" },
+          { "k": "Check", "v": "vegvesen.no am Morgen" }
+        ]
+      },
+      "plan": [
+        { "t": "08:00", "title": "Status-Check", "text": "vegvesen.no: Trollstigen offen? Dann los Richtung Åndalsnes." },
+        { "t": "10:00", "title": "Trollstigen", "text": "Elf Kehren hoch — unten staunen lassen, oben auf der Plattform selber staunen." },
+        { "t": "12:30", "title": "Fähre Eidsdal–Linge", "text": "10 Minuten Verschnaufpause auf dem Wasser." },
+        { "t": "13:30", "title": "Ørnesvingen", "text": "Der Geirangerfjord von oben — gratis und besser als jede Postkarte." },
+        { "t": "15:00", "title": "Optional: Dalsnibba", "text": "380 NOK für 1500 m über dem Fjord — nur bei klarer Sicht zahlen." },
+        { "t": "19:30", "title": "Camp Bøverdalen", "text": "Am Rand von Jotunheimen — der dunkelste Sternenhimmel der Reise. Letzte Aurora-Chance." }
+      ],
+      "planB": "Trollstigen gesperrt (Starkregen): E136 durchs Romsdal — auch schön, nur ohne Drama."
     },
     {
       "day": 14, "date": "2026-09-06", "title": "Langer Ritt nach Süden",
@@ -153,7 +454,30 @@
         "Oslo-Umfahrung — die City-Maut bucht Epass24 automatisch ab",
         "Zurück in Schweden: letzte Allemansrätten-Nacht"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp in den Wäldern von Halland — Abschiedsfeuer fällt aus (Brandregeln), Whisky geht trotzdem." }
+      "stay": { "type": "zelt", "text": "Wildcamp in den Wäldern von Halland — Abschiedsfeuer fällt aus (Brandregeln), Whisky geht trotzdem." },
+      "image": {
+        "src": "img/days/day-14.webp",
+        "alt": "Die dunkle Stabkirche von Lom mit Birken und Bergen im Hintergrund",
+        "credit": "Foto: W. Bulach · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:00_1210_Lom_Stave_Church_-_Norway.jpg"
+      },
+      "peak": {
+        "name": "Stabkirche Lom",
+        "text": "Bevor der lange Ritt beginnt, fünf Minuten Mittelalter: Die Stabkirche von Lom steht seit rund 1160 — Holz, Teer, Drachenköpfe am First. Einer der grössten erhaltenen Stabbauten Norwegens, direkt an der Route. Aussen reicht; das Bild bleibt.",
+        "facts": [
+          { "k": "Baujahr", "v": "ca. 1160" },
+          { "k": "Stopp", "v": "5 min, direkt an der Strasse" },
+          { "k": "Danach", "v": "660 km — der lange Ritt" }
+        ]
+      },
+      "plan": [
+        { "t": "07:30", "title": "Stabkirche Lom", "text": "Morgenlicht auf tausendjährigem Teerholz — Foto, Andacht optional, weiter." },
+        { "t": "08:00", "title": "Gudbrandsdalen", "text": "Das lange Tal nach Süden — Norwegen langsam im Rückspiegel." },
+        { "t": "12:30", "title": "Oslo-Umfahrung", "text": "Nicht reinfahren — Epass24 bucht die Maut automatisch, Tank vorher füllen (So-Abend-Rabatt vorbei)." },
+        { "t": "15:00", "title": "Svinesund", "text": "Brücke über den Fjord, zurück in Schweden — letzter Länderwechsel vor dem Öresund." },
+        { "t": "18:30", "title": "Camp Halland", "text": "Letzte Allemansrätten-Nacht in den Wäldern. Feuer fällt aus (Brandregeln) — Whisky übernimmt." }
+      ],
+      "planB": null
     },
     {
       "day": 15, "date": "2026-09-07", "title": "Öresund & Ostsee",
@@ -164,7 +488,30 @@
         "Letzte Fähre: Abschluss-Hotdog an Bord ist Tradition",
         "Deutschland: letzte Nacht der Reise"
       ],
-      "stay": { "type": "auto", "text": "Rastplatz-Nacht im Auto — Routine inzwischen. Morgen: eigenes Bett." }
+      "stay": { "type": "auto", "text": "Rastplatz-Nacht im Auto — Routine inzwischen. Morgen: eigenes Bett." },
+      "image": {
+        "src": "img/days/day-15.webp",
+        "alt": "Scandlines-Hybridfähre auf der Ostsee zwischen Puttgarden und Rødby",
+        "credit": "Foto: Zimaro · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fehmarn_Puttgarden_Scandlines_Prinsesse_Benedikte.jpg"
+      },
+      "peak": {
+        "name": "Die letzte Fähre",
+        "text": "Fünfte und letzte Fähre der Reise: Rødby–Puttgarden, 45 Minuten Ostsee. Die Tradition verlangt einen Abschluss-Hotdog an Bord — Blick zurück Richtung Norden, kurz still sein, dann das letzte Stück Deutschland.",
+        "facts": [
+          { "k": "Überfahrt", "v": "45 min · Fähre Nr. 5" },
+          { "k": "Pflicht", "v": "Abschluss-Hotdog an Bord" },
+          { "k": "Öresund", "v": "diesmal bei Tageslicht" }
+        ]
+      },
+      "plan": [
+        { "t": "08:00", "title": "Göteborg → Süden", "text": "E6 runter — City-Maut-Zone meiden, Schweden verabschiedet sich flach." },
+        { "t": "11:30", "title": "Öresundbrücke", "text": "8 km übers Wasser, diesmal bei Tag — andere Brücke, gleiches Grinsen." },
+        { "t": "14:30", "title": "Rødbyhavn", "text": "Einschiffen, an Deck gehen, Hotdog holen. Tradition ist Tradition." },
+        { "t": "16:00", "title": "Deutschland", "text": "A1 Richtung Hamburg — die Playlist von Tag 1 nochmal, rückwärts wäre albern." },
+        { "t": "19:00", "title": "Rastplatz", "text": "Letzte Auto-Nacht. Inzwischen Routine: Sitz zurück, Augen zu." }
+      ],
+      "planB": null
     },
     {
       "day": 16, "date": "2026-09-08", "title": "Heimspurt",
@@ -175,7 +522,30 @@
         "Abends in Uster: 7150 km, 5 Fähren, 4 Mann, 1 Stelvio",
         "Fotos sortieren kann bis morgen warten"
       ],
-      "stay": { "type": "home", "text": "Eigenes Bett. Verdient." }
+      "stay": { "type": "home", "text": "Eigenes Bett. Verdient." },
+      "image": {
+        "src": "img/days/day-16.webp",
+        "alt": "Schloss und Bootssteg am Greifensee bei Uster, Boote im Vordergrund",
+        "credit": "Foto: Roland zh · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Greifensee_(ZH)_-_Schloss_-_Landenberghaus_-_Greifensee_IMG_6554_ShiftN.jpg"
+      },
+      "peak": {
+        "name": "Ankunft Uster",
+        "text": "Der unspektakulärste Höhepunkt der Reise — und einer der besten: der Greifensee im Abendlicht, das eigene Bett, eine Dusche ohne Münzschlitz. 7150 km, 5 Fähren, 4 Mann, 1 Stelvio. Die Fotos warten bis morgen. Die Geschichten nicht.",
+        "facts": [
+          { "k": "Bilanz", "v": "7150 km · 5 Fähren" },
+          { "k": "Crew", "v": "4 Mann · 1 Stelvio" },
+          { "k": "Heute Nacht", "v": "eigenes Bett. Verdient." }
+        ]
+      },
+      "plan": [
+        { "t": "06:00", "title": "Letzter Frühstart", "text": "A7 nach Süden — der Norden schiebt von hinten." },
+        { "t": "10:00", "title": "Tanken-Kaffee-Tanken", "text": "Die Raststätten-Routine ein letztes Mal zelebrieren." },
+        { "t": "14:30", "title": "Grenze Schweiz", "text": "Vignette klebt noch, Zollfreigrenzen im Kopf — willkommen zurück." },
+        { "t": "17:30", "title": "Uster", "text": "Auspacken: nur Kühlbox und Wäsche. Der Rest hat bis morgen Zeit." },
+        { "t": "19:00", "title": "Greifensee", "text": "Kurz ans Wasser, Bilanz ziehen — und das erste Bett seit 16 Tagen." }
+      ],
+      "planB": null
     }
   ]
 }

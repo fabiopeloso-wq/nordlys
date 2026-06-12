@@ -1,0 +1,206 @@
+/* ============ TAGESFENSTER («Briefing») ============ */
+/* z-Index bewusst unter .grain (90): das Korn liegt auch über den Fotos —
+   so fügen sich die realen Bilder in die Arctic-Night-Ästhetik ein. */
+
+.dayview {
+  position: fixed; inset: 0; z-index: 85;
+  display: grid; place-items: center;
+  padding: clamp(0.6rem, 2.5vw, 2.4rem);
+}
+.dayview[hidden] { display: none; }
+
+.dayview__backdrop {
+  position: absolute; inset: 0;
+  background: color-mix(in srgb, var(--night-deep) 80%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.dayview__panel {
+  position: relative;
+  width: min(1020px, 100%);
+  max-height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: linear-gradient(180deg, var(--night-raised), var(--night) 38%);
+  border: 1px solid var(--line);
+  box-shadow: 0 30px 80px color-mix(in srgb, var(--night-deep) 85%, transparent);
+  outline: none;
+}
+
+/* Schliessen klebt oben rechts, auch wenn das Panel scrollt */
+.dayview__close {
+  position: sticky; top: 0.9rem; z-index: 3;
+  margin: 0.9rem 0.9rem -3.4rem auto;
+  width: 42px; height: 42px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--night-deep) 72%, transparent);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(6px);
+  transition: border-color 0.25s, transform 0.25s;
+}
+.dayview__close svg { width: 17px; height: 17px; stroke: var(--ice); }
+.dayview__close:hover { border-color: var(--aurora-cyan); transform: rotate(90deg); }
+
+/* ---- Bild ---- */
+.dayview__media { position: relative; height: clamp(250px, 44vh, 440px); overflow: clip; }
+.dayview__media img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: saturate(0.88) contrast(1.03) brightness(0.94);
+}
+/* Farbgradierung: Bild läuft unten in den Panel-Grund aus, oben leicht abgedunkelt */
+.dayview__media::after {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--night-deep) 42%, transparent), transparent 32%, transparent 52%, color-mix(in srgb, var(--night) 96%, transparent)),
+    linear-gradient(90deg, color-mix(in srgb, var(--night) 26%, transparent), transparent 45%);
+  pointer-events: none;
+}
+
+.dayview__ghost {
+  position: absolute; top: 0.4rem; right: 1.4rem; z-index: 1;
+  font-family: var(--font-mono); font-weight: 700;
+  font-size: clamp(5rem, 12vw, 9rem); line-height: 1;
+  color: color-mix(in srgb, var(--ice) 16%, transparent);
+  user-select: none;
+  text-shadow: 0 2px 18px color-mix(in srgb, var(--night-deep) 60%, transparent);
+}
+
+.dayview__head { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; padding: 0 clamp(1.3rem, 3.5vw, 2.4rem) 1rem; }
+.dayview__eyebrow { color: var(--aurora-green); margin-bottom: 0.45rem; }
+.dayview__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 0.98;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+}
+.dayview__route { color: var(--ice-dim); font-size: 0.9rem; margin-top: 0.45rem; }
+
+.dayview__coords {
+  position: absolute; right: 1.4rem; bottom: 1rem; z-index: 1;
+  font-size: 0.62rem; color: var(--ice-dim);
+}
+
+/* ---- Inhalt ---- */
+.dayview__body {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: clamp(1.8rem, 4vw, 3rem);
+  padding: 1.6rem clamp(1.3rem, 3.5vw, 2.4rem) 2rem;
+}
+
+.dayview__h {
+  color: var(--aurora-cyan);
+  font-size: 0.7rem; letter-spacing: 0.12em;
+  display: flex; align-items: center; gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+.dayview__h::after { content: ''; height: 1px; flex: 1; max-width: 4rem; background: var(--line); }
+.dayview__h--peak { color: var(--ember); }
+
+/* Timeline im Faden-Vokabular: gestrichelte Linie, Ticks pro Station */
+.dayview__plan {
+  margin-left: 5px;
+  border-left: 1px dashed var(--line);
+  padding-left: 1.5rem;
+  display: grid; gap: 1.3rem;
+  list-style: none;
+}
+.dayview__plan li { position: relative; }
+.dayview__plan li::before {
+  content: '';
+  position: absolute; left: calc(-1.5rem - 5.5px); top: 0.32em;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--night); border: 2px solid var(--aurora-cyan);
+}
+.dayview__when { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; }
+.dayview__when .mono { color: var(--aurora-green); font-size: 0.74rem; }
+.dayview__when b { font-size: 0.98rem; }
+.dayview__what { color: var(--ice-dim); font-size: 0.88rem; margin-top: 0.25rem; }
+
+/* Highlight */
+.dayview__peak-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1;
+  text-transform: uppercase;
+  background: var(--grad-aurora);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.7rem;
+}
+.dayview__peak-text { color: var(--ice-dim); font-size: 0.92rem; }
+
+.dayview__facts { display: grid; gap: 0.55rem; margin-top: 1.2rem; }
+.dayview__facts div {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  border-bottom: 1px dashed var(--line);
+  padding-bottom: 0.55rem;
+}
+.dayview__facts dt {
+  font-family: var(--font-mono); font-size: 0.66rem;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ice-dim); flex: none;
+}
+.dayview__facts dd { font-size: 0.85rem; font-weight: 600; text-align: right; }
+
+.dayview__planb {
+  margin-top: 1.4rem;
+  border: 1px dashed color-mix(in srgb, var(--ember) 45%, transparent);
+  padding: 0.9rem 1rem;
+  font-size: 0.85rem; color: var(--ice-dim);
+}
+.dayview__planb b {
+  display: block;
+  font-family: var(--font-mono); font-size: 0.64rem;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ember);
+  margin-bottom: 0.25rem;
+}
+
+.dayview__stay { margin-top: 1.5rem; padding-top: 0; }
+
+/* ---- Fuss ---- */
+.dayview__foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+  padding: 1rem clamp(1.3rem, 3.5vw, 2.4rem) 1.2rem;
+}
+.dayview__credit { font-size: 0.6rem; letter-spacing: 0.04em; text-transform: none; color: var(--ice-dim); }
+.dayview__credit:hover { color: var(--aurora-cyan); text-decoration: none; }
+.dayview__nav { display: flex; align-items: center; gap: 0.7rem; margin-left: auto; }
+.dayview__navpos { font-size: 0.68rem; color: var(--ice-dim); }
+.dayview__navbtn {
+  font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ice);
+  border: 1px solid var(--line);
+  padding: 0.55rem 0.9rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+.dayview__navbtn:hover:not(:disabled) { border-color: var(--aurora-cyan); color: var(--aurora-cyan); }
+.dayview__navbtn:disabled { opacity: 0.35; cursor: default; }
+
+/* Scroll-Lock, solange das Fenster offen ist */
+html.dv-lock, html.dv-lock body { overflow: hidden; }
+
+/* ---- Mobile ---- */
+@media (max-width: 760px) {
+  .dayview { padding: 0; }
+  .dayview__panel { width: 100%; height: 100%; max-height: none; }
+  .dayview__media { height: 40vh; min-height: 250px; }
+  .dayview__body { grid-template-columns: 1fr; }
+  .dayview__coords { display: none; }
+  .dayview__foot { padding-bottom: max(1.2rem, env(safe-area-inset-bottom)); }
+  .dayview__nav { width: 100%; justify-content: space-between; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dayview__close, .dayview__navbtn { transition: none; }
+}

@@ -8,12 +8,15 @@ import './styles/base.css';
 import './styles/hero.css';
 import './styles/sections.css';
 import './styles/tools.css';
+import './styles/dayview.css';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 
-import { renderHero, renderCrew, renderRouteStats, renderRoutePanelDefault, renderDays, renderRules, renderAuroraGuide } from './render';
+import { renderHero, renderRouteStats, renderRoutePanelDefault, renderDays, renderRules, renderAuroraGuide } from './render';
+import { initDayView } from './dayview';
+import { initCrew } from './crew';
 import { initBudget } from './budget';
 import { initPacking } from './packing';
 import { initCountdown } from './countdown';
@@ -28,7 +31,7 @@ const reduced = prefersReducedMotion();
 
 // ---------- 1 · Inhalte aus den Daten rendern ----------
 renderHero();
-renderCrew();
+initCrew();
 renderRouteStats();
 renderRoutePanelDefault();
 renderDays();
@@ -37,6 +40,7 @@ renderAuroraGuide();
 initBudget();
 initPacking();
 initCountdown();
+initDayView();
 
 // ---------- 2 · Smooth Scrolling (Lenis) + ScrollTrigger-Brücke ----------
 if (!reduced) {
@@ -44,6 +48,9 @@ if (!reduced) {
   lenis.on('scroll', ScrollTrigger.update);
   gsap.ticker.add((time) => lenis.raf(time * 1000));
   gsap.ticker.lagSmoothing(0);
+  // Tagesfenster offen → Seite hinter dem Overlay einfrieren
+  window.addEventListener('nordlys:lock', () => lenis.stop());
+  window.addEventListener('nordlys:unlock', () => lenis.start());
 }
 
 // ---------- 3 · Canvas-Himmel ----------

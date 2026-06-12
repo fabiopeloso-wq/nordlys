@@ -5,15 +5,23 @@
   gap: 1.4rem;
 }
 .crew__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
-  padding: 2rem 1.5rem 1.7rem;
+  padding: 2rem 1.5rem 1.35rem;
   background: color-mix(in srgb, var(--night-raised) 45%, transparent);
-  transition: border-color 0.3s, transform 0.3s;
+  transition: border-color 0.3s, background 0.3s;
+  cursor: pointer;
 }
-.crew__card:nth-child(even) { transform: translateY(1.6rem); }
+/* Versatz als Margin statt nth-child-Transform: das Dossier-Panel wandert ins
+   Grid und würde sonst die Parität (und damit das Layout) kippen */
+.crew__card--alt { margin-top: 1.6rem; }
 .crew__card:hover { border-color: var(--aurora-cyan); }
-.crew__card:nth-child(even):hover { transform: translateY(calc(1.6rem - 4px)); }
-.crew__card:nth-child(odd):hover { transform: translateY(-4px); }
+.crew__card.is-open {
+  border-color: transparent;
+  background: linear-gradient(var(--night-raised), var(--night-raised)) padding-box, var(--grad-aurora) border-box;
+}
 
 .crew__avatar {
   width: 76px; height: 76px;
@@ -32,6 +40,11 @@
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+}
+@keyframes crew-ring-spin { to { transform: rotate(1turn); } }
+.crew__card.is-open .crew__avatar::before { animation: crew-ring-spin 7s linear infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .crew__card.is-open .crew__avatar::before { animation: none; }
 }
 .crew__initial {
   font-family: var(--font-display);
@@ -57,14 +70,197 @@
   color: var(--aurora-cyan);
   margin: 0.35rem 0 0.9rem;
 }
-.crew__line { color: var(--ice-dim); font-size: 0.92rem; }
+.crew__line { color: var(--ice-dim); font-size: 0.92rem; margin-bottom: 1.3rem; }
 
+/* Akten-Lasche: macht via ::after die ganze Karte klickbar */
+.crew__open {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+  display: flex; align-items: center; justify-content: space-between; gap: 0.8rem;
+  font-size: 0.68rem; letter-spacing: 0.16em;
+  color: var(--ice-dim);
+  transition: color 0.3s;
+  text-align: left;
+}
+.crew__open::after { content: ''; position: absolute; inset: 0; }
+.crew__card:hover .crew__open { color: var(--aurora-cyan); }
+.crew__open-icon {
+  width: 22px; height: 22px; flex: none;
+  display: grid; place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-size: 0.9rem; line-height: 1;
+  transition: transform 0.35s, border-color 0.3s, color 0.3s;
+}
+.crew__card.is-open .crew__open { color: var(--aurora-cyan); }
+.crew__card.is-open .crew__open-icon {
+  transform: rotate(45deg);
+  border-color: var(--aurora-cyan);
+  color: var(--aurora-cyan);
+}
+
+/* ---- Das Dossier: ein Panel, volle Grid-Breite, hinter der aktiven Karte ---- */
+.crew__dossier {
+  grid-column: 1 / -1;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--night-raised) 72%, transparent), color-mix(in srgb, var(--night) 55%, transparent));
+}
+.crew__dossier[hidden] { display: none; }
+/* Anschluss-Faden von der Oberkante zur Raute — sitzt unter der aktiven Karte */
+.crew__dossier::after {
+  content: '';
+  position: absolute; top: 0; left: var(--notch-x, 50%);
+  height: 18px;
+  border-left: 2px dashed var(--aurora-cyan);
+  transform: translateX(-1px);
+}
+.crew__dossier-notch {
+  position: absolute; z-index: 1;
+  top: 18px; left: var(--notch-x, 50%);
+  width: 10px; height: 10px;
+  transform: translateX(-50%) rotate(45deg);
+  background: var(--night);
+  border: 2px solid var(--aurora-cyan);
+}
+.crew__dossier-inner {
+  position: relative;
+  padding: clamp(2.4rem, 4.5vw, 3.4rem) clamp(1.4rem, 3.4vw, 3rem) clamp(2rem, 3.4vw, 2.8rem);
+}
+/* Riesiges Outline-Monogramm als Wasserzeichen */
+.crew__dossier-mark {
+  position: absolute; top: -0.06em; right: clamp(0.5rem, 3vw, 2.5rem);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(10rem, 24vw, 19rem);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px color-mix(in srgb, var(--ice-dim) 24%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+
+.crew__dossier-head {
+  position: relative;
+  margin-bottom: clamp(1.8rem, 3vw, 2.6rem);
+  padding-right: clamp(0rem, 12vw, 12rem); /* Platz für Wasserzeichen + Stempel */
+}
+.crew__dossier-eyebrow {
+  color: var(--aurora-cyan);
+  margin-bottom: 0.8rem;
+  display: flex; align-items: center; gap: 0.9rem;
+}
+.crew__dossier-eyebrow::after { content: ''; height: 1px; width: 3rem; background: var(--line); }
+.crew__dossier-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 0.9rem;
+}
+.crew__dossier-mandat { color: var(--ice-dim); max-width: 52ch; }
+
+/* Stempel — landet per GSAP-Slam, ruht bei rotate(-8deg) */
+.crew__stamp {
+  position: absolute; top: 0.3rem; right: 0;
+  padding: 0.55rem 1rem;
+  border: 2px solid var(--ember);
+  outline: 1px solid color-mix(in srgb, var(--ember) 55%, transparent);
+  outline-offset: 3px;
+  background: color-mix(in srgb, var(--ember) 9%, transparent);
+  color: var(--ember);
+  font-size: 0.78rem; letter-spacing: 0.24em;
+  white-space: nowrap;
+  transform: rotate(-8deg);
+}
+
+.crew__dossier-cols {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr;
+  gap: clamp(1.6rem, 3vw, 2.6rem);
+  align-items: start;
+}
+.crew__dossier-h {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.68rem; letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ice-dim);
+  padding-bottom: 0.7rem; margin-bottom: 1rem;
+  border-bottom: 1px dashed var(--line);
+}
+
+.crew__duties { display: grid; gap: 1.05rem; list-style: none; }
+.crew__duties li { display: flex; gap: 0.9rem; }
+.crew__duty-no { color: var(--aurora-cyan); font-size: 0.7rem; padding-top: 0.3rem; }
+.crew__duties b { display: block; font-weight: 600; font-size: 0.98rem; }
+.crew__duties div span { color: var(--ice-dim); font-size: 0.9rem; }
+
+.crew__prep { display: grid; gap: 0.65rem; }
+.crew__prep li {
+  display: flex; align-items: center; gap: 0.75rem;
+  font-size: 0.92rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+}
+.crew__prep li::before {
+  content: '';
+  width: 10px; height: 10px; flex: none;
+  border: 1px solid var(--ice-dim);
+}
+.crew__prep em { margin-left: auto; font-style: normal; font-size: 0.62rem; white-space: nowrap; }
+.crew__prep em.is-hot { color: var(--ember); }
+
+.crew__stat {
+  margin-top: 1.4rem;
+  padding: 0.85rem 1rem;
+  border: 1px dashed var(--line);
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+}
+.crew__stat b {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--aurora-green);
+  white-space: nowrap;
+}
+
+/* Ember-Box: was diese Person tut, wenn unterwegs ein Kunde brennt */
+.crew__dossier-col--fire {
+  padding: 1.2rem 1.3rem 1.3rem;
+  border: 1px solid color-mix(in srgb, var(--ember) 45%, transparent);
+  background:
+    radial-gradient(120% 90% at 50% 115%, color-mix(in srgb, var(--ember) 13%, transparent), transparent 60%),
+    color-mix(in srgb, var(--night-raised) 50%, transparent);
+}
+.crew__dossier-col--fire .crew__dossier-h {
+  color: var(--ember);
+  border-color: color-mix(in srgb, var(--ember) 40%, transparent);
+}
+.crew__fire-sub { font-size: 0.62rem; color: color-mix(in srgb, var(--ember) 70%, var(--ice)); margin: -0.5rem 0 0.8rem; }
+.crew__fire-text { font-size: 0.95rem; }
+
+@media (max-width: 1080px) {
+  .crew__dossier-cols { grid-template-columns: 1fr 1fr; }
+  .crew__dossier-col--fire { grid-column: 1 / -1; }
+}
 @media (max-width: 920px) {
   .crew__grid { grid-template-columns: 1fr 1fr; }
 }
+@media (max-width: 720px) {
+  .crew__dossier-cols { grid-template-columns: 1fr; }
+  .crew__dossier-head { padding-right: 0; }
+  .crew__stamp { position: static; display: inline-block; margin-top: 1.1rem; }
+  .crew__dossier-mark { font-size: 8.5rem; right: 0.4rem; }
+}
 @media (max-width: 540px) {
   .crew__grid { grid-template-columns: 1fr; }
-  .crew__card:nth-child(even) { transform: none; }
+  .crew__card--alt { margin-top: 0; }
 }
 
 /* ============ ROUTE ============ */
@@ -155,6 +351,17 @@
   font-size: 0.85rem; color: var(--ice-dim);
 }
 .route__panel-stay b { color: var(--ember); font-weight: 600; }
+.route__panel-open {
+  margin-top: 1.1rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--line);
+  width: 100%;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.68rem; letter-spacing: 0.12em;
+  color: var(--aurora-cyan);
+  transition: color 0.25s;
+}
+.route__panel-open:hover { color: var(--ice); }
 .route__panel-hint { color: var(--ice-dim); font-size: 0.9rem; margin-top: 1rem; }
 .route__legs { display: grid; gap: 1rem; margin-top: 1.4rem; }
 .route__leg { border: 1px dashed var(--line); padding: 1rem 1.1rem; }
@@ -231,8 +438,22 @@
   display: flex; flex-direction: column;
   min-height: 460px;
   transition: border-color 0.3s;
+  cursor: pointer;
 }
 .day-card:hover { border-color: var(--aurora-cyan); }
+.day-card__open {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--line);
+  width: 100%;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.68rem; letter-spacing: 0.12em;
+  color: var(--aurora-cyan);
+  transition: color 0.25s;
+}
+.day-card__open-icon { font-size: 1.05rem; line-height: 1; transition: transform 0.25s; }
+.day-card:hover .day-card__open { color: var(--ice); }
+.day-card:hover .day-card__open-icon { transform: rotate(90deg); }
 .day-card--lofoten { background: linear-gradient(180deg, color-mix(in srgb, var(--aurora-green) 7%, transparent), color-mix(in srgb, var(--night-raised) 40%, transparent) 45%); }
 .day-card__top { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.6rem; }
 .day-card__num {

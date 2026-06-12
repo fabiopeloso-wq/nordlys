@@ -24,7 +24,6 @@ export function initMapLazy() {
 
 async function initMap(container: HTMLElement) {
   const maplibregl = (await import('maplibre-gl')).default;
-  // @ts-expect-error — CSS-Import hat keine Typen, Vite bündelt ihn korrekt
   await import('maplibre-gl/dist/maplibre-gl.css');
   const reduced = prefersReducedMotion();
 

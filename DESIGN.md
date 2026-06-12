@@ -56,6 +56,14 @@ Eine durchgehende, gestrichelte Routenlinie am linken Rand zieht sich vom Ende d
 4. **Timeline-Standardpattern:** Horizontale Scroll-Timeline ist ein bekanntes Muster — gerettet durch Inhalt: riesige Mono-Tagesziffern als echte Sequenz, km-Balken als Mini-Profil, Übernachtungstyp als Symbol. Struktur trägt Information, nicht Dekor.
 5. **Chanel-Regel** (vor Abschluss ein Accessoire entfernen) ist als Polish-Schritt eingeplant.
 
+## 4b · Tagesfenster («Briefing», 06/2026)
+
+Jede Tageskarte (und der Tages-Marker auf der Karte) öffnet ein Vollbild-Overlay: grosses Stimmungsbild des Etappenziels, Tages-Timeline im Faden-Vokabular (gestrichelte Linie + Ticks), Highlight mit Fakten-Tabelle, Plan B (Ember), Übernachtung. ←/→ blättert, Esc schliesst.
+
+- **Overlay statt In-place-Expand:** Das 16-Tage-Band ist gepinnt und gescrubbt — eine Karte im Band aufzuklappen würde die ScrollTrigger-Distanzen brechen. Das Overlay friert die Seite ein (`lenis.stop()` + `html.dv-lock`).
+- **Bilder:** Wikimedia Commons, einmalig via `scripts/fetch-day-images.mjs` (Kandidaten-Kontaktbögen → Auswahl in `day-image-picks.json` → WebP nach `public/img/days/`). Credits pro Bild in `itinerary.json`, verlinkt im Briefing-Fuss. Kein Hotlinking — die Site bleibt offline-tauglich.
+- **Einbettung in Arctic Night:** Fotos leicht entsättigt (`saturate(.88)`), Verlauf ins Panel, Grain-Layer liegt bewusst ÜBER dem Overlay (z-index 85 < 90) — die realen Bilder bekommen dieselbe Körnung wie der Rest der Page.
+
 ## 5 · Technik-Entscheide
 
 Vite + vanilla TypeScript (kein Framework-Overhead für eine scroll-getriebene Page). GSAP + ScrollTrigger, Lenis. Karte: MapLibre GL + CARTO `dark-matter`-Style (keyless, Attribution korrekt), lazy geladen. Aurora: Low-Res-Offscreen-Canvas, additive Blends, DPR-Cap 1.5, IntersectionObserver-Pause, `prefers-reduced-motion` → statisches Bild. Fonts self-hosted via Fontsource. Build rein statisch, `base: './'`.
