@@ -342,7 +342,7 @@
 @media print {
   body { background: #fff; color: #000; font-size: 11pt; }
   .hero, .crew, .route, .days, .rules, .budget, .guide, .footer,
-  .thread, .hud, .grain, .skip-link, .packing__reset, .jump-card { display: none !important; }
+  .thread, .hud, .grain, .skip-link, .packing__reset, .jump-card, .topnav { display: none !important; }
   .packing { padding: 0; }
   .packing .section__eyebrow { color: #000; }
   .packing .section__title, .pack-cat__name { color: #000; }

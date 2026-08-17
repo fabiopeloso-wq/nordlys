@@ -75,10 +75,26 @@ check((await page.locator('[data-fd-total]').textContent()) === `0/${boxes}`, 'R
 await page.locator('.subhero__back').click();
 await page.waitForLoadState('networkidle');
 check(page.url().endsWith('index.html'), 'Zurück-Link führt auf die Hauptseite');
+
+// Der fixe Proviant-Knopf: im Hero da, nach dem Scrollen immer noch da, ohne die HUD zu treffen
+check(await page.locator('.topnav').isVisible(), 'Proviant-Knopf im Hero sichtbar');
+await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight * 0.55));
+await page.waitForTimeout(1500);
+check(await page.locator('.topnav').isVisible(), 'Proviant-Knopf bleibt beim Scrollen sichtbar');
+const [nav, hud] = [await page.locator('.topnav').boundingBox(), await page.locator('.hud').boundingBox()];
+const overlap = nav && hud && !(nav.y + nav.height < hud.y || hud.y + hud.height < nav.y
+  || nav.x + nav.width < hud.x || hud.x + hud.width < nav.x);
+check(!overlap, 'Proviant-Knopf überlappt die HUD nicht');
+await page.screenshot({ path: `${OUT}/prov-topnav.png` });
+
 await page.locator('.jump-card').scrollIntoViewIfNeeded();
 await page.waitForTimeout(1200);
 check(await page.locator('.jump-card').isVisible(), 'Sprungkarte auf der Hauptseite sichtbar');
 await page.locator('.jump-card').screenshot({ path: `${OUT}/prov-jump-card.png` });
+
+await page.locator('.topnav').click();
+await page.waitForLoadState('networkidle');
+check(page.url().endsWith('proviant.html'), 'Proviant-Knopf führt auf die Subseite');
 
 await page.close();
 await browser.close();

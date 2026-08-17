@@ -158,6 +158,32 @@ ul { list-style: none; }
   .thread__tick { font-size: 0; gap: 0; }
 }
 
+/* ============ TOPNAV (Sprung auf die Proviant-Seite) ============ */
+/* Gleiche Sprache wie die HUD, gegenüberliegende Ecke — und unter dem Tagesfenster (z 85). */
+.topnav {
+  position: fixed; top: 1.1rem; right: 1.1rem; z-index: 80;
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.55rem 0.9rem;
+  color: var(--ice-dim);
+  background: color-mix(in srgb, var(--night-raised) 82%, transparent);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+  font-size: 0.7rem;
+  transition: color 0.25s, border-color 0.25s, background 0.25s;
+}
+.topnav:hover {
+  color: var(--ice);
+  border-color: var(--ember);
+  background: var(--night-raised);
+  text-decoration: none;
+}
+.topnav svg { width: 15px; height: 15px; flex: none; stroke: var(--ember); }
+
+@media (max-width: 720px) {
+  .topnav { top: 0.7rem; right: 0.7rem; padding: 0.45rem 0.7rem; font-size: 0.62rem; gap: 0.4rem; }
+  .topnav svg { width: 13px; height: 13px; }
+}
+
 /* ============ HUD (Breitengrad) ============ */
 .hud {
   position: fixed; right: 1.1rem; bottom: 1.1rem; z-index: 80;
