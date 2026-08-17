@@ -6,6 +6,7 @@
 
 import gsap from 'gsap';
 import itinerary from './data/itinerary.json';
+import { mountDayMap } from './dayroute';
 import { STAY_ICONS, STAY_LABELS } from './render';
 import { prefersReducedMotion, shortDate } from './utils';
 
@@ -30,6 +31,10 @@ function contentHtml(d: Day): string {
       </figcaption>
       <p class="dayview__coords mono" aria-hidden="true">${coords}</p>
     </figure>
+    <section class="dayview__map" data-dv-reveal>
+      <h4 class="dayview__h mono">Die Etappe · ${esc(stats)}</h4>
+      <div class="dayview__mapslot" data-dv-map aria-label="Karte der Tagesetappe: ${esc(d.route)}"></div>
+    </section>
     <div class="dayview__body">
       <section class="dayview__col" data-dv-reveal>
         <h4 class="dayview__h mono">So könnte der Tag laufen</h4>
@@ -110,6 +115,8 @@ export function initDayView() {
     root.setAttribute('aria-label', `Briefing Tag ${d.day} — ${d.title}`);
     content.querySelector('[data-dv-prev]')!.addEventListener('click', () => goto(day - 1));
     content.querySelector('[data-dv-next]')!.addEventListener('click', () => goto(day + 1));
+    const mapSlot = content.querySelector<HTMLElement>('[data-dv-map]');
+    if (mapSlot) mountDayMap(mapSlot, day);
     preloadNeighbours(day);
   }
 
