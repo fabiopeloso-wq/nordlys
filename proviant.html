@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NORDLYS — Proviant · Menüplan &amp; Einkaufsliste</title>
+  <meta name="description" content="Der Verpflegungsplan für 16 Tage Uster → Lofoten: Menü Tag für Tag, neun Einkäufe von Hamburg bis Göteborg und die komplette Einkaufsliste zum Abhaken." />
+  <meta property="og:title" content="NORDLYS — Proviant" />
+  <meta property="og:description" content="12 Abende am Kocher, 9 Einkäufe, eine passive Kühlbox. Menüplan und Einkaufsliste für 4 Mann." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./og.jpg" />
+  <meta name="theme-color" content="#0A101E" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+</head>
+<body class="page-food">
+  <a class="skip-link" href="#menue">Zum Inhalt springen</a>
+
+  <header class="subhero">
+    <div class="container">
+      <a class="subhero__back mono" href="./index.html">← Zurück zur Reise</a>
+      <p class="subhero__kicker mono mono--ember">08 · Die Feldküche</p>
+      <h1 class="subhero__title">Proviant</h1>
+      <p class="subhero__lead">Zwei Kocher, eine passive Kühlbox, kein Feuer und keine Dachbox. Was das Menü angeht, ist damit fast alles entschieden — hier steht, was es gibt, wo es herkommt und was in den Wagen passt.</p>
+      <p class="subhero__meta mono" data-food-stand></p>
+      <div class="food-stats" data-render="food-stats"></div>
+      <nav class="subhero__nav mono" aria-label="Auf dieser Seite">
+        <a href="#menue">Menü</a>
+        <a href="#einkauf">Einkäufe</a>
+        <a href="#listen">Einkaufsliste</a>
+        <a href="#kueche">Küche</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- REGELN -->
+    <section class="section food-section" id="regeln" aria-labelledby="food-rules-title">
+      <div class="container">
+        <p class="section__eyebrow mono">Die Ausgangslage</p>
+        <h2 class="section__title" id="food-rules-title">Drei Regeln</h2>
+        <p class="section__lead">Sie stehen vor dem Menü, weil sie das Menü bestimmen — nicht umgekehrt.</p>
+        <div class="food-rules" data-render="food-rules"></div>
+      </div>
+    </section>
+
+    <!-- MENÜ -->
+    <section class="section food-section" id="menue" aria-labelledby="food-menu-title">
+      <div class="container">
+        <p class="section__eyebrow mono">Tag für Tag</p>
+        <h2 class="section__title" id="food-menu-title">Das Menü</h2>
+        <p class="section__lead">Abgestimmt auf die echten Ankunftszeiten: späte Ankunft heisst haltbares Ein-Topf-Essen, Campingplatz heisst das schönere Kochen. Frisches Fleisch wird immer am Einkaufstag oder am Tag danach gekocht.</p>
+        <div class="menu-days" data-render="food-days"></div>
+        <div class="food-cards" data-render="food-meals"></div>
+      </div>
+    </section>
+
+    <!-- EINKÄUFE -->
+    <section class="section food-section" id="einkauf" aria-labelledby="food-shops-title">
+      <div class="container">
+        <p class="section__eyebrow mono">Die Kaskade</p>
+        <h2 class="section__title" id="food-shops-title">Neun Einkäufe</h2>
+        <p class="section__lead">Jeder Stopp hängt an einem Zeitpunkt, der ohnehin im Tagesplan steht. Nach Luleå wird es teuer, ab Narvik wird nur noch gefüllt, was fehlt.</p>
+        <div class="shop-cards" data-render="food-shops"></div>
+      </div>
+    </section>
+
+    <!-- EINKAUFSLISTE -->
+    <section class="section food-section food-section--lists" id="listen" aria-labelledby="food-lists-title">
+      <div class="container">
+        <p class="section__eyebrow mono mono--ember">Zum Abhaken</p>
+        <h2 class="section__title" id="food-lists-title">Einkaufsliste</h2>
+        <p class="section__lead">Häkchen bleiben im Browser gespeichert — Michi hakt in Harburg ab, der Rest sieht in Malmö, was noch fehlt. <b>Ctrl+P</b> druckt nur Menü und Listen.</p>
+        <div data-render="food-lists"></div>
+      </div>
+    </section>
+
+    <!-- KÜCHE -->
+    <section class="section food-section" id="kueche" aria-labelledby="food-kitchen-title">
+      <div class="container">
+        <p class="section__eyebrow mono">Betrieb</p>
+        <h2 class="section__title" id="food-kitchen-title">Kühlbox &amp; Kocher</h2>
+        <p class="section__lead">Die Regeln, die den Plan tragen. Wer sie bricht, kocht am Tag 6 mit Hackfleisch von Tag 3.</p>
+        <div class="food-cards" data-render="food-kitchen"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__label mono">Zurück an Bord</p>
+      <p class="footer__coords"><a href="./index.html">NORDLYS</a></p>
+      <p class="footer__place mono">Uster → Lofoten · 16 Tage · 4 Mann</p>
+      <div class="footer__meta">
+        <p>Proviantplan — Ressort Michi, Küchenchef.</p>
+        <p class="footer__credits">Recherche Stand 06/2026 · Menü abgeglichen mit dem Tagesplan (Stand 17.08.2026) · Kein Tracking, keine Cookies — nur localStorage für Packliste und Einkaufsliste.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script type="module" src="/src/proviant.ts"></script>
+</body>
+</html>

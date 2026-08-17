@@ -1,9 +1,10 @@
 # NORDLYS
 
 Interaktive Roadtrip-Experience: **Uster → Lofoten · 16 Tage · 4 Mann · 1 Stelvio.**
-Eine statische Single-Page mit animierter Aurora, interaktiver Routenkarte, 16-Tage-Plan,
-Wildcamp-Regeln, Budget-Rechner, Aurora-Guide und Packliste. Alle Inhalte basieren auf
-Recherche mit Quellen (Stand 06/2026) — siehe `research/findings.md`.
+Eine statische Site mit animierter Aurora, interaktiver Routenkarte, 16-Tage-Plan,
+Wildcamp-Regeln, Budget-Rechner, Aurora-Guide, Packliste — und dem Proviantplan auf einer
+eigenen Subseite. Alle Inhalte basieren auf Recherche mit Quellen (Stand 06/2026) —
+siehe `research/findings.md` und `research/nordlys-food-plan.md`.
 
 ## Lokal starten
 
@@ -37,6 +38,7 @@ Alles andere (Fonts, Daten, Animationen) ist im Build enthalten.
 | Budget-Annahmen (mit Quellen) | `src/data/budget.json` |
 | Aurora-Wissen | `src/data/aurora.json` |
 | Packliste | `src/data/packing.json` |
+| Menüplan & Einkaufslisten | `src/data/food.json` |
 
 Nach jeder Änderung: `npm run build` und `dist/` neu hochladen.
 UI und Daten sind strikt getrennt — die JSON-Files sind die Single Source of Truth.
@@ -82,7 +84,17 @@ node scripts/fetch-route.mjs
 - **Budget-Rechner**: alle Annahmen editierbar, Quellen als Tooltip, SVG-Balken, CHF pro Person.
 - **Packliste**: Häkchen bleiben im Browser gespeichert (`localStorage`, Namespace `nordlys:`),
   Fortschritt pro Kategorie, Print-Stylesheet (`Ctrl+P` druckt nur die Packliste).
+- **Proviant** (`proviant.html`): eigene Subseite mit Menü Tag für Tag, der Einkaufs-Kaskade
+  (9 Stopps) und den Einkaufslisten zum Abhaken — gleiche Persistenz wie die Packliste,
+  eigener Print-Stylesheet (druckt Menü + Listen). Bewusst ohne Karte, GSAP und Lenis:
+  ~25 kB JS, damit die Liste auch im Laden mit schlechtem Empfang sofort steht.
 - **Easter Egg**: 5× auf den Polarstern im Footer klicken.
+
+## Zwei Seiten
+
+Der Build ist Multi-Page (`vite.config.ts` → `rollupOptions.input`): `index.html` (die Reise)
+und `proviant.html` (Menüplan & Einkaufsliste). Beim Deployen wandert wie bisher der ganze
+Inhalt von `dist/` auf die Subdomain — beide HTML-Dateien liegen dort nebeneinander.
 
 ## Selbst-Review (optional)
 
@@ -90,6 +102,7 @@ node scripts/fetch-route.mjs
 npm run preview                 # serviert dist/ auf Port 4173
 node scripts/review.mjs         # Screenshots aller Sektionen (1440 px + 390 px) nach review/
 node scripts/interact.mjs       # Interaktions-Smoke-Test (Karte, Budget, Packliste, Easter Egg)
+node scripts/proviant-check.mjs # Proviant-Seite: Screenshots + Smoke-Test der Einkaufsliste
 ```
 
 ## Stack

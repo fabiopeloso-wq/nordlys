@@ -26,7 +26,7 @@
         { "id": "feuerzeug", "label": "Feuerzeuge + Sturmstreichhölzer" },
         { "id": "kanister", "label": "Wasserkanister 10–15 l (Tankstellen füllen gratis)" },
         { "id": "filter", "label": "Wasserfilter als Backup (Bäche)" },
-        { "id": "kuehlbox", "label": "Kühlbox (12 V) für den Grosseinkauf" },
+        { "id": "kuehlbox", "label": "Passive Kühlbox + 4 Kühlakkus — Eis wird unterwegs nachgekauft" },
         { "id": "muell", "label": "Mülltüten — alles geht wieder mit" },
         { "id": "spuelzeug", "label": "Spülzeug (biologisch abbaubar, nie in Bäche)" }
       ]

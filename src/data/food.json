@@ -1,0 +1,453 @@
+{
+  "stand": "2026-08-17",
+  "setup": "Zwei Gaskocher, passive Kühlbox mit Eis und Kühlakkus, keine Dachbox. Tag 1 Hotel Hamburg, Tag 2 Bungalow Stockholm, danach Wildcamp mit drei Campingplatz-Nächten.",
+  "rules": [
+    {
+      "title": "Nicht «alles in Hamburg» — «alles vor Narvik»",
+      "text": "Norwegen liegt bei rund +30 % gegenüber Deutschland, Schweden aber nur bei +5 %. Der Grosseinkauf auf Hamburg und Malmö zu verteilen kostet fast nichts und hält das Auto beladbar. Ab Narvik wird nur noch gefüllt, was fehlt."
+    },
+    {
+      "title": "Passive Kühlbox heisst: gleicher Tag oder morgen",
+      "text": "Jedes Essen mit frischem Fleisch oder Fisch wird am Einkaufstag oder am Tag danach gekocht — Hackfleisch aus Luleå am selben Abend, Poulet aus Narvik nach sechs Stunden, Kabeljau und Lachs taggleich. Ein dritter Tag ist nicht vorgesehen, also auch nicht improvisieren."
+    },
+    {
+      "title": "Das Feuer fällt aus",
+      "text": "In Norwegen gilt vom 15.04. bis 15.09. das Feuerverbot in Waldnähe — das ist die komplette Norwegen-Etappe. In Schweden können lokale eldningsförbud dazukommen, und der Platz von Tag 2 liegt im Naturreservat. Jedes Essen hier funktioniert in der Pfanne; eine Grillstelle ist Bonus, nie Voraussetzung."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-24",
+      "place": "Hamburg · Hotel",
+      "meal": "Auswärts essen",
+      "type": "auswaerts",
+      "note": "Letztes günstiges Restaurant-Essen der Reise. Vorher um 17:00 der Grosseinkauf in Harburg."
+    },
+    {
+      "day": 2,
+      "date": "2026-08-25",
+      "place": "Bungalow Stockholm · Ankunft 21:30",
+      "meal": "One-Pot-Chorizo-Pasta",
+      "type": "kocher",
+      "note": "1020 km im Kreuz. 20 Minuten, ein Topf, komplett haltbar aus Einkauf 1 — nichts einkaufen, nichts auftauen, niemand muss um 22:00 noch denken."
+    },
+    {
+      "day": 3,
+      "date": "2026-08-26",
+      "place": "Wildcamp Skuleberget · Ankunft 19:00",
+      "meal": "Grillkorv, Kartoffelsalat, Brot",
+      "type": "kocher",
+      "fire": true,
+      "note": "Erste Zeltnacht, entspannter 510-km-Tag. Die Würste kommen aus Malmö von gestern — 29 Stunden in der Kühlbox, das geht. Pfanne, und wenn eine Grillstelle da ist: Grillstelle."
+    },
+    {
+      "day": 4,
+      "date": "2026-08-27",
+      "place": "Wildcamp Torneträsk · Ankunft 17:30",
+      "meal": "Chili con carne + Reis",
+      "type": "kocher",
+      "note": "750 km, ein Topf, Reis auf Kocher 2. Das Hackfleisch ist von heute Morgen aus Luleå — acht Stunden alt. Deftig, denn um 02:00 klingelt der Wecker für die Mondfinsternis."
+    },
+    {
+      "day": 5,
+      "date": "2026-08-28",
+      "place": "Svolvær · Wildcamp Austvågøy",
+      "meal": "Rotes Curry + Reis",
+      "type": "kocher",
+      "note": "Das «Wir sind da»-Essen. Poulet aus Narvik von 12:30, Kokosmilch und Currypaste sind haltbar — das Frische ist sechs Stunden alt."
+    },
+    {
+      "day": 6,
+      "date": "2026-08-29",
+      "place": "Camp Gimsøya / Eggum",
+      "meal": "Pyttipanna",
+      "type": "kocher",
+      "note": "Kartoffeln, Zwiebeln und Wurst in der grossen Pfanne, Spiegeleier auf Kocher 2. Früh fertig sein — um 22:00 beginnt die erste Aurora-Wache."
+    },
+    {
+      "day": 7,
+      "date": "2026-08-30",
+      "place": "Zeltwiese Uttakleiv",
+      "meal": "Frischer Kabeljau, Salzkartoffeln, Butter",
+      "type": "kocher",
+      "fire": true,
+      "note": "Duschtag, richtiger Platz, Fischtheke in Leknes auf dem Weg. Das einfachste Essen der Reise und das beste — Butter, Salz, fertig."
+    },
+    {
+      "day": 8,
+      "date": "2026-08-31",
+      "place": "Kvalvika Beach · alles auf dem Rücken",
+      "meal": "Couscous mit Thon, Salami und getrockneten Tomaten",
+      "type": "trage",
+      "note": "Über den Ryten (543 m) rauf und zum Strand runter — kein Auto, keine Kühlbox. Couscous braucht nur aufgegossenes Wasser statt Köcheln: minimal Gas, minimal Wasser, ein Topf."
+    },
+    {
+      "day": 9,
+      "date": "2026-09-01",
+      "place": "Moskenes Camping",
+      "meal": "Lachs aus der Pfanne, Kartoffeln, Zitrone",
+      "type": "kocher",
+      "fire": true,
+      "note": "Lachs heute in Reine gekauft. Campingplatz mit Strom und Dusche — und fünf Minuten zur Fähre von morgen früh."
+    },
+    {
+      "day": 10,
+      "date": "2026-09-02",
+      "place": "Wildcamp Helgeland · 66° N",
+      "meal": "One-Pot-Jambalaya",
+      "type": "kocher",
+      "note": "Fähre um 07:00, Saltstraumen, 320 km E6. Reis direkt in den Tomaten mit Kabanossi, Mais und Paprika — komplett haltbar, null Kühlbox am längsten Logistik-Tag."
+    },
+    {
+      "day": 11,
+      "date": "2026-09-03",
+      "place": "Trondheim",
+      "meal": "Auswärts — die eine Restaurant-Belohnung",
+      "type": "auswaerts",
+      "note": "Steht schon im Tagesplan: 19:00 Stadtessen. Heute bleibt die Kiste zu."
+    },
+    {
+      "day": 12,
+      "date": "2026-09-04",
+      "place": "Camping Region Molde",
+      "meal": "Carbonara, Camping-Art",
+      "type": "kocher",
+      "fire": true,
+      "note": "Spaghetti, Speck, Eier, Parmesan — gestern in Trondheim gekauft. Platz mit Dusche, Ankunft schon um 17:00, die Wäsche läuft nebenher."
+    },
+    {
+      "day": 13,
+      "date": "2026-09-05",
+      "place": "Wildcamp Bøverdalen · Ankunft 19:30",
+      "meal": "Gnocchi aus der Pfanne mit Speck und Rahm",
+      "type": "kocher",
+      "note": "Vakuum-Gnocchi direkt in die Pfanne, kein Kochwasser, 15 Minuten. Heute ist der dunkelste Himmel der Reise und die letzte Aurora-Chance — ihr wollt draussen stehen, nicht am Kocher."
+    },
+    {
+      "day": 14,
+      "date": "2026-09-06",
+      "place": "Wildcamp Halland · Ankunft 18:30",
+      "meal": "Fajita-Wraps + Kühlbox leeren",
+      "type": "kocher",
+      "note": "660 km, aber der schwedische Einkauf liegt um 15:00 auf dem Weg — günstiges Poulet, günstige Peperoni. Eine Pfanne, und alles rein, was noch übrig ist."
+    },
+    {
+      "day": 15,
+      "date": "2026-09-07",
+      "place": "Rastplatz bei Hamburg · Nacht im Auto",
+      "meal": "Fähren-Hotdog + kalte Reste",
+      "type": "auswaerts",
+      "note": "Der Hotdog auf der 14:30-Überfahrt ist Tradition. Deutschland duldet eine Nacht im Auto nur ohne «Campingverhalten» — zwei Kocher neben dem Auto sind exakt das. Heute bleibt das Gas aus."
+    },
+    {
+      "day": 16,
+      "date": "2026-09-08",
+      "place": "Uster",
+      "meal": "Tankstelle oder daheim",
+      "type": "auswaerts",
+      "note": "Ihr habt es euch verdient."
+    }
+  ],
+  "meals": {
+    "breakfast": {
+      "title": "Frühstück",
+      "text": "Drei Varianten im Wechsel, nach Laune und nach Abfahrtszeit.",
+      "items": [
+        "A · Porridge — Haferflocken mit H-Milch, Honig, Rosinen, Banane. Ein Topf, heiss, billig.",
+        "B · Brottag — Brot oder Knäckebrot mit Butter, Käse, Salami, Konfi, Nutella, Erdnussbutter.",
+        "C · Eier — Rührei mit Speck und Brot, innerhalb von zwei Tagen nach einem Einkauf.",
+        "Immer: Kaffee aus der Bialetti und Tee."
+      ],
+      "note": "Feste Ausnahmen: Tag 2 Hotelbuffet ab 07:00 · Tag 9 kalt am Strand, das richtige Frühstück gibt es um 09:30 in Reine · Tag 10 fährt die Fähre um 07:00 — kalt in der Warteschlange um 06:15 oder an Bord · Tag 16 Rastplatz."
+    },
+    "lunch": {
+      "title": "Mittag",
+      "text": "Kalt aus der Kühlbox, am Rastplatz, rund 13-mal.",
+      "items": [
+        "Sandwiches und Wraps mit Salami, Hartkäse, Thon-Mayo, Gurke, Tomate, Senf.",
+        "Knäckebrot mit Makrele in Tomatensauce — skandinavischer Klassiker, spottbillig.",
+        "Tassensuppe oder Instant-Nudeln als heisses Backup an kalten Tagen: Wasser kochen, fertig.",
+        "Früchte, Nüsse, Schokolade."
+      ]
+    },
+    "reserve": {
+      "title": "Reserve-Essen",
+      "text": "Zwei bis drei davon immer an Bord — für Regen, Erschöpfung oder einen Laden, der zu hat.",
+      "items": [
+        "Instant-Nudeln mit Ei",
+        "Tortellini mit Pesto und Parmesan",
+        "Mac & Cheese",
+        "Tomatensuppe mit Käsetoast aus der Pfanne"
+      ],
+      "note": "Die Lofoten haben 15+ Regentage pro Monat. Ihr braucht mindestens eines davon."
+    }
+  },
+  "carry": {
+    "title": "Tragetag — Tag 8, Kvalvika",
+    "text": "Die einzige Nacht ohne Auto und ohne Kühlbox. Rauf über den Ryten mit Zeltzeug, Nacht am Strand, vor Sonnenaufgang wieder raus.",
+    "items": [
+      "Couscous 400 g, 1 Dose Thon, Salami-Endstück, getrocknete Tomaten, Bouillonwürfel, Olivenöl im kleinen Fläschchen",
+      "2 Instant-Nudeln als Notfall",
+      "Wasser hochtragen — auf einen Bach am Strand nicht zählen",
+      "Frühstück für Tag 9 gehört mit hoch: Riegel und Knäckebrot, oder Haferflocken kalt",
+      "Eine kleine Kartusche reicht — es wird nur Wasser gekocht"
+    ],
+    "warn": "Zeitfalle: Tag 9 startet um 06:30 am Reinebringen, ihr wacht aber am Kvalvika-Strand auf. Das sind 1–1.5 h Rückweg plus 30 min Fahrt — also Abmarsch gegen 04:30."
+  },
+  "shops": [
+    { "n": 1, "day": "Tag 1 · 17:00", "where": "Lidl/Aldi Hamburg-Harburg", "what": "Haltbare Basis und Non-Food. Bewusst nicht alles — der Rest kommt in Malmö dazu.", "list": "e1" },
+    { "n": 2, "day": "Tag 2 · 14:00", "where": "Kurz hinter Malmö · Lidl/Willys", "what": "Zweite Hälfte der Basis und Frisches für Tag 2–4. Grillkorv für morgen.", "list": "e2" },
+    { "n": 3, "day": "Tag 4 · ~10:45", "where": "Luleå · Willys/Coop", "what": "Letzter günstiger Einkauf der Reise. Danach beginnt Norwegen — auch preislich.", "list": "e3", "accent": true },
+    { "n": 4, "day": "Tag 5 · 12:30", "where": "Narvik · Rema 1000", "what": "Günstigstes Norwegen, das ihr sehen werdet. Poulet für heute Abend, Wurst für morgen.", "list": "e4" },
+    { "n": 5, "day": "Tag 7", "where": "Leknes · Coop Prix / Rema", "what": "Der Fisch-Einkauf: frischer Kabeljau an der Theke.", "list": "e5" },
+    { "n": 6, "day": "Tag 9", "where": "Reine / Leknes", "what": "Lachs für heute Abend. Danach ist eine Weile keine richtige Küche mehr.", "list": "e6" },
+    { "n": 7, "day": "Tag 10 · 10:30", "where": "Bodø", "what": "Steht schon im Tagesplan: tanken und Proviant. Vor allem Eis.", "list": "e7" },
+    { "n": 8, "day": "Tag 11", "where": "Trondheim · Rema 1000", "what": "Trägt bis Schweden — Speck, Eier, Rahm für die letzten Kochabende.", "list": "e8" },
+    { "n": 9, "day": "Tag 14 · ~15:00", "where": "Svinesund / Göteborg", "what": "Zurück in Schweden, wieder günstig. Letzter Einkauf der Reise.", "list": "e9" }
+  ],
+  "lists": [
+    {
+      "id": "e1",
+      "name": "Einkauf 1 — Hamburg",
+      "when": "Tag 1 · 17:00 · Lidl/Aldi Harburg",
+      "intro": "Mengen für 12 gekochte Abendessen, ~14 Frühstücke und ~13 Mittagessen zu viert. Pasta 150 g pro Person, Reis 100 g trocken pro Person.",
+      "groups": [
+        {
+          "name": "Kohlenhydrate & Basis",
+          "items": [
+            { "id": "penne", "label": "Penne oder Fusilli — 2 × 500 g" },
+            { "id": "spaghetti", "label": "Spaghetti — 2 × 500 g" },
+            { "id": "reis", "label": "Reis — 1.5 kg" },
+            { "id": "gnocchi", "label": "Gnocchi vakuumiert — 2 × 500 g (haltbar, kein Kochwasser)" },
+            { "id": "couscous", "label": "Couscous — 500 g", "note": "Tag 8, Tragetag — nicht vergessen" },
+            { "id": "hafer", "label": "Haferflocken — 1.5 kg" },
+            { "id": "tortellini", "label": "Tortellini getrocknet — 1 × 500 g (Reserve-Abend)" },
+            { "id": "instant", "label": "Instant-Nudeln — 6 Packungen" },
+            { "id": "suppen", "label": "Mac & Cheese / Tassensuppen — 4" },
+            { "id": "knaecke", "label": "Knäckebrot — 3 Packungen" },
+            { "id": "wraps", "label": "Wraps — 3 Packungen (Tag 14 + Mittagessen)" }
+          ]
+        },
+        {
+          "name": "Konserven & Gläser",
+          "items": [
+            { "id": "pelati", "label": "Pelati / gehackte Tomaten — 6 Dosen" },
+            { "id": "mark", "label": "Tomatenmark — 1 Tube" },
+            { "id": "bohnen", "label": "Kidneybohnen — 3 Dosen" },
+            { "id": "mais", "label": "Mais — 3 Dosen" },
+            { "id": "kicher", "label": "Kichererbsen — 1 Dose" },
+            { "id": "kokos", "label": "Kokosmilch — 2 Dosen" },
+            { "id": "thon", "label": "Thon — 6 Dosen" },
+            { "id": "makrele", "label": "Makrele in Tomatensauce — 3 Dosen" },
+            { "id": "pesto", "label": "Pesto — 1 Glas" },
+            { "id": "oliven", "label": "Oliven — 1 Glas · Essiggurken — 1 Glas" },
+            { "id": "trockentomaten", "label": "Getrocknete Tomaten — 1 kleines Glas", "note": "Tag 8" }
+          ],
+          "note": "Rund 25 Dosen ≈ 9 kg. Das ist die Obergrenze, nicht der Richtwert."
+        },
+        {
+          "name": "Würzkiste (eine kleine Box)",
+          "items": [
+            { "id": "oel", "label": "Olivenöl 1 l + ein 100-ml-Fläschchen für Kvalvika" },
+            { "id": "salz", "label": "Salz, Pfeffer" },
+            { "id": "gewuerze", "label": "Paprika, Chiliflocken, Kreuzkümmel, Currypulver" },
+            { "id": "fajita", "label": "Fajita-Gewürz — 2 Beutel" },
+            { "id": "currypaste", "label": "Rote Currypaste — 1 Glas" },
+            { "id": "bouillon", "label": "Bouillonwürfel — 12" },
+            { "id": "knoblauch", "label": "Knoblauch — 2 Knollen · Zwiebeln — 1 kg" },
+            { "id": "saucen", "label": "Senf, Ketchup, Mayo (klein)" },
+            { "id": "zucker", "label": "Zucker, Honig, Zitronensaft" }
+          ]
+        },
+        {
+          "name": "Frühstück & Aufstrich",
+          "items": [
+            { "id": "hmilch", "label": "H-Milch — 4 × 1 l", "note": "Rest in Schweden nachkaufen, Milch ist schwer" },
+            { "id": "kaffee", "label": "Kaffee gemahlen für die Bialetti + Instant als Backup" },
+            { "id": "tee", "label": "Tee — 1 Schachtel" },
+            { "id": "aufstrich", "label": "Konfitüre, Nutella, Erdnussbutter — je 1" },
+            { "id": "rosinen", "label": "Rosinen — 500 g" }
+          ]
+        },
+        {
+          "name": "Wurst & Käse — die Kühlbox-MVPs",
+          "items": [
+            { "id": "chorizo", "label": "Chorizo — 2 Ringe", "note": "Tag 2 + Znüni" },
+            { "id": "kabanossi", "label": "Kabanossi — 2 Packungen", "note": "Tag 10 + Znüni" },
+            { "id": "salami", "label": "Salami — 3 Stangen" },
+            { "id": "hartkaese", "label": "Hartkäse am Stück (Bergkäse/Gouda) — 1.2 kg" },
+            { "id": "parmesan", "label": "Parmesan — 1 Stück" },
+            { "id": "speck", "label": "Speck vakuumiert — 2 Packungen", "note": "die dritte kommt in Trondheim" }
+          ],
+          "note": "Keine Bratwurst hier — Grillkorv gibt es bei Einkauf 2 für Tag 3. Mit passiver Kühlbox sind 48 Stunden zu lang, 29 sind es nicht."
+        },
+        {
+          "name": "Snacks",
+          "items": [
+            { "id": "nuesse", "label": "Nüsse gemischt — 750 g" },
+            { "id": "schoggi", "label": "Schokolade — 8 Tafeln" },
+            { "id": "riegel", "label": "Müsliriegel — 24", "note": "Tag 8 und 9 hängen daran" },
+            { "id": "trockenfruechte", "label": "Trockenfrüchte — 500 g" },
+            { "id": "chips", "label": "Chips — 3 · Guetzli — 2" },
+            { "id": "sirup", "label": "Sirup — 2 Flaschen" }
+          ]
+        },
+        {
+          "name": "Non-Food — hier am günstigsten",
+          "items": [
+            { "id": "gas", "label": "Gaskartuschen — 4 Reserve, EN417-Schraubgewinde", "note": "mit den 4 gepackten sind das 8. Zwei Kocher × 12 Abendessen + Kaffee + Abwaschwasser + Wind auf 68° N frisst mehr als gedacht" },
+            { "id": "folie", "label": "Alufolie — 2 Rollen" },
+            { "id": "zipbeutel", "label": "Zipbeutel + 2 Tupperware" },
+            { "id": "muell", "label": "Müllsäcke, Haushaltspapier — reichlich" },
+            { "id": "abwasch", "label": "Abwaschmittel (biologisch abbaubar), Schwamm, Tuch" },
+            { "id": "feuerzeug", "label": "Feuerzeuge × 3, Streichhölzer" },
+            { "id": "akkus", "label": "Kühlakkus × 4" },
+            { "id": "eierbox", "label": "Eierbox mit Hartschale", "note": "20 Eier im Kofferraum ohne Dachbox sind sonst 20 kaputte Eier" }
+          ],
+          "note": "Wasserkanister stehen schon auf der Packliste — nicht doppelt kaufen. Kein Mehl und keine Hefe: Stockbrot braucht ein Feuer, das ihr nicht anzünden dürft."
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "name": "Einkauf 2 — Malmö",
+      "when": "Tag 2 · 14:00 · kurz hinter der Öresundbrücke",
+      "groups": [
+        {
+          "items": [
+            { "id": "korv", "label": "Grillkorv — 12 Stück", "note": "Tag 3" },
+            { "id": "brot", "label": "Brot × 2, Butter" },
+            { "id": "eier", "label": "Eier × 20 — in die Hartschalenbox" },
+            { "id": "kartoffeln", "label": "Kartoffeln 2 kg, Gurke, Tomaten, Äpfel, Bananen" },
+            { "id": "rest", "label": "Zweite Hälfte der Dosen und Trockenware, falls das Auto Einkauf 1 nicht ganz geschluckt hat" },
+            { "id": "milch", "label": "H-Milch nachfüllen" },
+            { "id": "eis", "label": "Sack Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "name": "Einkauf 3 — Luleå",
+      "when": "Tag 4 · ~10:45 · 45 min vor Töre",
+      "intro": "Der letzte Einkauf zu nicht-norwegischen Preisen. Was hier fehlt, kostet ab morgen ein Drittel mehr.",
+      "groups": [
+        {
+          "items": [
+            { "id": "hack", "label": "Hackfleisch 800 g", "note": "Chili heute Abend" },
+            { "id": "brot", "label": "Brot × 2, Früchte, Kartoffeln" },
+            { "id": "nachschub", "label": "Alles auffüllen, was zur Neige geht — Milch, Kaffee, Snacks" },
+            { "id": "eis", "label": "Sack Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "name": "Einkauf 4 — Narvik",
+      "when": "Tag 5 · 12:30 · Rema 1000",
+      "groups": [
+        {
+          "items": [
+            { "id": "poulet", "label": "Poulet 800 g", "note": "Curry heute Abend" },
+            { "id": "wurst", "label": "Wurst für die Pyttipanna, Kartoffeln, Zwiebeln", "note": "Tag 6" },
+            { "id": "brot", "label": "Brot, Milch, Butter" },
+            { "id": "eis", "label": "Sack Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "name": "Einkauf 5 — Leknes",
+      "when": "Tag 7 · Coop Prix / Rema",
+      "groups": [
+        {
+          "items": [
+            { "id": "kabeljau", "label": "Frischer Kabeljau ~1 kg — Fischtheke oder Hafen" },
+            { "id": "kartoffeln", "label": "Kartoffeln 2 kg, Gemüse" },
+            { "id": "brot", "label": "Brot, Butter, Milch" },
+            { "id": "eis", "label": "Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "name": "Einkauf 6 — Reine",
+      "when": "Tag 9 · Reine oder Leknes",
+      "groups": [
+        {
+          "items": [
+            { "id": "lachs", "label": "Lachs ~800 g, Zitrone" },
+            { "id": "brot", "label": "Brot" },
+            { "id": "eis", "label": "Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "name": "Einkauf 7 — Bodø",
+      "when": "Tag 10 · 10:30 · nach der Fähre",
+      "groups": [
+        {
+          "items": [
+            { "id": "brot", "label": "Brot, Früchte, Snacks, Milch" },
+            { "id": "eis", "label": "Eis — die Box ist seit Uttakleiv nicht mehr richtig kalt geworden" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "name": "Einkauf 8 — Trondheim",
+      "when": "Tag 11 · Rema 1000",
+      "groups": [
+        {
+          "items": [
+            { "id": "eier", "label": "Eier, Speck (dritte Packung), Parmesan falls knapp" },
+            { "id": "rahm", "label": "Kleiner Rahm", "note": "Tag 13, Gnocchi" },
+            { "id": "brot", "label": "Brot, Gemüse" },
+            { "id": "eis", "label": "Eis" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "name": "Einkauf 9 — Svinesund",
+      "when": "Tag 14 · ~15:00 · zurück in Schweden",
+      "groups": [
+        {
+          "items": [
+            { "id": "poulet", "label": "Poulet 800 g, Peperoni, Zwiebeln", "note": "Fajitas heute Abend" },
+            { "id": "brot", "label": "Brot, Käse, Snacks für die letzten zwei Tage" }
+          ]
+        }
+      ]
+    }
+  ],
+  "cooler": {
+    "title": "Kühlbox-Regeln",
+    "text": "Passiv, mit Eis und Akkus — mehr habt ihr nicht.",
+    "items": [
+      "Frisches Fleisch und Fisch: gleicher Tag oder Tag danach. Jedes Essen im Menü ist so gebaut — improvisiert keinen dritten Tag dazu.",
+      "Gepökeltes und Getrocknetes (Chorizo, Kabanossi, Salami, Hartkäse, Vakuum-Speck) ist das Rückgrat und hält über eine Woche.",
+      "Bei jedem Einkauf einen Sack Eis mitnehmen. Kühlakkus neu einfrieren geht nur in Moskenes (Tag 9) und Molde (Tag 12) — Uttakleiv ist eine Zeltwiese ohne Tiefkühler.",
+      "Gefrorenes Fleisch aus dem Laden ist ein zusätzlicher Kühlakku und kauft einen Tag Reserve.",
+      "Eier, Butter, ungeöffnete H-Milch und Gemüse gehören nicht in die Box. Die Box ist für rohes Fleisch, Fisch und geöffnete Milchprodukte.",
+      "Im Schatten parkieren, selten öffnen, in den Fussraum statt in den aufgeheizten Kofferraum."
+    ]
+  },
+  "burners": {
+    "title": "Zwei Kocher",
+    "items": [
+      "Kocher 1 ist der Haupttopf, Kocher 2 macht Reis, Kartoffeln und Wasser für Kaffee und Abwasch.",
+      "Ein-Kocher-Abende (Gnocchi, Jambalaya, Couscous, Instant) sind die Windabende.",
+      "Windschutz aufstellen oder aus Alufolie bauen — Wind verdoppelt den Gasverbrauch auf 68° N."
+    ]
+  },
+  "budgetNote": "Der Budget-Rechner kalkuliert mit 15 CHF pro Person und Tag, also 960 CHF für 16 Tage. Dieser Plan passt da hinein — die drei Auswärts-Essen aber nicht. Trondheim zu viert kostet in Norwegen realistisch 150–250 CHF, dazu Hamburg an Tag 1 und die Tankstelle an Tag 16."
+}
