@@ -1,16 +1,16 @@
 {
-  "stand": "2026-06-12",
+  "stand": "2026-08-17",
   "days": [
     {
       "day": 1, "date": "2026-08-24", "title": "Vollgas nach Norden",
-      "route": "Uster → Raum Hamburg", "km": 880, "drive": "8.5 h", "ferry": null,
-      "coord": { "lat": 53.5511, "lng": 9.9937 },
+      "route": "Uster → Hamburg-Harburg", "km": 870, "drive": "8.5 h", "ferry": null,
+      "coord": { "lat": 53.4623, "lng": 9.9489 },
       "highlights": [
         "06:00 Abfahrt — die A7 ist lang, der Kaffee stark",
         "Grosseinkauf am Abend: Haltbares, Fleisch für die Kühlbox — und Bier (in Norwegen +214 %)",
-        "Tankstrategie: in DE nochmals vollmachen"
+        "Erste Nacht im Bett statt im Auto — das Hotel liegt südlich der Elbe direkt an der A7"
       ],
-      "stay": { "type": "auto", "text": "Rastplatz, 1 Nacht im Auto — in DE legal zur «Wiederherstellung der Fahrtüchtigkeit». Stühle bleiben drin." },
+      "stay": { "type": "hotel", "text": "Kleines Hotel Heimfeld, Heimfelder Str. 91–93 — gebucht und bestätigt, 130 CHF für alle vier. Frühstücksbuffet ab 07:00, S-Bahn Heimfeld ums Eck. Parkplatz ist nicht bestätigt: vor der Abreise kurz anrufen (+49 40 84307109)." },
       "image": {
         "src": "img/days/day-01.webp",
         "alt": "Wasserschloss in der Hamburger Speicherstadt zur blauen Stunde, beleuchtete Backsteinfassaden spiegeln sich im Fleet",
@@ -19,31 +19,32 @@
       },
       "peak": {
         "name": "Speicherstadt bei Nacht",
-        "text": "Wenn der Einkauf verstaut ist und die Beine den Tag abschütteln müssen: eine Abendrunde durchs grösste Lagerhausviertel der Welt. Backstein, Fleete, Lichter — der erste Beweis, dass die Reise wirklich läuft.",
+        "text": "Wenn der Einkauf verstaut und das Zimmer bezogen ist: eine Abendrunde durchs grösste Lagerhausviertel der Welt. Das Auto bleibt in Heimfeld stehen, die S3 fährt in einer knappen halben Stunde an die Elbe. Backstein, Fleete, Lichter — der erste Beweis, dass die Reise wirklich läuft.",
         "facts": [
-          { "k": "Etappe", "v": "880 km · 8.5 h" },
+          { "k": "Etappe", "v": "870 km · 8.5 h" },
           { "k": "Abfahrt", "v": "06:00 · Uster" },
-          { "k": "Abendrunde", "v": "UNESCO-Welterbe, gratis" }
+          { "k": "Hinkommen", "v": "S3 ab Heimfeld, ca. 25 min" }
         ]
       },
       "plan": [
         { "t": "06:00", "title": "Abfahrt Uster", "text": "Thermoskaffee, Playlist, A1 → A7. Die ersten 400 km fahren sich von allein." },
         { "t": "12:30", "title": "Fahrerwechsel + Tanken", "text": "Raum Kassel. In DE ist der Sprit günstiger als in CH — Strategie beginnt hier." },
-        { "t": "17:30", "title": "Grosseinkauf Raum Hamburg", "text": "Haltbares, Kühlbox-Fleisch, Gas — und Bier. Jede Dose spart in Norwegen bares Geld." },
-        { "t": "20:00", "title": "Speicherstadt-Abendrunde", "text": "Beine vertreten zwischen Fleeten und Backstein, dann raus zum Rastplatz." }
+        { "t": "17:00", "title": "Grosseinkauf Harburg", "text": "Haltbares, Kühlbox-Fleisch, Gas — und Bier. Jede Dose spart in Norwegen bares Geld. Alles bleibt im Auto, die Nacht ist kühl genug." },
+        { "t": "18:30", "title": "Check-in Heimfeld", "text": "Zimmer beziehen, kurz duschen — der einzige Abend der Hinfahrt ohne Zeltaufbau." },
+        { "t": "19:30", "title": "Speicherstadt-Abendrunde", "text": "S3 ab Heimfeld Richtung Innenstadt, Beine vertreten zwischen Fleeten und Backstein. Zurück, wann ihr wollt — morgen wartet der längste Tag der Reise." }
       ],
-      "planB": "Stau-Falle A7 ist der Abschnitt Kassel–Göttingen — Pausen dahinter legen, nicht davor."
+      "planB": "Stau-Falle A7 ist der Abschnitt Kassel–Göttingen — Pausen dahinter legen, nicht davor. Wer nach 870 km keine Lust mehr auf Stadt hat, lässt die Speicherstadt sausen: Morgen zählt jede Stunde Schlaf."
     },
     {
-      "day": 2, "date": "2026-08-25", "title": "Übers Wasser nach Skandinavien",
-      "route": "Hamburg → Rødby → Öresund → Norrköping", "km": 700, "drive": "7 h", "ferry": "Puttgarden–Rødby · 45 min",
-      "coord": { "lat": 58.6533, "lng": 16.4537 },
+      "day": 2, "date": "2026-08-25", "title": "Zwei Meere bis Stockholm",
+      "route": "Hamburg → Rødby → Öresund → Stockholm", "km": 1020, "drive": "11.5 h", "ferry": "Puttgarden–Rødby · 45 min",
+      "coord": { "lat": 59.25, "lng": 18.1622 },
       "highlights": [
-        "Scandlines-Fähre: 45 Minuten Zwangspause mit Ostseeblick",
+        "Der längste Tag der Reise: 1020 km, drei Länder, eine Fähre — Rotation alle zwei Stunden",
         "Öresundbrücke — Online-Ticket vorher kaufen (420 statt 470 DKK)",
-        "Ab der schwedischen Grenze gilt Allemansrätten"
+        "Ankunft nach 18:30 — dann ist Stockholms Trängselskatt für heute aus"
       ],
-      "stay": { "type": "zelt", "text": "Erstes Wildcamp in den Wäldern bei Kolmården — ausser Sichtweite von Häusern, 1–2 Nächte ok." },
+      "stay": { "type": "bungalow", "text": "First Camp City-Stockholm, Flatens Skogsväg 30 in Skarpnäck — gebucht und bestätigt, 174 CHF. Bungalow am Flatensee im Naturreservat, 11 km vor der Innenstadt und ausserhalb der Mautzone." },
       "image": {
         "src": "img/days/day-02.webp",
         "alt": "Luftaufnahme der Öresundbrücke, die sich über das blaue Meer zur künstlichen Insel Peberholm schwingt",
@@ -52,32 +53,34 @@
       },
       "peak": {
         "name": "Öresundbrücke",
-        "text": "Acht Kilometer übers offene Meer, dahinter taucht die Strasse in den Drogden-Tunnel. Auf halber Strecke wechselt das Land — und ab dem schwedischen Ufer gilt Allemansrätten: Ab jetzt ist Schlafen draussen ein Recht.",
+        "text": "Acht Kilometer übers offene Meer, dahinter taucht die Strasse in den Drogden-Tunnel. Auf halber Strecke wechselt das Land — und ab dem schwedischen Ufer gilt Allemansrätten. Heute wird davon noch kein Gebrauch gemacht: Hinter der Brücke liegen weitere 670 km E4, und am Ende wartet ein Bungalow.",
         "facts": [
           { "k": "Brücke", "v": "7845 m · Pylonen 204 m" },
           { "k": "Ticket", "v": "online 420 statt 470 DKK" },
-          { "k": "Danach", "v": "Allemansrätten aktiv" }
+          { "k": "Danach", "v": "noch ~670 km bis Skarpnäck" }
         ]
       },
       "plan": [
-        { "t": "07:30", "title": "Puttgarden", "text": "Check-in Scandlines, alle 30 Minuten fährt eine. Frühstück an Bord, Ostseeluft auf Deck." },
-        { "t": "10:00", "title": "Durch Dänemark", "text": "Lolland → Seeland, Kopenhagen grossräumig liegen lassen." },
-        { "t": "12:30", "title": "Öresundbrücke", "text": "8 km übers Wasser. Fahrerwahl vorher klären — einer muss ja filmen." },
-        { "t": "14:00", "title": "Frisch-Einkauf Schweden", "text": "Lidl oder Willys: Gemüse, Brot, Fika-Gebäck. Nur +5 % vs. Deutschland." },
-        { "t": "18:00", "title": "Wildcamp Kolmården", "text": "Erste Zeltnacht in den Wäldern — ausser Sichtweite, Spuren null." }
+        { "t": "07:00", "title": "Frühstück & Abfahrt", "text": "Buffet ab 07:00, um halb acht rollt das Auto. Heute ist Zeit die knappste Ressource." },
+        { "t": "09:30", "title": "Puttgarden", "text": "Check-in Scandlines, alle 30 Minuten fährt eine. 45 Minuten Ostsee — die einzige Pause, die sich von selbst ergibt." },
+        { "t": "10:30", "title": "Durch Dänemark", "text": "Lolland → Seeland, Kopenhagen grossräumig liegen lassen." },
+        { "t": "13:00", "title": "Öresundbrücke", "text": "8 km übers Wasser. Fahrerwahl vorher klären — einer muss ja filmen." },
+        { "t": "14:00", "title": "Frisch-Einkauf Schweden", "text": "Lidl oder Willys kurz hinter Malmö: Gemüse, Brot, Fika-Gebäck. Nur +5 % vs. Deutschland — und der letzte entspannte Stopp für heute." },
+        { "t": "17:15", "title": "Jönköping — Halbzeit", "text": "Der Vätternsee als Belohnung fürs Durchhalten. Fahrerwechsel, Kaffee, weiter." },
+        { "t": "21:30", "title": "Bungalow Skarpnäck", "text": "Ankunft am Flatensee. Nach 1020 km reicht es für genau eine Sache: Bett." }
       ],
-      "planB": null
+      "planB": "1020 km sind kein Heldenstück, sondern Disziplin: alle zwei Stunden wechseln, die Fähre als echte Pause nutzen. Wer statt um 07:30 schon um 06:30 losfährt, kommt bei Licht an. Und falls die Öresundbrücke klemmt: Die Fähre Helsingør–Helsingborg fährt im 20-Minuten-Takt und spart ab Rødby sogar rund 50 km — kostet aber das schon gekaufte Brückenticket."
     },
     {
       "day": 3, "date": "2026-08-26", "title": "E4 — die Ostsee rechts",
-      "route": "Norrköping → Höga Kusten", "km": 720, "drive": "7.5 h", "ferry": null,
+      "route": "Stockholm → Höga Kusten", "km": 510, "drive": "6.5 h", "ferry": null,
       "coord": { "lat": 63.0814, "lng": 18.3534 },
       "highlights": [
-        "Stockholm grossräumig umfahren (City-Maut sparen)",
-        "Högakustenbron — Schwedens Golden Gate",
-        "Abendlicht am Skuleberget, UNESCO-Welterbeküste"
+        "Kurzer Tag nach dem Marathon — der Morgen reicht für eine Runde Gamla stan",
+        "Trängselskatt beim Rausfahren: werktags 06:00–18:30, 11–45 SEK pro Station, max. 135/Tag",
+        "Abendlicht am Skuleberget — die erste Zeltnacht der Reise"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp am Skuleberget. Wer früh wach ist: Via-Ferrata-Einstieg direkt am Berg." },
+      "stay": { "type": "zelt", "text": "Erstes Wildcamp der Reise, am Skuleberget — Allemansrätten in der Praxis. Wer früh wach ist: Via-Ferrata-Einstieg direkt am Berg." },
       "image": {
         "src": "img/days/day-03.webp",
         "alt": "Die Hängebrücke Högakustenbron von oben, rote Fahrbahn über tiefblauem Wasser der Höga Kusten",
@@ -94,12 +97,14 @@
         ]
       },
       "plan": [
-        { "t": "07:00", "title": "Abbau & los", "text": "Längster reiner Schwedentag — Stockholm weiträumig westlich umfahren spart City-Maut und Nerven." },
-        { "t": "12:30", "title": "Rast an der Ostsee", "text": "Die E4 läuft ab Gävle fast immer am Wasser. Rastplatz mit Meerblick aussuchen." },
-        { "t": "16:30", "title": "Högakustenbron", "text": "Fotostopp am Südufer — die Brücke wirkt von unten am grössten." },
-        { "t": "18:00", "title": "Camp am Skuleberget", "text": "Zelt mit Blick auf die Welterbeküste. Wer Energie hat, kraxelt morgens in die Via Ferrata." }
+        { "t": "08:00", "title": "Ausschlafen — einmal", "text": "Nach 1020 km ist der Vormittag geschenkt. Kaffee am Flatensee, wer mag springt rein." },
+        { "t": "09:00", "title": "Optional: Gamla stan", "text": "T-bana Linie 17 ab Skarpnäck fährt in gut 20 Minuten direkt in die Altstadt — ohne Auto, ohne Maut, ohne Parkplatzsuche. Zwei Stunden reichen für Stortorget und das Wasser." },
+        { "t": "12:00", "title": "Raus aus Stockholm", "text": "Südra länken → E4 Nord. Die Trängselskatt-Stationen buchen automatisch übers Kennzeichen ab, auch bei CH-Schildern — Rechnung kommt per Post." },
+        { "t": "15:00", "title": "Rast an der Ostsee", "text": "Die E4 läuft ab Gävle fast immer am Wasser. Rastplatz mit Meerblick aussuchen." },
+        { "t": "18:15", "title": "Högakustenbron", "text": "Fotostopp am Südufer — die Brücke wirkt von unten am grössten." },
+        { "t": "19:00", "title": "Camp am Skuleberget", "text": "Die erste Zeltnacht der Reise, mit Blick auf die Welterbeküste. Wer Energie hat, kraxelt morgens in die Via Ferrata." }
       ],
-      "planB": null
+      "planB": "Regen über Stockholm: Vasamuseet statt Gassen — oder ganz auf die Stadt verzichten und zwei Stunden früher losfahren. Der Tag hat Luft, aber der Zeltaufbau will Licht."
     },
     {
       "day": 4, "date": "2026-08-27", "title": "Über den Polarkreis",
@@ -519,7 +524,7 @@
       "coord": { "lat": 47.3492, "lng": 8.7208 },
       "highlights": [
         "A7 nach Süden, ein letztes Mal Tanken-Kaffee-Tanken",
-        "Abends in Uster: 7150 km, 5 Fähren, 4 Mann, 1 Stelvio",
+        "Abends in Uster: 7250 km, 5 Fähren, 4 Mann, 1 Stelvio",
         "Fotos sortieren kann bis morgen warten"
       ],
       "stay": { "type": "home", "text": "Eigenes Bett. Verdient." },
@@ -531,9 +536,9 @@
       },
       "peak": {
         "name": "Ankunft Uster",
-        "text": "Der unspektakulärste Höhepunkt der Reise — und einer der besten: der Greifensee im Abendlicht, das eigene Bett, eine Dusche ohne Münzschlitz. 7150 km, 5 Fähren, 4 Mann, 1 Stelvio. Die Fotos warten bis morgen. Die Geschichten nicht.",
+        "text": "Der unspektakulärste Höhepunkt der Reise — und einer der besten: der Greifensee im Abendlicht, das eigene Bett, eine Dusche ohne Münzschlitz. 7250 km, 5 Fähren, 4 Mann, 1 Stelvio. Die Fotos warten bis morgen. Die Geschichten nicht.",
         "facts": [
-          { "k": "Bilanz", "v": "7150 km · 5 Fähren" },
+          { "k": "Bilanz", "v": "7250 km · 5 Fähren" },
           { "k": "Crew", "v": "4 Mann · 1 Stelvio" },
           { "k": "Heute Nacht", "v": "eigenes Bett. Verdient." }
         ]

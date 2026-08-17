@@ -499,6 +499,11 @@
 .day-card__stay--camping svg { stroke: var(--ember); }
 .day-card__stay--home b { color: var(--ice); }
 .day-card__stay--home svg { stroke: var(--ice); }
+/* Violett = fest gebucht und bezahlt (Tag 1 Hotel, Tag 2 Bungalow) */
+.day-card__stay--hotel b { color: var(--aurora-violet); }
+.day-card__stay--hotel svg { stroke: var(--aurora-violet); }
+.day-card__stay--bungalow b { color: var(--aurora-violet); }
+.day-card__stay--bungalow svg { stroke: var(--aurora-violet); }
 
 @media (max-width: 1024px) {
   .days__track {

@@ -8,7 +8,7 @@ import { prefersReducedMotion } from './utils';
 
 type Nums = {
   fuelPrice: number; consumption: number; km: number; food: number;
-  toll: number; campNights: number; campPrice: number; misc: number; reserve: number;
+  toll: number; campNights: number; campPrice: number; booked: number; misc: number; reserve: number;
 };
 
 const BAR_COLORS: Record<string, string> = {
@@ -17,6 +17,7 @@ const BAR_COLORS: Record<string, string> = {
   Maut: 'var(--aurora-violet)',
   Essen: 'var(--ember)',
   Camping: '#f4c98a',
+  Unterkunft: '#c4b5ff',
   'Gas & Kleinkram': '#8fa3bc',
   Reserve: '#5c6f8c',
 };
@@ -58,6 +59,7 @@ export function initBudget() {
         ${field('campNights', 'Camping-Nächte', d.campingNights, '1', 'campingPerNight')}
         ${field('campPrice', 'Camping / Nacht (CHF)', d.campingPerNight, '5')}
       </div>
+      ${field('booked', 'Gebuchte Nächte — Hotel + Bungalow (CHF)', d.bookedChf, '10', 'bookedChf')}
       <div class="field--row field">
         ${field('misc', 'Gas & Kleinkram (CHF)', d.miscChf, '5', 'miscChf')}
         ${field('reserve', 'Reserve (%)', d.reservePct, '1')}
@@ -113,6 +115,7 @@ export function initBudget() {
       toll: get('toll', d.tollChf),
       campNights: get('campNights', d.campingNights),
       campPrice: get('campPrice', d.campingPerNight),
+      booked: get('booked', d.bookedChf),
       misc: get('misc', d.miscChf),
       reserve: get('reserve', d.reservePct),
     };
@@ -132,7 +135,7 @@ export function initBudget() {
     }, 0);
     const food = n.food * d.persons * d.days;
     const camping = n.campNights * n.campPrice;
-    const sub = fuel + ferries + n.toll + food + camping + n.misc;
+    const sub = fuel + ferries + n.toll + food + camping + n.booked + n.misc;
     const reserve = (sub * n.reserve) / 100;
     const total = sub + reserve;
     return {
@@ -140,7 +143,7 @@ export function initBudget() {
       pp: total / d.persons,
       items: [
         ['Sprit', fuel], ['Fähren', ferries], ['Maut', n.toll], ['Essen', food],
-        ['Camping', camping], ['Gas & Kleinkram', n.misc], ['Reserve', reserve],
+        ['Camping', camping], ['Unterkunft', n.booked], ['Gas & Kleinkram', n.misc], ['Reserve', reserve],
       ] as [string, number][],
     };
   }

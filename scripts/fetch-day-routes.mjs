@@ -9,10 +9,11 @@ import { writeFileSync } from 'node:fs';
 const P = {
   uster: [8.7208, 47.3492],
   hamburg: [9.9937, 53.5511],
+  harburg: [9.9489, 53.4623], // Kleines Hotel Heimfeld — Nacht 1
   puttgarden: [11.224, 54.5034],
   roedby: [11.3531, 54.6565],
   oeresund: [12.8485, 55.5712],
-  norrkoeping: [16.4537, 58.6533],
+  stockholm: [18.1622, 59.25], // First Camp City-Stockholm, Skarpnäck — Nacht 2
   hoegakusten: [18.3534, 63.0814],
   toere: [22.6529, 65.9061],
   kiruna: [20.2253, 67.8558],
@@ -47,9 +48,9 @@ const P = {
 };
 
 const DAYS = {
-  1: [P.uster, P.hamburg],
-  2: [P.hamburg, P.puttgarden, P.roedby, P.oeresund, P.norrkoeping],
-  3: [P.norrkoeping, P.hoegakusten],
+  1: [P.uster, P.harburg],
+  2: [P.harburg, P.puttgarden, P.roedby, P.oeresund, P.stockholm],
+  3: [P.stockholm, P.hoegakusten],
   4: [P.hoegakusten, P.toere, P.kiruna, P.tornetraesk],
   5: [P.tornetraesk, P.abisko, P.narvik, P.svolvaer],
   6: [P.svolvaer, P.hoven, P.unstad, P.eggum, P.henningsvaer],

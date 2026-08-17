@@ -11,7 +11,7 @@
     { "country": "Dänemark", "petrol": 2.00, "diesel": 2.00, "raw": "ca. 16.3 DKK (Listenpreis)" }
   ],
   "defaults": {
-    "totalKm": 7150,
+    "totalKm": 7250,
     "consumptionPetrol": 9.8,
     "consumptionDiesel": 7.0,
     "fuelPriceChf": 1.68,
@@ -21,6 +21,7 @@
     "tollChf": 110,
     "campingNights": 4,
     "campingPerNight": 30,
+    "bookedChf": 304,
     "miscChf": 50,
     "reservePct": 10
   },
@@ -35,10 +36,11 @@
   "assumptions": [
     { "key": "fuelPriceChf", "label": "Spritpreis Ø CHF/l", "source": "Gewichteter Schnitt über die Länderanteile der Route (globalpetrolprices.com / ADAC, 06/2026). In NO So-Abend/Mo tanken: −2–3 NOK/l." },
     { "key": "consumptionPetrol", "label": "Verbrauch Benziner", "source": "Stelvio 2.0 real 9.5–10.6 l/100 km (spritmonitor.de), ohne Dachbox bei 80–110 km/h eher am unteren Rand. Diesel 2.2: real 6.1–7.8 l." },
-    { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E10 (~3460 km) + Rückweg Küste (~3690 km). ca./vor Abreise feinprüfen." },
+    { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E10 (~3560 km) + Rückweg Küste (~3690 km). ca./vor Abreise feinprüfen." },
     { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (vorab registrieren!) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
     { "key": "foodPerDayPerPerson", "label": "Essen pro Tag/Person", "source": "15 CHF/Tag bei Grosseinkauf in DE + Nachschub in SE (Lidl/Willys), in NO nur Nötigstes. NO-Lebensmittel ≈ +30 % vs. DE (Eurostat/Numbeo 06/2026)." },
     { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 4 geplante Nächte." },
+    { "key": "bookedChf", "label": "Gebuchte Nächte", "source": "Fixkosten, keine Schätzung: Kleines Hotel Heimfeld (Nacht 1, 24.–25.08.) 130 CHF + First Camp City-Stockholm, Bungalow (Nacht 2, 25.–26.08.) 174 CHF. Beide bestätigt, beide mit freier Stornierung." },
     { "key": "miscChf", "label": "Gas & Kleinkram", "source": "4–6 EN417-Kartuschen à 60–130 NOK (Biltema/XXL/Jula) + Parkgebühren Lofoten." }
   ],
   "savings": {

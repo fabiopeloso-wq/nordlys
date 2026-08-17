@@ -1,21 +1,21 @@
 {
-  "stand": "2026-06-11",
+  "stand": "2026-08-17",
   "summary": {
-    "totalKm": 7150,
-    "driveHours": 84,
+    "totalKm": 7250,
+    "driveHours": 88,
     "ferryHours": 5,
     "countries": 5,
     "ferries": 5,
     "northMost": "68.35° N",
-    "legOut": { "label": "Hinweg — durch Schweden", "km": 3460, "days": "Tag 1–5" },
+    "legOut": { "label": "Hinweg — durch Schweden", "km": 3560, "days": "Tag 1–5" },
     "legBack": { "label": "Rückweg — Norwegens Küste", "km": 3690, "days": "Tag 10–16" }
   },
   "stops": [
     { "id": "uster", "name": "Uster", "lat": 47.3492, "lng": 8.7208, "day": 1, "leg": "out" },
-    { "id": "hamburg", "name": "Raum Hamburg", "lat": 53.5511, "lng": 9.9937, "day": 1, "leg": "out" },
+    { "id": "hamburg", "name": "Hamburg-Harburg — Hotel", "lat": 53.4623, "lng": 9.9489, "day": 1, "leg": "out" },
     { "id": "puttgarden", "name": "Puttgarden → Rødby (Fähre)", "lat": 54.5034, "lng": 11.224, "day": 2, "leg": "out", "ferry": true },
     { "id": "oeresund", "name": "Öresundbrücke", "lat": 55.5712, "lng": 12.8485, "day": 2, "leg": "out" },
-    { "id": "norrkoeping", "name": "Wälder bei Norrköping", "lat": 58.6533, "lng": 16.4537, "day": 2, "leg": "out" },
+    { "id": "stockholm", "name": "Stockholm-Skarpnäck — Bungalow", "lat": 59.25, "lng": 18.1622, "day": 2, "leg": "out" },
     { "id": "hoegakusten", "name": "Höga Kusten / Skuleberget", "lat": 63.0814, "lng": 18.3534, "day": 3, "leg": "out" },
     { "id": "toere", "name": "Töre (E4 → E10)", "lat": 65.9061, "lng": 22.6529, "day": 4, "leg": "out" },
     { "id": "tornetraesk", "name": "Torneträsk / Kiruna", "lat": 68.2167, "lng": 19.7167, "day": 4, "leg": "out" },

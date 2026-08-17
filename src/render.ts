@@ -12,6 +12,8 @@ export const STAY_ICONS: Record<string, string> = {
   auto: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4 16 L5 11.5 C5.3 10.3 6.1 9.5 7.5 9.5 H16.5 C17.9 9.5 18.7 10.3 19 11.5 L20 16 M4 16 H20 M4 16 V18 M20 16 V18"/><circle cx="8" cy="16" r="1.4"/><circle cx="16" cy="16" r="1.4"/></svg>',
   camping: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M8 9 a4 4 0 0 1 8 0 V10.5 H8 Z"/><path d="M9 14 v1.5 M12 14 v2.5 M15 14 v1.5"/></svg>',
   home: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4.5 11 L12 4.5 L19.5 11 V19.5 H4.5 Z"/></svg>',
+  hotel: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3.5 18.5 V8.5"/><path d="M3.5 14 H20.5 V18.5"/><path d="M11.5 14 V10.5 H17.5 A3 3 0 0 1 20.5 13.5"/><circle cx="7.6" cy="11.6" r="1.7"/></svg>',
+  bungalow: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 11.8 L12 5.5 L21 11.8"/><path d="M5.6 10 V19 H18.4 V10"/><path d="M10 19 V14.4 H14 V19"/></svg>',
 };
 
 export const STAY_LABELS: Record<string, string> = {
@@ -19,6 +21,8 @@ export const STAY_LABELS: Record<string, string> = {
   auto: 'Nacht im Auto',
   camping: 'Camping · Dusch-Stopp',
   home: 'Daheim',
+  hotel: 'Hotel · gebucht',
+  bungalow: 'Bungalow · gebucht',
 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');

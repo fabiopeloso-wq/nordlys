@@ -7,11 +7,11 @@ import { writeFileSync } from 'node:fs';
 
 const OUT = [
   [8.7208, 47.3492], // Uster
-  [9.9937, 53.5511], // Hamburg
+  [9.9489, 53.4623], // Hamburg-Harburg (Hotel, Nacht 1)
   [11.224, 54.5034], // Puttgarden
   [11.3531, 54.6565], // Rødby (Fähre via OSM)
   [12.8485, 55.5712], // Öresund
-  [16.4537, 58.6533], // Norrköping
+  [18.1622, 59.25], // Stockholm-Skarpnäck (Bungalow, Nacht 2)
   [18.3534, 63.0814], // Höga Kusten
   [22.6529, 65.9061], // Töre
   [20.2253, 67.8558], // Kiruna
