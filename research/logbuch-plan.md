@@ -5,7 +5,9 @@ für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qua
 
 > **Status:** Phase 1 gebaut und mit Tag 01 befüllt (Import-Pipeline, Tagesseite, Übersicht, Generator, Check,
 > Topnav-Pill). Der Drive-Ordner heisst `Sweden_2026/Day N` und ist über die Verknüpfung in «Meine Ablage» lokal
-> lesbar. Video-Hosting via Release `media` ist verifiziert (Range-Requests → 206). Offen aus Phase 2/3: Lightbox-FLIP,
+> lesbar. Video-Hosting via Release `media` ist verifiziert (Range-Requests → 206). Nach Fabios erstem Feedback:
+> Kuratierung per `omit`-Liste (nicht alle Uploads, gleiche Motive → das beste) und Lightbox-Fix für Safari
+> (Prozent-Höhen in fr-Grid-Zeilen; der Check hat jetzt einen WebKit-Pass). Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---
