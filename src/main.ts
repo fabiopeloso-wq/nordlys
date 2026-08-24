@@ -22,6 +22,7 @@ import { initPacking } from './packing';
 import { initCountdown } from './countdown';
 import { initMapLazy } from './map';
 import { initThread } from './thread';
+import { initLogNav } from './lognav';
 import { Aurora } from './aurora';
 import { Starfield } from './stars';
 import { prefersReducedMotion, chf } from './utils';
@@ -41,6 +42,7 @@ initBudget();
 initPacking();
 initCountdown();
 initDayView();
+initLogNav();
 
 // ---------- 2 · Smooth Scrolling (Lenis) + ScrollTrigger-Brücke ----------
 if (!reduced) {

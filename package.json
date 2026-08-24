@@ -4,9 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "dev": "node scripts/gen-log-pages.mjs && vite",
+    "build": "node scripts/gen-log-pages.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "log:import": "node scripts/log-import.mjs",
+    "log:pages": "node scripts/gen-log-pages.mjs",
+    "log:check": "node scripts/log-check.mjs"
   },
   "dependencies": {
     "@fontsource-variable/big-shoulders": "^5.2.0",
@@ -17,6 +20,7 @@
     "maplibre-gl": "^5.0.0"
   },
   "devDependencies": {
+    "exif-reader": "^2.0.3",
     "playwright": "^1.60.0",
     "sharp": "^0.35.1",
     "typescript": "^5.7.0",

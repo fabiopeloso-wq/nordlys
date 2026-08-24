@@ -90,11 +90,34 @@ node scripts/fetch-route.mjs
   ~25 kB JS, damit die Liste auch im Laden mit schlechtem Empfang sofort steht.
 - **Easter Egg**: 5× auf den Polarstern im Footer klicken.
 
-## Zwei Seiten
+## Mehrere Seiten
 
-Der Build ist Multi-Page (`vite.config.ts` → `rollupOptions.input`): `index.html` (die Reise)
-und `proviant.html` (Menüplan & Einkaufsliste). Beim Deployen wandert wie bisher der ganze
+Der Build ist Multi-Page (`vite.config.ts` → `rollupOptions.input`): `index.html` (die Reise),
+`proviant.html` (Menüplan & Einkaufsliste), `logbuch.html` (Logbuch-Übersicht) sowie die generierten
+Tagesseiten `logbuch/tag-NN/index.html` (siehe «Logbuch»). Beim Deployen wandert wie bisher der ganze
 Inhalt von `dist/` auf die Subdomain — beide HTML-Dateien liegen dort nebeneinander.
+
+## Logbuch (unterwegs)
+
+Pro Reisetag ein Eintrag: `logbuch.html` (Übersicht) + `logbuch/tag-NN/` (Tagesseite mit Hero,
+Stat-Leiste, Etappenkarte, Timeline, Text, Galerie mit Lightbox, Zahlen des Tages). Konzept, Datenschema
+und Entscheide: `research/logbuch-plan.md`.
+
+**Der Abend-Workflow** (Fotos/Videos liegen im Drive-Ordner `Sweden_2026/Day N`, lokal synchronisiert):
+
+```bash
+npm run log:import -- 3            # Day 3 aus dem Drive: HEIC→WebP, EXIF, Videos → Release «media», Manifest
+npm run log:import -- 3 --sheet    # Kontaktbogen nach review/log/ (zum Sichten und Beschriften)
+# src/data/log/tag-03.json schreiben (Titel, Lead, Story, Captions, Zahlen, hero)
+npm run log:import -- 3 --og       # og.jpg aus dem Hero (WhatsApp-Vorschau)
+npm run build                      # erzeugt auch logbuch/tag-03/index.html + src/data/log/index.json
+npm run log:check -- 3             # Playwright: Übersicht, Tagesseite, Lightbox, Videos im Release
+git add -A && git commit && git push
+```
+
+Regeln: Originale kommen nie ins Repo (`media/` ist gitignored), Fotos als WebP nach `public/log/tag-NN/`,
+Videos als H.264-MP4 ins GitHub-Release `media` (nur das Poster im Repo). Logbuch-Seiten tragen `noindex`.
+Voraussetzungen lokal: `ffmpeg`, `gh` (eingeloggt), macOS `sips` für HEIC.
 
 ## Selbst-Review (optional)
 

@@ -1,0 +1,27 @@
+{
+  "stand": "2026-08-24",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-24",
+      "title": "Zwei Stunden zu spät, pünktlich zum Fischbrötchen",
+      "lead": "870 Kilometer A7, ein Kofferraum, der erst beim zweiten Packen zuging — und ein Hafenabend in Hamburg, der gerade noch reichte.",
+      "place": "Hamburg-Harburg",
+      "lat": 53.4623,
+      "lng": 9.9489,
+      "mood": "autobahn",
+      "km": 870,
+      "kmTotal": 870,
+      "night": "hotel",
+      "photos": 24,
+      "videos": 5,
+      "hero": {
+        "thumb": "log/tag-01/p-010-t.webp",
+        "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JQBOg7UADY7OyTJNiKygMsxR0SJ4+uJAAAP5M0dY47FJkpZ7LVgpk70wWBVyaWZ1DB3TlunklGrYla8NlnkdIQ7S1NLYOHJ+GRpdDm+Xe4KiNlj/g0b865YwcSzFk0aQEnOZniABNabPVCY4Gst0ILrDsVRJciMx6llMKsTjnZ8fe11r6YswgrhpsS7ZieN3DeVoddVWWEsXqOIc07tMiGHcewnBAAAA=",
+        "w": 1800,
+        "h": 1350
+      },
+      "url": "logbuch/tag-01/"
+    }
+  ]
+}

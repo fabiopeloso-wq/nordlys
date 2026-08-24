@@ -3,3 +3,4 @@ dist/
 review/
 *.local
 .DS_Store
+media/

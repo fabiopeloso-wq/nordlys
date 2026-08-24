@@ -67,3 +67,19 @@ Jede Tageskarte (und der Tages-Marker auf der Karte) öffnet ein Vollbild-Overla
 ## 5 · Technik-Entscheide
 
 Vite + vanilla TypeScript (kein Framework-Overhead für eine scroll-getriebene Page). GSAP + ScrollTrigger, Lenis. Karte: MapLibre GL + CARTO `dark-matter`-Style (keyless, Attribution korrekt), lazy geladen. Aurora: Low-Res-Offscreen-Canvas, additive Blends, DPR-Cap 1.5, IntersectionObserver-Pause, `prefers-reduced-motion` → statisches Bild. Fonts self-hosted via Fontsource. Build rein statisch, `base: './'`.
+
+## 4c · Logbuch (08/2026)
+
+Die Hauptseite ist der Plan, das Logbuch die Realität — gleiche Tokens, gleiche Typo, aber echte Fotos der Crew.
+Eine Seite pro Tag (`logbuch/tag-NN/`, eigene URL + OG-Bild fürs Teilen), Übersicht in `logbuch.html`.
+
+- **Die Fotos sind der Star, das Design der Rahmen:** Galerie in Justified Rows (kein Bild wird beschnitten),
+  Mono-Metadaten (Uhrzeit, Koordinaten, Kamera) statt Feed-Optik, Hairlines statt Schatten. Gradierung nur im Hero
+  (`saturate(.92)` + Verlauf), Galerie und Lightbox zeigen die Bilder ungefiltert. Das Korn liegt über allem.
+- **Stimmung pro Ort:** `data-mood` auf `<body>` (autobahn · taiga · arctic · lofoten · fjord · heim) verschiebt nur
+  `--accent`/`--accent-2` und zwei Washes — die Farbzuordnung folgt der Leg-Färbung der Karte (`dayroute.ts`).
+- **Kein GSAP, kein Lenis** auf den Logbuch-Seiten: Galerien auf Touch brauchen natives Scrollen; Reveals per
+  IntersectionObserver, Lightbox per CSS-Transitions. MapLibre lädt erst, wenn der Kartenslot sichtbar wird.
+- **Gewicht:** Thumbs 800 px, LQIP-Blur-up, das 1800-px-Bild erst in der Lightbox, Videos nie Autoplay und nie im
+  Repo (GitHub-Release «media», Poster lokal).
+- **HUD** zeigt auf der Tagesseite statisch den Breitengrad des Tages; der Faden bleibt der Hauptseite vorbehalten.

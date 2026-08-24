@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>NORDLYS — Logbuch</title>
+  <meta name="description" content="Das Logbuch der Reise Uster → Lofoten: jeden Tag ein Eintrag mit Strecke, Text, Fotos und Videos — für die Crew und für alle, die zu Hause mitfahren." />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta property="og:title" content="NORDLYS — Logbuch" />
+  <meta property="og:description" content="Jeden Abend ein neuer Tag: Strecke, Bilder, Videos — Uster → Lofoten und zurück." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./og.jpg" />
+  <meta name="theme-color" content="#0A101E" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+</head>
+<body class="page-log page-log--index" data-root="./">
+  <a class="skip-link" href="#eintraege">Zum Inhalt springen</a>
+
+  <header class="log-index-hero">
+    <div class="container">
+      <a class="log-index-hero__back mono" href="./index.html">← Zurück zur Reise</a>
+      <p class="log-index-hero__kicker mono">09 · Die Realität</p>
+      <h1 class="log-index-hero__title">Logbuch</h1>
+      <p class="log-index-hero__lead">Jeden Abend ein Tag: was gefahren wurde, wo geschlafen, was hängen geblieben ist — mit den Bildern von unterwegs. Für uns, und für alle, die von zu Hause aus mitfahren.</p>
+      <div class="log-index-hero__live mono" data-render="log-live"></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="log-section log-index" id="eintraege" aria-labelledby="log-index-title">
+      <div class="container">
+        <h2 class="log-h mono" id="log-index-title">Tag für Tag</h2>
+        <ol class="log-entries" data-render="log-entries"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__label mono">Zurück an Bord</p>
+      <p class="footer__coords"><a href="./index.html">NORDLYS</a></p>
+      <p class="footer__place mono">Uster → Lofoten · 16 Tage · 4 Mann</p>
+      <div class="footer__meta">
+        <p>Logbuch — geschrieben unterwegs, meist spät am Abend.</p>
+        <p class="footer__credits">Fotos und Videos: die Crew · Karte © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>, © <a href="https://carto.com/attributions" rel="noopener">CARTO</a> · Kein Tracking, keine Cookies.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script type="module" src="/src/logbuch.ts"></script>
+</body>
+</html>
