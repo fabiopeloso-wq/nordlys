@@ -32,7 +32,7 @@ async function initMap(container: HTMLElement) {
     style: STYLE_URL,
     bounds: [
       [4.5, 46.5],
-      [24.5, 69.5],
+      [24.5, 70.6],
     ],
     fitBoundsOptions: { padding: 40 },
     attributionControl: { compact: true },

@@ -42,8 +42,8 @@ await page.goto(BASE, { waitUntil: 'networkidle' });
 
 // Gerendert?
 check((await page.locator('.menu-day').count()) === 16, '16 Menü-Tage gerendert');
-check((await page.locator('.shop-card').count()) === 9, '9 Einkaufs-Karten gerendert');
-check((await page.locator('.shop-list').count()) === 9, '9 Einkaufslisten gerendert');
+check((await page.locator('.shop-card').count()) === 10, '10 Einkaufs-Karten gerendert');
+check((await page.locator('.shop-list').count()) === 10, '10 Einkaufslisten gerendert');
 const boxes = await page.locator('input[data-fd]').count();
 check(boxes > 60, `${boxes} Positionen auf den Listen`);
 check((await page.locator('[data-fd-total]').textContent()) === `0/${boxes}`, 'Gesamtzähler startet bei 0');

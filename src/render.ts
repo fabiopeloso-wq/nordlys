@@ -14,6 +14,7 @@ export const STAY_ICONS: Record<string, string> = {
   home: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4.5 11 L12 4.5 L19.5 11 V19.5 H4.5 Z"/></svg>',
   hotel: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3.5 18.5 V8.5"/><path d="M3.5 14 H20.5 V18.5"/><path d="M11.5 14 V10.5 H17.5 A3 3 0 0 1 20.5 13.5"/><circle cx="7.6" cy="11.6" r="1.7"/></svg>',
   bungalow: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 11.8 L12 5.5 L21 11.8"/><path d="M5.6 10 V19 H18.4 V10"/><path d="M10 19 V14.4 H14 V19"/></svg>',
+  hof: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 12 L12 5 L21 12"/><path d="M5.6 10 V19 H18.4 V10"/><path d="M9.5 19 V14 H14.5 V19"/><path d="M15.5 7.2 V4.6 H17.6 V8.9"/><path d="M3 21.5 H21"/></svg>',
 };
 
 export const STAY_LABELS: Record<string, string> = {
@@ -23,6 +24,7 @@ export const STAY_LABELS: Record<string, string> = {
   home: 'Daheim',
   hotel: 'Hotel · gebucht',
   bungalow: 'Bungalow · gebucht',
+  hof: 'Småbruk · Airbnb',
 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
@@ -77,7 +79,7 @@ export function renderDays() {
   const el = document.querySelector('[data-render="days"]')!;
   el.innerHTML = itinerary.days
     .map((d) => {
-      const lofoten = d.day >= 5 && d.day <= 9 ? ' day-card--lofoten' : '';
+      const lofoten = d.day >= 7 && d.day <= 10 ? ' day-card--lofoten' : '';
       return `
       <article class="day-card${lofoten}" data-day="${d.day}">
         <div class="day-card__top">

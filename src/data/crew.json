@@ -9,8 +9,8 @@
       "line": "Hält Etappen, Fähren und Moral zusammen. Kennt jede Mautstation beim Vornamen.",
       "mandat": "Bringt vier Mann in 16 Tagen nach Reine und zurück — und entscheidet, wann der Plan dem Wetter weichen muss.",
       "duties": [
-        { "t": "Etappen & Zeitbudget", "d": "7250 km in 16 Etappen, jeder Tag verplant — und für jeden Tag ein Plan B." },
-        { "t": "Fähren & Buchungen", "d": "Scandlines, Öresund, Moskenes–Bodø — letztere sofort bei Fahrplanfreigabe, ab 1.9. gilt der Winterfahrplan." },
+        { "t": "Etappen & Zeitbudget", "d": "7900 km in 16 Etappen, jeder Tag verplant — und für jeden Tag ein Plan B." },
+        { "t": "Fähren & Buchungen", "d": "Scandlines, Öresund, Moskenes–Bodø — letztere neu für Do 03.09., ab 1.9. gilt der Winterfahrplan." },
         { "t": "Maut & Grenzen", "d": "Epass24 vorab registriert, Göteborg-Citymaut auf dem Radar, Zollregeln nach Norwegen im Kopf." },
         { "t": "Go/No-Go-Entscheide", "d": "Wetterfenster schlägt Sturheit — Trollstigen bei Nebel wird getauscht, nicht erzwungen." }
       ],
@@ -36,6 +36,7 @@
         { "t": "Zoll-Mathematik", "d": "Pro Kopf nach Norwegen: 2 l Bier, 1.5 l Wein, 1 l Spirituosen — er rechnet aus, was das für vier heisst." }
       ],
       "prep": [
+        { "task": "Småbruk Skogsfjordvatnet mit dem Bekannten fixieren (Fr 28.–So 30.08.)", "due": "sofort" },
         { "task": "Menüplan für 16 Tage", "due": "Woche davor" },
         { "task": "Einkaufsliste für den DE-Grosseinkauf", "due": "vor Abfahrt" },
         { "task": "Kocher, Kartuschen & Kühlbox testen", "due": "vor Abfahrt" }

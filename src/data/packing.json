@@ -77,6 +77,7 @@
         { "id": "eti", "label": "TCS-ETI-Nummer / Pannendienst-Kontakt" },
         { "id": "epass24", "label": "Epass24 vorab registriert (NO-Maut)" },
         { "id": "faehre", "label": "Fähren-Buchung Moskenes–Bodø (+ Scandlines-Tickets)" },
+        { "id": "airbnb", "label": "Adresse + Türcode Småbruk Skogsfjordvatnet (von Michis Bekanntem)" },
         { "id": "unfallprotokoll", "label": "Europäisches Unfallprotokoll" },
         { "id": "karten", "label": "2 Kreditkarten — Norwegen ist praktisch bargeldlos" }
       ]

@@ -41,12 +41,12 @@ Der Body-Hintergrund verläuft über die gesamte Dokumenthöhe von `--night` nac
 ├──┴───────────────────────────┤
 │ FOOTER  67.93° N · Polarstern│ Riesige Reine-Koordinaten, Easter Egg: 5× Polarstern
 └──────────────────────────────┘
- ┆ = der Faden (Signature)        HUD unten rechts: 47.35° N → 68.15° N
+ ┆ = der Faden (Signature)        HUD unten rechts: 47.35° N → 69.97° N
 ```
 
 ## 3 · Signature-Element: «Der Faden»
 
-Eine durchgehende, gestrichelte Routenlinie am linken Rand zieht sich vom Ende des Heros bis in den Footer und **zeichnet sich beim Scrollen** (stroke-dashoffset, scrub). An jeder Sektion sitzt ein Tick mit Mono-Label (`TAG 01–16`, `66.5° N POLARKREIS` …). Dazu gehört die fixe **Breitengrad-HUD** unten rechts: `47.35° N` zählt beim Scrollen auf `68.15° N` hoch und wieder zurück — Scrollposition = Position auf der Reise. Ein Konzept, zwei sichtbare Träger, konsequent bis zum Footer durchgezogen.
+Eine durchgehende, gestrichelte Routenlinie am linken Rand zieht sich vom Ende des Heros bis in den Footer und **zeichnet sich beim Scrollen** (stroke-dashoffset, scrub). An jeder Sektion sitzt ein Tick mit Mono-Label (`TAG 01–16`, `66.5° N POLARKREIS` …). Dazu gehört die fixe **Breitengrad-HUD** unten rechts: `47.35° N` zählt beim Scrollen auf `69.97° N` hoch und wieder zurück — Scrollposition = Position auf der Reise. Ein Konzept, zwei sichtbare Träger, konsequent bis zum Footer durchgezogen.
 
 ## 4 · Selbstkritik (vor dem ersten Code)
 

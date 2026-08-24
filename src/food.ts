@@ -31,6 +31,7 @@ const food = foodData as Food;
 
 const TYPE_LABEL: Record<string, string> = {
   kocher: 'Kocher',
+  kueche: 'Küche',
   auswaerts: 'Auswärts',
   trage: 'Tragetag',
 };

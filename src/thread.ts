@@ -9,7 +9,7 @@ import { prefersReducedMotion } from './utils';
 
 const TICKS: { selector: string; label: string; ember?: boolean }[] = [
   { selector: '#crew', label: '4 Mann' },
-  { selector: '#route', label: '7250 km' },
+  { selector: '#route', label: '7900 km' },
   { selector: '#tage', label: '16 Tage' },
   { selector: '#regeln', label: '150 m · 2 Nächte' },
   { selector: '#budget', label: 'CHF · Camp & Kasse', ember: true },

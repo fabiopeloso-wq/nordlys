@@ -1,18 +1,52 @@
 # NORDLYS — Recherche-Findings
 
-**Stand: 11.06.2026** · Reise: 24.08.–08.09.2026 (16 Tage) · 4 Personen · Alfa Romeo Stelvio
-Alles mit «ca./prüfen» Markiertes vor Abreise (August) nochmals verifizieren. Die `src/data/*.json` sind die Single Source of Truth für die Site.
+**Stand: 24.08.2026** (Planänderung Tromsø, siehe §0) · Reise: 24.08.–08.09.2026 (16 Tage) · 4 Personen · Alfa Romeo Stelvio
+Alles mit «ca./prüfen» Markiertes unterwegs nochmals verifizieren. Die `src/data/*.json` sind die Single Source of Truth für die Site.
 
 ---
 
-## 1 · Route — Entscheid
+## 0 · Planänderung 24.08.2026 — Småbruk am Skogsfjordvatnet (Airbnb, Bekannter von Michi)
+
+**Das Objekt:** «Småbruk ved Skogsfjordvatnet», Karlsøy (Troms) — airbnb.no/rooms/1732450902994611143. Stillgelegter Kleinbauernhof (nedlagt småbruk) am Skogsfjordvatnet auf **Ringvassøya, nördlich von Tromsø**, Koordinaten **69.9733° N / 19.1206° E** (Airbnb-Pin, ±500 m). 4 Schlafzimmer, 6 Betten (Queen + Einzel, Queen, Schlafsofa …), 1.5 Bäder, bis 10 Gäste. Küche, WLAN, TV, Arbeitsplatz, Heizung, Gratis-Parkplatz, eigene Uferlinie («egen strandlinje»), Fiskekort beim Gastgeber, EV-Lader (Level 1, nach Absprache). **Keine Waschmaschine, kein Tumbler.** Self-Check-in per Tastaturschloss, Check-in ab 15:00, Check-out bis 10:00. Bewertung 5.0 (1 Rezension, «Ny»). Gastgeber wohnt in Tromsø. Storno: «Begrensede vilkår». Preis ohne Datum nicht sichtbar — läuft über Michi.
+Skogsfjordvatnet ist der grösste See auf einer Insel Norwegens (ca. 13 km²). Zufahrt: Tromsø → Sandnessundbrua (Kvaløya) → Kvalsundtunnel (Ringvassøya) → Fv863 → Skogsfjordveien; ab Tromsø-Zentrum 76 km / ~1:20 h (OSRM).
+
+**Das Problem:** Der Hof liegt **nicht** an der Route. Geplant war Tag 5 Torneträsk → Abisko → Narvik → Svolvær (410 km). Der Hof liegt 250 km nördlich von Narvik — jenseits von Tromsø. Fixkosten des Abstechers, egal ob eine oder zwei Nächte: **rund +650 km und +8 h Fahrt** (Torneträsk → Hof 425 km/7 h, Hof → Svolvær 510 km/8.5 h, statt 344 km/5.5 h direkt; OSRM 24.08.). Sprit ca. 100–120 CHF, dazu 2× Tromsø-Bomring (Epass24).
+
+**Entscheid (eingebaut): 2 Nächte am Hof (Fr 28. + Sa 29.08.), Lofoten 4 statt 5 Nächte, Rückweg um einen Tag gestrafft.**
+
+| Tag | Datum | Neu | Vorher |
+|---|---|---|---|
+| 5 | Fr 28.08. | Torneträsk → Abisko → Bjerkvik → E6 → Tromsø → **Hof** (430 km, 6.5 h, Ankunft ~16:00, Check-in ab 15:00) | → Svolvær |
+| 6 | Sa 29.08. | **Ruhetag**: See, Ringvassøya, Tromsø (Fjellheisen, Ishavskatedralen, Einkauf), Fiskesuppe am Hof | Henningsvær/Hoven |
+| 7 | So 30.08. | Hof → Tromsø → Bjerkvik → E10 → Svolvær → Henningsvær am Abend (510 km, 8 h) | Haukland/Uttakleiv |
+| 8 | Mo 31.08. | Hoven am Morgen + Leknes + Haukland → Uttakleiv (Zeltwiese, Dusche) | Kvalvika/Ryten |
+| 9 | Di 01.09. | Kvalvika & Ryten (Strandnacht) — unverändert, nur zwei Tage später | Reine |
+| 10 | Mi 02.09. | Reine, Reinebringen, Å, Nusfjord, Moskenes Camping — unverändert | Fähre |
+| 11 | Do 03.09. | **Fähre Moskenes–Bodø (neu Do!)** → Saltstraumen → E6 → Laksforsen → Camp bei Grong (520 km, 7.5 h) | Trondheim |
+| 12 | Fr 04.09. | Grong → Trondheim (3 h Stadt, Stadtessen als Mittag) → Halsa → Atlantikstrasse → Camping Molde (480 km, 8 h) | Atlantikstrasse |
+| 13–16 | 05.–08.09. | unverändert (Trollstigen/Geiranger/Lom · Göteborg · Hamburg · Uster) | — |
+
+**Was verloren geht:** Unstad und Eggum als eigene Halbtage (Hoven bleibt, jetzt am Morgen von Tag 8), der Abend in Trondheim (wird Vormittag + Mittag), die entspannte Helgeland-Nacht bei Mosjøen (Camp rutscht 190 km südlicher nach Grong, 64.5° N — immer noch Aurora-Land). Tag 11 und 12 sind die zwei schweren Tage des Rückwegs (520 + 480 km); alle anderen Rückweg-Tage bleiben, wie sie waren.
+**Was gewonnen wird:** Zwei Nächte in Betten mit Küche, Dusche, WLAN und Kühlschrank genau in der Mitte der Anreise, ein Tag Tromsø, der nördlichste Punkt der Reise auf 69.97° N — und die Lofoten-Nächte rutschen auf 30.08.–02.09.: ab 1.9. ist es dort nautisch dunkel, der Mond (Vollmond 28.08.) geht später auf. Aurora-Chancen auf den Lofoten steigen also.
+**Totale:** ~7900 km statt 7250, ~100 h Fahrt statt 88. Länder, Fähren unverändert.
+
+**Verworfene Varianten (falls die Crew anders entscheidet — alles in `itinerary.json` umbaubar):**
+- **A · 1 Nacht am Hof, Lofoten 4 Nächte, Rückweg unverändert:** Tag 5 zum Hof, Tag 6 Hof → Svolvær, Lofoten Tag 6–9, Fähre wie geplant Mi 02.09. Kostet dieselben 650 km Umweg für 17 Stunden am See — schwaches Verhältnis, kein Tromsø-Tag. Dafür bleiben Helgeland-Nacht und Trondheim-Abend, und kein Tag über 450 km auf dem Rückweg.
+- **B · 2 Nächte am Hof, Lofoten 3 Nächte, Rückweg unverändert:** Ankunft Lofoten So 30.08. abends, Mo Kvalvika/Ryten, Di Reine, Mi Fähre. Haukland/Uttakleiv, Hoven, Henningsvær fallen weg. Für eine Reise mit dem Namen «Uster → Lofoten» zu wenig Lofoten.
+- **C · Senja-Transit statt E6/E10 (Tag 7):** Tromsø → Finnsnes → Fv862 → Fähre Gryllefjord–Andenes (1:40 h, ohne Reservation) → Vesterålen → Svolvær. Landschaftlich stärker, ~11 h, Saisonende der Fähre Anfang September (prüfen). Steht als Plan B im Briefing von Tag 7.
+
+**Buchungsfolge:** Moskenes–Bodø neu für **Do 03.09.** buchen (Winterfahrplan ab 1.9., Abfahrtszeit gegen 07:00 prüfen), Hof-Daten Fr 28.–So 30.08. mit dem Gastgeber fixieren (Türcode!), Scandlines/Öresund unverändert.
+
+---
+
+## 1 · Route — ursprünglicher Entscheid (06/2026; Tag 5–12 seit 24.08. überholt, siehe §0)
 
 **Empfehlung: schnell durch Schweden hoch, szenisch der Norwegen-Küste entlang zurück.**
 Hinweg Uster → Hamburg → Puttgarden–Rødby → Kopenhagen → Öresundbrücke → E4 → Töre → E10 → Narvik → Lofoten: **ca. 3450 km, ~40 h reine Fahrt** in 4.5 Tagen — machbar, weil die ersten 2 Tage Autobahn sind. Rückweg Moskenes–Bodø (Fähre) → Saltstraumen → E6 → Trondheim → Atlantikstrasse → Trollstigen → Geiranger → Lom → Oslo → Göteborg → Öresund → Rødby–Puttgarden → Uster: **ca. 3700 km, ~44 h** in 6.5 Tagen (80er-Limits, Fjordfähren).
 **Total ca. 7150 km, 82–86 h Fahrt + ~5 h Fähren. Ankunft Lofoten Tag 5 ist realistisch** (Tag 5 nur ~410 km ab Kiruna). 5 Nächte Lofoten.
 Quellen: nordlandblog.de/anreise-lofoten, en.wikipedia.org/wiki/European_route_E10, visitbodo.com
 
-**Senja:** Lohnt nur als Transit auf der Hinreise (über Vesterålen, +1 Tag netto) — als Hin-und-zurück-Abstecher ab Lofoten bei 5–6 Lofoten-Tagen: **nein**. Gryllefjord–Andenes-Fähre fährt Anfang Sept. (2025: bis 23.09., 2026 analog — prüfen), keine Reservation, früh anstehen. → Als dokumentierte Option, nicht im Plan.
+**Senja:** Seit der Tromsø-Änderung als Transit-Option für Tag 7 im Briefing (§0, Variante C). Ursprüngliche Einschätzung: lohnt nur als Transit auf der Hinreise (über Vesterålen, +1 Tag netto) — als Hin-und-zurück-Abstecher ab Lofoten bei 5–6 Lofoten-Tagen: **nein**. Gryllefjord–Andenes-Fähre fährt Anfang Sept. (2025: bis 23.09., 2026 analog — prüfen), keine Reservation, früh anstehen. → Als dokumentierte Option, nicht im Plan.
 
 ## 2 · Fähren & Querungen (Auto ≤6 m + 4 Pers., Stand 06/2026)
 
@@ -76,7 +110,7 @@ Sprit ~1130 · Fähren ~145 · Maut ~200 · Essen (15 CHF/P/Tag) ~960 · Camping
 
 ## 8 · Top-Risiken
 
-1. **Moskenes–Bodø-Fähre:** ab 1.9. Winterfahrplan + nur 50 % online buchbar → **sofort nach Fahrplanfreigabe buchen**.
+1. **Moskenes–Bodø-Fähre:** ab 1.9. Winterfahrplan + nur 50 % online buchbar → **sofort buchen — neu für Do 03.09.** (Planänderung §0).
 2. **Vollmond 28.08.** schwächt Aurora-Sicht in der Lofoten-Woche → zweite Reisehälfte nutzen, Wolkenlücken jagen (Windy).
 3. **Zeltverbotszonen Lofoten** (Moskenes/Flakstad-Hotspots) → Turistkart als Tagesreferenz, 2 Camping-Nächte eingeplant.
 4. **E10-Baustellen** (Hålogalandsvegen bis 2028) + E6-Levanger-Provisorium → vegvesen.no/trafikk vor Etappen checken.

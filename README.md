@@ -75,7 +75,7 @@ node scripts/fetch-route.mjs
 - **Aurora-Canvas** im Hero: noise-getriebene Bänder (Grün→Türkis→Violett), additive Blends,
   Low-Res-Offscreen-Blur, DPR-Cap 1.5, pausiert offscreen, statisch bei `prefers-reduced-motion`.
 - **Der Faden**: gestrichelte Routenlinie, die sich beim Scrollen über die ganze Page zeichnet,
-  plus Breitengrad-HUD (47.35° N → 68.15° N) — Scrollen = nach Norden fahren.
+  plus Breitengrad-HUD (47.35° N → 69.97° N) — Scrollen = nach Norden fahren.
 - **Karte** (MapLibre GL + CARTO dark, keyless): Hin-/Rückweg-Toggle, animiertes Einzeichnen,
   klickbare Tages-Marker mit Etappen-Panel. Lazy geladen.
 - **Tagesfenster («Briefing»)**: jede Tageskarte öffnet ein Overlay mit Stimmungsbild
@@ -85,7 +85,7 @@ node scripts/fetch-route.mjs
 - **Packliste**: Häkchen bleiben im Browser gespeichert (`localStorage`, Namespace `nordlys:`),
   Fortschritt pro Kategorie, Print-Stylesheet (`Ctrl+P` druckt nur die Packliste).
 - **Proviant** (`proviant.html`): eigene Subseite mit Menü Tag für Tag, der Einkaufs-Kaskade
-  (9 Stopps) und den Einkaufslisten zum Abhaken — gleiche Persistenz wie die Packliste,
+  (10 Stopps) und den Einkaufslisten zum Abhaken — gleiche Persistenz wie die Packliste,
   eigener Print-Stylesheet (druckt Menü + Listen). Bewusst ohne Karte, GSAP und Lenis:
   ~25 kB JS, damit die Liste auch im Laden mit schlechtem Empfang sofort steht.
 - **Easter Egg**: 5× auf den Polarstern im Footer klicken.

@@ -1,5 +1,5 @@
 {
-  "stand": "2026-06-11",
+  "stand": "2026-08-24",
   "currency": "CHF",
   "rates": { "EUR": 0.9175, "NOK": 0.0849, "SEK": 0.0844, "DKK": 0.123 },
   "ratesNote": "Kurse Stand 05.06.2026 (ECB/exchange-rates.org) — fix hinterlegt, damit der Rechner deterministisch bleibt.",
@@ -11,7 +11,7 @@
     { "country": "Dänemark", "petrol": 2.00, "diesel": 2.00, "raw": "ca. 16.3 DKK (Listenpreis)" }
   ],
   "defaults": {
-    "totalKm": 7250,
+    "totalKm": 7900,
     "consumptionPetrol": 9.8,
     "consumptionDiesel": 7.0,
     "fuelPriceChf": 1.68,
@@ -36,11 +36,11 @@
   "assumptions": [
     { "key": "fuelPriceChf", "label": "Spritpreis Ø CHF/l", "source": "Gewichteter Schnitt über die Länderanteile der Route (globalpetrolprices.com / ADAC, 06/2026). In NO So-Abend/Mo tanken: −2–3 NOK/l." },
     { "key": "consumptionPetrol", "label": "Verbrauch Benziner", "source": "Stelvio 2.0 real 9.5–10.6 l/100 km (spritmonitor.de), ohne Dachbox bei 80–110 km/h eher am unteren Rand. Diesel 2.2: real 6.1–7.8 l." },
-    { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E10 (~3560 km) + Rückweg Küste (~3690 km). ca./vor Abreise feinprüfen." },
-    { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (vorab registrieren!) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
+    { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E6 bis Tromsø, Skogsfjordvatnet und E10 auf die Lofoten (~4240 km) + Rückweg Küste (~3690 km). Der Abstecher zum Hof auf Ringvassøya kostet rund 650 km gegenüber der direkten Route über Narvik. ca./unterwegs feinprüfen." },
+    { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (registriert) + Tromsø-Bomring (2× durch, je ~30 NOK) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
     { "key": "foodPerDayPerPerson", "label": "Essen pro Tag/Person", "source": "15 CHF/Tag bei Grosseinkauf in DE + Nachschub in SE (Lidl/Willys), in NO nur Nötigstes. NO-Lebensmittel ≈ +30 % vs. DE (Eurostat/Numbeo 06/2026)." },
-    { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 4 geplante Nächte." },
-    { "key": "bookedChf", "label": "Gebuchte Nächte", "source": "Fixkosten, keine Schätzung: Kleines Hotel Heimfeld (Nacht 1, 24.–25.08.) 130 CHF + First Camp City-Stockholm, Bungalow (Nacht 2, 25.–26.08.) 174 CHF. Beide bestätigt, beide mit freier Stornierung." },
+    { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 3 geplante Nächte (Uttakleiv, Moskenes, Molde) + 1 Reserve." },
+    { "key": "bookedChf", "label": "Gebuchte Nächte", "source": "Fixkosten, keine Schätzung: Kleines Hotel Heimfeld (Nacht 1, 24.–25.08.) 130 CHF + First Camp City-Stockholm, Bungalow (Nacht 2, 25.–26.08.) 174 CHF. Beide bestätigt, beide mit freier Stornierung. Nächte 5+6 (28.–30.08.) im Småbruk am Skogsfjordvatnet (Airbnb, Bekannter von Michi): Preis noch offen — hier eintragen, sobald er feststeht." },
     { "key": "miscChf", "label": "Gas & Kleinkram", "source": "4–6 EN417-Kartuschen à 60–130 NOK (Biltema/XXL/Jula) + Parkgebühren Lofoten." }
   ],
   "savings": {

@@ -7,7 +7,7 @@ import dayGeometry from './data/day-geometry.json';
 
 const STYLE_URL = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
 
-const LEG_COLOR = (day: number) => (day <= 5 ? '#4DE8A6' : day <= 9 ? '#3ED3E8' : '#8E7BFF');
+const LEG_COLOR = (day: number) => (day <= 7 ? '#4DE8A6' : day <= 10 ? '#3ED3E8' : '#8E7BFF');
 
 type MapT = import('maplibre-gl').Map;
 type MarkerT = import('maplibre-gl').Marker;

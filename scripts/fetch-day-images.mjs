@@ -1,6 +1,7 @@
 // Tagesbilder von Wikimedia Commons — zweistufig:
 //   node scripts/fetch-day-images.mjs candidates  → Kandidaten-Thumbs + Kontaktbögen nach review/day-images/
 //   node scripts/fetch-day-images.mjs final       → gewählte Bilder (PICKS) in 1600px als WebP nach public/img/days/
+//   Optional als drittes Argument eine Tagesliste, z. B. `final 5,6` — nur diese Tage holen.
 // Einmalig gedacht (wie fetch-route.mjs) — die Site selbst lädt nichts von extern.
 
 import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
@@ -17,13 +18,13 @@ const DAYS = [
   { day: 2, queries: ['Öresund Bridge', 'Oresund bridge aerial'] },
   { day: 3, queries: ['Högakustenbron', 'Skuleberget'] },
   { day: 4, queries: ['Lapporten Torneträsk', 'Torneträsk'] },
-  { day: 5, queries: ['Svolvær harbour', 'Svolvær'] },
-  { day: 6, queries: ['Henningsvær', 'Henningsvær aerial'] },
-  { day: 7, queries: ['Haukland beach', 'Uttakleiv'] },
-  { day: 8, queries: ['Kvalvika', 'Ryten Lofoten'] },
-  { day: 9, queries: ['Reinebringen', 'Reine Lofoten'] },
-  { day: 10, queries: ['Saltstraumen', 'Saltstraumen bridge'] },
-  { day: 11, queries: ['Bakklandet Trondheim', 'Gamle Bybro Trondheim'] },
+  { day: 5, queries: ['Skogsfjordvatnet', 'Ringvassøya'] },
+  { day: 6, queries: ['Tromsø panorama', 'Tromsø Storsteinen'] },
+  { day: 7, queries: ['Svolvær harbour', 'Svolvær'] },
+  { day: 8, queries: ['Haukland beach', 'Uttakleiv'] },
+  { day: 9, queries: ['Kvalvika', 'Ryten Lofoten'] },
+  { day: 10, queries: ['Reinebringen', 'Reine Lofoten'] },
+  { day: 11, queries: ['Saltstraumen', 'Saltstraumen bridge'] },
   { day: 12, queries: ['Storseisundet Bridge', 'Atlantic Ocean Road Norway'] },
   { day: 13, queries: ['Trollstigen', 'Geirangerfjord'] },
   { day: 14, queries: ['Lom stave church', 'Bøverdalen'] },
@@ -35,6 +36,10 @@ const DAYS = [
 const PICKS = JSON.parse(readFileSync(new URL('./day-image-picks.json', import.meta.url), { encoding: 'utf8' }).toString() || '{}');
 
 const BAD_TITLE = /map|karta|kart\b|diagram|logo|panorama_360|stitch_error/i;
+
+// Optionaler Tagesfilter (`candidates 5,6` / `final 5,6`) — leer = alle Tage
+const ONLY = (process.argv[3] ?? '').split(',').map((x) => Number(x.trim())).filter(Boolean);
+const wanted = (day) => !ONLY.length || ONLY.includes(Number(day));
 
 async function api(params) {
   const url = `${API}?${new URLSearchParams({ format: 'json', origin: '*', ...params })}`;
@@ -110,6 +115,7 @@ async function candidates() {
     all = JSON.parse(readFileSync(`${OUT}/candidates.json`, 'utf8'));
   } catch {}
   for (const { day, queries } of DAYS) {
+    if (!wanted(day)) continue;
     if (all[day]?.length) continue; // bereits geholt (Resume nach 429)
     let pool = [];
     for (const q of queries) {
@@ -153,8 +159,10 @@ async function candidates() {
 
 async function final() {
   mkdirSync(FINAL, { recursive: true });
+  mkdirSync(OUT, { recursive: true }); // credits.json landet dort — auch ohne vorherigen candidates-Lauf
   const credits = {};
   for (const [day, title] of Object.entries(PICKS)) {
+    if (!wanted(day)) continue;
     // Breite aus Seitenverhältnis: Panoramen brauchen mehr Pixel, damit ~900px Höhe bleiben
     const meta = await api({ action: 'query', titles: title, prop: 'imageinfo', iiprop: 'size' });
     const sz = Object.values(meta.query.pages)[0].imageinfo[0];

@@ -102,6 +102,7 @@
 
 .menu-day--kocher .menu-day__num { color: var(--aurora-green); }
 .menu-day--trage .menu-day__num { color: var(--aurora-violet); }
+.menu-day--kueche .menu-day__num { color: var(--aurora-cyan); }
 .menu-day--auswaerts .menu-day__num { color: var(--ice-dim); }
 .menu-day--auswaerts .menu-day__meal { color: var(--ice-dim); }
 .menu-day--trage { background: color-mix(in srgb, var(--aurora-violet) 7%, var(--night)); }
@@ -116,6 +117,7 @@
 }
 .food-tag--kocher { color: var(--aurora-green); border-color: color-mix(in srgb, var(--aurora-green) 45%, transparent); }
 .food-tag--trage { color: var(--aurora-violet); border-color: color-mix(in srgb, var(--aurora-violet) 55%, transparent); }
+.food-tag--kueche { color: var(--aurora-cyan); border-color: color-mix(in srgb, var(--aurora-cyan) 50%, transparent); }
 .food-tag--fire { color: var(--ember); border-color: color-mix(in srgb, var(--ember) 50%, transparent); }
 
 /* ---------- Karten (Frühstück, Mittag, Tragetag, Reserve, Küche) ---------- */

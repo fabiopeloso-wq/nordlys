@@ -1,5 +1,5 @@
 {
-  "stand": "2026-06-11",
+  "stand": "2026-08-24",
   "kp": {
     "explainer": "Der Kp-Index (0–9) misst alle 3 Stunden, wie stark das Erdmagnetfeld gestört ist. Je höher, desto weiter südlich wandert das Aurora-Oval.",
     "threshold": 2,
@@ -33,7 +33,7 @@
       { "date": "04.09.", "phase": "Letztes Viertel", "note": "ca./prüfen — der Himmel wird Nacht für Nacht dunkler" },
       { "date": "11.09.", "phase": "Neumond", "note": "Drei Tage nach der Heimkehr. Timing ist ein Hund." }
     ],
-    "verdict": "Die hellste Mondphase fällt auf die Lofoten-Woche — heisst: Aurora gibt's trotzdem (Kp 2+ überstrahlt den Mond locker), aber die tiefdunklen Nächte vom 04.–08.09. gehören der Rückroute. Helgeland auf 66° N ist auch Aurora-Land."
+    "verdict": "Die hellste Mondphase fällt auf die Hof-Tage bei Tromsø und die Anreise — heisst: Aurora gibt's trotzdem (Kp 2+ überstrahlt den Mond locker), und die Lofoten-Nächte vom 30.08.–02.09. sind schon nautisch dunkel. Die tiefdunklen Nächte vom 04.–08.09. gehören der Rückroute — Namdalen auf 64.5° N ist noch Aurora-Land."
   },
   "apps": [
     { "name": "NorwayLights", "why": "Go/Try/Wait-Empfehlung pro Ort — die einfachste Antwort auf «lohnt sich heute?»" },
@@ -58,6 +58,7 @@
     ]
   },
   "spots": [
+    { "name": "Skogsfjordvatnet (Tag 5+6)", "why": "70° N, Seeufer ohne ein einziges Licht — Spiegelung inklusive, noch bevor die Lofoten kommen" },
     { "name": "Skagsanden Beach", "why": "Nasser Sand spiegelt die Aurora — doppeltes Leuchten" },
     { "name": "Uttakleiv", "why": "Dragon's Eye als Vordergrund, offener Nordhorizont" },
     { "name": "Haukland", "why": "Heller Sand reflektiert — Ausweichspot neben Uttakleiv" },

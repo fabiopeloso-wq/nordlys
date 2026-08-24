@@ -16,7 +16,13 @@ const OUT = [
   [22.6529, 65.9061], // Töre
   [20.2253, 67.8558], // Kiruna
   [18.7822, 68.3585], // Abisko
-  [17.4273, 68.4385], // Narvik
+  [17.5715, 68.5575], // Bjerkvik (E6 Nord statt E10 West)
+  [19.5583, 69.2258], // Nordkjosbotn
+  [18.9553, 69.6492], // Tromsø
+  [19.1206, 69.9733], // Skogsfjordvatnet — Småbruk (Airbnb, Nächte 5+6)
+  [18.9553, 69.6492], // Tromsø
+  [19.5583, 69.2258], // Nordkjosbotn
+  [17.5715, 68.5575], // Bjerkvik (E10 West)
   [14.568, 68.2343], // Svolvær
   [13.0877, 67.932], // Reine
   [12.9777, 67.8794], // Å

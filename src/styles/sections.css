@@ -504,6 +504,8 @@
 .day-card__stay--hotel svg { stroke: var(--aurora-violet); }
 .day-card__stay--bungalow b { color: var(--aurora-violet); }
 .day-card__stay--bungalow svg { stroke: var(--aurora-violet); }
+.day-card__stay--hof b { color: var(--aurora-violet); }
+.day-card__stay--hof svg { stroke: var(--aurora-violet); }
 
 @media (max-width: 1024px) {
   .days__track {
