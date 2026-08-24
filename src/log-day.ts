@@ -32,12 +32,14 @@ async function main() {
   const [dayMod, mediaMod] = await Promise.all([loadDay(), loadMedia()]);
   const day = (dayMod as { default: LogDay }).default;
   const manifest = (mediaMod as { default: MediaManifest }).default;
-  const media = manifest.items;
+  // Kuratierung: das Manifest kennt alles, die Seite zeigt nur die Auswahl
+  const omitted = new Set(day.omit ?? []);
+  const media = manifest.items.filter((m) => !omitted.has(m.id));
   const idx = index as LogIndex;
   const pos = idx.days.findIndex((d) => d.day === day.day);
   const prev = pos > 0 ? idx.days[pos - 1] : undefined;
   const next = pos >= 0 ? idx.days[pos + 1] : undefined;
-  const hero = media.find((m) => m.id === day.hero) ?? media[0];
+  const hero = manifest.items.find((m) => m.id === day.hero) ?? media[0];
   const captions = day.captions ?? {};
 
   document.body.dataset.mood = day.mood;

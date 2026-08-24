@@ -22,6 +22,8 @@ export interface LogDay {
   aurora?: boolean | string;
   /** Medien-ID des Hero-Bilds (p-0xx oder v-0xx) */
   hero: string;
+  /** Kuratierung: diese IDs bleiben im Manifest, erscheinen aber nicht in der Galerie (gleiche Motive, Ausschuss) */
+  omit?: string[];
   stats: {
     km: number;
     kmTotal: number;

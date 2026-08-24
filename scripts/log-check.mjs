@@ -6,7 +6,7 @@
 
 import { spawn } from 'node:child_process';
 import { mkdirSync, readFileSync } from 'node:fs';
-import { chromium } from 'playwright';
+import { chromium, webkit } from 'playwright';
 
 const DAY = Number(process.argv[2]);
 if (!DAY) {
@@ -24,6 +24,16 @@ mkdirSync(OUT, { recursive: true });
 const manifest = JSON.parse(readFileSync(`src/data/log/tag-${NN}.media.json`, 'utf8'));
 const index = JSON.parse(readFileSync('src/data/log/index.json', 'utf8'));
 const dayJson = JSON.parse(readFileSync(`src/data/log/tag-${NN}.json`, 'utf8'));
+// Die Galerie zeigt nur die kuratierte Auswahl (omit im Tages-JSON)
+const omit = new Set(dayJson.omit ?? []);
+const expected = manifest.items.filter((i) => !omit.has(i.id));
+
+/** Passt das Lightbox-Bild komplett in den Viewport? (Safari löst Prozent-Höhen anders auf) */
+const lightboxFits = (page) =>
+  page.locator('.lb__img, .lb__video').first().evaluate((el) => {
+    const r = el.getBoundingClientRect();
+    return { ok: r.top >= 0 && r.left >= 0 && r.bottom <= innerHeight + 1 && r.right <= innerWidth + 1 && r.height > 100, h: Math.round(r.height), vh: innerHeight };
+  });
 
 const fails = [];
 const check = (ok, msg) => (ok ? console.log('  ok  ', msg) : (fails.push(msg), console.log('  FAIL', msg)));
@@ -95,7 +105,7 @@ for (const [label, viewport] of [['d', { width: 1440, height: 900 }], ['m', { wi
   check((await page.title()).includes(`Tag ${NN}`), `${label}: Titel`);
   check(await page.locator('.log-hero__media img').evaluate((img) => img.naturalWidth > 0), `${label}: Hero-Bild geladen`);
   const items = await page.locator('.lg-item').count();
-  check(items === manifest.items.length, `${label}: ${items}/${manifest.items.length} Galerie-Kacheln`);
+  check(items === expected.length, `${label}: ${items}/${expected.length} Galerie-Kacheln (${omit.size} ausgelassen)`);
   await page.locator('.log-gallery').scrollIntoViewIfNeeded();
   await page.waitForTimeout(800);
   check(await page.locator('.log-gallery').evaluate((el) => el.classList.contains('is-laid-out')), `${label}: Galerie-Layout berechnet`);
@@ -136,11 +146,14 @@ for (const [label, viewport] of [['d', { width: 1440, height: 900 }], ['m', { wi
     await jump(0);
   }
 
-  // Lightbox
-  await page.locator('.lg-item').first().click();
-  await page.waitForTimeout(400);
+  // Lightbox — mit einem Hochformat, das ist der kritische Fall fürs Einpassen
+  const portrait = expected.find((i) => i.type === 'photo' && i.h > i.w) ?? expected[0];
+  await page.locator(`.lg-item[data-id="${portrait.id}"]`).click();
+  await page.waitForTimeout(500);
   check(await page.locator('.lb.is-open').isVisible(), `${label}: Lightbox öffnet`);
-  check(location(await page.evaluate(() => location.hash)) === `#${manifest.items[0].id}`, `${label}: Hash zeigt auf das Bild`);
+  check((await page.evaluate(() => location.hash)) === `#${portrait.id}`, `${label}: Hash zeigt auf das Bild`);
+  const fit = await lightboxFits(page);
+  check(fit.ok, `${label}: Lightbox-Bild passt in den Viewport (${fit.h}px von ${fit.vh}px)`);
   const count1 = await page.locator('[data-lb-count]').textContent();
   await page.keyboard.press('ArrowRight');
   await page.waitForTimeout(350);
@@ -152,7 +165,7 @@ for (const [label, viewport] of [['d', { width: 1440, height: 900 }], ['m', { wi
   check((await page.evaluate(() => location.hash)) === '', `${label}: Hash nach Schliessen leer`);
 
   // Video in der Lightbox
-  const video = manifest.items.find((i) => i.type === 'video');
+  const video = expected.find((i) => i.type === 'video');
   if (video) {
     await page.locator(`.lg-item[data-id="${video.id}"]`).click();
     await page.waitForTimeout(400);
@@ -166,18 +179,23 @@ for (const [label, viewport] of [['d', { width: 1440, height: 900 }], ['m', { wi
   await page.close();
 }
 
-function location(h) {
-  return h;
-}
-
 // Deep-Link
 {
   const { page } = await newPage({ width: 1200, height: 800 });
-  const target = manifest.items[Math.min(2, manifest.items.length - 1)].id;
+  const target = expected[Math.min(2, expected.length - 1)].id;
   await page.goto(`${URL_DAY}#${target}`, { waitUntil: 'networkidle' });
   await page.waitForTimeout(700);
   check(await page.locator('.lb.is-open').isVisible(), `Deep-Link #${target} öffnet die Lightbox`);
-  check((await page.locator('[data-lb-count]').textContent()) === `${String(manifest.items.findIndex((i) => i.id === target) + 1).padStart(2, '0')}/${String(manifest.items.length).padStart(2, '0')}`, 'Deep-Link zeigt das richtige Bild');
+  check((await page.locator('[data-lb-count]').textContent()) === `${String(expected.findIndex((i) => i.id === target) + 1).padStart(2, '0')}/${String(expected.length).padStart(2, '0')}`, 'Deep-Link zeigt das richtige Bild');
+  await page.close();
+}
+
+// Ausgelassene Medien dürfen nirgends auftauchen
+{
+  const { page } = await newPage({ width: 1200, height: 800 });
+  await page.goto(URL_DAY, { waitUntil: 'networkidle' });
+  const leaked = await page.evaluate((ids) => ids.filter((id) => document.querySelector(`.lg-item[data-id="${id}"]`)), [...omit]);
+  check(leaked.length === 0, `omit greift${leaked.length ? ': ' + leaked.join(', ') + ' sichtbar' : ''}`);
   await page.close();
 }
 
@@ -195,11 +213,35 @@ function location(h) {
 }
 
 await browser.close();
+
+// ---- WebKit (Safari-Verhalten): Lightbox-Einpassung auf Laptop-Grössen ----
+console.log('— WebKit / Safari —');
+try {
+  const wk = await webkit.launch();
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 1280, height: 720 }]) {
+    const page = await wk.newPage({ viewport });
+    await page.goto(URL_DAY, { waitUntil: 'networkidle' });
+    await page.waitForTimeout(700);
+    const portrait = expected.find((i) => i.type === 'photo' && i.h > i.w) ?? expected[0];
+    await page.locator(`.lg-item[data-id="${portrait.id}"]`).click();
+    await page.waitForTimeout(600);
+    const fit = await lightboxFits(page);
+    check(fit.ok, `webkit ${viewport.width}×${viewport.height}: Lightbox-Bild passt in den Viewport (${fit.h}px von ${fit.vh}px)`);
+    await page.screenshot({ path: `${OUT}/tag-${NN}-webkit-${viewport.width}-lightbox.png` });
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+    check(overflow <= 1, `webkit ${viewport.width}: kein horizontaler Overflow (${overflow}px)`);
+    await page.close();
+  }
+  await wk.close();
+} catch (e) {
+  check(false, `WebKit nicht verfügbar (npx playwright install webkit): ${e.message.split('\n')[0]}`);
+}
+
 server?.kill();
 
 // ---- Videos im Release: erreichbar + Range-Requests ----
 console.log('— Videos im Release —');
-for (const v of manifest.items.filter((i) => i.type === 'video')) {
+for (const v of expected.filter((i) => i.type === 'video')) {
   try {
     const res = await fetch(v.src, { headers: { Range: 'bytes=0-1023' } });
     const ok = res.status === 206 || res.headers.get('accept-ranges') === 'bytes';

@@ -40,6 +40,13 @@ for (const file of dayFiles) {
   for (const id of Object.keys(day.captions ?? {})) {
     if (!media.items.some((i) => i.id === id)) warnings.push(`Tag ${NN}: Caption für unbekannte ID «${id}»`);
   }
+  // Kuratierung: omit-Liste prüfen, Zählung nur über die gezeigten Medien
+  const omit = new Set(day.omit ?? []);
+  for (const id of omit) {
+    if (!media.items.some((i) => i.id === id)) warnings.push(`Tag ${NN}: omit verweist auf unbekannte ID «${id}»`);
+  }
+  if (omit.has(day.hero)) warnings.push(`Tag ${NN}: hero «${day.hero}» steht in omit — wird im Hero gezeigt, fehlt aber in der Galerie`);
+  const shown = media.items.filter((i) => !omit.has(i.id));
   const ogPath = `public/log/tag-${NN}/og.jpg`;
   if (!existsSync(ogPath)) warnings.push(`Tag ${NN}: ${ogPath} fehlt — node scripts/log-import.mjs ${day.day} --og`);
 
@@ -69,12 +76,12 @@ for (const file of dayFiles) {
     km: day.stats.km,
     kmTotal: day.stats.kmTotal,
     night: day.stats.night.type,
-    photos: media.items.filter((i) => i.type === 'photo').length,
-    videos: media.items.filter((i) => i.type === 'video').length,
+    photos: shown.filter((i) => i.type === 'photo').length,
+    videos: shown.filter((i) => i.type === 'video').length,
     hero: { thumb: hero.thumb, lqip: hero.lqip, w: hero.w, h: hero.h },
     url,
   });
-  console.log(`Tag ${NN}: ${out} (${entries.at(-1).photos} Fotos, ${entries.at(-1).videos} Videos)`);
+  console.log(`Tag ${NN}: ${out} (${entries.at(-1).photos} Fotos, ${entries.at(-1).videos} Videos${omit.size ? `, ${omit.size} ausgelassen` : ''})`);
 }
 
 entries.sort((a, b) => a.day - b.day);

@@ -7,6 +7,7 @@
   "place": { "name": "Hamburg-Harburg", "region": "Hamburg · Deutschland", "lat": 53.4623, "lng": 9.9489 },
   "mood": "autobahn",
   "hero": "p-010",
+  "omit": ["p-003", "p-007", "p-009", "p-012", "p-014", "p-015", "p-017", "p-019", "p-021", "p-023", "v-002", "v-003"],
   "stats": {
     "km": 870,
     "kmTotal": 870,
