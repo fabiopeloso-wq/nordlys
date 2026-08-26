@@ -1,13 +1,15 @@
 # NORDLYS — Logbuch: Plan
 
-**Stand: 25.08.2026, nachts** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
+**Stand: 26.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
 für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qualität wie der Rest der Site.
 
 > **Status:** Phase 1 gebaut und mit Tag 01 befüllt (Import-Pipeline, Tagesseite, Übersicht, Generator, Check,
 > Topnav-Pill). Der Drive-Ordner heisst `Sweden_2026/Day N` und ist über die Verknüpfung in «Meine Ablage» lokal
 > lesbar. Video-Hosting via Release `media` ist verifiziert (Range-Requests → 206). Nach Fabios erstem Feedback:
 > Kuratierung per `omit`-Liste (nicht alle Uploads, gleiche Motive → das beste) und Lightbox-Fix für Safari
-> (Prozent-Höhen in fr-Grid-Zeilen; der Check hat jetzt einen WebKit-Pass). Offen aus Phase 2/3: Lightbox-FLIP,
+> (Prozent-Höhen in fr-Grid-Zeilen; der Check hat jetzt einen WebKit-Pass). Tag 02 (26.08.): 49 Uploads → 26 gezeigt;
+> die Drive-Ordner heissen jetzt «Day N (dd.mm.yy)», der Import matcht über die Tagesnummer. Die Crew lädt Fotos
+> auch nachträglich hoch (33 Nachzügler für Tag 01) — Import für Vortage gehört darum zum Abendritual. Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---

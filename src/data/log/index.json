@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-24",
+  "stand": "2026-08-26",
   "days": [
     {
       "day": 1,
@@ -13,7 +13,7 @@
       "km": 870,
       "kmTotal": 870,
       "night": "hotel",
-      "photos": 14,
+      "photos": 23,
       "videos": 3,
       "hero": {
         "thumb": "log/tag-01/p-010-t.webp",
@@ -22,6 +22,28 @@
         "h": 1350
       },
       "url": "logbuch/tag-01/"
+    },
+    {
+      "day": 2,
+      "date": "2026-08-25",
+      "title": "Drei Länder, zwei Meere, fünf Zentimeter",
+      "lead": "1020 Kilometer vom Frühstück in Harburg bis zum Bungalow vor Stockholm: Fähre, Öresund, ein Funkenflug an der schönsten Raststätte Dänemarks — und ein Bad im Vättern, das alles wettmacht.",
+      "place": "Skarpnäck, Stockholm",
+      "lat": 59.2499,
+      "lng": 18.1615,
+      "mood": "autobahn",
+      "km": 1020,
+      "kmTotal": 1890,
+      "night": "bungalow",
+      "photos": 24,
+      "videos": 2,
+      "hero": {
+        "thumb": "log/tag-02/p-038-t.webp",
+        "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoYAAsAPu1kqU2ppaOiMAgBMB2JQBOgAy6cSuPSv8AA/TxTtIEqhP2u0RsS/WqJNDgZ9tTXau4QEbMwMfaCYhcqaf0ymgBPKzHJBsgGHyF/GGZ9QzEnQzMkT2oaAAAA",
+        "w": 1800,
+        "h": 832
+      },
+      "url": "logbuch/tag-02/"
     }
   ]
 }

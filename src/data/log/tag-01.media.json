@@ -1,7 +1,61 @@
 {
   "day": 1,
-  "stand": "2026-08-24T22:17",
+  "stand": "2026-08-26T13:02",
   "items": [
+    {
+      "id": "p-025",
+      "type": "photo",
+      "orig": "IMG_7324.HEIC",
+      "bytes": 1834703,
+      "src": "log/tag-01/p-025.webp",
+      "thumb": "log/tag-01/p-025-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAACQBQCdASoSABgAPu1oq02ppiQiMAgBMB2JYwDLxMgCudRDH7DfXK5tWbwX9U/dUePxLcq3AAD+pk2oL9tQk48ltnSYP5BlgY+t9oXnH2KPvauZIVHes595qtkUzjp6gYGQwMSEipsRaFVT9e7p/C2Y249Uq5geG6uv4S1YE476MNXDqwhwYhivkitg84zaqTu/RAuBaTMvgT1IpXPnF+58bAM7kysuIjKCB4yQLX6y5BCbzfya3UZDROAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T14:22:41+02:00",
+      "takenSource": "exif",
+      "gps": [
+        50.739,
+        9.02333
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "p-026",
+      "type": "photo",
+      "orig": "IMG_7325.HEIC",
+      "bytes": 1779000,
+      "src": "log/tag-01/p-026.webp",
+      "thumb": "log/tag-01/p-026-t.webp",
+      "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAADQBQCdASoSABgAPu1srE8ppiQiMBgIATAdiWMAyQaAJcIL97NZXUwTNuFnbo17oeRDq4eQUCgAAP4yDLg1IWlhuXzulF/9t66v0gwqyAsidg1paBM7IEm3OFCTzlDN8r0z1UDPS/8KAaOFzq/RBzxDmuQwEhS1fhaDRaF9NynINie1hXhdWbdYtPDdheqm2+MerBl07keLmaTokHH58W/t2YwnUu2RzyCAh7AV2zlDS3Fd0jY+NNpImJGLJZwAAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T14:22:42+02:00",
+      "takenSource": "exif",
+      "gps": [
+        50.74052,
+        9.02425
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "v-006",
+      "type": "video",
+      "orig": "IMG_7326.MOV",
+      "bytes": 7133114,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-01-v-006.mp4",
+      "size": 4926503,
+      "poster": "log/tag-01/v-006.webp",
+      "thumb": "log/tag-01/v-006-t.webp",
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwAwCdASoOABgAPu1iqk4ppaQiMAgBMB2JYwAD5enZhvmiW9Z2rpOgAOIupj6pxP8tmtAP5p/bWZkw4lOF8yWFjbDJI2KMwI9TIkQdlCkvpGXxIF4oVhhN1AWVSWbI2q0FfwONXJ/+qkon3xwb5NVmf40z3YnQrzlBBxJ1LT68C4/MXinmYh/w4/N+kZOsczgAAA==",
+      "w": 1080,
+      "h": 1920,
+      "duration": 6.3,
+      "taken": "2026-08-24T14:22:50+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
     {
       "id": "p-001",
       "type": "photo",
@@ -48,6 +102,24 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "p-027",
+      "type": "photo",
+      "orig": "IMG_0764.HEIC",
+      "bytes": 2941065,
+      "src": "log/tag-01/p-027.webp",
+      "thumb": "log/tag-01/p-027-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoSABgAPu1srVCppaQiqAqpMB2JZQDA3BDLeOs4OUSvBDdj+asl0Xs8wZrAAAD+r0JDL4dubeW15GANzaAY+Z4m31hrDX7SgzfWoyq9u1o34KpHZYsWEHVWrcKkFQ620ReL22527fHAtFjaXcI+ruEB1SgWwl3w8jVLYV6Y/RmCRC0Cisb6T0P+ESpt63GPhEkDAAAA",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:33:07+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.53383,
+        10.02642
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
       "id": "p-004",
       "type": "photo",
       "orig": "IMG_7331.HEIC",
@@ -66,6 +138,132 @@
       "camera": "iPhone 14 Pro"
     },
     {
+      "id": "p-028",
+      "type": "photo",
+      "orig": "IMG_0765.HEIC",
+      "bytes": 1369839,
+      "src": "log/tag-01/p-028.webp",
+      "thumb": "log/tag-01/p-028-t.webp",
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBQCdASoSABgAPu1opk2ppqMiMBgMATAdiWUOoAKbwDJJ0I51GTFr7avkzu0vbvbO0AD90gQyTbOaQvj9VUmkC6wujkTSxqcP4jDLxsTn+oAI9IMowj+kObGAzFjccBGf0lwNS46ijwn03VNLoePYA0eewB4eL1rVzMACQcnIUkHCdNbo1wpkAZg1O2VIYTAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:38:29+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54119,
+        10.0003
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-029",
+      "type": "photo",
+      "orig": "IMG_0766.HEIC",
+      "bytes": 1799871,
+      "src": "log/tag-01/p-029.webp",
+      "thumb": "log/tag-01/p-029-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADwBQCdASoSABgAPu1kq1AppSOisBgIATAdiWIAv1jSu/0v+Aegqjvu+xsGDODsOqGXX+sn3Cz0gAD+ZobqtgJMUOy0ZZaqaLGqnQMcFqLP29HuAMcDeo0biQ0wAE9SOzpaqo1I9rFhULUtgrT+PfsCX39VvIFQFWvt58TPswxCmmuEwKn/YQ8z3tT1e5vLrqH3yhBLNT9LN95W0AA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:38:30+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54119,
+        10.0003
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-030",
+      "type": "photo",
+      "orig": "IMG_0767.HEIC",
+      "bytes": 2485764,
+      "src": "log/tag-01/p-030.webp",
+      "thumb": "log/tag-01/p-030-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBACdASoSABgAPu1qrlCppaQiqAqpMB2JYwCw7A95OCFvK4YWhDr5HjtT8AAA/ud79AxSMYxdNj9g6s36Dc9tOi8AcajB/oyES6RIGan8eg1ioySq8HzBrbdaxhashP6n79Lvr0y9pTGBYgTKCLkOZ2yVjLaC3yGjru3Bw5OWwkXx4POl3H44ChsfR1RZtkItqXItYWrhmHUAAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:38:35+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54119,
+        10.0003
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-031",
+      "type": "photo",
+      "orig": "IMG_0770.HEIC",
+      "bytes": 1673430,
+      "src": "log/tag-01/p-031.webp",
+      "thumb": "log/tag-01/p-031-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBACdASoSABgAPtlgo02oJiMiN/qoAQAbCUAAClPsR0lfdvbv/3lEXFvvxEdbmADiSMlrWYg6lntL22OsyAXQiLC0N/cAmSGQiBPNUbWPD6/863HJMnQ18zq4SqkCfmmaSU3kcwhAcTEvpTHc+LTFJC+ios2j50+s1vRLFBpOr8zYgm6ais+mRnjLgAAA",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:39:17+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54321,
+        9.99843
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "v-007",
+      "type": "video",
+      "orig": "IMG_7332.MOV",
+      "bytes": 55221820,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-01-v-007.mp4",
+      "size": 26037868,
+      "poster": "log/tag-01/v-007.webp",
+      "thumb": "log/tag-01/v-007-t.webp",
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADQAwCdASoOABgAPu1iqU2ppaOiMAgBMB2JZQDG9YxERv2R9yn7HkAA/tql2kXWDqVlGrXt+vXgR9woKjuBESCMQekJqfdATS2ikvJEsgsLJ2c8BtJi7UxZWut557mT41YK0nP20qi3FHzF+v9VdK5RM7xnpKxcCR0yEwaAAAA=",
+      "w": 1080,
+      "h": 1920,
+      "duration": 33.6,
+      "taken": "2026-08-24T20:39:20+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
+      "id": "p-032",
+      "type": "photo",
+      "orig": "IMG_0771.HEIC",
+      "bytes": 772742,
+      "src": "log/tag-01/p-032.webp",
+      "thumb": "log/tag-01/p-032-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwBACdASoSABgAPuVeo02pJSMiMAwBIByJYwDH5B5P0zFe6zzAmQyafsartD0AAP6vbRmQbHPpu46yJHiOXaP39LPhcaATAa+i9mFKfw7SZzjrlaG8kQeD0nFjvA7a7Z+x8UKVa+5ozAWMgjn3j0lE8/RVPtUOjyK4sLg4NYGOd9F9wAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:39:21+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54358,
+        9.99818
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-033",
+      "type": "photo",
+      "orig": "IMG_7333.HEIC",
+      "bytes": 2228426,
+      "src": "log/tag-01/p-033.webp",
+      "thumb": "log/tag-01/p-033-t.webp",
+      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQBACdASoSABgAPu1sq1EppaOiqAqpMB2JZQDKAAiU3z8inMU4mTTbqRJAvm6ngAD76i7HBmdZKQk3jha7BZnlJz8GA0JFsDeXuMvgIYgVSy1a2yYWcTL9lCMP+c4O0mx662wy9WK19lkDIM+GdwiHgjE1yWaIhYK2PU7VFCAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:43:24+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54314,
+        9.99246
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
       "id": "p-005",
       "type": "photo",
       "orig": "IMG_2905.HEIC",
@@ -79,6 +277,60 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "iPhone 14 Pro Max"
+    },
+    {
+      "id": "p-034",
+      "type": "photo",
+      "orig": "IMG_7334.HEIC",
+      "bytes": 1904388,
+      "src": "log/tag-01/p-034.webp",
+      "thumb": "log/tag-01/p-034-t.webp",
+      "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBQCdASoSABgAPu1eq02ppSQiMBgMATAdiWcAzFgPR66uOz3kTPcRWHzvYx9cvjgAAP7ccKMbnLXZsd4XLF0mfMWMxFTBk5ShiUw7V96/NyHBwSmLuA+3EfTjs5RA3WYAgfsg4tLiOq5chInzear/R5cqKoRPwAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:46:07+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54369,
+        9.99324
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "p-035",
+      "type": "photo",
+      "orig": "IMG_7335.HEIC",
+      "bytes": 1906327,
+      "src": "log/tag-01/p-035.webp",
+      "thumb": "log/tag-01/p-035-t.webp",
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoSABgAPu1eqk2ppKQiMBgMATAdiWcAzFgMIEmq3Rtpf3FWRn7PmMzQAP7ccKMbwWp/v97zZYV5lQo5D4D8AmoTktbTx3RooXZK+ZVLr4ibIX8kKzp9vAo3c8TXxk//22sUYbQIiKDLm0+bq9Oyj5mC45HJ4rkAAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:46:08+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54371,
+        9.99321
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "p-036",
+      "type": "photo",
+      "orig": "IMG_0772.HEIC",
+      "bytes": 2567997,
+      "src": "log/tag-01/p-036.webp",
+      "thumb": "log/tag-01/p-036-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwBACdASoSABgAPu1eq02ppKQiMBgMATAdiWcAy6QRgboHFlFM+n3A96rN8Pdr6gAA/undFjMa/lLmSjYC7uLJ2wWOq5FUaoyF3MWBjf5KFvKZHFKpwP4I8qD0ltpGdndrjKZwvF9886hBV42GxkxNxTuwhoDNxFzM1MRpkDaFMOIQzS59UAAA",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:46:11+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54368,
+        9.99322
+      ],
+      "camera": "iPhone 17 Pro"
     },
     {
       "id": "p-006",
@@ -156,6 +408,132 @@
       "camera": "iPhone 14 Pro Max"
     },
     {
+      "id": "p-037",
+      "type": "photo",
+      "orig": "IMG_0773.HEIC",
+      "bytes": 3145696,
+      "src": "log/tag-01/p-037.webp",
+      "thumb": "log/tag-01/p-037-t.webp",
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoYABIAPulmqU2pJiQiMBgMASAdCUAABdAs0w8vbhp/GiCJNdyoAP3Labvs0DtBORNtqrxKw0hyn4OtlozH/raYRpiX3J8QIiR0RLaMkQAJCxEgYCx/5lLmIfQ1IrZlTEgG3+gA",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:52:44+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54472,
+        9.98882
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-038",
+      "type": "photo",
+      "orig": "IMG_0774.HEIC",
+      "bytes": 1936871,
+      "src": "log/tag-01/p-038.webp",
+      "thumb": "log/tag-01/p-038-t.webp",
+      "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBACdASoYABIAPu1kqk+ppSOiMBgIATAdiUAWI/HYNTqom0ds0eayBAJBBAD+izk5Ycl/k+sTYBq5EYO/unQ8fd66UzsG44J8crWpL2JD3orgcr/5eKevzcySqFi6NRl7s7eliRNwqCRatNy1ABhoAAA=",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:52:49+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54472,
+        9.98884
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-039",
+      "type": "photo",
+      "orig": "IMG_0775.HEIC",
+      "bytes": 1918033,
+      "src": "log/tag-01/p-039.webp",
+      "thumb": "log/tag-01/p-039-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADwBACdASoYABIAPu1srFEppaQiqAqpMB2JZQCo9BEUzg/5eQkQL9RJOLBkm26aM3gA/d4VMzbnxe8cNmfcZoPUfAnEnomnHw3++6XCklv3ma/EE+uR6/NpY/ZkRMF1SPHpKrR5KX2OrNbBixlGFVRScT2GCWP4e5HsffLiaVVEZzGGNSl8CbH333RmVuA68eKBSDmQPQAAAA==",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:52:56+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54472,
+        9.98884
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-040",
+      "type": "photo",
+      "orig": "IMG_0776.HEIC",
+      "bytes": 2660037,
+      "src": "log/tag-01/p-040.webp",
+      "thumb": "log/tag-01/p-040-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADQBACdASoSABgAPu1urlIppiQiqAgBMB2JQBOmWhgsd8LTFxcv6u/uN8SijHbwsAD529uEjsXETzMtiKRIPmJ7M6rHmhrD47ZLiU+Tu0yNJT+uyKi3XYW0dxYCMAuPfOcT4ZwGd0uf9Wk2Wvh++ZUDbCIIJfrL1nCtLzTBqxZxAXmN72EyGqma9SxcJozfgV3ZAcpwqv8tzLiFqlVXbrkewo6WNTyLaAiGf5Lg52Ji5R6AAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:53:19+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54473,
+        9.98863
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-041",
+      "type": "photo",
+      "orig": "IMG_0779.HEIC",
+      "bytes": 2646674,
+      "src": "log/tag-01/p-041.webp",
+      "thumb": "log/tag-01/p-041-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBQCdASoSABgAPu1kp04ppaMiMBgMATAdiWYAuwAQxE/sSjIT0/uVvskqB9XCo+m+LQAA/rlnKIORHzCxXsRRs5c8m9EVW7W93rXFwpBV+RzvAiNEdKCSO7LH1athWYoYBgfD0grvFPsp00Go+GhwY2V188OxU9ZMrFA1TkdnWpBP3EgvmZBTwWm20L+agcSgbhxoAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:54:04+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54481,
+        9.98772
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-042",
+      "type": "photo",
+      "orig": "IMG_0781.HEIC",
+      "bytes": 2947529,
+      "src": "log/tag-01/p-042.webp",
+      "thumb": "log/tag-01/p-042-t.webp",
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwBACdASoYABIAPu1kp02ppaOiMBgMATAdiUAU4oDnojsSMLDDlwMhdZM/4igAAOk44VK/PGi80kdoW3i45aOB8Po2KSE/aooF86ebVfOlOKToNvgiAz9ij8yOzJ2YSXv3O/6KkXRQqmxeaYF9j9wjwVkDWAIQABrgy1inAAA=",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:55:01+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54475,
+        9.9867
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-043",
+      "type": "photo",
+      "orig": "IMG_0782.HEIC",
+      "bytes": 2175801,
+      "src": "log/tag-01/p-043.webp",
+      "thumb": "log/tag-01/p-043-t.webp",
+      "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwBACdASoYABIAPu1qqU8ppiOiMBgIATAdiWMAyNQQ6vBZzzllnPF77lzRAAD+IV3QianjXzQibs4dvsbvK2MbsfnKGR73qmdlOxNmfrr60GEiqqmXxvstUHdSeYmTLfJyqWH6AdPbjh/uSTkv9MnwwCWUasPt1siJtgAAAAA=",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:55:07+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54475,
+        9.98661
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
       "id": "p-011",
       "type": "photo",
       "orig": "IMG_2912.HEIC",
@@ -169,6 +547,150 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "iPhone 14 Pro Max"
+    },
+    {
+      "id": "p-044",
+      "type": "photo",
+      "orig": "IMG_0783.HEIC",
+      "bytes": 1811587,
+      "src": "log/tag-01/p-044.webp",
+      "thumb": "log/tag-01/p-044-t.webp",
+      "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQBQCdASoSABgAPu1qrVCppaQiqAqpMB2JYgCxH1jw2n/APy2N51cfpmM2ty2DO6sEHcMeAAD90kbDtqZVmI3VWyRJitnJB2RkdW1lOVvsT/8M8kE618gQT9GbSLEVGGroAjbjy5s7Pieqar5Foi7g3W4uXl0gxQF597JivsTN7hWGqA6IBrmJCRtw2b+dcTbTiRexq5f6Po7unkHMr+oz7v+oilfjMVln3wAAAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:56:02+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54481,
+        9.98564
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-045",
+      "type": "photo",
+      "orig": "IMG_0784.HEIC",
+      "bytes": 2114682,
+      "src": "log/tag-01/p-045.webp",
+      "thumb": "log/tag-01/p-045-t.webp",
+      "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwAwCdASoYABIAPu1iqE2ppaOiMAgBMB2JQBlABDv6dUZCAlu9yAD+jD2Vl2WHzCrxj1/4ShRUWG33lw7nw9m5XEMtJl72lBndIZZi9z6hVYNR/X/rCeLskfG/Z1OkBzwv0CRgAAA=",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:56:11+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54483,
+        9.98556
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-046",
+      "type": "photo",
+      "orig": "IMG_0785.HEIC",
+      "bytes": 2342716,
+      "src": "log/tag-01/p-046.webp",
+      "thumb": "log/tag-01/p-046-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBACdASoYABIAPu1qqFCppaOiqA1RMB2JYwCdM47BXLYVBYxrrfzqHWN1Vd7ooADwM6vDbMNA6VgG3IhfaUnEZP8ti8hG5x9MBSiRNARJdTzaNdeEdtcu/3imI3MVY5EW3aD7bZAPFf3RJByeqOwV2Ds2ZYrjtLTUqw64oCvKycOO2VeRORvcHoxikQdaZsxmVb8W07MTOIHFw81qb4CiFtBTU+aO7DCdS6z7dgP++ZiKJXkgAA==",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:56:31+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54487,
+        9.98523
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-047",
+      "type": "photo",
+      "orig": "IMG_0787.HEIC",
+      "bytes": 1997297,
+      "src": "log/tag-01/p-047.webp",
+      "thumb": "log/tag-01/p-047-t.webp",
+      "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABQBQCdASoSABgAPu1orVCppaQiqAqpMB2JQBWGYwApOwCG9syAwsCSVpqTRrgzK0niLQAA/dFm/mjrmSUwCx/7oWGkj1MdQJWtOwm2QZqQXxHtzn3iX7WKdZHrEjw0cscLTdf9lWuQoARiPCJSZPWXsn2P9AD4Qz/Zzg/NuAK3IYiQuTkNsy+fTycK2t2ix5HxPvu5wrz5uf5ovJQZquaKARuzKARHsR9v+xXhAyfDgAAA",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:56:56+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54491,
+        9.98494
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-048",
+      "type": "photo",
+      "orig": "IMG_0788.HEIC",
+      "bytes": 1720608,
+      "src": "log/tag-01/p-048.webp",
+      "thumb": "log/tag-01/p-048-t.webp",
+      "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwBACdASoSABgAPuFgqE2opaQiMAwBEBwJYwCdIODgqweDLyEIa+/6zHORo82cCIAA9uwBOqv059h6/8q39xdG33KiTBP+Jy8kDi8E5dWGH3JuXD5H4zVZKrx+kuHsrDChGiy2+LjTB5Z9BNOZtuCwcvm26oc4K89AAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:57:07+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54489,
+        9.98489
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-049",
+      "type": "photo",
+      "orig": "IMG_0789.HEIC",
+      "bytes": 3118149,
+      "src": "log/tag-01/p-049.webp",
+      "thumb": "log/tag-01/p-049-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBQCdASoYABIAPu1grE2ppaSiMBgMATAdiUAToLZYGcLs/JzDweLyhn1061wPVtPgAP6uVpkwkMqYKbF92NIos5PAPfBhJQLyOYm4Tm5HtNdIjUP8xF2214SkOt6idN6WK6Lw0fOudiPFwJR+WvUkC5vXL/vwo1IeN4BniEhW8FKarJKXk+Q3Ke3Qygh0AAA=",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:57:18+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54486,
+        9.98477
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-050",
+      "type": "photo",
+      "orig": "IMG_0790.HEIC",
+      "bytes": 1981127,
+      "src": "log/tag-01/p-050.webp",
+      "thumb": "log/tag-01/p-050-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBQCdASoYABIAPu1srFEppiQiqAqpMB2JQBOmXRA1P5CHjMAFJdBM1ZjKmNFRkQTh4AD+UNm8K43JhTfwmZ7ADXZcwPo8UaLWM2q4u3lu8m13nQz8n0u+75YcCRg2lWNeVX8jCQGkRmv7m6KIymLOnWDQgNm1yohJXlDSCzj1s11Tc3l05kv+aXlVxyVIvYyR0CCuyiGygAAA",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:57:22+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54486,
+        9.98479
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-051",
+      "type": "photo",
+      "orig": "IMG_0791.HEIC",
+      "bytes": 2743541,
+      "src": "log/tag-01/p-051.webp",
+      "thumb": "log/tag-01/p-051-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwBACdASoYABIAPu1ep06ppKMiMBgMATAdiUAW2QEfzSCKPJEAoPCgH2tQOPYAAPxS9jMiCydkc8xFO+1cPR98Cn+CTjPjtKub4hbelaM9VRe+XP8Zy5/Oy5uxcMi8GSdDesni3f2pE9kAIDvxgflDMi+6fCZtREh3ID1SmPm0aepVIR8OykJyoAAAAA==",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:59:07+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54425,
+        9.98275
+      ],
+      "camera": "iPhone 17 Pro"
     },
     {
       "id": "p-012",
@@ -277,6 +799,78 @@
         9.97915
       ],
       "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "p-052",
+      "type": "photo",
+      "orig": "IMG_0792.HEIC",
+      "bytes": 1771808,
+      "src": "log/tag-01/p-052.webp",
+      "thumb": "log/tag-01/p-052-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAABQBQCdASoSABgAPu1iq0+ppSOiMBgIATAdiWIAnTMbOgAaahy04+Gg5IBkeXomROL/9OAA/hRucvRfuBN2nUCUWgNMwlj4Y9bzNV8bqaDYQz63RxHBctnykmq0Bb/NU9yrZK5t00n54SFJ39bH98pOUf6USMd5BjDUbS6DZ/Lxjgk9NoSxh8qwAwDSHxOQZhnchd3lWn7IFVYLlA6yrFpll6xFnC7/gfpQGi3j7GOY1Tk7uQAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T21:06:50+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54389,
+        9.97931
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-053",
+      "type": "photo",
+      "orig": "IMG_0793.HEIC",
+      "bytes": 2650457,
+      "src": "log/tag-01/p-053.webp",
+      "thumb": "log/tag-01/p-053-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoSABgAPuFgp02opaOiMAwBEBwJZgCsACHfzxsp2l+aIq1pVFQZTYcEVAAA/riTHanO/+g1NJNcTZ1bOSNThfkdgLfgxysPSWY3e2GMyga49qAarwxXe2oAhXO3+l1g2BlwBVshucL1Rm4aIHAzOWwzd0FySGVBUhKFT18AAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T21:06:53+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54384,
+        9.97908
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-054",
+      "type": "photo",
+      "orig": "IMG_0794.HEIC",
+      "bytes": 2054058,
+      "src": "log/tag-01/p-054.webp",
+      "thumb": "log/tag-01/p-054-t.webp",
+      "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBACdASoSABgAPu1qrlCppaQiqAqpMB2JYgDCgDTrTIuqrk1GiZwvttQJAAD+6TcHyjKsMS5yK/Tl1oBYAf+TbazqyydYjDQv8YSuc/C9XmzGZ+hpcPcpeUc9batDpZ59RiD51mpjFA/xIQqFUu/t7FXt1atY+5lb0PETg7IAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T21:09:28+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54397,
+        9.97636
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-055",
+      "type": "photo",
+      "orig": "IMG_0795.HEIC",
+      "bytes": 1400681,
+      "src": "log/tag-01/p-055.webp",
+      "thumb": "log/tag-01/p-055-t.webp",
+      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABwBQCdASoSABgAPu1usFIppiSiqAgBMB2JYgC7INo6A5/8E3OfJg7Gqrab62jSZOeUtQYAAP7NRyfIU1WAsMpE0NwR/587VrEaWOsWWwvf2DK2vWltKxaNlwbjkkeNJJ0X3L+T/uQP/qZOilxm4cUSvycQg7PEa0r55oq6FWom76U5SpdI2b8GRdhapv2IOjrkdcmpcoGt45svHaTGNIVPstgAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T21:09:31+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54393,
+        9.97641
+      ],
+      "camera": "iPhone 17 Pro"
     },
     {
       "id": "p-018",

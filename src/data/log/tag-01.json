@@ -4,29 +4,109 @@
   "status": "online",
   "title": "Zwei Stunden zu spät, pünktlich zum Fischbrötchen",
   "lead": "870 Kilometer A7, ein Kofferraum, der erst beim zweiten Packen zuging — und ein Hafenabend in Hamburg, der gerade noch reichte.",
-  "place": { "name": "Hamburg-Harburg", "region": "Hamburg · Deutschland", "lat": 53.4623, "lng": 9.9489 },
+  "place": {
+    "name": "Hamburg-Harburg",
+    "region": "Hamburg · Deutschland",
+    "lat": 53.4623,
+    "lng": 9.9489
+  },
   "mood": "autobahn",
   "hero": "p-010",
-  "omit": ["p-003", "p-007", "p-009", "p-012", "p-014", "p-015", "p-017", "p-019", "p-021", "p-023", "v-002", "v-003"],
+  "omit": [
+    "p-003",
+    "p-007",
+    "p-009",
+    "p-012",
+    "p-014",
+    "p-015",
+    "p-017",
+    "p-019",
+    "p-021",
+    "p-023",
+    "v-002",
+    "v-003",
+    "p-026",
+    "v-006",
+    "p-028",
+    "p-029",
+    "p-031",
+    "v-007",
+    "p-032",
+    "p-033",
+    "p-034",
+    "p-035",
+    "p-036",
+    "p-037",
+    "p-039",
+    "p-040",
+    "p-041",
+    "p-042",
+    "p-044",
+    "p-045",
+    "p-046",
+    "p-047",
+    "p-050",
+    "p-051",
+    "p-053",
+    "p-054"
+  ],
   "stats": {
     "km": 870,
     "kmTotal": 870,
     "drive": "≈10 h",
-    "night": { "type": "hotel", "text": "Kleines Hotel Heimfeld, Hamburg-Harburg — die einzige Nacht der Hinfahrt im Bett" }
+    "night": {
+      "type": "hotel",
+      "text": "Kleines Hotel Heimfeld, Hamburg-Harburg — die einzige Nacht der Hinfahrt im Bett"
+    }
   },
   "timeline": [
-    { "t": "06:00", "title": "Geplante Abfahrt", "text": "Der Plan sagte sechs Uhr. Der Kofferraum sagte nein." },
-    { "t": "~08:00", "title": "Abfahrt, zweiter Versuch", "text": "Zu viele Kleider. Alles wieder raus, aussortiert, reingestopft — zwei Stunden später als geplant rollt der Stelvio." },
-    { "t": "Mittag", "title": "Halbzeit bei McDonald's", "text": "Erste Mahlzeit der Expedition: 20er Chicken Nuggets. Nicht im Proviantplan, aber im Herzen." },
-    { "t": "17:58", "title": "Ankunft Heimfeld", "text": "Das erste Foto des Tages entsteht vor dem Hotel. Zimmer beziehen, Taschen abstellen, kurz durchatmen." },
-    { "t": "20:30", "title": "Rein in die Stadt", "text": "Durchs Schiebedach grüsst der Elbtower. Ab hier zu Fuss: Speicherstadt, Fleete, Backstein im letzten Licht." },
-    { "t": "21:05", "title": "Elbphilharmonie & Landungsbrücken", "text": "Mond über der Elbphilharmonie, Abendrot über der Elbe, die Rickmer Rickmers am Ponton." },
-    { "t": "21:28", "title": "Das Fischbrötchen", "text": "In letzter Minute — und es hat gereicht. Beweis im Video." },
-    { "t": "22:56", "title": "Zurück im Hotel", "text": "Laptop auf, Beine hoch. Morgen ist der längste Tag der Reise." }
+    {
+      "t": "06:00",
+      "title": "Geplante Abfahrt",
+      "text": "Der Plan sagte sechs Uhr. Der Kofferraum sagte nein."
+    },
+    {
+      "t": "~08:00",
+      "title": "Abfahrt, zweiter Versuch",
+      "text": "Zu viele Kleider. Alles wieder raus, aussortiert, reingestopft — zwei Stunden später als geplant rollt der Stelvio."
+    },
+    {
+      "t": "Mittag",
+      "title": "Halbzeit bei McDonald's",
+      "text": "Erste Mahlzeit der Expedition: 20er Chicken Nuggets. Nicht im Proviantplan, aber im Herzen. Um 14:22 schläft die Rückbank auf der A5 in Hessen."
+    },
+    {
+      "t": "17:58",
+      "title": "Ankunft Heimfeld",
+      "text": "Vor dem Hotel Heimfeld. Zimmer beziehen, Taschen abstellen, kurz durchatmen."
+    },
+    {
+      "t": "20:30",
+      "title": "Rein in die Stadt",
+      "text": "Durchs Schiebedach grüsst der Elbtower. Ab hier zu Fuss: Speicherstadt, Fleete, Backstein im letzten Licht."
+    },
+    {
+      "t": "21:05",
+      "title": "Elbphilharmonie & Landungsbrücken",
+      "text": "Mond über der Elbphilharmonie, Abendrot über der Elbe, die Rickmer Rickmers am Ponton."
+    },
+    {
+      "t": "21:28",
+      "title": "Das Fischbrötchen",
+      "text": "In letzter Minute — und es hat gereicht. Beweis im Video."
+    },
+    {
+      "t": "22:56",
+      "title": "Zurück im Hotel",
+      "text": "Laptop auf, Beine hoch. Morgen ist der längste Tag der Reise."
+    }
   ],
   "story": [
     "Der erste Tag begann mit einer Lektion in Physik: Vier Männer, ein Kofferraum mit 525 Litern, keine Dachbox — und Kleider für gefühlt drei Reisen. Der Plan sagte sechs Uhr Abfahrt. Stattdessen alles wieder raus, aussortieren, zusammenrollen, stopfen. Zwei Stunden später ging der Deckel zu.",
-    { "quote": "Zu viel Kleider gepackt. Zwei Stunden verloren.", "who": "Bordbuch, Tag 1, erster Eintrag" },
+    {
+      "quote": "Zu viel Kleider gepackt. Zwei Stunden verloren.",
+      "who": "Bordbuch, Tag 1, erster Eintrag"
+    },
     "Dann die A7. Kilometer um Kilometer Richtung Norden, und auf halbem Weg die erste Mahlzeit der Expedition: McDonald's, 20er Chicken Nuggets. Der Proviantplan hätte es anders vorgesehen — aber der Proviantplan sass nicht seit vier Stunden im Auto.",
     "Um kurz vor sechs stand der Stelvio vor dem Kleinen Hotel Heimfeld. Und Hamburg entschädigte für alles: Am Abend hinein in die Stadt, durch die Speicherstadt zur blauen Stunde, Backstein und Fleete, dann hinunter ans Wasser — der Mond über der Elbphilharmonie, das Abendrot über der Elbe, die Rickmer Rickmers an den Landungsbrücken. Und in letzter Minute, bevor der Abend zu war, noch ein Fischbrötchen.",
     "Wer Hamburg zum ersten Mal so sieht, versteht, warum die erste Nacht hier geplant war und nicht im Zelt. Morgen wird es ernst: 1020 Kilometer, drei Länder, eine Fähre."
@@ -60,16 +140,70 @@
     "v-005": "Autobahn-Snap, Richtung Norden.",
     "p-022": "22:56, Hotelzimmer: Laptop auf, Tag vorbei.",
     "p-023": "Hamburg Mitte — die Speicherstadt im Abendlicht, Snapchat-Version.",
-    "p-024": "Nackenkissen-Klasse: Beifahrer im Tiefschlaf."
+    "p-024": "Nackenkissen-Klasse: Beifahrer im Tiefschlaf.",
+    "p-025": "14:22, A5 in Hessen: Rückbank im Tiefschlaf, Nackenkissen-Klasse.",
+    "p-026": "Rückbank, zweite Aufnahme.",
+    "v-006": "Sechs Sekunden Rückbank.",
+    "p-027": "Der Elbtower, noch im Bau — vom Boden aus.",
+    "p-028": "HafenCity im Abendlicht, an der Ampel.",
+    "p-029": "HafenCity-Fassade, 20:38.",
+    "p-030": "Fleet, Backstein und Kirchturm — die Speicherstadt zur Abendstunde.",
+    "p-031": "Speicherstadt-Fleet, zweite Aufnahme.",
+    "v-007": "Halbe Minute HafenCity zu Fuss.",
+    "p-032": "Kirchturm hinter der Ampel.",
+    "p-033": "Strasse durch die HafenCity.",
+    "p-034": "Brooksfleet, iPhone eins.",
+    "p-035": "Brooksfleet, iPhone eins, Sekunde später.",
+    "p-036": "Brooksfleet, iPhone zwei.",
+    "p-037": "Speicherstadt vom Wasser aus, erste Aufnahme.",
+    "p-038": "Die Speicherstadt vom Wasser aus — Backstein im letzten Sonnenlicht.",
+    "p-039": "Speicherstadt vom Wasser aus, dritte Aufnahme.",
+    "p-040": "Kran über dem Hafenbecken.",
+    "p-041": "Ein Schuh auf roten Klinkern.",
+    "p-042": "Lagerhaus am Wasser.",
+    "p-043": "Die Crew auf der Promenade, Sonnenuntergang voraus.",
+    "p-044": "Anker vor der HafenCity.",
+    "p-045": "Sandtorhafen im Abendrot.",
+    "p-046": "Boote im Traditionsschiffhafen.",
+    "p-047": "Traditionsschiffhafen, hochkant.",
+    "p-048": "Der Michel als Scherenschnitt.",
+    "p-049": "Block D am Kehrwiederfleet — Miniatur Wunderland und Hamburg Dungeon, für heute geschlossen.",
+    "p-050": "Block D, zweite Aufnahme.",
+    "p-051": "Grüne Bogenbrücke, blaue Stunde.",
+    "p-052": "Landungsbrücken bei Mond: die Hafenrundfahrt hat Lichterketten.",
+    "p-053": "Landungsbrücken, zweite Aufnahme.",
+    "p-054": "Abendrot über der Elbe, iPhone-Version.",
+    "p-055": "Masten der Rickmer Rickmers im Abendrot."
   },
   "numbers": [
-    { "k": "Abfahrt", "v": "~08:00 statt 06:00" },
-    { "k": "Umpacken", "v": "Kleider raus, Rest rein — 2 h" },
-    { "k": "Mittag", "v": "20er Chicken Nuggets" },
-    { "k": "Erstes Foto", "v": "17:58, Hotel Heimfeld" },
-    { "k": "Abendessen", "v": "Fischbrötchen, Landungsbrücken" },
-    { "k": "Letztes Foto", "v": "22:56, Hotelzimmer" },
-    { "k": "Nacht", "v": "Hotel Heimfeld, 130 CHF für vier" }
+    {
+      "k": "Abfahrt",
+      "v": "~08:00 statt 06:00"
+    },
+    {
+      "k": "Umpacken",
+      "v": "Kleider raus, Rest rein — 2 h"
+    },
+    {
+      "k": "Mittag",
+      "v": "20er Chicken Nuggets"
+    },
+    {
+      "k": "Erstes Foto",
+      "v": "14:22, Rückbank auf der A5"
+    },
+    {
+      "k": "Abendessen",
+      "v": "Fischbrötchen, Landungsbrücken"
+    },
+    {
+      "k": "Letztes Foto",
+      "v": "22:56, Hotelzimmer"
+    },
+    {
+      "k": "Nacht",
+      "v": "Hotel Heimfeld, 130 CHF für vier"
+    }
   ],
   "tomorrow": "Der längste Tag der Reise: Puttgarden–Rødby mit der Fähre, über die Öresundbrücke nach Schweden und 670 Kilometer E4 bis zum Bungalow am Flatensee vor Stockholm.",
   "track": "planned"

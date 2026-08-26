@@ -103,7 +103,7 @@ Pro Reisetag ein Eintrag: `logbuch.html` (Übersicht) + `logbuch/tag-NN/` (Tages
 Stat-Leiste, Etappenkarte, Timeline, Text, Galerie mit Lightbox, Zahlen des Tages). Konzept, Datenschema
 und Entscheide: `research/logbuch-plan.md`.
 
-**Der Abend-Workflow** (Fotos/Videos liegen im Drive-Ordner `Sweden_2026/Day N`, lokal synchronisiert):
+**Der Abend-Workflow** (Fotos/Videos liegen im Drive-Ordner `Sweden_2026/Day N (dd.mm.yy)`, lokal synchronisiert — das Script findet den Ordner über die Tagesnummer):
 
 ```bash
 npm run log:import -- 3            # Day 3 aus dem Drive: HEIC→WebP, EXIF, Videos → Release «media», Manifest

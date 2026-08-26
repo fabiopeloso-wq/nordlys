@@ -71,13 +71,14 @@ const mb = (b) => `${(b / 1048576).toFixed(1)} MB`;
 
 function findDayFolder() {
   if (folderArg) return resolve(folderArg);
+  // «Day 2», «Day 02», «Tag 2» — auch mit Zusatz wie «Day 2 (25.08.26)»; «Day 2» darf nicht «Day 21» treffen
+  const rx = new RegExp(`^(Day|Tag)\\s*0?${DAY}(?!\\d)`, 'i');
   for (const root of DRIVE_ROOTS) {
-    for (const name of [`Day ${DAY}`, `Day ${NN}`, `Tag ${DAY}`, `Tag ${NN}`]) {
-      const p = join(root, name);
-      if (existsSync(p)) return p;
-    }
+    if (!existsSync(root)) continue;
+    const hit = readdirSync(root).filter((n) => !n.startsWith('.')).find((n) => rx.test(n));
+    if (hit) return join(root, hit);
   }
-  throw new Error(`Kein Ordner für Tag ${DAY} gefunden (gesucht: Day ${DAY} unter ${DRIVE_ROOTS.join(' | ')})`);
+  throw new Error(`Kein Ordner für Tag ${DAY} gefunden (gesucht: Day ${DAY}… unter ${DRIVE_ROOTS.join(' | ')})`);
 }
 
 function loadManifest() {
