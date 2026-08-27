@@ -1,6 +1,6 @@
 {
   "day": 1,
-  "stand": "2026-08-26T13:02",
+  "stand": "2026-08-27T12:52",
   "items": [
     {
       "id": "p-025",
@@ -188,6 +188,42 @@
       "gps": [
         53.54119,
         10.0003
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-056",
+      "type": "photo",
+      "orig": "IMG_0768.HEIC",
+      "bytes": 3224319,
+      "src": "log/tag-01/p-056.webp",
+      "thumb": "log/tag-01/p-056-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBQCdASoSABgAPu1ur1IppiQiqAgBMB2JQBXDsXrMJYAtJm1SulSUxowUBGaisxl3JwAA/tOTa+002I9mOUyoloIr/G12YFalH9ymqXlzIknoWxc0pqe6DPxXaAjRSQJbpfmWadFns7qk4WRH6f8ovh04HAr4DWT4on2723T7liSYOjlbzAW/yWYQks3fLFFFgT6Mqew4IlF74kKphfEHgWHORhjKP2H5QG0C17Zzgp3jN1XMW5z5NgAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:39:10+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54254,
+        9.99888
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-057",
+      "type": "photo",
+      "orig": "IMG_0769.HEIC",
+      "bytes": 3385246,
+      "src": "log/tag-01/p-057.webp",
+      "thumb": "log/tag-01/p-057-t.webp",
+      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABwBQCdASoSABgAPu1ur1IppiQiqAgBMB2JZQDGfA5Gud6hOBIcBHb8Pww0vAaSfYBj169oAP5kd9+xfXHduzDlWX+LTFKTLXnpyvKtpK6ZrDuZy/QZFTb8fLweG6VE5DqTSeVq6GH2Zsnuo+XAfHspAnwEgL109Ci1sFggkzCoqP+lXv/13EC8lT9O7CZaiBbFvMu96LOlitflo9Y/thluk9vBRDKiZLQGqAf/5tRUIcJUAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:39:13+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54281,
+        9.9987
       ],
       "camera": "iPhone 17 Pro"
     },
@@ -480,6 +516,24 @@
       "camera": "iPhone 17 Pro"
     },
     {
+      "id": "p-058",
+      "type": "photo",
+      "orig": "IMG_0777.HEIC",
+      "bytes": 3703325,
+      "src": "log/tag-01/p-058.webp",
+      "thumb": "log/tag-01/p-058-t.webp",
+      "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACwBQCdASoSABgAPu1srlIppaQiqAgBMB2JQBUeu4FwimRW3wBdudUdo8vdHJkJ5TdEJ0Bj6SAA/u6jOOZEgpn38UBzZHvWA8Bl9PMBnAeNgR9KIURcjuVK5rQ+yCRyBA59loLZiiomUHKOUBWY/DrpREqN93tiiAwqI6rOLimceV3N615aQQF6/bzfUXHUBl8jINUzzH66llueQEJ9q8sjSRGoAT0Kx37DjAFQkBFAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:53:32+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54474,
+        9.9884
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
       "id": "p-041",
       "type": "photo",
       "orig": "IMG_0779.HEIC",
@@ -494,6 +548,24 @@
       "gps": [
         53.54481,
         9.98772
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-059",
+      "type": "photo",
+      "orig": "IMG_0780.HEIC",
+      "bytes": 3881589,
+      "src": "log/tag-01/p-059.webp",
+      "thumb": "log/tag-01/p-059-t.webp",
+      "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQBACdASoSABgAPu1oqk8ppiOiMBgIATAdiWMAvkgQ5K1P1MCTtdaaJEC20AAA/m8Zec3JyGf+1o+1M0P+2/DhZaisyzyGDZ5Zzi9EDunLpUqm5UFYnjqW1sLTU1T0SMSIGjxkBitGXXe/lJ+zxTfI5NAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-24T20:54:23+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54483,
+        9.98734
       ],
       "camera": "iPhone 17 Pro"
     },
@@ -599,6 +671,24 @@
       "gps": [
         53.54487,
         9.98523
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
+      "id": "p-060",
+      "type": "photo",
+      "orig": "IMG_0786.HEIC",
+      "bytes": 3229278,
+      "src": "log/tag-01/p-060.webp",
+      "thumb": "log/tag-01/p-060-t.webp",
+      "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAADQBACdASoYABIAPu1ur1IppiQiqAgBMB2JZQC7AA915Xz+DvD/R/wkrjGqjyLsAAD+y/4evdB8Gz8Y0KaXaUe/ZJyhaJ+HK1b7zrKeO0tA49tP72KR4TTqbADRzT4y7JNShNg9L+Lu8DmZTbsYGA2hIw1xEzv8MxCLuxPJq3b8BrC1q+bva5WYGboVKDlLY7Zu810TX80uvi9ap2g5jk45lb/b/vSYriFnIwAA",
+      "w": 1800,
+      "h": 1350,
+      "taken": "2026-08-24T20:56:34+02:00",
+      "takenSource": "exif",
+      "gps": [
+        53.54486,
+        9.9853
       ],
       "camera": "iPhone 17 Pro"
     },

@@ -7,7 +7,7 @@
   "place": { "name": "Skarpnäck, Stockholm", "region": "Stockholms län · Schweden", "lat": 59.2499, "lng": 18.1615 },
   "mood": "autobahn",
   "hero": "p-038",
-  "omit": ["p-002", "p-004", "p-006", "p-007", "p-009", "p-010", "p-012", "p-013", "p-015", "p-018", "p-020", "p-025", "p-028", "p-029", "p-033", "p-034", "v-002", "v-003", "v-005", "v-006", "p-040", "p-042", "p-043"],
+  "omit": ["p-002", "p-004", "p-006", "p-007", "p-009", "p-010", "p-012", "p-013", "p-015", "p-018", "p-020", "p-025", "p-028", "p-029", "p-033", "p-034", "v-002", "v-003", "v-005", "v-006", "p-040", "p-042", "p-043", "p-044"],
   "stats": {
     "km": 1020,
     "kmTotal": 1890,
@@ -88,7 +88,9 @@
     "p-040": "Malmö, Snapchat-Version.",
     "p-041": "Bungalow-Küche in Skarpnäck: Matt und Michi kochen.",
     "p-042": "Sonnendeck-Selfie, Snapchat-Version.",
-    "p-043": "Trinkpause auf dem Deck."
+    "p-043": "Trinkpause auf dem Deck.",
+    "p-044": "Die Wiese am Vättern, iPhone-Version.",
+    "p-045": "17:18, Vättern-Ostufer: Sonne über dem Wasser, vom Felsen aus."
   },
   "numbers": [
     { "k": "Abfahrt", "v": "06:52 — diesmal nach Plan" },

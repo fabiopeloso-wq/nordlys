@@ -15,6 +15,7 @@ export const STAY_ICONS: Record<string, string> = {
   hotel: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3.5 18.5 V8.5"/><path d="M3.5 14 H20.5 V18.5"/><path d="M11.5 14 V10.5 H17.5 A3 3 0 0 1 20.5 13.5"/><circle cx="7.6" cy="11.6" r="1.7"/></svg>',
   bungalow: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 11.8 L12 5.5 L21 11.8"/><path d="M5.6 10 V19 H18.4 V10"/><path d="M10 19 V14.4 H14 V19"/></svg>',
   hof: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 12 L12 5 L21 12"/><path d="M5.6 10 V19 H18.4 V10"/><path d="M9.5 19 V14 H14.5 V19"/><path d="M15.5 7.2 V4.6 H17.6 V8.9"/><path d="M3 21.5 H21"/></svg>',
+  biwak: '<svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 18.5 H21"/><path d="M6.5 18.5 C6.5 15.6 8.6 13.8 12 13.8 C15.4 13.8 17.5 15.6 17.5 18.5"/><path d="M15.2 4.2 A4.2 4.2 0 1 0 20 9 A3.2 3.2 0 0 1 15.2 4.2 Z"/></svg>',
 };
 
 export const STAY_LABELS: Record<string, string> = {
@@ -25,6 +26,7 @@ export const STAY_LABELS: Record<string, string> = {
   hotel: 'Hotel · gebucht',
   bungalow: 'Bungalow · gebucht',
   hof: 'Småbruk · Airbnb',
+  biwak: 'Biwak · unter freiem Himmel',
 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');

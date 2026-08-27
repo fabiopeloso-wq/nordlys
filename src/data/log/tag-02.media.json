@@ -1,6 +1,6 @@
 {
   "day": 2,
-  "stand": "2026-08-26T12:55",
+  "stand": "2026-08-27T12:52",
   "items": [
     {
       "id": "p-001",
@@ -603,6 +603,24 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "p-044",
+      "type": "photo",
+      "orig": "IMG_0801.HEIC",
+      "bytes": 4336621,
+      "src": "log/tag-02/p-044.webp",
+      "thumb": "log/tag-02/p-044-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBACdASoSABgAPu1oqVAppaOiqA1RMB2JYh9AAAEuUWQfOeMHPoDS2flwT0ZZYAD9EKXxp1W1cokGDr3J6LId1lr1pszyrf04u+Wzh2SUf/52qGf+d/SXLfiUflRC7QkSGtojYDgAzz1jQRe4w7dsCL4nFD/QnVULTynIEX8ycnAmRBn/8iMJbgAAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-25T17:13:05+02:00",
+      "takenSource": "exif",
+      "gps": [
+        58.26142,
+        14.62104
+      ],
+      "camera": "iPhone 17 Pro"
+    },
+    {
       "id": "p-036",
       "type": "photo",
       "orig": "IMG_0802.HEIC",
@@ -649,6 +667,24 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "samsung Galaxy S24 Ultra"
+    },
+    {
+      "id": "p-045",
+      "type": "photo",
+      "orig": "IMG_0804.HEIC",
+      "bytes": 3298250,
+      "src": "log/tag-02/p-045.webp",
+      "thumb": "log/tag-02/p-045-t.webp",
+      "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoSABgAPu1mqE2ppiQiMBgMATAdiWMArDNkAHuAEpcbpo4qjAAA/ZjAKzOpmhJUtEorpljumsoBQNQplxQArKodb2qI/uskUwYG8j8Qz/tjLhkFvH2RizhlMRrwu1LtSF140yeaT6wAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-25T17:18:51+02:00",
+      "takenSource": "exif",
+      "gps": [
+        58.26813,
+        14.61766
+      ],
+      "camera": "iPhone 17 Pro"
     },
     {
       "id": "p-039",

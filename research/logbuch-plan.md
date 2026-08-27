@@ -1,6 +1,6 @@
 # NORDLYS — Logbuch: Plan
 
-**Stand: 26.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
+**Stand: 27.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
 für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qualität wie der Rest der Site.
 
 > **Status:** Phase 1 gebaut und mit Tag 01 befüllt (Import-Pipeline, Tagesseite, Übersicht, Generator, Check,
@@ -9,7 +9,11 @@ für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qua
 > Kuratierung per `omit`-Liste (nicht alle Uploads, gleiche Motive → das beste) und Lightbox-Fix für Safari
 > (Prozent-Höhen in fr-Grid-Zeilen; der Check hat jetzt einen WebKit-Pass). Tag 02 (26.08.): 49 Uploads → 26 gezeigt;
 > die Drive-Ordner heissen jetzt «Day N (dd.mm.yy)», der Import matcht über die Tagesnummer. Die Crew lädt Fotos
-> auch nachträglich hoch (33 Nachzügler für Tag 01) — Import für Vortage gehört darum zum Abendritual. Offen aus Phase 2/3: Lightbox-FLIP,
+> auch nachträglich hoch (33 Nachzügler für Tag 01) — Import für Vortage gehört darum zum Abendritual. Tag 03 (27.08.): 49 Uploads → 27 gezeigt; neuer Nachttyp `biwak`
+> (Schlafsack neben dem Auto, ohne Zelt) in `NIGHT_LABELS`/`STAY_ICONS`/`log.css`. Achtung bei Fabios Nachrichten: «Day 2 Ordner» meinte den
+> Ordner «Day 3 (26.08.26)» — immer über das Datum im Ordnernamen abgleichen, nicht über die genannte Nummer.
+> Drive-Dateien sind lokal nur Platzhalter, bis sie gelesen werden: vor dem Import mit `cat > /dev/null` parallel
+> vorladen, sonst wartet ffmpeg auf den sequenziellen Download. Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---

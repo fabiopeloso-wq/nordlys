@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-26",
+  "stand": "2026-08-27",
   "days": [
     {
       "day": 1,
@@ -13,7 +13,7 @@
       "km": 870,
       "kmTotal": 870,
       "night": "hotel",
-      "photos": 23,
+      "photos": 25,
       "videos": 3,
       "hero": {
         "thumb": "log/tag-01/p-010-t.webp",
@@ -35,7 +35,7 @@
       "km": 1020,
       "kmTotal": 1890,
       "night": "bungalow",
-      "photos": 24,
+      "photos": 25,
       "videos": 2,
       "hero": {
         "thumb": "log/tag-02/p-038-t.webp",
@@ -44,6 +44,28 @@
         "h": 832
       },
       "url": "logbuch/tag-02/"
+    },
+    {
+      "day": 3,
+      "date": "2026-08-26",
+      "title": "Tauben, Terrakotta und ein Parkplatz",
+      "lead": "Ein Vormittag am See, ein Büro bei Starbucks, Stockholm im Sonnenschein — und dann wollten wir an einer Raststätte nur die Mücken von der Scheibe wischen. Dahinter stand ein chinesisches Museum.",
+      "place": "Ein Parkplatz an der E4",
+      "lat": 62.6,
+      "lng": 17.7,
+      "mood": "taiga",
+      "km": 460,
+      "kmTotal": 2350,
+      "night": "biwak",
+      "photos": 22,
+      "videos": 5,
+      "hero": {
+        "thumb": "log/tag-03/p-023-t.webp",
+        "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBACdASoYABIAPu1gp02ppSMmMAgBMB2JZgC7L9SBeYSGFKlbMmfpA1T1uaAA/nGYG8vYOlAhYu4kAjP4UXfGQIUdtpcug0+OWQf9VUBz+LiQeDWFuH+HI6AQBoa5AQXnY1ZQlX/YrjeBT+4qHxKlGyw8Hly/hh4ZG3aKiFn/y1EdwaVW6eV652CqQTol1R5AAA==",
+        "w": 1800,
+        "h": 1350
+      },
+      "url": "logbuch/tag-03/"
     }
   ]
 }

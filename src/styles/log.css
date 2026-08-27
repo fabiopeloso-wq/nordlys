@@ -152,7 +152,8 @@ body[data-mood='heim']     { --accent: var(--ember); --accent-2: var(--aurora-gr
 .log-stat__label { font-size: 0.64rem; }
 .log-stat__icon svg { width: 22px; height: 22px; stroke: var(--accent); }
 .log-stat--night .log-stat__num { color: var(--ice); }
-.log-stat--zelt .log-stat__icon svg, .log-stat--zelt .log-stat__num { stroke: var(--aurora-green); color: var(--aurora-green); }
+.log-stat--zelt .log-stat__icon svg, .log-stat--zelt .log-stat__num,
+.log-stat--biwak .log-stat__icon svg, .log-stat--biwak .log-stat__num { stroke: var(--aurora-green); color: var(--aurora-green); }
 .log-stat--camping .log-stat__icon svg, .log-stat--camping .log-stat__num { stroke: var(--ember); color: var(--ember); }
 .log-stat--hotel .log-stat__icon svg, .log-stat--hotel .log-stat__num,
 .log-stat--bungalow .log-stat__icon svg, .log-stat--bungalow .log-stat__num,

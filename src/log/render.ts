@@ -28,6 +28,7 @@ export const NIGHT_LABELS: Record<string, string> = {
   hotel: 'Hotel',
   bungalow: 'Bungalow',
   hof: 'Småbruk',
+  biwak: 'Biwak · draussen',
 };
 
 /** «2026-08-24T23:17» → «24.08.2026, 23:17» */

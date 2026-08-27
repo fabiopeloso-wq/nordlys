@@ -48,7 +48,10 @@
     "p-050",
     "p-051",
     "p-053",
-    "p-054"
+    "p-054",
+    "p-056",
+    "p-057",
+    "p-059"
   ],
   "stats": {
     "km": 870,
@@ -173,7 +176,12 @@
     "p-052": "Landungsbrücken bei Mond: die Hafenrundfahrt hat Lichterketten.",
     "p-053": "Landungsbrücken, zweite Aufnahme.",
     "p-054": "Abendrot über der Elbe, iPhone-Version.",
-    "p-055": "Masten der Rickmer Rickmers im Abendrot."
+    "p-055": "Masten der Rickmer Rickmers im Abendrot.",
+    "p-056": "Speicherstadt aus dem fahrenden Auto, 20:39.",
+    "p-057": "HafenCity, die Strasse zum Wasser.",
+    "p-058": "HafenCity im Abendlicht — hinten die Elbphilharmonie, 20:53.",
+    "p-059": "Crocs und Flipflops: Expeditionsschuhwerk.",
+    "p-060": "Barkassen an den Landungsbrücken, 20:56."
   },
   "numbers": [
     {
