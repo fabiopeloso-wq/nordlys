@@ -1,6 +1,6 @@
 # NORDLYS — Logbuch: Plan
 
-**Stand: 27.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
+**Stand: 28.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
 für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qualität wie der Rest der Site.
 
 > **Status:** Phase 1 gebaut und mit Tag 01 befüllt (Import-Pipeline, Tagesseite, Übersicht, Generator, Check,
@@ -13,7 +13,12 @@ für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qua
 > (Schlafsack neben dem Auto, ohne Zelt) in `NIGHT_LABELS`/`STAY_ICONS`/`log.css`. Achtung bei Fabios Nachrichten: «Day 2 Ordner» meinte den
 > Ordner «Day 3 (26.08.26)» — immer über das Datum im Ordnernamen abgleichen, nicht über die genannte Nummer.
 > Drive-Dateien sind lokal nur Platzhalter, bis sie gelesen werden: vor dem Import mit `cat > /dev/null` parallel
-> vorladen, sonst wartet ffmpeg auf den sequenziellen Download. Offen aus Phase 2/3: Lightbox-FLIP,
+> vorladen, sonst wartet ffmpeg auf den sequenziellen Download. Tag 04 (28.08.): 101 Uploads → 38 gezeigt; Hochformat-Hero (Vollmond über
+> Lapporten, p-089) funktioniert mit `object-fit: cover`. Die GPS-Daten der Nachzügler (37 für Tag 03, 1 für Tag 02) haben den
+> Nachtort von Tag 03 korrigiert (Docksta/Höga Kusten statt «nördlich von Sundsvall»); Tageskilometer seit Tag 03 per OSRM
+> (`router.project-osrm.org`, Tag 03: 513, Tag 04: 853). Stolpersteine: `gh release upload` kann am Netz scheitern → Import
+> einfach nochmal starten (idempotent); `log:check` wartet auf `networkidle` und hängt, wenn die CartoCDN-Karten-Tiles
+> langsam sind → nochmal laufen lassen. Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---

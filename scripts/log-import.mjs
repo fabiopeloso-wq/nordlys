@@ -314,8 +314,19 @@ async function makeOg(m) {
   const hero = m.items.find((i) => i.id === day.hero);
   if (!hero) throw new Error(`hero «${day.hero}» nicht im Manifest`);
   const src = hero.type === 'photo' ? `public/${hero.src}` : `public/${hero.poster}`;
-  await sharp(src).resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: 80 }).toFile(`${OUT_DIR}/og.jpg`);
-  console.log(`og.jpg → ${OUT_DIR}/og.jpg (aus ${hero.id})`);
+  // heroPos («50% 62%») aus dem Tages-JSON = derselbe Bildausschnitt wie auf der Seite; sonst sharp-«attention»
+  const pos = typeof day.heroPos === 'string' && day.heroPos.match(/([\d.]+)%\s+([\d.]+)%/);
+  if (pos) {
+    const [W, H] = [1200, 630];
+    const meta = await sharp(src).metadata();
+    const scale = Math.max(W / meta.width, H / meta.height);
+    const sw = Math.round(meta.width * scale), sh = Math.round(meta.height * scale);
+    const left = Math.round((sw - W) * Number(pos[1]) / 100), top = Math.round((sh - H) * Number(pos[2]) / 100);
+    await sharp(src).resize(sw, sh).extract({ left, top, width: W, height: H }).jpeg({ quality: 80 }).toFile(`${OUT_DIR}/og.jpg`);
+  } else {
+    await sharp(src).resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: 80 }).toFile(`${OUT_DIR}/og.jpg`);
+  }
+  console.log(`og.jpg → ${OUT_DIR}/og.jpg (aus ${hero.id}${pos ? ', heroPos ' + day.heroPos : ''})`);
 }
 
 // ---------- Hauptlauf ----------

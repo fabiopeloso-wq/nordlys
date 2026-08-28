@@ -22,6 +22,8 @@ export interface LogDay {
   aurora?: boolean | string;
   /** Medien-ID des Hero-Bilds (p-0xx oder v-0xx) */
   hero: string;
+  /** Bildausschnitt des Heros als CSS object-position, z. B. "50% 68%" — für Hochformate, deren Motiv nicht mittig liegt */
+  heroPos?: string;
   /** Kuratierung: diese IDs bleiben im Manifest, erscheinen aber nicht in der Galerie (gleiche Motive, Ausschuss) */
   omit?: string[];
   stats: {

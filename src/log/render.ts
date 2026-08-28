@@ -45,7 +45,7 @@ export function heroHtml(d: LogDay, hero: MediaItem): string {
   return `
   <header class="log-hero">
     <div class="log-hero__media" style="background-image:url(${hero.lqip})">
-      <img src="${ROOT}${src}" width="${hero.w}" height="${hero.h}" alt="" fetchpriority="high" decoding="async" />
+      <img src="${ROOT}${src}" width="${hero.w}" height="${hero.h}" alt="" fetchpriority="high" decoding="async"${d.heroPos ? ` style="object-position:${esc(d.heroPos)}"` : ''} />
     </div>
     <span class="log-hero__ghost" aria-hidden="true">${pad(d.day)}</span>
     <a class="log-hero__back mono" href="${ROOT}logbuch.html">← Logbuch</a>

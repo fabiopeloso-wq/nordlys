@@ -1,6 +1,6 @@
 {
   "day": 2,
-  "stand": "2026-08-27T12:52",
+  "stand": "2026-08-28T14:00",
   "items": [
     {
       "id": "p-001",
@@ -667,6 +667,24 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "samsung Galaxy S24 Ultra"
+    },
+    {
+      "id": "p-046",
+      "type": "photo",
+      "orig": "IMG_0803.HEIC",
+      "bytes": 4570393,
+      "src": "log/tag-02/p-046.webp",
+      "thumb": "log/tag-02/p-046-t.webp",
+      "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwBACdASoSABgAPulkqU2pJaQiMBgMASAdCWIAnQN8ADnBjzUlJwbzjxvovV1m2gAAq38zyvdzc/wwyVwWuvB2KEoBQmIHAZy+VXL7b7DDVgq8XbWgC69VWf3W0lrhjsUzm7vC6OkPeFIaFA7ny51dd1OJkMrnJCXoSLqxMQy2C7Iol9kYbYxNcpYr1fIbkR+srVQwATjSVkXi8Ix3a6bjTpwAAA==",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-25T17:18:49+02:00",
+      "takenSource": "exif",
+      "gps": [
+        58.26811,
+        14.61769
+      ],
+      "camera": "iPhone 17 Pro"
     },
     {
       "id": "p-045",

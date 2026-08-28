@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-27",
+  "stand": "2026-08-28",
   "days": [
     {
       "day": 1,
@@ -35,7 +35,7 @@
       "km": 1020,
       "kmTotal": 1890,
       "night": "bungalow",
-      "photos": 25,
+      "photos": 26,
       "videos": 2,
       "hero": {
         "thumb": "log/tag-02/p-038-t.webp",
@@ -51,14 +51,14 @@
       "title": "Tauben, Terrakotta und ein Parkplatz",
       "lead": "Ein Vormittag am See, ein Büro bei Starbucks, Stockholm im Sonnenschein — und dann wollten wir an einer Raststätte nur die Mücken von der Scheibe wischen. Dahinter stand ein chinesisches Museum.",
       "place": "Ein Parkplatz an der E4",
-      "lat": 62.6,
-      "lng": 17.7,
+      "lat": 63.072,
+      "lng": 18.358,
       "mood": "taiga",
-      "km": 460,
-      "kmTotal": 2350,
+      "km": 513,
+      "kmTotal": 2403,
       "night": "biwak",
-      "photos": 22,
-      "videos": 5,
+      "photos": 30,
+      "videos": 6,
       "hero": {
         "thumb": "log/tag-03/p-023-t.webp",
         "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBACdASoYABIAPu1gp02ppSMmMAgBMB2JZgC7L9SBeYSGFKlbMmfpA1T1uaAA/nGYG8vYOlAhYu4kAjP4UXfGQIUdtpcug0+OWQf9VUBz+LiQeDWFuH+HI6AQBoa5AQXnY1ZQlX/YrjeBT+4qHxKlGyw8Hly/hh4ZG3aKiFn/y1EdwaVW6eV652CqQTol1R5AAA==",
@@ -66,6 +66,28 @@
         "h": 1350
       },
       "url": "logbuch/tag-03/"
+    },
+    {
+      "day": 4,
+      "date": "2026-08-27",
+      "title": "Polcirkeln, sechs Grad, ein Mond im Tor",
+      "lead": "853 Kilometer bis ins Fjäll: eine Kirchstadt bei Luleå, das Schild am Polarkreis, ein Rentier auf der E10 — dann der Torneträsk, sechs Grad kalt, und ein Abend auf einem Hügel über Björkliden, an dem keine Aurora kam, aber der Vollmond genau über dem U von Lapporten stand.",
+      "place": "Aurora-Viewpoint über Björkliden",
+      "lat": 68.4103,
+      "lng": 18.6678,
+      "mood": "taiga",
+      "km": 853,
+      "kmTotal": 3256,
+      "night": "biwak",
+      "photos": 36,
+      "videos": 2,
+      "hero": {
+        "thumb": "log/tag-04/p-089-t.webp",
+        "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwBACdASoSABgAPu1oqU8ppiOiMBgIATAdiWMArCEgAYGqm2QhvK+3kXWABT3AAP4NEz2URDW15h6LbZm8GW2rnsYTGXKaLL5BhyorRWbUKdGM/w/XWUgKszBY0cLxnIpIQAAA",
+        "w": 1350,
+        "h": 1800
+      },
+      "url": "logbuch/tag-04/"
     }
   ]
 }
