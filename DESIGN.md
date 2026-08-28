@@ -78,6 +78,10 @@ Eine Seite pro Tag (`logbuch/tag-NN/`, eigene URL + OG-Bild fürs Teilen), Über
   (`saturate(.92)` + Verlauf), Galerie und Lightbox zeigen die Bilder ungefiltert. Das Korn liegt über allem.
 - **Stimmung pro Ort:** `data-mood` auf `<body>` (autobahn · taiga · arctic · lofoten · fjord · heim) verschiebt nur
   `--accent`/`--accent-2` und zwei Washes — die Farbzuordnung folgt der Leg-Färbung der Karte (`dayroute.ts`).
+- **Auswahl zuerst, alles auf Wunsch:** Die Galerie zeigt die kuratierten `picks` des Tages (die Bilder mit Caption),
+  ein Hairline-Knopf «Alle N Bilder zeigen» blendet den Rest chronologisch dazwischen ein — die Lightbox blättert dann
+  über alles. `omit` bleibt für echte Doppel und Ausschuss. So blättert die Familie erst durch das Beste und kann trotzdem
+  jedes Bild sehen; Deep-Links (`#p-045`) auf ein Bild ausserhalb der Auswahl klappen die Galerie selbst auf.
 - **Kein GSAP, kein Lenis** auf den Logbuch-Seiten: Galerien auf Touch brauchen natives Scrollen; Reveals per
   IntersectionObserver, Lightbox per CSS-Transitions. MapLibre lädt erst, wenn der Kartenslot sichtbar wird.
 - **Gewicht:** Thumbs 800 px, LQIP-Blur-up, das 1800-px-Bild erst in der Lightbox, Videos nie Autoplay und nie im

@@ -24,8 +24,11 @@ export interface LogDay {
   hero: string;
   /** Bildausschnitt des Heros als CSS object-position, z. B. "50% 68%" — für Hochformate, deren Motiv nicht mittig liegt */
   heroPos?: string;
-  /** Kuratierung: diese IDs bleiben im Manifest, erscheinen aber nicht in der Galerie (gleiche Motive, Ausschuss) */
+  /** Ausschuss: Doppel (gleiches Motiv, Sekunden später) und Missglücktes — bleiben im Manifest, erscheinen nirgends */
   omit?: string[];
+  /** Die Auswahl des Tages: diese IDs zeigt die Galerie zuerst; alle übrigen (ausser omit) kommen chronologisch
+   *  dazu, sobald «Alle Bilder zeigen» gedrückt wird. Ohne picks zeigt die Galerie alles auf einmal. */
+  picks?: string[];
   stats: {
     km: number;
     kmTotal: number;

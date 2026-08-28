@@ -46,6 +46,13 @@ for (const file of dayFiles) {
     if (!media.items.some((i) => i.id === id)) warnings.push(`Tag ${NN}: omit verweist auf unbekannte ID «${id}»`);
   }
   if (omit.has(day.hero)) warnings.push(`Tag ${NN}: hero «${day.hero}» steht in omit — wird im Hero gezeigt, fehlt aber in der Galerie`);
+  // Auswahl (picks): zuerst sichtbar, der Rest hinter «Alle Bilder zeigen» — gezählt wird alles, was erreichbar ist
+  const picks = new Set(day.picks ?? []);
+  for (const id of picks) {
+    if (!media.items.some((i) => i.id === id)) warnings.push(`Tag ${NN}: picks verweist auf unbekannte ID «${id}»`);
+    else if (omit.has(id)) warnings.push(`Tag ${NN}: «${id}» steht in picks und in omit`);
+  }
+  if (picks.size && !picks.has(day.hero)) warnings.push(`Tag ${NN}: hero «${day.hero}» fehlt in picks — das beste Bild gehört in die Auswahl`);
   const shown = media.items.filter((i) => !omit.has(i.id));
   const ogPath = `public/log/tag-${NN}/og.jpg`;
   if (!existsSync(ogPath)) warnings.push(`Tag ${NN}: ${ogPath} fehlt — node scripts/log-import.mjs ${day.day} --og`);
@@ -81,7 +88,7 @@ for (const file of dayFiles) {
     hero: { thumb: hero.thumb, lqip: hero.lqip, w: hero.w, h: hero.h },
     url,
   });
-  console.log(`Tag ${NN}: ${out} (${entries.at(-1).photos} Fotos, ${entries.at(-1).videos} Videos${omit.size ? `, ${omit.size} ausgelassen` : ''})`);
+  console.log(`Tag ${NN}: ${out} (${entries.at(-1).photos} Fotos, ${entries.at(-1).videos} Videos${picks.size ? `, ${picks.size} in der Auswahl` : ''}${omit.size ? `, ${omit.size} ausgelassen` : ''})`);
 }
 
 entries.sort((a, b) => a.day - b.day);

@@ -1,6 +1,6 @@
 # NORDLYS — Logbuch: Plan
 
-**Stand: 28.08.2026, mittags** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
+**Stand: 28.08.2026, abends** · Ziel: pro Reisetag ein Eintrag mit Strecke, Text, Foto- und Videogalerie —
 für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qualität wie der Rest der Site.
 
 > **Status:** Phase 1 gebaut und mit Tag 01 befüllt (Import-Pipeline, Tagesseite, Übersicht, Generator, Check,
@@ -18,7 +18,12 @@ für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qua
 > Nachtort von Tag 03 korrigiert (Docksta/Höga Kusten statt «nördlich von Sundsvall»); Tageskilometer seit Tag 03 per OSRM
 > (`router.project-osrm.org`, Tag 03: 513, Tag 04: 853). Stolpersteine: `gh release upload` kann am Netz scheitern → Import
 > einfach nochmal starten (idempotent); `log:check` wartet auf `networkidle` und hängt, wenn die CartoCDN-Karten-Tiles
-> langsam sind → nochmal laufen lassen. Offen aus Phase 2/3: Lightbox-FLIP,
+> langsam sind → nochmal laufen lassen. 28.08. abends, zweites Feedback von Fabio («tu alle Bilder rein, nur Doppel und
+> echt schlechte nicht; sonst einen Knopf für die ganze Galerie»): Kuratierung jetzt zweistufig — `picks` = Auswahl mit
+> Captions, die zuerst steht; «Alle N Bilder zeigen» (Knopf unter der Galerie, `gallery.setItems`/`lightbox.setItems`) holt
+> den Rest chronologisch dazu; `omit` nur noch für Bursts (gleiches Motiv innert Sekunden) und Missglücktes. Tage 01–04
+> neu gesichtet: 67/52/86/112 Medien → 47/42/63/70 erreichbar, davon 28/28/36/40 in der Auswahl. Tag 04 hat 11 Nachzügler
+> bekommen (u. a. den Rentier-Clip v-006, jetzt in der Auswahl). Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---

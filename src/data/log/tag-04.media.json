@@ -1,6 +1,6 @@
 {
   "day": 4,
-  "stand": "2026-08-28T13:58",
+  "stand": "2026-08-28T22:57",
   "items": [
     {
       "id": "p-001",
@@ -315,6 +315,24 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "v-004",
+      "type": "video",
+      "orig": "73E8BCFE-DC7A-4144-988F-F930C63D65D1.mp4",
+      "bytes": 6997143,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-004.mp4",
+      "size": 4055446,
+      "poster": "log/tag-04/v-004.webp",
+      "thumb": "log/tag-04/v-004-t.webp",
+      "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoOABgAPu1iqU2ppaOiMAgBMB2JZQDImGYNw0adRSxQFgAA/DYbnCGwJtXJpLORzHhZ1WeaqaCbYWAJkyhJVaOchdeFp2QGuUPgS3IGj7Viybbkv5kYAAAA",
+      "w": 720,
+      "h": 1280,
+      "duration": 8.5,
+      "taken": "2026-08-27T12:20:24+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
       "id": "p-020",
       "type": "photo",
       "orig": "20260827_122155.jpg",
@@ -444,6 +462,24 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "v-005",
+      "type": "video",
+      "orig": "2015215B-7C22-46AD-BB83-DAE6061C7DB8.mp4",
+      "bytes": 6109751,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-005.mp4",
+      "size": 3636768,
+      "poster": "log/tag-04/v-005.webp",
+      "thumb": "log/tag-04/v-005-t.webp",
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoOABgAPu1iqU2ppaOiMAgBMB2JbACdMoACAx/XYlwcrvKeCsAA+eIuhpEJSyESx/1eXMUpA4OcLAtOoBePbPS39HCQhJHd/e2uuPu0zKiu/7guEKQYvyOceCV9psX7/pW7elvVZ9ATvO531myk2AAA",
+      "w": 720,
+      "h": 1280,
+      "duration": 8,
+      "taken": "2026-08-27T14:27:47+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
       "id": "p-028",
       "type": "photo",
       "orig": "IMG_0866.HEIC",
@@ -493,6 +529,21 @@
       "takenSource": "container",
       "gps": null,
       "camera": null
+    },
+    {
+      "id": "p-099",
+      "type": "photo",
+      "orig": "2661D982-80E4-4B96-9149-A47163DB7887.jpg",
+      "bytes": 2368144,
+      "src": "log/tag-04/p-099.webp",
+      "thumb": "log/tag-04/p-099-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAwBACdASoOABgAPu1kqU2ppaQiMAgBMB2JbACxG1yBO4rbhQLlsTzbpcAA/iSYIgxmuevbIj9mc0PViHkHnOpkV2s5wXbzFpwfWqqesr1cpnbi/S/q7zjTsbk10EZ5xa8w8zPJdwHjdXJZwKHHO5QBJCuS5VxUcNakkdxoelR78M7E6Ep0nw8vuCAAAA==",
+      "w": 1013,
+      "h": 1800,
+      "taken": "2026-08-27T14:42:36+02:00",
+      "takenSource": "exif",
+      "gps": null,
+      "camera": "iPhone 14 Pro"
     },
     {
       "id": "p-030",
@@ -675,6 +726,24 @@
       "camera": "iPhone 17 Pro"
     },
     {
+      "id": "v-006",
+      "type": "video",
+      "orig": "F9189EB7-25CF-4854-B50D-BB421C876827.mp4",
+      "bytes": 8666696,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-006.mp4",
+      "size": 5176539,
+      "poster": "log/tag-04/v-006.webp",
+      "thumb": "log/tag-04/v-006-t.webp",
+      "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBACdASoOABgAPu1iqU2ppaOiMAgBMB2JZgCdMoR8eBxdtphU9U7wX4AAAP2cne576dd+xvQVe1ep2456wVxb+MU1pWsV7jdOvWuA06sdHhmJJ8hGR21mkxvPfQRlGrAChAdFQ4P7rFiwwdUt9MAA",
+      "w": 720,
+      "h": 1280,
+      "duration": 11.2,
+      "taken": "2026-08-27T15:17:04+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
       "id": "p-040",
       "type": "photo",
       "orig": "IMG_7426.HEIC",
@@ -801,6 +870,24 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "p-100",
+      "type": "photo",
+      "orig": "IMG_7431.HEIC",
+      "bytes": 2098727,
+      "src": "log/tag-04/p-100.webp",
+      "thumb": "log/tag-04/p-100-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAQBQCdASoSABgAPu1kq0+ppSOiMBgIATAdiWQAuyAlwZiUAcemLPPzvP+ohDGvEwAAAPHktC2bEILLPAB5hZ5FJujbRlux6GdWbtGP4tq5tMYgOpcJC+ToYRf0Zytdo5cTGoQrQKSsBw+CPpx5XonlrC2+eAWuFYNJC4KNR9BhlpnmJC9qAjU+AAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-27T18:51:24+02:00",
+      "takenSource": "exif",
+      "gps": [
+        68.29797,
+        19.27528
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
       "id": "p-048",
       "type": "photo",
       "orig": "IMG_7433.HEIC",
@@ -916,6 +1003,24 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "samsung Galaxy S24 Ultra"
+    },
+    {
+      "id": "v-007",
+      "type": "video",
+      "orig": "IMG_7437.MOV",
+      "bytes": 23057216,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-007.mp4",
+      "size": 15943200,
+      "poster": "log/tag-04/v-007.webp",
+      "thumb": "log/tag-04/v-007-t.webp",
+      "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoOABgAPu1iqU2ppaQiMAgBMB2JYwCdACHK4OC7rgsL4AD+i8OEnLwKFifx4fKdZIZg5cEr/46u3tIaP36tPpEJvPz7z94M4AA=",
+      "w": 1080,
+      "h": 1920,
+      "duration": 20.4,
+      "taken": "2026-08-27T19:57:35+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
     },
     {
       "id": "p-055",
@@ -1038,6 +1143,42 @@
       "camera": "samsung Galaxy S24 Ultra"
     },
     {
+      "id": "v-008",
+      "type": "video",
+      "orig": "IMG_7438.MOV",
+      "bytes": 13494430,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-008.mp4",
+      "size": 9401508,
+      "poster": "log/tag-04/v-008.webp",
+      "thumb": "log/tag-04/v-008-t.webp",
+      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoOABgAPu1iqU2ppaOiMAgBMB2JZQAAXlUp0sxbOCwwn8gA/pPTSnl4SPxW+aa58WCkF4Yf6FR02sA1RKUVct3Trxet/emK+N16b/hqKPgiUgMv9obKs550yzHyxLIlXQ7cIlyNE+VNXlBRcmE8mhupEgFZN26jaeq/pP/OzgAAAA==",
+      "w": 1080,
+      "h": 1920,
+      "duration": 11.8,
+      "taken": "2026-08-27T20:03:55+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
+      "id": "v-009",
+      "type": "video",
+      "orig": "A340B2BA-9FC8-4EE9-BCC3-C58D9C952A5B.mp4",
+      "bytes": 17764152,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-009.mp4",
+      "size": 10676643,
+      "poster": "log/tag-04/v-009.webp",
+      "thumb": "log/tag-04/v-009-t.webp",
+      "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAwCdASoOABgAPu1iqU2ppaOiMAgBMB2JQBWAAfJK/kjAAHl0RFJDzW9+8L6Px6V2L6F/6p1tL9MdEWsTwiKoqzIRcL5VfR60Adv34AA=",
+      "w": 720,
+      "h": 1280,
+      "duration": 23.1,
+      "taken": "2026-08-27T20:07:55+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
+    },
+    {
       "id": "p-063",
       "type": "photo",
       "orig": "IMG_0877.HEIC",
@@ -1072,6 +1213,42 @@
       "takenSource": "container",
       "gps": null,
       "camera": null
+    },
+    {
+      "id": "p-101",
+      "type": "photo",
+      "orig": "IMG_7440.HEIC",
+      "bytes": 3052308,
+      "src": "log/tag-04/p-101.webp",
+      "thumb": "log/tag-04/p-101-t.webp",
+      "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBQCdASoSABgAPu1kqU2ppaOiMAgBMB2JYwDA/P8DE35lhEgR/YeCR9m1sKonTPziHAD+yHTblQh1RQsBhw7bL10IcGeTELLPJsxQegpXzFbtIKa0BIrpCnc9t98IfLAhAnrCWHngJacQ38IxaqbdAlYXmjDohrMToRnWT2G/auiEzkTmOMXcfGnZU6CqLu62pc4AAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-27T20:15:00+02:00",
+      "takenSource": "exif",
+      "gps": [
+        68.39967,
+        18.71157
+      ],
+      "camera": "iPhone 14 Pro"
+    },
+    {
+      "id": "p-102",
+      "type": "photo",
+      "orig": "IMG_7441.HEIC",
+      "bytes": 3556384,
+      "src": "log/tag-04/p-102.webp",
+      "thumb": "log/tag-04/p-102-t.webp",
+      "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASoSABgAPu1kqE2ppaOiMAgBMB2JQBb7CYhXE71Am65xfpOWbUKT0XmBHmvJ08AA/u4nG2luZlZXxa0BVudI1T/OxeZl1xUbF9Sa9Nz+Cg4BICJsA7ipcH1TXaoV+Bd5AM3xlzC3DLtxoq6pFZg8rDNzvvppGetIe81qyLIBtdxxxBiNKo5iq79DABlnbzBJ/X4uNPuDPg0Cf7wAAAA=",
+      "w": 1350,
+      "h": 1800,
+      "taken": "2026-08-27T20:15:01+02:00",
+      "takenSource": "exif",
+      "gps": [
+        68.40958,
+        18.66729
+      ],
+      "camera": "iPhone 14 Pro"
     },
     {
       "id": "p-064",
@@ -1348,6 +1525,24 @@
       "takenSource": "exif",
       "gps": null,
       "camera": "samsung Galaxy S24 Ultra"
+    },
+    {
+      "id": "v-010",
+      "type": "video",
+      "orig": "IMG_7443.MOV",
+      "bytes": 13221319,
+      "src": "https://github.com/fabiopeloso-wq/nordlys/releases/download/media/tag-04-v-010.mp4",
+      "size": 9181425,
+      "poster": "log/tag-04/v-010.webp",
+      "thumb": "log/tag-04/v-010-t.webp",
+      "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQAwCdASoOABgAPu1yrU+pp6QiMAgBMB2JQAAKj6Crbxj6KQwoAP6x27RKsGlJGPtBNY1fIB7D/O17yE6bv/tCquJ6mRk7q9pGDFTt2XGnGBXYFtFnxw0zkT/Xg5mKo4z664IQVuL7U5vUHDRr6E5sx9IVW8V53BwAAA==",
+      "w": 1080,
+      "h": 1920,
+      "duration": 11.9,
+      "taken": "2026-08-27T20:53:06+02:00",
+      "takenSource": "container",
+      "gps": null,
+      "camera": null
     },
     {
       "id": "p-082",

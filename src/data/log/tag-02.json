@@ -4,39 +4,155 @@
   "status": "online",
   "title": "Drei Länder, zwei Meere, fünf Zentimeter",
   "lead": "1020 Kilometer vom Frühstück in Harburg bis zum Bungalow vor Stockholm: Fähre, Öresund, ein Funkenflug an der schönsten Raststätte Dänemarks — und ein Bad im Vättern, das alles wettmacht.",
-  "place": { "name": "Skarpnäck, Stockholm", "region": "Stockholms län · Schweden", "lat": 59.2499, "lng": 18.1615 },
+  "place": {
+    "name": "Skarpnäck, Stockholm",
+    "region": "Stockholms län · Schweden",
+    "lat": 59.2499,
+    "lng": 18.1615
+  },
   "mood": "autobahn",
   "hero": "p-038",
-  "omit": ["p-002", "p-004", "p-006", "p-007", "p-009", "p-010", "p-012", "p-013", "p-015", "p-018", "p-020", "p-025", "p-028", "p-029", "p-033", "p-034", "v-002", "v-003", "v-005", "v-006", "p-040", "p-042", "p-043", "p-044"],
+  "omit": [
+    "p-002",
+    "p-006",
+    "p-007",
+    "p-009",
+    "p-010",
+    "p-018",
+    "p-020",
+    "p-028",
+    "p-034",
+    "p-044"
+  ],
+  "picks": [
+    "p-001",
+    "p-003",
+    "p-005",
+    "p-008",
+    "p-011",
+    "p-014",
+    "p-016",
+    "p-017",
+    "v-001",
+    "p-019",
+    "p-021",
+    "p-022",
+    "p-023",
+    "p-024",
+    "p-026",
+    "p-027",
+    "p-030",
+    "p-031",
+    "p-032",
+    "p-035",
+    "p-036",
+    "p-037",
+    "p-038",
+    "p-046",
+    "p-045",
+    "p-039",
+    "v-004",
+    "p-041"
+  ],
   "stats": {
     "km": 1020,
     "kmTotal": 1890,
     "drive": "≈12 h",
     "weather": "Sonne, den ganzen Tag",
-    "night": { "type": "bungalow", "text": "First Camp City-Stockholm, Skarpnäck — Bungalow am Flatensee, «superherzig»" }
+    "night": {
+      "type": "bungalow",
+      "text": "First Camp City-Stockholm, Skarpnäck — Bungalow am Flatensee, «superherzig»"
+    }
   },
   "timeline": [
-    { "t": "06:00", "title": "Frühstück im Hotel", "text": "Das Buffet öffnet um sechs, die Crew sitzt schon davor. Draussen färbt sich der Himmel über Heimfeld rosa." },
-    { "t": "06:52", "title": "Abfahrt Harburg", "text": "Fachwerk und Backstein im ersten Licht, dann auf die A1 Richtung Fehmarn. Der längste Tag der Reise beginnt pünktlich." },
-    { "t": "07:01", "title": "Sonnenaufgang über Holstein", "text": "Die Sonne steht flach über den Feldern — Fotostopp aus dem Fenster." },
-    { "t": "08:21", "title": "Der Kleiderbügel", "text": "Die Fehmarnsundbrücke, durchs Schiebedach fotografiert. Dahinter die Insel, dahinter der Hafen." },
-    { "t": "08:35", "title": "Puttgarden, Lane 03", "text": "Scandlines-Ticket: 139 Euro für Auto und vier Passagiere. Einreihen, Sonnenbrille auf, warten." },
-    { "t": "09:13", "title": "Autodeck", "text": "Der Stelvio parkt im Bauch der Fähre. Alle rauf aufs Sonnendeck." },
-    { "t": "09:18", "title": "Fehmarnbelt", "text": "45 Minuten Ostsee bei blauem Himmel — Füsse aufs Geländer, Gegenlicht auf dem Wasser." },
-    { "t": "09:55", "title": "Rødby", "text": "Dänemark. Ein Schlepper qualmt zur Begrüssung, dann Windräder und die E47 nach Norden." },
-    { "t": "10:38", "title": "Farø-Brücken", "text": "Über den Storstrøm nach Seeland — 40 Minuten nach der Fähre die Tanke: super schön, super sauber, die beste Raststätte bis jetzt." },
-    { "t": "11:15", "title": "Starthilfe mit Funkenflug", "text": "Zwei deutsche Jungs, unterwegs für ein Bestattungsunternehmen, ihr Mercedes ist tot. Wir helfen mit unserer Batterie — bis einer die falschen Pole zusammenhält. Funken, ein kleiner Knall, fünf Zentimeter neben der Hand. Nichts passiert." },
-    { "t": "11:27", "title": "Crew-Selfie auf Seeland", "text": "Vier Daumen hoch, Kopenhagen lassen wir links liegen." },
-    { "t": "12:11", "title": "Öresundbrücke", "text": "Acht Kilometer übers Wasser — Land Nummer drei." },
-    { "t": "Nachmittag", "title": "Schweden, erst nicht schön", "text": "Flach, gerade, Autobahn. Glacepause. Dann Jönköping, Halbzeit: Hotdogs." },
-    { "t": "17:12", "title": "Vättern, Ostufer", "text": "Rund um den See, und plötzlich dieser Ort: Felsen, Kiefern, glitzerndes Wasser. Badepause — super geil." },
-    { "t": "18:08", "title": "Weiter, mit nassen Haaren", "text": "Wunderschöne Autobahnen und Landschaft nach Jönköping, die Sonne geht Richtung Stockholm unter." },
-    { "t": "Abend", "title": "Bungalow Skarpnäck", "text": "Angekommen auf dem Campingplatz. Matt und Michi kochen, Fabio arbeitet noch. Abend ausklingen lassen, schlafen." }
+    {
+      "t": "06:00",
+      "title": "Frühstück im Hotel",
+      "text": "Das Buffet öffnet um sechs, die Crew sitzt schon davor. Draussen färbt sich der Himmel über Heimfeld rosa."
+    },
+    {
+      "t": "06:52",
+      "title": "Abfahrt Harburg",
+      "text": "Fachwerk und Backstein im ersten Licht, dann auf die A1 Richtung Fehmarn. Der längste Tag der Reise beginnt pünktlich."
+    },
+    {
+      "t": "07:01",
+      "title": "Sonnenaufgang über Holstein",
+      "text": "Die Sonne steht flach über den Feldern — Fotostopp aus dem Fenster."
+    },
+    {
+      "t": "08:21",
+      "title": "Der Kleiderbügel",
+      "text": "Die Fehmarnsundbrücke, durchs Schiebedach fotografiert. Dahinter die Insel, dahinter der Hafen."
+    },
+    {
+      "t": "08:35",
+      "title": "Puttgarden, Lane 03",
+      "text": "Scandlines-Ticket: 139 Euro für Auto und vier Passagiere. Einreihen, Sonnenbrille auf, warten."
+    },
+    {
+      "t": "09:13",
+      "title": "Autodeck",
+      "text": "Der Stelvio parkt im Bauch der Fähre. Alle rauf aufs Sonnendeck."
+    },
+    {
+      "t": "09:18",
+      "title": "Fehmarnbelt",
+      "text": "45 Minuten Ostsee bei blauem Himmel — Füsse aufs Geländer, Gegenlicht auf dem Wasser."
+    },
+    {
+      "t": "09:55",
+      "title": "Rødby",
+      "text": "Dänemark. Ein Schlepper qualmt zur Begrüssung, dann Windräder und die E47 nach Norden."
+    },
+    {
+      "t": "10:38",
+      "title": "Farø-Brücken",
+      "text": "Über den Storstrøm nach Seeland — 40 Minuten nach der Fähre die Tanke: super schön, super sauber, die beste Raststätte bis jetzt."
+    },
+    {
+      "t": "11:15",
+      "title": "Starthilfe mit Funkenflug",
+      "text": "Zwei deutsche Jungs, unterwegs für ein Bestattungsunternehmen, ihr Mercedes ist tot. Wir helfen mit unserer Batterie — bis einer die falschen Pole zusammenhält. Funken, ein kleiner Knall, fünf Zentimeter neben der Hand. Nichts passiert."
+    },
+    {
+      "t": "11:27",
+      "title": "Crew-Selfie auf Seeland",
+      "text": "Vier Daumen hoch, Kopenhagen lassen wir links liegen."
+    },
+    {
+      "t": "12:11",
+      "title": "Öresundbrücke",
+      "text": "Acht Kilometer übers Wasser — Land Nummer drei."
+    },
+    {
+      "t": "Nachmittag",
+      "title": "Schweden, erst nicht schön",
+      "text": "Flach, gerade, Autobahn. Glacepause. Dann Jönköping, Halbzeit: Hotdogs."
+    },
+    {
+      "t": "17:12",
+      "title": "Vättern, Ostufer",
+      "text": "Rund um den See, und plötzlich dieser Ort: Felsen, Kiefern, glitzerndes Wasser. Badepause — super geil."
+    },
+    {
+      "t": "18:08",
+      "title": "Weiter, mit nassen Haaren",
+      "text": "Wunderschöne Autobahnen und Landschaft nach Jönköping, die Sonne geht Richtung Stockholm unter."
+    },
+    {
+      "t": "Abend",
+      "title": "Bungalow Skarpnäck",
+      "text": "Angekommen auf dem Campingplatz. Matt und Michi kochen, Fabio arbeitet noch. Abend ausklingen lassen, schlafen."
+    }
   ],
   "story": [
     "Diesmal stimmte der Plan: Frühstück um sechs, um zehn vor sieben rollte der Stelvio aus Harburg, die Sonne kam gerade über die Felder Holsteins. Um halb neun stand er in Puttgarden auf Lane 03 — 139 Euro für Auto und vier Passagiere — und eine Dreiviertelstunde später lag die Ostsee unter dem Sonnendeck. Die einzige Pause, die sich von selbst ergibt, und sie war genau richtig.",
     "Dänemark begann mit einem qualmenden Schlepper in Rødby, den Farø-Brücken über den Storstrøm und, vierzig Minuten nach der Fähre, der besten Raststätte bis jetzt: super schön, super sauber. Dort standen zwei deutsche Jungs, unterwegs für ein Bestattungsunternehmen, mit einem Mercedes, der nicht mehr wollte. Starthilfe mit unserer Batterie — bis einer der beiden die falschen Pole aneinanderhielt. Funken, ein kleiner Knall, fünf Zentimeter neben der Hand.",
-    { "quote": "Fast gestorben wegen einer Autobatterie. Aber keine Sorge: alles gut, nichts passiert.", "who": "Fabio, Bordbuch Tag 2" },
+    {
+      "quote": "Fast gestorben wegen einer Autobatterie. Aber keine Sorge: alles gut, nichts passiert.",
+      "who": "Fabio, Bordbuch Tag 2"
+    },
     "Dann die Öresundbrücke, acht Kilometer übers Wasser, und Schweden — das erst einmal nicht schön war. Flach, gerade, Autobahn. Eine Glacepause, in Jönköping Hotdogs zur Halbzeit. Und dann, hinter dem See, änderte sich alles: wunderschöne Autobahnen, Landschaft, und am Ostufer des Vättern ein Ort, an dem man einfach anhalten muss. Felsen, Kiefern, ein See, der aussieht wie Meer. Badepause.",
     "Mit nassen Haaren in den Sonnenuntergang Richtung Stockholm. Am Campingplatz in Skarpnäck wartete ein Bungalow, superherzig, und die Rollenverteilung war schnell klar: Matt und Michi kochten, Fabio arbeitete noch. Abend ausklingen lassen, schlafen gehen. 1890 Kilometer stehen auf dem Zähler — und morgen ist zum ersten Mal Zelt."
   ],
@@ -44,7 +160,7 @@
     "p-001": "06:32, Heimfeld: der Himmel macht schon mal Stimmung.",
     "p-002": "Derselbe Himmel, zwei Sekunden später.",
     "p-003": "Harburg im ersten Licht — Fachwerk, Backstein, Abfahrt.",
-    "p-004": "Beifahrer-Modus, Aufnahme eins.",
+    "p-004": "Beifahrer-Modus, 06:52 — das Nackenkissen ist schon im Einsatz.",
     "p-005": "Nackenkissen, Sonnenbrille, Schiebedach: Beifahrer-Modus.",
     "p-006": "Stadtverkehr in Harburg, Gegenlicht.",
     "p-007": "Sonnenaufgang über den Feldern, hochkant.",
@@ -91,18 +207,46 @@
     "p-043": "Trinkpause auf dem Deck.",
     "p-044": "Die Wiese am Vättern, iPhone-Version.",
     "p-045": "17:18, Vättern-Ostufer: Sonne über dem Wasser, vom Felsen aus.",
-    "p-046": "Naturreservat Stora Lund — der Badeplatz am Vättern hat einen Namen. Infotafel am Parkplatz, 17:18."
+    "p-046": "Naturreservat Stora Lund — der Badeplatz am Vättern hat einen Namen. Infotafel am Parkplatz, 17:18.",
+    "v-003": "Energydrink-Snap auf der E47, 11:20."
   },
   "numbers": [
-    { "k": "Abfahrt", "v": "06:52 — diesmal nach Plan" },
-    { "k": "Fähre", "v": "Scandlines Puttgarden–Rødby, 139 EUR (Auto 121 + Service 15 + ETS 3)" },
-    { "k": "Länder", "v": "3 — Deutschland, Dänemark, Schweden" },
-    { "k": "Brücken", "v": "Fehmarnsund · Farø · Öresund" },
-    { "k": "Raststätte", "v": "Dänemark — die beste bis jetzt" },
-    { "k": "Starthilfe", "v": "1 × — Funken fünf Zentimeter neben der Hand" },
-    { "k": "Mittag", "v": "Hotdogs in Jönköping" },
-    { "k": "Bad", "v": "Vättern, Ostufer, ab 17:12" },
-    { "k": "Nacht", "v": "Bungalow First Camp Stockholm, 174 CHF" }
+    {
+      "k": "Abfahrt",
+      "v": "06:52 — diesmal nach Plan"
+    },
+    {
+      "k": "Fähre",
+      "v": "Scandlines Puttgarden–Rødby, 139 EUR (Auto 121 + Service 15 + ETS 3)"
+    },
+    {
+      "k": "Länder",
+      "v": "3 — Deutschland, Dänemark, Schweden"
+    },
+    {
+      "k": "Brücken",
+      "v": "Fehmarnsund · Farø · Öresund"
+    },
+    {
+      "k": "Raststätte",
+      "v": "Dänemark — die beste bis jetzt"
+    },
+    {
+      "k": "Starthilfe",
+      "v": "1 × — Funken fünf Zentimeter neben der Hand"
+    },
+    {
+      "k": "Mittag",
+      "v": "Hotdogs in Jönköping"
+    },
+    {
+      "k": "Bad",
+      "v": "Vättern, Ostufer, ab 17:12"
+    },
+    {
+      "k": "Nacht",
+      "v": "Bungalow First Camp Stockholm, 174 CHF"
+    }
   ],
   "tomorrow": "Kurzer Tag nach dem Marathon: 510 Kilometer E4 die Ostsee entlang zur Höga Kusten — und die erste Zeltnacht der Reise am Skuleberget.",
   "track": "planned"

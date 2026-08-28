@@ -4,49 +4,228 @@
   "status": "online",
   "title": "Polcirkeln, sechs Grad, ein Mond im Tor",
   "lead": "853 Kilometer bis ins Fjäll: eine Kirchstadt bei Luleå, das Schild am Polarkreis, ein Rentier auf der E10 — dann der Torneträsk, sechs Grad kalt, und ein Abend auf einem Hügel über Björkliden, an dem keine Aurora kam, aber der Vollmond genau über dem U von Lapporten stand.",
-  "place": { "name": "Aurora-Viewpoint über Björkliden", "region": "über dem Torneträsk · Norrbotten · Lappland", "lat": 68.4103, "lng": 18.6678 },
+  "place": {
+    "name": "Aurora-Viewpoint über Björkliden",
+    "region": "über dem Torneträsk · Norrbotten · Lappland",
+    "lat": 68.4103,
+    "lng": 18.6678
+  },
   "mood": "taiga",
   "hero": "p-089",
   "heroPos": "50% 62%",
-  "omit": ["p-002", "p-005", "p-006", "p-008", "p-010", "p-011", "p-012", "p-013", "p-015", "p-016", "p-017", "p-019", "p-022", "p-023", "p-024", "p-025", "p-026", "p-027", "p-029", "v-001", "p-030", "p-031", "p-033", "p-034", "p-035", "p-036", "p-037", "p-038", "p-040", "p-041", "p-043", "p-045", "p-046", "p-049", "p-053", "p-054", "p-056", "p-057", "p-059", "p-061", "p-065", "p-066", "p-067", "p-069", "p-070", "p-071", "p-073", "p-074", "p-075", "p-076", "p-078", "p-079", "p-080", "p-082", "p-083", "p-084", "p-087", "p-088", "p-090", "p-091", "p-092", "p-097", "p-098"],
+  "omit": [
+    "p-005",
+    "p-006",
+    "p-008",
+    "p-013",
+    "p-015",
+    "p-024",
+    "p-025",
+    "v-001",
+    "p-031",
+    "p-033",
+    "p-034",
+    "p-035",
+    "p-036",
+    "p-037",
+    "p-038",
+    "p-041",
+    "p-045",
+    "p-046",
+    "p-049",
+    "p-053",
+    "p-054",
+    "p-056",
+    "p-057",
+    "p-059",
+    "p-102",
+    "p-065",
+    "p-066",
+    "p-067",
+    "p-070",
+    "p-071",
+    "p-073",
+    "p-075",
+    "p-076",
+    "p-079",
+    "p-080",
+    "p-083",
+    "p-084",
+    "p-088",
+    "p-090",
+    "p-092",
+    "p-097",
+    "p-098"
+  ],
+  "picks": [
+    "p-001",
+    "p-003",
+    "p-004",
+    "p-007",
+    "p-009",
+    "p-014",
+    "p-018",
+    "p-020",
+    "p-021",
+    "p-028",
+    "p-032",
+    "p-039",
+    "v-006",
+    "p-042",
+    "p-044",
+    "p-047",
+    "p-100",
+    "p-048",
+    "p-050",
+    "p-051",
+    "p-052",
+    "p-055",
+    "p-058",
+    "p-060",
+    "p-062",
+    "p-063",
+    "v-002",
+    "p-064",
+    "p-068",
+    "p-072",
+    "p-077",
+    "p-081",
+    "v-003",
+    "p-085",
+    "p-086",
+    "p-089",
+    "p-093",
+    "p-094",
+    "p-095",
+    "p-096"
+  ],
   "stats": {
     "km": 853,
     "kmTotal": 3256,
     "drive": "≈11 h",
     "weather": "Sonne und Wolken, abends klar und windstill — am Morgen grau",
-    "night": { "type": "biwak", "text": "Schlafsack unter freiem Himmel auf dem Aurora-Viewpoint oberhalb des Hotels von Björkliden, 68.41° N" }
+    "night": {
+      "type": "biwak",
+      "text": "Schlafsack unter freiem Himmel auf dem Aurora-Viewpoint oberhalb des Hotels von Björkliden, 68.41° N"
+    }
   },
   "timeline": [
-    { "t": "05:27", "title": "Abbau bei Docksta", "text": "Noch im Halbdunkel: Schlafsäcke einrollen, Kofferraum zu. Der Parkplatz lag mitten in der Höga Kusten, wie die GPS-Daten erst jetzt verraten." },
-    { "t": "06:04", "title": "Raststätte", "text": "Zähne putzen, Wasser auffüllen, weiter. Vor uns der längste Fahrtag der Reise." },
-    { "t": "10:11", "title": "«Krabenbrötchen»", "text": "Läuft wieder. Die E4 ist inzwischen gerade und leer — Felder, Wald, Wolken." },
-    { "t": "11:50", "title": "Lule älv", "text": "Über den Fluss kurz vor Luleå, daneben die alte Bogenbrücke im Gegenlicht." },
-    { "t": "11:54", "title": "Gammelstads kyrkstad", "text": "Ein Abstecher, der nicht im Plan stand: die Kirchstadt von Luleå. Über 400 rote Holzhäuschen um eine Steinkirche aus dem 15. Jahrhundert, UNESCO-Welterbe — und an einem Donnerstagmittag fast nur für uns." },
-    { "t": "12:40", "title": "Pizza", "text": "Vier Stück, Orangensaft dazu. Dann zurück auf die E4." },
-    { "t": "≈13:45", "title": "Töre", "text": "Hier endet die E4 in einem unscheinbaren Kreisel. Ab jetzt E10, Richtung Nordwesten. Kein Foto — der Kreisel hat es nicht verdient." },
-    { "t": "14:41", "title": "Polcirkeln", "text": "66°33′ Nord. Das Schild ist über und über mit Stickern beklebt. Alle vier drunter, viermal fotografiert. Ab jetzt offiziell arktisch." },
-    { "t": "15:16", "title": "Das erste Rentier", "text": "Mitten auf der E10 zwischen Lansjärv und Hakkas, keine Eile. Wir auch nicht." },
-    { "t": "16:58", "title": "Gelbe Birken", "text": "Wald bis zum Horizont, Strassen ohne Kurve — und hier oben hat der Herbst schon angefangen." },
-    { "t": "18:30", "title": "Torneträsk", "text": "Rechts taucht der See auf: 70 Kilometer lang, 168 Meter tief. Die E10 folgt dem Ufer nach Westen." },
-    { "t": "18:47", "title": "Rein", "text": "Erster Halt am Ufer, kurz vor Abisko. Gianino und Fabio gehen baden — der kälteste See, den wir je erlebt haben. Sechs Grad, glaube ich." },
-    { "t": "19:47", "title": "Björkliden", "text": "Kofferraum auf, Rucksäcke packen, Schlafsäcke raus. Der Rest des Abends geht zu Fuss den Hügel hinauf." },
-    { "t": "19:58", "title": "Sonnenuntergang", "text": "Aufstieg zum Aurora-Viewpoint oberhalb des Hotels: eine kleine Hütte, eine Infotafel, ein Wasserfall gegenüber — und ein Himmel, der eine Stunde lang orange bleibt." },
-    { "t": "20:16", "title": "Camp", "text": "Hochplateau über dem See. Schlafsäcke auslegen, Decke ausbreiten, Kocher raus." },
-    { "t": "20:47", "title": "Chili con Carne", "text": "Auf dem Gaskocher, auf einer Chicago-Cubs-Decke. Gegessen mit Blick auf den See." },
-    { "t": "21:03", "title": "Mondaufgang", "text": "Orange schiebt sich der Vollmond über den Berg jenseits des Torneträsk." },
-    { "t": "21:52", "title": "Lapporten", "text": "Der Mond steht weiss und voll über dem U von Lapporten — dem Tor Lapplands, das seit Wochen als Foto im Reiseplan hängt. Keine Aurora. Trotzdem einer der schönsten Orte, an denen wir je waren." },
-    { "t": "07:34", "title": "Grauer Morgen", "text": "Aufwachen im Schlafsack, der See im Dunst. Von der Mondfinsternis aus dem Plan gibt es kein Foto." },
-    { "t": "08:21", "title": "Frühstück", "text": "Aus der Pfanne, mit Seeblick. Um 08:50 gehen die Rucksäcke zurück zum Auto. Danach: Norwegen." }
+    {
+      "t": "05:27",
+      "title": "Abbau bei Docksta",
+      "text": "Noch im Halbdunkel: Schlafsäcke einrollen, Kofferraum zu. Der Parkplatz lag mitten in der Höga Kusten, wie die GPS-Daten erst jetzt verraten."
+    },
+    {
+      "t": "06:04",
+      "title": "Raststätte",
+      "text": "Zähne putzen, Wasser auffüllen, weiter. Vor uns der längste Fahrtag der Reise."
+    },
+    {
+      "t": "10:11",
+      "title": "«Krabenbrötchen»",
+      "text": "Läuft wieder. Die E4 ist inzwischen gerade und leer — Felder, Wald, Wolken."
+    },
+    {
+      "t": "11:50",
+      "title": "Lule älv",
+      "text": "Über den Fluss kurz vor Luleå, daneben die alte Bogenbrücke im Gegenlicht."
+    },
+    {
+      "t": "11:54",
+      "title": "Gammelstads kyrkstad",
+      "text": "Ein Abstecher, der nicht im Plan stand: die Kirchstadt von Luleå. Über 400 rote Holzhäuschen um eine Steinkirche aus dem 15. Jahrhundert, UNESCO-Welterbe — und an einem Donnerstagmittag fast nur für uns."
+    },
+    {
+      "t": "12:40",
+      "title": "Pizza",
+      "text": "Vier Stück, Orangensaft dazu. Dann zurück auf die E4."
+    },
+    {
+      "t": "≈13:45",
+      "title": "Töre",
+      "text": "Hier endet die E4 in einem unscheinbaren Kreisel. Ab jetzt E10, Richtung Nordwesten. Kein Foto — der Kreisel hat es nicht verdient."
+    },
+    {
+      "t": "14:41",
+      "title": "Polcirkeln",
+      "text": "66°33′ Nord. Das Schild ist über und über mit Stickern beklebt. Alle vier drunter, viermal fotografiert. Ab jetzt offiziell arktisch."
+    },
+    {
+      "t": "15:16",
+      "title": "Das erste Rentier",
+      "text": "Mitten auf der E10 zwischen Lansjärv und Hakkas, keine Eile. Wir auch nicht."
+    },
+    {
+      "t": "16:58",
+      "title": "Gelbe Birken",
+      "text": "Wald bis zum Horizont, Strassen ohne Kurve — und hier oben hat der Herbst schon angefangen."
+    },
+    {
+      "t": "18:30",
+      "title": "Torneträsk",
+      "text": "Rechts taucht der See auf: 70 Kilometer lang, 168 Meter tief. Die E10 folgt dem Ufer nach Westen."
+    },
+    {
+      "t": "18:47",
+      "title": "Rein",
+      "text": "Erster Halt am Ufer, kurz vor Abisko. Gianino und Fabio gehen baden — der kälteste See, den wir je erlebt haben. Sechs Grad, glaube ich."
+    },
+    {
+      "t": "19:47",
+      "title": "Björkliden",
+      "text": "Kofferraum auf, Rucksäcke packen, Schlafsäcke raus. Der Rest des Abends geht zu Fuss den Hügel hinauf."
+    },
+    {
+      "t": "19:58",
+      "title": "Sonnenuntergang",
+      "text": "Aufstieg zum Aurora-Viewpoint oberhalb des Hotels: eine kleine Hütte, eine Infotafel, ein Wasserfall gegenüber — und ein Himmel, der eine Stunde lang orange bleibt."
+    },
+    {
+      "t": "20:16",
+      "title": "Camp",
+      "text": "Hochplateau über dem See. Schlafsäcke auslegen, Decke ausbreiten, Kocher raus."
+    },
+    {
+      "t": "20:47",
+      "title": "Chili con Carne",
+      "text": "Auf dem Gaskocher, auf einer Chicago-Cubs-Decke. Gegessen mit Blick auf den See."
+    },
+    {
+      "t": "21:03",
+      "title": "Mondaufgang",
+      "text": "Orange schiebt sich der Vollmond über den Berg jenseits des Torneträsk."
+    },
+    {
+      "t": "21:52",
+      "title": "Lapporten",
+      "text": "Der Mond steht weiss und voll über dem U von Lapporten — dem Tor Lapplands, das seit Wochen als Foto im Reiseplan hängt. Keine Aurora. Trotzdem einer der schönsten Orte, an denen wir je waren."
+    },
+    {
+      "t": "07:34",
+      "title": "Grauer Morgen",
+      "text": "Aufwachen im Schlafsack, der See im Dunst. Von der Mondfinsternis aus dem Plan gibt es kein Foto."
+    },
+    {
+      "t": "08:21",
+      "title": "Frühstück",
+      "text": "Aus der Pfanne, mit Seeblick. Um 08:50 gehen die Rucksäcke zurück zum Auto. Danach: Norwegen."
+    }
   ],
   "story": [
     "Um halb sechs, noch im Halbdunkel, wurde der Parkplatz wieder zum Parkplatz: Schlafsäcke einrollen, Kofferraum zu, weiter. Wo wir eigentlich gelegen hatten, verraten erst die GPS-Daten der Fotos — bei Docksta, mitten in der Höga Kusten. Vor uns lag der längste Fahrtag der Reise: 853 Kilometer, erst die E4 bis an ihr Ende, dann die E10 in die Arktis. Um sechs eine Raststätte zum Zähneputzen, um zehn lief «Krabenbrötchen» aus den Lautsprechern, und die Strasse wurde mit jedem Kilometer gerader und leerer.",
     "Kurz vor Mittag über den Lule älv, und dann ein Abstecher, der nicht im Plan stand: Gammelstads kyrkstad, die Kirchstadt von Luleå. Über 400 rote Holzhäuschen, dicht an dicht um eine Steinkirche aus dem 15. Jahrhundert — hier übernachteten früher die Kirchgänger aus den entlegenen Dörfern, wenn der Weg für einen Tag zu weit war. UNESCO-Welterbe, und an einem Donnerstagmittag fast menschenleer. Danach Pizza, vier Stück, und wieder auf die E4.",
     "Bei Töre endet die E4 in einem unscheinbaren Kreisel, ab da heisst die Strasse E10 und zeigt nach Nordwesten. Um 14:41 stand das Schild: POLCIRKELN · Napapiiri · Arctic Circle · Cercle Polaire, über und über beklebt mit Stickern aus aller Welt, 66°33′ Nord. Foto ist Pflicht, sorry — also alle vier drunter, und dann noch dreimal, bis es sass. Eine halbe Stunde später das erste Rentier: mitten auf der E10, keine Eile, schaut kurz, geht weiter. Und dann einfach Schweden. Wald bis zum Horizont, Strassen ohne Kurve, Weite, wie wir sie nicht kennen — und gelbe Birken: Hier oben hat der Herbst schon angefangen.",
     "Um halb sieben tauchte rechts der Torneträsk auf, 70 Kilometer lang, 168 Meter tief, und beim ersten Halt am Ufer wollten Gianino und Fabio es wissen: rein.",
-    { "quote": "Der kälteste See, den wir jemals erlebt haben. Sechs Grad, glaube ich.", "who": "Fabio, über den Torneträsk" },
+    {
+      "quote": "Der kälteste See, den wir jemals erlebt haben. Sechs Grad, glaube ich.",
+      "who": "Fabio, über den Torneträsk"
+    },
     "Weiter über Abisko nach Björkliden. Dort Kofferraum auf, Rucksäcke gepackt, Schlafsäcke raus, und zu Fuss den Hügel hinauf zum Aurora-Viewpoint oberhalb des Hotels: ein Plateau über dem See, eine kleine Hütte, eine Infotafel, gegenüber ein Wasserfall, sonst nichts als Fjäll. Der Himmel machte, was er wollte — erst Schäfchenwolken, dann ein Sonnenuntergang in Orange, der eine Stunde lang nicht aufhörte. Auf einer Chicago-Cubs-Decke der Gaskocher, im Topf Chili con Carne, danach Blechbecher mit Aussicht.",
     "Um drei nach neun schob sich der Mond orange über den Berg jenseits des Sees, und um acht vor zehn stand er weiss und voll über dem U von Lapporten — dem Tor Lapplands, das seit Wochen als Foto im Reiseplan hängt. Jetzt stand es da, in echt, mit Mond. Die Aurora kam nicht.",
-    { "quote": "Keine Aurora — aber trotzdem einer der schönsten Orte, die wir je gesehen haben.", "who": "Fabio, am Morgen danach" },
+    {
+      "quote": "Keine Aurora — aber trotzdem einer der schönsten Orte, die wir je gesehen haben.",
+      "who": "Fabio, am Morgen danach"
+    },
     "Geschlafen wurde im Schlafsack unter freiem Himmel, 68.41° Nord, bei Vollmond. Von der partiellen Mondfinsternis, die der Plan für die frühen Morgenstunden versprochen hatte, gibt es kein Foto. Um halb acht war der Himmel grau und der See im Dunst, um zwanzig nach acht stand die Pfanne auf dem Kocher, und um zehn vor neun gingen die Rucksäcke den Weg zurück zum Auto. Danach: Norwegen."
   ],
   "captions": {
@@ -59,20 +238,20 @@
     "p-007": "11:50: Über den Lule älv, kurz vor Luleå — daneben die alte Bogenbrücke im Gegenlicht.",
     "p-008": "11:54: Abzweig Gammelstad.",
     "p-009": "11:54: «Gammelstads kyrkstad» — der Abstecher, der nicht im Plan stand.",
-    "p-010": "Gammelstad, 12:00.",
+    "p-010": "12:00: Ankunft in Gammelstad — das gelbe Haus an der Kurve.",
     "p-011": "Nederluleå kyrka, Giebelseite.",
     "p-012": "Rotes Holzhaus, blauer Himmel.",
     "p-013": "Die Kirche über der Mauer.",
     "p-014": "Nederluleå kyrka, 12:01: die Steinkirche aus dem 15. Jahrhundert, um die herum die Kirchstadt gebaut wurde.",
     "p-015": "Kirche, mit Zuschauer.",
-    "p-016": "Kirche, Weitwinkel.",
+    "p-016": "12:03: Die Kirche von der anderen Seite.",
     "p-017": "Der Platz mit den Kirchhäuschen, 12:06.",
     "p-018": "12:11: Gasse in der Kirchstadt — über 400 solche Häuschen, in denen die Kirchgänger von weit her übernachteten. UNESCO-Welterbe seit 1996.",
-    "p-019": "Rotes Haus, hochkant.",
+    "p-019": "12:18: Noch ein rotes Haus — davon gibt es hier über 400.",
     "p-020": "12:21: Rundgang durch Gammelstad — die Strasse gehört uns.",
     "p-021": "12:40: Vier Pizzen, Orangensaft dazu. Mittag.",
     "p-022": "13:13: Die Kirche, ein letztes Mal.",
-    "p-023": "13:31: E4 nördlich von Luleå.",
+    "p-023": "13:31: E4 nördlich von Luleå, Wolkenstrasse.",
     "p-024": "E4, Wolken, Aufnahme zwei.",
     "p-025": "E4, Aufnahme drei.",
     "p-026": "14:00: Flussland an der E10 — vermutlich der Kalix älv bei Överkalix.",
@@ -125,11 +304,11 @@
     "p-071": "Abendrot, Aufnahme drei.",
     "p-072": "20:42: Zu zweit vor dem See — Mütze an, es wird kühl.",
     "p-073": "Zu zweit, Aufnahme zwei.",
-    "p-074": "Abendhimmel, hochkant.",
+    "p-074": "20:42: Abendhimmel über dem Fjäll, hochkant.",
     "p-075": "Abendhimmel, hochkant, zwei.",
     "p-076": "20:47: Die Küche — Kocher, Topf, Chicago-Cubs-Decke.",
     "p-077": "20:47: Chili con Carne auf dem Gaskocher, auf einer Chicago-Cubs-Decke im Fjäll.",
-    "p-078": "Abendrot, Aufnahme vier.",
+    "p-078": "20:48: Abendrot, jetzt in Pink.",
     "p-079": "Essen im Abendrot, Aufnahme eins.",
     "p-080": "Essen im Abendrot, Aufnahme zwei.",
     "p-081": "20:48: Nachtessen mit Aussicht — Chili, Becher, Abendrot.",
@@ -150,23 +329,75 @@
     "p-095": "08:21: Frühstück aus der Pfanne, mit Seeblick.",
     "p-096": "08:50: Mit den Rucksäcken zurück zum Auto.",
     "p-097": "Rückweg, Aufnahme zwei.",
-    "p-098": "Polcirkeln, ohne Zeitstempel — Doppel."
+    "p-098": "Polcirkeln, ohne Zeitstempel — Doppel.",
+    "p-099": "14:42: Das Polarkreis-Schild vom Parkplatz aus.",
+    "p-100": "18:51: Blumen am Ufer des Torneträsk — dahinter der See und die Schäfchenwolken.",
+    "p-101": "20:15: Auf der Decke am Viewpoint — das Camp steht, die Aussicht auch.",
+    "v-004": "Acht Sekunden Gammelstad zu Fuss, 12:20.",
+    "v-005": "Acht Sekunden E10, 14:27 — Richtung Polarkreis.",
+    "v-007": "20 Sekunden Aufstieg, 19:57: der Himmel über dem Fjäll.",
+    "v-009": "23 Sekunden Sonnenuntergang vom Viewpoint, 20:07.",
+    "v-006": "Elf Sekunden, 15:17: Zwei Rentiere trotten der Leitplanke entlang — die E10 hat Zeit.",
+    "v-008": "Zwölf Sekunden Fjäll, 20:03: vom Zwergbirken-Gestrüpp hoch zum See und den Bergen.",
+    "v-010": "Zwölf Sekunden Küche, 20:53: Decke, Kocher, Kanne — und der Torneträsk als Tapete."
   },
   "numbers": [
-    { "k": "Abfahrt", "v": "05:27, Parkplatz bei Docksta" },
-    { "k": "Strecke", "v": "853 km — E4 bis Töre, dann E10 (OSRM)" },
-    { "k": "Musik", "v": "«Krabenbrötchen», 10:11" },
-    { "k": "Abstecher", "v": "Gammelstads kyrkstad — UNESCO-Welterbe seit 1996" },
-    { "k": "Mittag", "v": "Pizza, 12:40" },
-    { "k": "Polarkreis", "v": "14:41 · 66°33′ N · 4 Gruppenbilder" },
-    { "k": "Rentiere", "v": "das erste um 15:16, mitten auf der E10" },
-    { "k": "Torneträsk", "v": "330 km² · 168 m tief · «6 Grad, glaube ich»" },
-    { "k": "Badende", "v": "2 — Gianino, Fabio" },
-    { "k": "Nachtessen", "v": "Chili con Carne, Gaskocher, Chicago-Cubs-Decke" },
-    { "k": "Mond", "v": "Aufgang 21:03 · über Lapporten 21:52 · Vollmond" },
-    { "k": "Aurora", "v": "keine" },
-    { "k": "Nacht", "v": "Schlafsack unter freiem Himmel, Aurora-Viewpoint über Björkliden, 68.41° N" },
-    { "k": "Frühstück", "v": "aus der Pfanne, 08:21" }
+    {
+      "k": "Abfahrt",
+      "v": "05:27, Parkplatz bei Docksta"
+    },
+    {
+      "k": "Strecke",
+      "v": "853 km — E4 bis Töre, dann E10 (OSRM)"
+    },
+    {
+      "k": "Musik",
+      "v": "«Krabenbrötchen», 10:11"
+    },
+    {
+      "k": "Abstecher",
+      "v": "Gammelstads kyrkstad — UNESCO-Welterbe seit 1996"
+    },
+    {
+      "k": "Mittag",
+      "v": "Pizza, 12:40"
+    },
+    {
+      "k": "Polarkreis",
+      "v": "14:41 · 66°33′ N · 4 Gruppenbilder"
+    },
+    {
+      "k": "Rentiere",
+      "v": "das erste um 15:16, mitten auf der E10"
+    },
+    {
+      "k": "Torneträsk",
+      "v": "330 km² · 168 m tief · «6 Grad, glaube ich»"
+    },
+    {
+      "k": "Badende",
+      "v": "2 — Gianino, Fabio"
+    },
+    {
+      "k": "Nachtessen",
+      "v": "Chili con Carne, Gaskocher, Chicago-Cubs-Decke"
+    },
+    {
+      "k": "Mond",
+      "v": "Aufgang 21:03 · über Lapporten 21:52 · Vollmond"
+    },
+    {
+      "k": "Aurora",
+      "v": "keine"
+    },
+    {
+      "k": "Nacht",
+      "v": "Schlafsack unter freiem Himmel, Aurora-Viewpoint über Björkliden, 68.41° N"
+    },
+    {
+      "k": "Frühstück",
+      "v": "aus der Pfanne, 08:21"
+    }
   ],
   "tomorrow": "Bjørnfjell, die Grenze — ab hier Norwegen. E6 durchs Bardu-Tal, am Balsfjord entlang nach Tromsø, über zwei Brücken und einen Tunnel auf die Ringvassøya: der Hof am Skogsfjordvatnet, 69.97° N, nördlichster Punkt der Reise. Betten, Dusche, Küche.",
   "track": "planned"

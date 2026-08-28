@@ -1,6 +1,7 @@
 // Lightbox der Galerie: Foto in voller Grösse (1800 px, Blur-up aus dem LQIP) oder Video mit
 // Poster und nativen Controls. ←/→/Esc wie im Briefing, Wischen auf Touch, Bild-ID im
 // URL-Hash (#p-014) — so lässt sich ein einzelnes Bild teilen. Ohne GSAP: CSS-Transitions.
+// Die Liste, über die geblättert wird, ist die der Galerie (Auswahl oder alle) — setItems() hält sie synchron.
 
 import type { MediaItem } from './types';
 import { esc, fmtCoords, fmtDuration, fmtMb, fmtTime } from './render';
@@ -14,9 +15,11 @@ interface Opts {
 export interface Lightbox {
   open(id: string, trigger?: HTMLElement | null): void;
   close(): void;
+  setItems(items: MediaItem[]): void;
 }
 
-export function createLightbox(items: MediaItem[], opts: Opts): Lightbox {
+export function createLightbox(initial: MediaItem[], opts: Opts): Lightbox {
+  let items = initial;
   const root = document.createElement('div');
   root.className = 'lb';
   root.setAttribute('role', 'dialog');
@@ -143,6 +146,19 @@ export function createLightbox(items: MediaItem[], opts: Opts): Lightbox {
     }, 140);
   }
 
+  function setItems(next: MediaItem[]) {
+    const openId = current >= 0 ? items[current]?.id : null;
+    items = next;
+    if (openId) {
+      // Offen während des Wechsels (kommt praktisch nicht vor): Position neu bestimmen oder schliessen
+      const i = byId(openId);
+      if (i >= 0) {
+        current = i;
+        fill(i);
+      } else close();
+    }
+  }
+
   closeBtn.addEventListener('click', close);
   root.querySelector('[data-lb-close]')!.addEventListener('click', close);
   prevBtn.addEventListener('click', () => goto(current - 1));
@@ -185,9 +201,5 @@ export function createLightbox(items: MediaItem[], opts: Opts): Lightbox {
   });
   stage.addEventListener('pointercancel', () => (tracking = false));
 
-  // Deep-Link: #p-014 öffnet direkt
-  const hash = location.hash.slice(1);
-  if (hash && byId(hash) >= 0) window.setTimeout(() => open(hash), 120);
-
-  return { open, close };
+  return { open, close, setItems };
 }

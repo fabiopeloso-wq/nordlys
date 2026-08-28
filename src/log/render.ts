@@ -130,18 +130,30 @@ export function storyHtml(d: LogDay): string {
   </section>`;
 }
 
-export function galleryShellHtml(media: MediaItem[]): string {
-  const photos = media.filter((m) => m.type === 'photo').length;
-  const videos = media.filter((m) => m.type === 'video').length;
-  if (!media.length) return '';
+export function galleryShellHtml(all: MediaItem[], picks: MediaItem[]): string {
+  if (!all.length) return '';
+  const photos = all.filter((m) => m.type === 'photo').length;
+  const videos = all.length - photos;
   const parts = [`${photos} ${photos === 1 ? 'Foto' : 'Fotos'}`];
   if (videos) parts.push(`${videos} ${videos === 1 ? 'Video' : 'Videos'}`);
+  // Auswahl zuerst, der Rest hinter dem Knopf — ohne Auswahl gibt es keinen Knopf
+  const curated = picks.length < all.length;
+  const more = curated
+    ? `<button type="button" class="log-gallery__more mono" data-log-more aria-expanded="false" aria-controls="log-gallery" data-label-all="Alle ${all.length} Bilder zeigen" data-label-picks="Nur die Auswahl zeigen">
+          <span data-log-more-label>Alle ${all.length} Bilder zeigen</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M5 9 L12 16 L19 9"/></svg>
+        </button>`
+    : '';
+  const count = curated ? `<span data-log-count>Auswahl · ${picks.length} von ${all.length}</span> · ` : '';
   return `
   <section class="log-section log-gallery-section" id="bilder">
     <div class="container container--wide">
       <h2 class="log-h mono">Bilder · ${parts.join(' · ')}</h2>
-      <div class="log-gallery" data-log-gallery></div>
-      <p class="log-gallery__hint mono">Antippen zum Vergrössern · ←/→ blättert · Videos laden erst beim Abspielen</p>
+      <div class="log-gallery" id="log-gallery" data-log-gallery></div>
+      <div class="log-gallery__foot">
+        ${more}
+        <p class="log-gallery__hint mono">${count}Antippen zum Vergrössern · ←/→ blättert · Videos laden erst beim Abspielen</p>
+      </div>
     </div>
   </section>`;
 }

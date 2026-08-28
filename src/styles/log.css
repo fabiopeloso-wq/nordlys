@@ -269,7 +269,25 @@ body[data-mood='heim']     { --accent: var(--ember); --accent-2: var(--aurora-gr
   background: radial-gradient(circle at center, color-mix(in srgb, var(--night-deep) 35%, transparent), transparent 70%);
   pointer-events: none;
 }
-.log-gallery__hint { margin-top: 1rem; font-size: 0.62rem; letter-spacing: 0.06em; text-transform: none; }
+.log-gallery__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem 1.5rem; margin-top: 1.2rem; }
+.log-gallery__hint { font-size: 0.62rem; letter-spacing: 0.06em; text-transform: none; }
+.log-gallery__hint [data-log-count] { color: var(--accent); }
+/* «Alle Bilder zeigen»: gleiche Sprache wie der Logbuch-Knopf im Fuss — Hairline, Mono, Akzent beim Hover */
+.log-gallery__more {
+  display: inline-flex; align-items: center; gap: 0.7rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid var(--line);
+  color: var(--ice);
+  font-size: 0.66rem; letter-spacing: 0.1em;
+  background: color-mix(in srgb, var(--night-raised) 40%, transparent);
+  transition: border-color 0.25s, background 0.25s;
+}
+.log-gallery__more:hover, .log-gallery__more:focus-visible { border-color: var(--accent); background: var(--night-raised); }
+.log-gallery__more svg { width: 14px; height: 14px; stroke: var(--accent); transition: transform 0.3s; }
+.log-gallery-section.is-expanded .log-gallery__more svg { transform: rotate(180deg); }
+/* Beim Aufklappen kommen die neuen Kacheln kurz von unten — die bekannten bleiben ruhig */
+.lg-item.is-new { animation: lg-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+@keyframes lg-in { from { opacity: 0; transform: translateY(8px); } }
 
 /* ============ LIGHTBOX ============ */
 /* Bühne und Caption sind absolut positioniert: so hat die Bühne in jedem Browser eine definite Höhe,
@@ -500,6 +518,8 @@ a.log-nav__link:hover { border-color: var(--accent); background: var(--night-rai
   .log-stats { grid-template-columns: repeat(2, 1fr); }
   .log-stat { padding: 0.9rem 1rem; }
   .log-gallery { gap: 4px; }
+  .log-gallery__foot { flex-direction: column; align-items: stretch; }
+  .log-gallery__more { justify-content: center; }
   .lg-time, .lg-badge { left: 0.35rem; bottom: 0.35rem; padding: 0.15rem 0.35rem; font-size: 0.55rem; }
   .lg-badge__size { display: none; }
   .lb__stage { inset: 3.4rem 0.4rem 5.4rem; }
@@ -516,5 +536,6 @@ a.log-nav__link:hover { border-color: var(--accent); background: var(--night-rai
 }
 @media (prefers-reduced-motion: reduce) {
   .log-hero__media img, .lg-item img, .lb, .lb__stage, .lb__img, .log-entry__media img { transition: none; }
+  .lg-item.is-new { animation: none; }
   .log-hero__media img { transform: none; }
 }

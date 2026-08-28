@@ -108,7 +108,7 @@ und Entscheide: `research/logbuch-plan.md`.
 ```bash
 npm run log:import -- 3            # Day 3 aus dem Drive: HEIC→WebP, EXIF, Videos → Release «media», Manifest
 npm run log:import -- 3 --sheet    # Kontaktbogen nach review/log/ (zum Sichten und Beschriften)
-# src/data/log/tag-03.json schreiben (Titel, Lead, Story, Captions, Zahlen, hero, omit = Auswahl)
+# src/data/log/tag-03.json schreiben (Titel, Lead, Story, Captions, Zahlen, hero, picks = Auswahl, omit = Ausschuss)
 npm run log:import -- 3 --og       # og.jpg aus dem Hero (WhatsApp-Vorschau)
 npm run build                      # erzeugt auch logbuch/tag-03/index.html + src/data/log/index.json
 npm run log:check -- 3             # Playwright: Übersicht, Tagesseite, Lightbox, Videos im Release
@@ -117,8 +117,10 @@ git add -A && git commit && git push
 
 Regeln: Originale kommen nie ins Repo (`media/` ist gitignored), Fotos als WebP nach `public/log/tag-NN/`,
 Videos als H.264-MP4 ins GitHub-Release `media` (nur das Poster im Repo). Logbuch-Seiten tragen `noindex`.
-Kuratieren statt alles zeigen: `omit: ["p-007", …]` im Tages-JSON blendet Doppel und Ausschuss aus — das Manifest
-behält alles, die Auswahl ist jederzeit reversibel.
+Kuratieren in zwei Stufen: `picks: [...]` ist die Auswahl des Tages, die die Galerie zuerst zeigt; alle übrigen Bilder
+kommen mit «Alle Bilder zeigen» chronologisch dazu. `omit: [...]` fliegt ganz raus — nur echte Doppel (gleiches Motiv,
+Sekunden später) und Missglücktes. Das Manifest behält alles, beide Listen sind jederzeit reversibel. Captions braucht
+nur die Auswahl; der Rest zeigt Uhrzeit, GPS und Kamera aus dem Manifest.
 Voraussetzungen lokal: `ffmpeg`, `gh` (eingeloggt), macOS `sips` für HEIC.
 
 ## Selbst-Review (optional)

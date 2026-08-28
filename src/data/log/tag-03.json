@@ -4,38 +4,171 @@
   "status": "online",
   "title": "Tauben, Terrakotta und ein Parkplatz",
   "lead": "Ein Vormittag am See, ein Büro bei Starbucks, Stockholm im Sonnenschein — und dann wollten wir an einer Raststätte nur die Mücken von der Scheibe wischen. Dahinter stand ein chinesisches Museum.",
-  "place": { "name": "Ein Parkplatz an der E4", "region": "Höga Kusten, bei Docksta · Västernorrland", "lat": 63.072, "lng": 18.358 },
+  "place": {
+    "name": "Ein Parkplatz an der E4",
+    "region": "Höga Kusten, bei Docksta · Västernorrland",
+    "lat": 63.072,
+    "lng": 18.358
+  },
   "mood": "taiga",
   "hero": "p-023",
-  "omit": ["p-001", "p-005", "p-006", "p-009", "p-010", "p-013", "p-016", "p-017", "p-019", "p-021", "p-024", "p-025", "p-028", "p-029", "p-030", "p-032", "p-033", "p-034", "p-037", "v-004", "p-041", "p-042", "p-044", "p-045", "p-046", "p-047", "p-049", "p-050", "p-051", "p-052", "p-053", "p-054", "p-055", "p-056", "p-057", "p-058", "p-060", "p-062", "p-064", "p-065", "p-066", "p-067", "p-068", "p-069", "p-070", "p-071", "p-073", "p-075", "p-076", "p-077"],
+  "omit": [
+    "p-001",
+    "p-006",
+    "p-044",
+    "p-047",
+    "p-055",
+    "p-058",
+    "p-060",
+    "p-016",
+    "p-019",
+    "p-062",
+    "p-064",
+    "p-065",
+    "p-067",
+    "p-069",
+    "p-024",
+    "p-073",
+    "p-077",
+    "p-028",
+    "p-030",
+    "p-033",
+    "p-037",
+    "p-041",
+    "p-042"
+  ],
+  "picks": [
+    "v-001",
+    "p-002",
+    "p-003",
+    "v-007",
+    "p-004",
+    "p-007",
+    "p-008",
+    "p-048",
+    "p-011",
+    "p-059",
+    "p-061",
+    "p-012",
+    "p-014",
+    "p-015",
+    "p-018",
+    "p-020",
+    "v-002",
+    "p-063",
+    "p-022",
+    "p-023",
+    "p-072",
+    "p-074",
+    "v-003",
+    "p-026",
+    "p-027",
+    "p-031",
+    "p-035",
+    "p-036",
+    "p-038",
+    "p-039",
+    "p-078",
+    "p-079",
+    "p-040",
+    "v-005",
+    "v-006",
+    "p-043"
+  ],
   "stats": {
     "km": 513,
     "kmTotal": 2403,
     "drive": "≈6 h 30",
     "weather": "Sonne, blauer Himmel — nachts fast Vollmond",
-    "night": { "type": "biwak", "text": "Schlafsack neben dem Auto, auf einem Parkplatz an der E4 bei Docksta (Höga Kusten) — gefunden im Dunkeln" }
+    "night": {
+      "type": "biwak",
+      "text": "Schlafsack neben dem Auto, auf einem Parkplatz an der E4 bei Docksta (Höga Kusten) — gefunden im Dunkeln"
+    }
   },
   "timeline": [
-    { "t": "07:07", "title": "Geweckt", "text": "Nicht vom Wecker, sondern von einem Mitreisenden. Das Schnarchen ist dokumentiert — siehe Video." },
-    { "t": "08:27", "title": "See erkunden", "text": "Der Flatensee direkt vor dem Bungalow: Kiefern, Felsen, spiegelglattes Wasser und noch niemand unterwegs." },
-    { "t": "09:08", "title": "Frühstück im Bungalow", "text": "Müesli am Couchtisch, die Sonne kommt schon durchs Fenster." },
-    { "t": "11:27", "title": "Rein nach Stockholm", "text": "Über die Centralbron ins Zentrum, Gamla stan rechts, die Türme von Norrmalm voraus." },
-    { "t": "Mittag", "title": "Büro bei Starbucks", "text": "Laptop auf, WLAN an: Hozz und Reframe — die Kunden haben keine Ferien." },
-    { "t": "13:52", "title": "Die Tauben", "text": "Zwei Tauben auf einem Sims. Eine davon trifft — auf den Kopf. Foto der Täter liegt vor." },
-    { "t": "14:40", "title": "Stadt besichtigen", "text": "Norrbro, Riksdagshuset, das Schloss mit Wache, der Blick über den Strömmen. Wunderschöne Stadt, Gebäude und Pärke — und Bastard Burgers zum Essen." },
-    { "t": "16:13", "title": "Stau raus aus Stockholm", "text": "Die E4 Richtung Norden füllt sich erst, dann wird sie leer und flach." },
-    { "t": "18:02", "title": "Dragon Gate", "text": "Eigentlich nur die Scheiben putzen wegen der toten Mücken. Raststätte «Dragon Gate» bei Älvkarleby — und dahinter ein chinesisches Museum mit Terrakotta-Armee. Extrem surreal. Eine Stunde." },
-    { "t": "19:04", "title": "Surströmming-Regal", "text": "Kurzer Einkauf. Die Dosen von Röda Ulven stehen im Regal — fotografiert." },
-    { "t": "19:45", "title": "Küstenfahrt im Abendlicht", "text": "Kiefern, Seen, Schilf, tiefe Sonne — die E4 nordwärts an der Ostsee entlang." },
-    { "t": "21:30", "title": "Die grosse Brücke", "text": "Sundsvallsbron, zwei Kilometer über die Bucht — aber schon dunkel, man hat nicht viel gesehen. Nur den Mond über dem Wasser." },
-    { "t": "22:13", "title": "Schlafplatz suchen", "text": "Im Dunkeln irgendwo an der E4. Nachtstopp mit Blitz, um Viertel nach elf noch mit Taschenlampe unterwegs. Am Schluss bleibt es der Parkplatz." },
-    { "t": "00:06", "title": "Nudeln, Schlafsack, Asphalt", "text": "Rotlicht der Stirnlampe: Um sechs nach zwölf liegen die Schlafsäcke neben dem Auto, um zwölf nach zwölf kochen die Nudeln. Der Parkplatz liegt bei Docksta, mitten in der Höga Kusten — das verraten erst die GPS-Daten der nachgereichten Fotos. Um 01:22 Augen zu. Sleep Score am Morgen: 36 — «Schlecht»." },
-    { "t": "05:22", "title": "Wieder wach", "text": "Knapp vier Stunden. Weiter nach Norden." }
+    {
+      "t": "07:07",
+      "title": "Geweckt",
+      "text": "Nicht vom Wecker, sondern von einem Mitreisenden. Das Schnarchen ist dokumentiert — siehe Video."
+    },
+    {
+      "t": "08:27",
+      "title": "See erkunden",
+      "text": "Der Flatensee direkt vor dem Bungalow: Kiefern, Felsen, spiegelglattes Wasser und noch niemand unterwegs."
+    },
+    {
+      "t": "09:08",
+      "title": "Frühstück im Bungalow",
+      "text": "Müesli am Couchtisch, die Sonne kommt schon durchs Fenster."
+    },
+    {
+      "t": "11:27",
+      "title": "Rein nach Stockholm",
+      "text": "Über die Centralbron ins Zentrum, Gamla stan rechts, die Türme von Norrmalm voraus."
+    },
+    {
+      "t": "Mittag",
+      "title": "Büro bei Starbucks",
+      "text": "Laptop auf, WLAN an: Hozz und Reframe — die Kunden haben keine Ferien."
+    },
+    {
+      "t": "13:52",
+      "title": "Die Tauben",
+      "text": "Zwei Tauben auf einem Sims. Eine davon trifft — auf den Kopf. Foto der Täter liegt vor."
+    },
+    {
+      "t": "14:40",
+      "title": "Stadt besichtigen",
+      "text": "Norrbro, Riksdagshuset, das Schloss mit Wache, der Blick über den Strömmen. Wunderschöne Stadt, Gebäude und Pärke — und Bastard Burgers zum Essen."
+    },
+    {
+      "t": "16:13",
+      "title": "Stau raus aus Stockholm",
+      "text": "Die E4 Richtung Norden füllt sich erst, dann wird sie leer und flach."
+    },
+    {
+      "t": "18:02",
+      "title": "Dragon Gate",
+      "text": "Eigentlich nur die Scheiben putzen wegen der toten Mücken. Raststätte «Dragon Gate» bei Älvkarleby — und dahinter ein chinesisches Museum mit Terrakotta-Armee. Extrem surreal. Eine Stunde."
+    },
+    {
+      "t": "19:04",
+      "title": "Surströmming-Regal",
+      "text": "Kurzer Einkauf. Die Dosen von Röda Ulven stehen im Regal — fotografiert."
+    },
+    {
+      "t": "19:45",
+      "title": "Küstenfahrt im Abendlicht",
+      "text": "Kiefern, Seen, Schilf, tiefe Sonne — die E4 nordwärts an der Ostsee entlang."
+    },
+    {
+      "t": "21:30",
+      "title": "Die grosse Brücke",
+      "text": "Sundsvallsbron, zwei Kilometer über die Bucht — aber schon dunkel, man hat nicht viel gesehen. Nur den Mond über dem Wasser."
+    },
+    {
+      "t": "22:13",
+      "title": "Schlafplatz suchen",
+      "text": "Im Dunkeln irgendwo an der E4. Nachtstopp mit Blitz, um Viertel nach elf noch mit Taschenlampe unterwegs. Am Schluss bleibt es der Parkplatz."
+    },
+    {
+      "t": "00:06",
+      "title": "Nudeln, Schlafsack, Asphalt",
+      "text": "Rotlicht der Stirnlampe: Um sechs nach zwölf liegen die Schlafsäcke neben dem Auto, um zwölf nach zwölf kochen die Nudeln. Der Parkplatz liegt bei Docksta, mitten in der Höga Kusten — das verraten erst die GPS-Daten der nachgereichten Fotos. Um 01:22 Augen zu. Sleep Score am Morgen: 36 — «Schlecht»."
+    },
+    {
+      "t": "05:22",
+      "title": "Wieder wach",
+      "text": "Knapp vier Stunden. Weiter nach Norden."
+    }
   ],
   "story": [
     "Tag drei begann mit Schnarchen. Nicht das eigene — das nebenan. Um sieben war die Crew wach, ob sie wollte oder nicht, und weil der Flatensee direkt vor dem Bungalow liegt, ging der erste Weg ans Wasser: Kiefern, Felsen, spiegelglatter See, noch niemand unterwegs. Dann Frühstück am Couchtisch, und um halb zwölf rollte der Stelvio über die Centralbron mitten hinein nach Stockholm.",
     "Die Stadt hatte einen Haken: Die Kunden haben keine Ferien. Also erst Starbucks, Laptop auf, Hozz und Reframe abarbeiten — und dann erst Stockholm. Das war es wert: Norrbro, Riksdagshuset, das Schloss mit Wache, der Blick über den Strömmen, Bastard Burgers zum Essen. Wunderschöne Stadt, Gebäude und Pärke. Und zwei Tauben auf einem Sims, von denen eine ziemlich genau zielte.",
-    { "quote": "Gottverdammti Tube uf de Chopf gschisse.", "who": "Snapchat, 13:52" },
+    {
+      "quote": "Gottverdammti Tube uf de Chopf gschisse.",
+      "who": "Snapchat, 13:52"
+    },
     "Nach dem Stau raus aus Stockholm lief die E4 flach und gerade nach Norden. Irgendwo bei Älvkarleby wollten wir eigentlich nur die Scheiben putzen — die Front war voller toter Mücken. Die Raststätte hiess Dragon Gate. Wir stiegen aus, und da stand eine Guanyin-Statue auf dem Vorplatz, ein Pagodenturm am Autobahnrand, ein roter Pfeiler mit dem Schriftzug «Splendid China» — und dahinter ein Museum mit 200 Terrakotta-Kriegern in einer Halle voller Laternen. Extrem surreal. Wir blieben sicher eine Stunde.",
     "Die Geschichte dahinter ist so seltsam wie der Ort: 2004 kaufte der chinesische Unternehmer Li Jingchun, reich geworden mit Mückenschutzmittel, das bankrotte Hotel Älvkarlen an der E4 und wollte daraus ein Kulturzentrum machen, in dem sich China und Schweden begegnen — mit Restaurant, Hotel, Shaolin-Tempel samt Kung-Fu-Schule und der grössten Buddha-Statue der Welt. Es gab Bussen der Arbeitsschutzbehörde, Bauteile ohne Bewilligung, 2006 den Titel «schlechtester Bau des Jahres», Konkurse und Besitzerwechsel. Gebaut wurden die Statue (2005), der Platz, das Museum mit den Krieger-Repliken aus Xi'an und eine 150 Meter lange Arkade mit dem angeblich längsten Holzrelief der Welt. Das Hotel hat nie einen Gast gesehen. Seit 2018 gehört das Areal einem Immobilienunternehmen; seit Sommer 2025 wird nebenan wieder gebaut.",
     "Danach ein Supermarkt mit einem ganzen Regal Surströmming, dann die schönste Stunde des Tages: Kiefern, Seen und Schilf im tiefen Abendlicht, die Ostsee rechts. Um halb zehn war es dunkel, und die grosse Brücke bei Sundsvall — zwei Kilometer über die Bucht — bestand aus Leitplanke, Wasser und einem fast vollen Mond. Viel gesehen hat man nicht. Dann Schlafplatz suchen, im Dunkeln, mit Taschenlampe, bis es einfach ein Parkplatz an der E4 wurde — bei Docksta, mitten in der Höga Kusten, wie sich später aus den GPS-Daten ergab. Im Rotlicht der Stirnlampe Nudeln gekocht, Schlafsack neben dem Auto, um halb zwei die Augen zu. Um fünf waren sie wieder offen. Sleep Score: 36."
@@ -129,17 +262,50 @@
     "v-007": "08:49, Flatensee: 23 Sekunden Stille — Schwenk vom Ufer über den See, bevor es nach Stockholm geht."
   },
   "numbers": [
-    { "k": "Wecker", "v": "Schnarchen, 07:07" },
-    { "k": "Büro", "v": "Starbucks Stockholm — Hozz, Reframe" },
-    { "k": "Tauben", "v": "2 gesehen, 1 Treffer" },
-    { "k": "Mittag", "v": "Bastard Burgers" },
-    { "k": "Scheiben putzen", "v": "Raststätte Dragon Gate, Älvkarleby — ≈1 h" },
-    { "k": "Dragon Gate", "v": "seit 2004 · 200 Terrakotta-Krieger · Hotel nie eröffnet" },
-    { "k": "Brücke", "v": "Sundsvallsbron, 2109 m — im Dunkeln" },
-    { "k": "Mond", "v": "2 Tage vor Vollmond" },
-    { "k": "Nachtessen", "v": "Nudeln, auf dem Parkplatz" },
-    { "k": "Nacht", "v": "Schlafsack neben dem Auto, 01:22–05:22" },
-    { "k": "Sleep Score", "v": "36 — «Schlecht», 3 h 57" }
+    {
+      "k": "Wecker",
+      "v": "Schnarchen, 07:07"
+    },
+    {
+      "k": "Büro",
+      "v": "Starbucks Stockholm — Hozz, Reframe"
+    },
+    {
+      "k": "Tauben",
+      "v": "2 gesehen, 1 Treffer"
+    },
+    {
+      "k": "Mittag",
+      "v": "Bastard Burgers"
+    },
+    {
+      "k": "Scheiben putzen",
+      "v": "Raststätte Dragon Gate, Älvkarleby — ≈1 h"
+    },
+    {
+      "k": "Dragon Gate",
+      "v": "seit 2004 · 200 Terrakotta-Krieger · Hotel nie eröffnet"
+    },
+    {
+      "k": "Brücke",
+      "v": "Sundsvallsbron, 2109 m — im Dunkeln"
+    },
+    {
+      "k": "Mond",
+      "v": "2 Tage vor Vollmond"
+    },
+    {
+      "k": "Nachtessen",
+      "v": "Nudeln, auf dem Parkplatz"
+    },
+    {
+      "k": "Nacht",
+      "v": "Schlafsack neben dem Auto, 01:22–05:22"
+    },
+    {
+      "k": "Sleep Score",
+      "v": "36 — «Schlecht», 3 h 57"
+    }
   ],
   "tomorrow": "Töre, wo die E4 endet — dann die E10 über den Polarkreis: 750 Kilometer bis zum Torneträsk, und nachts der Vollmond mit partieller Mondfinsternis.",
   "track": "planned"

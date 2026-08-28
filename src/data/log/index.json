@@ -13,8 +13,8 @@
       "km": 870,
       "kmTotal": 870,
       "night": "hotel",
-      "photos": 25,
-      "videos": 3,
+      "photos": 40,
+      "videos": 7,
       "hero": {
         "thumb": "log/tag-01/p-010-t.webp",
         "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAAAQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JQBOg7UADY7OyTJNiKygMsxR0SJ4+uJAAAP5M0dY47FJkpZ7LVgpk70wWBVyaWZ1DB3TlunklGrYla8NlnkdIQ7S1NLYOHJ+GRpdDm+Xe4KiNlj/g0b865YwcSzFk0aQEnOZniABNabPVCY4Gst0ILrDsVRJciMx6llMKsTjnZ8fe11r6YswgrhpsS7ZieN3DeVoddVWWEsXqOIc07tMiGHcewnBAAAA=",
@@ -35,8 +35,8 @@
       "km": 1020,
       "kmTotal": 1890,
       "night": "bungalow",
-      "photos": 26,
-      "videos": 2,
+      "photos": 36,
+      "videos": 6,
       "hero": {
         "thumb": "log/tag-02/p-038-t.webp",
         "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoYAAsAPu1kqU2ppaOiMAgBMB2JQBOgAy6cSuPSv8AA/TxTtIEqhP2u0RsS/WqJNDgZ9tTXau4QEbMwMfaCYhcqaf0ymgBPKzHJBsgGHyF/GGZ9QzEnQzMkT2oaAAAA",
@@ -57,8 +57,8 @@
       "km": 513,
       "kmTotal": 2403,
       "night": "biwak",
-      "photos": 30,
-      "videos": 6,
+      "photos": 56,
+      "videos": 7,
       "hero": {
         "thumb": "log/tag-03/p-023-t.webp",
         "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBACdASoYABIAPu1gp02ppSMmMAgBMB2JZgC7L9SBeYSGFKlbMmfpA1T1uaAA/nGYG8vYOlAhYu4kAjP4UXfGQIUdtpcug0+OWQf9VUBz+LiQeDWFuH+HI6AQBoa5AQXnY1ZQlX/YrjeBT+4qHxKlGyw8Hly/hh4ZG3aKiFn/y1EdwaVW6eV652CqQTol1R5AAA==",
@@ -79,8 +79,8 @@
       "km": 853,
       "kmTotal": 3256,
       "night": "biwak",
-      "photos": 36,
-      "videos": 2,
+      "photos": 61,
+      "videos": 9,
       "hero": {
         "thumb": "log/tag-04/p-089-t.webp",
         "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwBACdASoSABgAPu1oqU8ppiOiMBgIATAdiWMArCEgAYGqm2QhvK+3kXWABT3AAP4NEz2URDW15h6LbZm8GW2rnsYTGXKaLL5BhyorRWbUKdGM/w/XWUgKszBY0cLxnIpIQAAA",
