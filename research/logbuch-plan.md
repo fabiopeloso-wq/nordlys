@@ -23,7 +23,10 @@ für die Crew und für die Familie zu Hause. Jeden Abend ein Update, gleiche Qua
 > Captions, die zuerst steht; «Alle N Bilder zeigen» (Knopf unter der Galerie, `gallery.setItems`/`lightbox.setItems`) holt
 > den Rest chronologisch dazu; `omit` nur noch für Bursts (gleiches Motiv innert Sekunden) und Missglücktes. Tage 01–04
 > neu gesichtet: 67/52/86/112 Medien → 47/42/63/70 erreichbar, davon 28/28/36/40 in der Auswahl. Tag 04 hat 11 Nachzügler
-> bekommen (u. a. den Rentier-Clip v-006, jetzt in der Auswahl). Offen aus Phase 2/3: Lightbox-FLIP,
+> bekommen (u. a. den Rentier-Clip v-006, jetzt in der Auswahl). Tag 05 (28.08., spät abends, ohne Notizen von Fabio — Text nur aus
+> Zeitstempeln, GPS und Plan): 101 Uploads → 73 erreichbar, 37 in der Auswahl; Strecke 370 km per OSRM (Björkliden → Bjørnfjell → Bardufoss →
+> Tromsø → Kvalsund → Dåfjord → Hof), Ankunft am Småbruk 17:17 laut Foto. Der Day-5-Ordner enthält Doppel (IMG_0887–0890 aus Day 4, «(1)»-Kopien
+> von zwei Videos) — alles per omit. Offen aus Phase 2/3: Lightbox-FLIP,
 > Fortschrittskarte auf der Übersicht, Logbuch-Knopf auf den Tageskarten, Hero-Link, GPX, Aurora-Modus.
 
 ---

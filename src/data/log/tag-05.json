@@ -1,0 +1,312 @@
+{
+  "day": 5,
+  "date": "2026-08-28",
+  "status": "online",
+  "title": "Land Nummer vier, 69.97° Nord, ein Kanu",
+  "lead": "370 Kilometer: rosa Himmel über dem Torneträsk um halb fünf, die norwegische Flagge bei Bjørnfjell, Burger in Bardufoss, die Eismeerkathedrale im Vorbeifahren — und um 17:17 ein weisses Haus am Skogsfjordvatnet mit Elchkopf, Küche und einem grünen Kanu vor der Tür. Nördlichster Punkt der Reise.",
+  "place": {
+    "name": "Småbruk am Skogsfjordvatnet",
+    "region": "Ringvassøya · Karlsøy · Norwegen",
+    "lat": 69.9734,
+    "lng": 19.1203
+  },
+  "mood": "arctic",
+  "aurora": false,
+  "hero": "p-079",
+  "heroPos": "50% 86%",
+  "omit": [
+    "p-002",
+    "p-006",
+    "p-009",
+    "p-011",
+    "p-013",
+    "p-014",
+    "p-015",
+    "p-022",
+    "p-023",
+    "p-027",
+    "p-028",
+    "p-033",
+    "p-034",
+    "p-038",
+    "p-044",
+    "p-050",
+    "p-052",
+    "p-057",
+    "p-065",
+    "p-068",
+    "p-071",
+    "p-073",
+    "v-005",
+    "v-008",
+    "p-076",
+    "p-080",
+    "p-081",
+    "p-085"
+  ],
+  "picks": [
+    "p-001",
+    "p-004",
+    "v-002",
+    "p-007",
+    "p-010",
+    "p-016",
+    "p-021",
+    "p-026",
+    "p-029",
+    "p-031",
+    "p-036",
+    "p-039",
+    "p-040",
+    "p-041",
+    "p-042",
+    "p-043",
+    "p-046",
+    "p-049",
+    "p-051",
+    "p-053",
+    "p-056",
+    "p-058",
+    "p-059",
+    "v-003",
+    "p-061",
+    "p-064",
+    "p-066",
+    "p-069",
+    "v-006",
+    "v-007",
+    "p-075",
+    "p-079",
+    "p-082",
+    "p-084",
+    "p-086",
+    "p-089",
+    "p-090"
+  ],
+  "stats": {
+    "km": 370,
+    "kmTotal": 3626,
+    "drive": "≈6 h",
+    "weather": "Grau am Morgen, ab der Grenze blau — Sonne bis in den Abend, windstill am See",
+    "night": {
+      "type": "hof",
+      "text": "Småbruk ved Skogsfjordvatnet — stillgelegter Kleinbauernhof am See, Michis Bekannter. Betten, Dusche, Küche, WLAN. Nacht 1 von 2."
+    }
+  },
+  "timeline": [
+    {
+      "t": "04:32",
+      "title": "Rosa Himmel",
+      "text": "Kurz wach: Dämmerung über dem Torneträsk, dann zurück in den Schlafsack."
+    },
+    {
+      "t": "07:16",
+      "title": "Aufwachen",
+      "text": "Der Reissverschluss ist der Wecker. Grauer Himmel, die Sonne nur ein heller Fleck hinter den Wolken."
+    },
+    {
+      "t": "09:25",
+      "title": "E10 am Torneträsk",
+      "text": "Rucksäcke im Kofferraum, der See rechts, Richtung Grenze — und plötzlich blauer Himmel."
+    },
+    {
+      "t": "09:47",
+      "title": "Bjørnfjell",
+      "text": "Riksgränsen, dann die norwegische Flagge am Zollhaus: Land Nummer vier. Ab hier zählt jedes Bier."
+    },
+    {
+      "t": "10:15",
+      "title": "Hinunter zur E6",
+      "text": "Die E10 fällt nach Rombaken hinunter; bei Narvik trifft sie die E6. Bei Bjerkvik zweigt sie links zu den Lofoten ab — nicht heute."
+    },
+    {
+      "t": "11:45",
+      "title": "Bardu-Tal",
+      "text": "E6 durch grüne Talböden, alte Holzhöfe, Sonne im Gesicht."
+    },
+    {
+      "t": "12:32",
+      "title": "Mittag in Bardufoss",
+      "text": "Burger-Kiosk: «No 3, Bacon & Cheese Deal». Das Extra heisst «My girlfriend is not hungry»."
+    },
+    {
+      "t": "14:38",
+      "title": "Balsfjord",
+      "text": "E8 am Fjord entlang, spitze Berge, Birken, die schon gelb werden."
+    },
+    {
+      "t": "15:10",
+      "title": "Tromsø",
+      "text": "Die Stadt über dem Sund, dann die Eismeerkathedrale in Tromsdalen — im Vorbeifahren, der Ruhetag kommt morgen."
+    },
+    {
+      "t": "16:27",
+      "title": "Kvaløya",
+      "text": "Über die Sandnessund-Brücke, Halt bei Futrikelva, dann der Kvalsund-Tunnel nach Ringvassøya."
+    },
+    {
+      "t": "17:00",
+      "title": "Dåfjord",
+      "text": "Fv863 quer über die Insel bis Dåfjord, dann die Skogsfjordveien nach Westen."
+    },
+    {
+      "t": "17:17",
+      "title": "Ankunft am Hof",
+      "text": "Weisses Haus, Elchkopf im Treppenhaus, Küche, Bad, Wohnzimmer mit Seeblick."
+    },
+    {
+      "t": "19:17",
+      "title": "Der See",
+      "text": "Skogsfjordvatnet, Bootshaus, ein grünes Kanu — und zwei, die es sofort ins Wasser schieben."
+    },
+    {
+      "t": "19:39",
+      "title": "Goldenes Licht",
+      "text": "Das Kanu allein auf dem See, die Birkenhänge spiegeln sich."
+    },
+    {
+      "t": "20:13",
+      "title": "Feierabend",
+      "text": "Ein Aass Fatøl vor dem See. 69.97° Nord — weiter nördlich kommt diese Reise nicht."
+    }
+  ],
+  "story": [
+    "Um halb fünf Uhr morgens hat jemand kurz den Kopf aus dem Schlafsack gestreckt: rosa Himmel über dem Torneträsk, die Berge am anderen Ufer in Pastell, das Camp eine dunkle Plane in der Tundra. Vom Mond, der laut Plan in diesen Stunden zu 96 Prozent im Erdschatten stehen sollte, ist auf den Fotos nichts zu sehen — dafür der Beweis, dass es sich lohnt, um diese Zeit die Augen aufzumachen. Um Viertel nach sieben dann richtig wach: grauer Himmel, die Sonne ein heller Fleck hinter den Wolken, zwei gelbe Schlafsäcke auf 68.41° Nord. Frühstück aus der Pfanne, Rückweg zum Auto, und um Viertel nach neun rollt der Stelvio wieder auf der E10, der See rechts, und über Abisko wird der Himmel plötzlich blau.",
+    "Bei Riksgränsen die letzten schwedischen Häuser, um 09:47 die norwegische Flagge am Zollhaus von Bjørnfjell: Land Nummer vier, und ab hier gelten die Zollfreigrenzen aus dem Briefing. Die E10 fällt danach in langen Kurven nach Rombaken hinunter — Seen mit Inseln, nackter Fels, rote Häuser am Wasser, Sonne. Bei Narvik trifft sie auf die E6, und bei Bjerkvik kommt die Kreuzung, an der die E10 links zu den Lofoten abbiegt. Nicht heute. Rechts halten, E6, Norden.",
+    "Das Bardu-Tal ist grün und weit, alte Holzhöfe am Hang, und um 12:32 der erste richtige Halt in Bardufoss: ein Burger-Kiosk, Bestellung am Bildschirm. Menü Nummer 3, «Bacon & Cheese Deal», und ein Extra, das nur hier so heissen kann: «My girlfriend is not hungry» — zusätzliche Pommes und vier Zwiebelringe. Danach die E8 am Balsfjord entlang, spitze Berge, Birken, die schon gelb werden, und um zehn nach drei liegt Tromsø über dem Sund: die Arktis-Hauptstadt, 69.65° Nord, mehr Stadt als alles seit Stockholm. Die Eismeerkathedrale in Tromsdalen — das weisse Beton-Dreieck von 1965 — gab es diesmal nur durchs Autofenster. Morgen ist Ruhetag, morgen ist Tromsø dran.",
+    "Hinter Tromsø wird es Inselhüpfen: Sandnessund-Brücke nach Kvaløya, ein Halt bei Futrikelva mit roten Häusern und einem Wegweiser nach Kvaløyvågen, dann der Kvalsund-Tunnel unter dem Sund hindurch nach Ringvassøya. Die Fv863 führt quer über die Insel nach Dåfjord, von dort die Skogsfjordveien nach Westen, und um 17:17 steht das Auto vor einem weissen Haus: das Småbruk am Skogsfjordvatnet, ein stillgelegter Kleinbauernhof, Michis Bekannter. Im Treppenhaus ein Elchkopf, in der Küche Platz für vier, ein Bad mit Dusche, ein Wohnzimmer mit Ledersofas und Fenstern zum See — die ersten Betten seit Stockholm, Nacht 1 von 2.",
+    "Und vor der Tür der See. Der Skogsfjordvatnet ist der grösste See auf einer Insel in ganz Norwegen, rund 13 Quadratkilometer, ringsum Berge, am Ufer ein rotes Bootshaus — und ein grünes Kanu. Um zwanzig nach sieben sassen zwei drin und paddelten hinaus, das Wasser so glatt, dass die Hänge doppelt dastanden. Um 19:39 war das Licht golden: Birkenhänge in Herbstfarben, ein Kanu, ein Spiegelbild, sonst nichts. Vom Ufer aus wurde fotografiert, gefilmt und gewinkt, bis der Abend blau wurde.",
+    "Um 20:13 ein Aass Fatøl vor dem See, gebraut in Drammen, getrunken auf 69.97° Nord. Weiter nach Norden geht es auf dieser Reise nicht mehr — ab hier zeigt der Kompass für den Rest der zwei Wochen nach Süden. Keine Aurora auf den Fotos, aber ein Nordhorizont über dem Wasser ohne ein einziges Licht, falls sie doch noch kommt."
+  ],
+  "captions": {
+    "p-001": "04:32: Kurz wach — rosa Dämmerung über dem Torneträsk, vom Schlafsack aus.",
+    "p-003": "04:33: Die Berge auf der anderen Seite in Pastell.",
+    "p-004": "04:33: Das Camp — eine Plane in der Tundra, die Schlafsäcke darunter.",
+    "v-001": "13 Sekunden, 07:16: Aufwachen im Schlafsack — der Reissverschluss ist der Wecker.",
+    "v-002": "Das Camp am Morgen, 07:22: Tarp, Schlafsäcke auf der Tundra, die Sonne als heller Fleck hinter den Wolken.",
+    "p-005": "07:26: Grauer Morgen über dem See.",
+    "p-007": "07:38: Zwei gelbe Schlafsäcke in der Tundra, 68.41° N — so sieht eine Nacht ohne Zelt aus.",
+    "p-008": "07:51: Die Sonne kommt nur als heller Fleck durch.",
+    "p-010": "08:18: Blick vom Viewpoint über den Torneträsk — die Wolken reissen auf.",
+    "p-012": "08:19: Birken, Fjäll, See.",
+    "p-016": "09:25: Zurück auf der E10, der Torneträsk rechts — und plötzlich blauer Himmel.",
+    "p-017": "09:25: Der See von der Strasse aus, Abisko voraus.",
+    "p-018": "09:27: Kiesstrand am Torneträsk.",
+    "p-019": "09:41: Am Steuer, kurz vor der Grenze.",
+    "p-020": "09:41: Seen mit Inseln — die letzten Kilometer Schweden.",
+    "p-021": "09:41: Hochebene bei Riksgränsen, Seen und kahle Kuppen.",
+    "p-024": "09:42: Grenzhochebene, hochkant.",
+    "p-025": "09:46: Riksgränsen — die letzten schwedischen Häuser.",
+    "p-026": "09:47: Die norwegische Flagge am Zollhaus von Bjørnfjell — Land Nummer vier.",
+    "p-029": "09:56: Norwegen, erster See — Fels, Wasser, Wolken.",
+    "p-030": "09:57: Kahles Fjell an der E10.",
+    "p-031": "10:02: Rote Häuser am See — und die Sonne ist da.",
+    "p-032": "10:02: See und Häuser, hochkant.",
+    "p-035": "10:04: Grüne Ufer, die E10 fällt hinunter Richtung Rombaken.",
+    "p-036": "10:15: Blauer Himmel, gelbe Mittellinie — die E10 hinunter zur E6 bei Narvik.",
+    "p-037": "11:45: E6 im Bardu-Tal, Sonne im Gesicht.",
+    "p-039": "11:47: Alte Holzhöfe im Bardu-Tal.",
+    "p-040": "12:32, Bardufoss: Bestellung am Bildschirm — «No 3, Bacon & Cheese Deal». Das Extra heisst «My girlfriend is not hungry»: extra Pommes und vier Zwiebelringe.",
+    "p-041": "12:54: Burger und Pommes auf dem Tisch — Mittag in Bardufoss.",
+    "p-042": "14:38: Spitzer Berg über Birken, E8 am Balsfjord.",
+    "p-043": "15:10: Tromsø über dem Sund — die Arktis-Hauptstadt, 69.65° N.",
+    "p-045": "15:11: Einfahrt nach Tromsø, die Stadt am Hang gegenüber.",
+    "p-046": "15:22: Die Eismeerkathedrale in Tromsdalen — das weisse Beton-Dreieck von 1965, durchs Autofenster.",
+    "p-047": "15:56: Klares Wasser über Steinen, am Ufer bei Breivika.",
+    "p-048": "16:27: Fjord, Steg und Berg — Halt bei Futrikelva auf Kvaløya.",
+    "p-049": "16:27: «Kvaløyvågen →» — rote Häuser am Wegweiser, gleich kommt der Kvalsund-Tunnel.",
+    "p-051": "16:32: Der Kvalsund von der Ringvassøya-Seite, spiegelglatt.",
+    "p-053": "17:00: Tundra auf Ringvassøya, Fv863 bei Dåfjord.",
+    "p-054": "17:00: Die Strasse wird schmal — Skogsfjordveien.",
+    "p-055": "17:01: Sonne über dem letzten Stück nach Westen.",
+    "p-056": "17:17: Angekommen — das weisse Haus am Skogsfjordvatnet.",
+    "p-058": "17:21: Elchkopf im Treppenhaus. Wir sind richtig.",
+    "p-059": "17:21: Die Küche — gelbe Fronten, Fenster zum See.",
+    "v-003": "18 Sekunden Hausführung, 17:21: altes Radio, Esstisch, Küche — und aus dem Fenster der See.",
+    "p-060": "17:21: Das Bad, mit Dusche. Zum ersten Mal seit Stockholm.",
+    "p-061": "17:22: Esszimmer mit Fensterfront zum See.",
+    "p-062": "17:22: Wohnzimmer, Ledersofas, Fernseher — braucht heute niemand.",
+    "p-063": "17:22: Die Stühle am Fenster, draussen der See.",
+    "p-064": "19:17: Skogsfjordvatnet — rotes Bootshaus, blauer Himmel, der grösste Inselsee Norwegens.",
+    "p-066": "19:18: Das grüne Kanu am Ufer. Es dauerte zwei Minuten.",
+    "p-067": "19:20: Einsteigen — Paddel, Kanu, zwei Freiwillige.",
+    "p-069": "19:20: Zu zweit im Kanu, Abfahrt vom Ufer.",
+    "p-070": "19:20: Das Bootshaus im Abendlicht.",
+    "p-072": "19:20: Die Sonne tief über dem See, vom Kanu aus.",
+    "v-004": "Sechs Sekunden vom Heck, 19:21: Sonne tief über dem See, vorne wird gewinkt.",
+    "v-006": "Acht Sekunden Paddeln, 19:22: die Berge stehen doppelt im Wasser.",
+    "v-007": "Im Kanu, 19:22 — vorne wird gepaddelt, hinten gefilmt, am Ufer das Bootshaus.",
+    "v-009": "Acht Sekunden Spiegel, 19:23: Himmel, Berg und Kanu im Skogsfjordvatnet.",
+    "v-010": "Sieben Sekunden Glitzern auf dem Wasser, 19:25.",
+    "p-074": "19:25: Berg und Spiegelbild — vom Ufer aus.",
+    "p-075": "19:25: Zwei Bootshäuser, Birken in Gelb.",
+    "p-077": "19:25: Hügel am anderen Ufer, das Wasser glatt.",
+    "p-078": "19:39: Das Kanu allein auf dem See, ganz klein.",
+    "p-079": "19:39: Goldenes Licht — das Kanu vor den Birkenhängen, das Ufer spiegelt sich im Skogsfjordvatnet.",
+    "p-082": "19:42: Der Berg über dem See, doppelt.",
+    "p-083": "19:42: Hügel und Spiegelbild, 69.97° N.",
+    "p-084": "19:44: Das Kanu weit draussen, der Abend wird blau.",
+    "p-086": "19:51: Am Ufer, auf den Steinen, die Kamera am Auge.",
+    "p-087": "19:51: Fotograf am Ufer, das Wasser dunkel.",
+    "p-088": "20:12: Blaue Stunde über dem See.",
+    "p-089": "20:13: Aass Fatøl vor dem Skogsfjordvatnet — gebraut in Drammen, getrunken auf 69.97° N.",
+    "p-090": "20:13: Der See, die Berge, kein Wind.",
+    "p-091": "Wohnzimmer mit Seeblick — die Snapchat-Version."
+  },
+  "numbers": [
+    {
+      "k": "Abfahrt",
+      "v": "≈09:15, Björkliden (hergeleitet: 08:50 Rückweg zum Auto, 09:25 erstes Foto auf der E10)"
+    },
+    {
+      "k": "Strecke",
+      "v": "370 km — E10, E6, E8, Fv863 (OSRM aus den GPS-Punkten der Fotos)"
+    },
+    {
+      "k": "Grenze",
+      "v": "09:47, Bjørnfjell — Land Nummer vier"
+    },
+    {
+      "k": "Mittag",
+      "v": "Burger in Bardufoss, 12:32 — Extra «My girlfriend is not hungry»"
+    },
+    {
+      "k": "Tromsø",
+      "v": "15:10 in Sicht · 15:22 Eismeerkathedrale, im Vorbeifahren"
+    },
+    {
+      "k": "Tunnel",
+      "v": "Kvalsund-Tunnel nach Ringvassøya, ≈16:30"
+    },
+    {
+      "k": "Ankunft",
+      "v": "17:17, Småbruk am Skogsfjordvatnet"
+    },
+    {
+      "k": "See",
+      "v": "Skogsfjordvatnet · ca. 13 km² · grösster Inselsee Norwegens"
+    },
+    {
+      "k": "Kanu",
+      "v": "19:20 zu zweit hinaus · 19:39 allein im goldenen Licht"
+    },
+    {
+      "k": "Bier",
+      "v": "Aass Fatøl, 20:13"
+    },
+    {
+      "k": "Nördlichster Punkt",
+      "v": "69.97° N — ab hier geht es südwärts"
+    },
+    {
+      "k": "Aurora",
+      "v": "keine (auf den Fotos)"
+    },
+    {
+      "k": "Nacht",
+      "v": "Bett, Nacht 1 von 2 — die erste Matratze seit Stockholm"
+    }
+  ],
+  "tomorrow": "Ruhetag: Morgen am See, dann Tromsø — Fjellheisen auf den Storsteinen, Einkauf für die Fiskesuppe, abends wieder am Skogsfjordvatnet. Nacht 2 von 2.",
+  "track": "planned"
+}

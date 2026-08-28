@@ -88,6 +88,28 @@
         "h": 1800
       },
       "url": "logbuch/tag-04/"
+    },
+    {
+      "day": 5,
+      "date": "2026-08-28",
+      "title": "Land Nummer vier, 69.97° Nord, ein Kanu",
+      "lead": "370 Kilometer: rosa Himmel über dem Torneträsk um halb fünf, die norwegische Flagge bei Bjørnfjell, Burger in Bardufoss, die Eismeerkathedrale im Vorbeifahren — und um 17:17 ein weisses Haus am Skogsfjordvatnet mit Elchkopf, Küche und einem grünen Kanu vor der Tür. Nördlichster Punkt der Reise.",
+      "place": "Småbruk am Skogsfjordvatnet",
+      "lat": 69.9734,
+      "lng": 19.1203,
+      "mood": "arctic",
+      "km": 370,
+      "kmTotal": 3626,
+      "night": "hof",
+      "photos": 65,
+      "videos": 8,
+      "hero": {
+        "thumb": "log/tag-05/p-079-t.webp",
+        "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBQCdASoSABgAPuVio02pJaMiMAwBIByJZACxG6G4GiAAU/pPuoHQNTc7sZhE9CV3GbcAAMoTwPY9aM1O/aWNwKKUPQ27prIVRrpFXo2u+t4K6ZXGd0vQHPwlpNBLUGzcqdEpw0wBKPxAd86Y+OH8WWPej+MVMNCoLGjvo6LIKq7jXW5nGtN7gMhy+3zEh9vyBW63Ifpqmq8832AAAA==",
+        "w": 1350,
+        "h": 1800
+      },
+      "url": "logbuch/tag-05/"
     }
   ]
 }
