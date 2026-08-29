@@ -20,9 +20,9 @@ const DAYS = [
   { day: 4, queries: ['Lapporten Torneträsk', 'Torneträsk'] },
   { day: 5, queries: ['Skogsfjordvatnet', 'Ringvassøya'] },
   { day: 6, queries: ['Tromsø panorama', 'Tromsø Storsteinen'] },
-  { day: 7, queries: ['Svolvær harbour', 'Svolvær'] },
-  { day: 8, queries: ['Haukland beach', 'Uttakleiv'] },
-  { day: 9, queries: ['Kvalvika', 'Ryten Lofoten'] },
+  { day: 7, queries: ['Skogsfjordvatnet', 'Ringvassøya'] }, // Ruhetag II am Hof (seit 29.08.)
+  { day: 8, queries: ['Svolvær harbour', 'Svolvær'] },
+  { day: 9, queries: ['Kvalvika', 'Haukland beach'] },
   { day: 10, queries: ['Reinebringen', 'Reine Lofoten'] },
   { day: 11, queries: ['Saltstraumen', 'Saltstraumen bridge'] },
   { day: 12, queries: ['Storseisundet Bridge', 'Atlantic Ocean Road Norway'] },

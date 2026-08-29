@@ -1,6 +1,6 @@
 {
- "stand": "2026-08-24",
- "setup": "Zwei Gaskocher, passive Kühlbox mit Eis und Kühlakkus, keine Dachbox. Tag 1 Hotel Hamburg, Tag 2 Bungalow Stockholm, Tag 5 und 6 Hof am Skogsfjordvatnet mit richtiger Küche — dazwischen und danach Wildcamp mit drei Campingplatz-Nächten.",
+ "stand": "2026-08-29",
+ "setup": "Zwei Gaskocher, passive Kühlbox mit Eis und Kühlakkus, keine Dachbox. Tag 1 Hotel Hamburg, Tag 2 Bungalow Stockholm, Tag 5 bis 7 Hof am Skogsfjordvatnet mit richtiger Küche (am 29.08. um eine Nacht verlängert) — dazwischen und danach Wildcamp mit zwei Campingplatz-Nächten.",
  "rules": [
   {
    "title": "Nicht «alles in Hamburg» — «alles vor der Grenze»",
@@ -8,7 +8,7 @@
   },
   {
    "title": "Passive Kühlbox heisst: gleicher Tag oder morgen",
-   "text": "Jedes Essen mit frischem Fleisch oder Fisch wird am Einkaufstag oder am Tag danach gekocht — Hackfleisch aus Luleå am selben Abend, Poulet aus Bardufoss nach vier Stunden, Fisch aus Tromsø, Leknes und Reine taggleich. Ein dritter Tag ist nicht vorgesehen, also auch nicht improvisieren. Ausnahme mit gutem Gewissen: Am Hof gibt es einen Kühlschrank."
+   "text": "Jedes Essen mit frischem Fleisch oder Fisch wird am Einkaufstag oder am Tag danach gekocht — Hackfleisch aus Luleå am selben Abend, Poulet aus Bardufoss nach vier Stunden, Fisch aus Tromsø und Reine taggleich. Ein dritter Tag ist nicht vorgesehen, also auch nicht improvisieren. Ausnahme mit gutem Gewissen: Am Hof gibt es einen Kühlschrank."
   },
   {
    "title": "Das Feuer fällt aus",
@@ -60,27 +60,26 @@
   {
    "day": 6,
    "date": "2026-08-29",
-   "place": "Småbruk Skogsfjordvatnet · Ruhetag",
-   "meal": "Nordnorwegische Fiskesuppe + Brot",
+   "place": "Småbruk Skogsfjordvatnet · Ruhetag, angeschlagen",
+   "meal": "Suppe und Brot — was das Haus hergibt",
    "type": "kueche",
-   "note": "Kabeljau und Lachs von der Fischtheke in Tromsø, Rahm, Lauch, Rüebli, Kartoffeln — ein grosser Topf auf einem richtigen Herd. Wenn der Gastgeber vorbeischaut: für ihn mitkochen, das ist die Miete."
+   "note": "Drei von vieren sind angeschlagen, Tromsø ist keine Pflicht. Bouillon, Nudeln, Rüebli und Lauch aus Bardufoss sind im Haus — heisse Suppe, Tee, früh ins Bett. Die Fiskesuppe rutscht auf morgen."
   },
   {
    "day": 7,
    "date": "2026-08-30",
-   "place": "Wildcamp Austvågøy · Ankunft 20:30",
-   "meal": "Pyttipanna",
-   "type": "kocher",
-   "note": "510 km im Kreuz, also die grosse Pfanne: Kartoffeln, Zwiebeln und Wurst aus Tromsø von gestern, Spiegeleier auf Kocher 2. Schnell fertig — Nordblick suchen, Wache drei."
+   "place": "Småbruk Skogsfjordvatnet · Ruhetag II (verlängert)",
+   "meal": "Nordnorwegische Fiskesuppe + Brot — oder Reserve-Abend",
+   "type": "kueche",
+   "note": "Kabeljau und Lachs von der Fischtheke in Tromsø, Rahm, Lauch, Rüebli, Kartoffeln — falls jemand die 1:20 h fahren mag. Sonst der Reserve-Abend auf dem richtigen Herd: Tortellini mit Pesto und Parmesan. Wenn der Gastgeber vorbeischaut: für ihn mitkochen, das ist die Miete."
   },
   {
    "day": 8,
    "date": "2026-08-31",
-   "place": "Zeltwiese Uttakleiv",
-   "meal": "Frischer Kabeljau, Salzkartoffeln, Butter",
+   "place": "Wildcamp Austvågøy · Ankunft 20:30",
+   "meal": "Pyttipanna",
    "type": "kocher",
-   "fire": true,
-   "note": "Duschtag, richtiger Platz, Fischtheke in Leknes auf dem Weg. Das einfachste Essen der Reise und das beste — Butter, Salz, fertig."
+   "note": "530 km im Kreuz, also die grosse Pfanne: Kartoffeln, Zwiebeln und Wurst aus Svolvær von 16:30 (oder aus Tromsø, aus dem Hof-Kühlschrank), Spiegeleier auf Kocher 2. Schnell fertig — Nordblick suchen, Wache vier."
   },
   {
    "day": 9,
@@ -88,7 +87,7 @@
    "place": "Kvalvika Beach · alles auf dem Rücken",
    "meal": "Couscous mit Thon, Salami und getrockneten Tomaten",
    "type": "trage",
-   "note": "Über den Ryten (543 m) rauf und zum Strand runter — kein Auto, keine Kühlbox. Couscous braucht nur aufgegossenes Wasser statt Köcheln: minimal Gas, minimal Wasser, ein Topf."
+   "note": "Nachmittags von Fredvang rein, Nacht am Strand — kein Auto, keine Kühlbox. Couscous braucht nur aufgegossenes Wasser statt Köcheln: minimal Gas, minimal Wasser, ein Topf. Der Kabeljau-Abend auf der Uttakleiv-Zeltwiese ist mit dem gestrichenen Tag weg — Fisch gibt es morgen in Reine."
   },
   {
    "day": 10,
@@ -159,7 +158,7 @@
     "C · Eier — Rührei mit Speck und Brot, innerhalb von zwei Tagen nach einem Einkauf.",
     "Immer: Kaffee aus der Bialetti und Tee."
    ],
-   "note": "Feste Ausnahmen: Tag 2 Hotelbuffet ab 07:00 · Tag 6 und 7 am Hof mit richtigem Herd — Eier-Tage · Tag 10 kalt am Strand, das richtige Frühstück gibt es um 09:30 in Reine · Tag 11 fährt die Fähre um 07:00 — kalt in der Warteschlange um 06:15 oder an Bord · Tag 16 Rastplatz."
+   "note": "Feste Ausnahmen: Tag 2 Hotelbuffet ab 07:00 · Tag 6, 7 und 8 am Hof mit richtigem Herd — Eier-Tage · Tag 10 kalt am Strand, das richtige Frühstück gibt es um 09:30 in Reine · Tag 11 fährt die Fähre um 07:00 — kalt in der Warteschlange um 06:15 oder an Bord · Tag 16 Rastplatz."
   },
   "lunch": {
    "title": "Mittag",
@@ -185,7 +184,7 @@
  },
  "carry": {
   "title": "Tragetag — Tag 9, Kvalvika",
-  "text": "Die einzige Nacht ohne Auto und ohne Kühlbox. Rauf über den Ryten mit Zeltzeug, Nacht am Strand, vor Sonnenaufgang wieder raus.",
+  "text": "Die einzige Nacht ohne Auto und ohne Kühlbox. Nachmittags von Fredvang mit Zeltzeug über den Sattel an den Strand (gut 1 h), Ryten am Abend ohne Gepäck — optional. Vor Sonnenaufgang wieder raus.",
   "items": [
    "Couscous 400 g, 1 Dose Thon, Salami-Endstück, getrocknete Tomaten, Bouillonwürfel, Olivenöl im kleinen Fläschchen",
    "2 Instant-Nudeln als Notfall",
@@ -193,7 +192,7 @@
    "Frühstück für Tag 10 gehört mit hoch: Riegel und Knäckebrot, oder Haferflocken kalt",
    "Eine kleine Kartusche reicht — es wird nur Wasser gekocht"
   ],
-  "warn": "Zeitfalle: Tag 10 startet um 06:30 am Reinebringen, ihr wacht aber am Kvalvika-Strand auf. Das sind 1–1.5 h Rückweg plus 30 min Fahrt — also Abmarsch gegen 04:30. Steht jetzt so im Tagesplan."
+  "warn": "Zeitfalle: Tag 10 startet um 06:30 am Reinebringen, ihr wacht aber am Kvalvika-Strand auf. Das ist eine gute Stunde Rückweg plus 30 min Fahrt — also Abmarsch gegen 04:30. Steht so im Tagesplan."
  },
  "shops": [
   {
@@ -227,16 +226,16 @@
   },
   {
    "n": 5,
-   "day": "Tag 6 · ~15:30",
+   "day": "Tag 6 oder 7 · flexibel",
    "where": "Tromsø · Eurospar / Coop Extra mit Fischtheke",
-   "what": "Fisch für die Suppe heute Abend — und die Vorräte für die Lofoten-Fahrt morgen.",
+   "what": "Nur, wenn jemand die 1:20 h fahren mag: Fisch für die Suppe — und was für die Lofoten-Fahrt fehlt. Sonst übernimmt Svolvær.",
    "list": "e5"
   },
   {
    "n": 6,
-   "day": "Tag 8 · ~13:00",
-   "where": "Leknes · Coop Prix / Rema",
-   "what": "Der Fisch-Einkauf: frischer Kabeljau an der Theke.",
+   "day": "Tag 8 · ~16:30",
+   "where": "Svolvær · Rema 1000",
+   "what": "Ersatz für Tromsø, falls dort niemand war: Wurst, Kartoffeln, Zwiebeln, Eier für die Pyttipanna — und Wasser plus Brot für die Strandnacht morgen.",
    "list": "e6"
   },
   {
@@ -273,7 +272,7 @@
    "id": "e1",
    "name": "Einkauf 1 — Hamburg",
    "when": "Tag 1 · 17:00 · Lidl/Aldi Harburg",
-   "intro": "Mengen für 13 gekochte Abendessen (zwei davon in der Hofküche), ~14 Frühstücke und ~13 Mittagessen zu viert. Pasta 150 g pro Person, Reis 100 g trocken pro Person.",
+   "intro": "Mengen für 13 gekochte Abendessen (drei davon in der Hofküche), ~14 Frühstücke und ~13 Mittagessen zu viert. Pasta 150 g pro Person, Reis 100 g trocken pro Person.",
    "groups": [
     {
      "name": "Kohlenhydrate & Basis",
@@ -654,15 +653,15 @@
   {
    "id": "e5",
    "name": "Einkauf 5 — Tromsø",
-   "when": "Tag 6 · ~15:30 · Eurospar / Coop Extra mit Fischtheke",
-   "intro": "Zwei Dinge auf einmal: die Fiskesuppe für heute Abend und die Vorräte für die 510 km auf die Lofoten morgen.",
+   "when": "Tag 6 oder 7 · flexibel · Eurospar / Coop Extra mit Fischtheke",
+   "intro": "Nur, wenn jemand die 1:20 h nach Tromsø fahren mag — sonst gibt es am Hof den Reserve-Abend, und Svolvær übernimmt an Tag 8.",
    "groups": [
     {
      "items": [
       {
        "id": "fisch",
        "label": "Kabeljau + Lachs zusammen ~800 g, Fischtheke",
-       "note": "Fiskesuppe heute Abend"
+       "note": "Fiskesuppe am Abend des Einkaufstags"
       },
       {
        "id": "rahm",
@@ -671,7 +670,7 @@
       {
        "id": "wurst",
        "label": "Wurst für die Pyttipanna, Kartoffeln, Zwiebeln",
-       "note": "Tag 7, Ankunft Lofoten"
+       "note": "Tag 8, Ankunft Lofoten — hält im Hof-Kühlschrank; wer hier kauft, spart den Halt in Svolvær"
       },
       {
        "id": "brot",
@@ -679,7 +678,7 @@
       },
       {
        "id": "eis",
-       "label": "Sack Eis für morgen — und heute Nacht alle Kühlakkus ins Gefrierfach"
+       "label": "Sack Eis für die Abfahrt am Montag — und alle Kühlakkus ins Gefrierfach"
       }
      ]
     }
@@ -687,22 +686,28 @@
   },
   {
    "id": "e6",
-   "name": "Einkauf 6 — Leknes",
-   "when": "Tag 8 · ~13:00 · Coop Prix / Rema",
+   "name": "Einkauf 6 — Svolvær",
+   "when": "Tag 8 · ~16:30 · Rema 1000, Hafenrunde inklusive",
    "groups": [
     {
      "items": [
       {
-       "id": "kabeljau",
-       "label": "Frischer Kabeljau ~1 kg — Fischtheke oder Hafen"
+       "id": "wurst",
+       "label": "Wurst, Kartoffeln 1 kg, Zwiebeln",
+       "note": "Pyttipanna heute Abend — falls nicht schon aus Tromsø"
       },
       {
-       "id": "kartoffeln",
-       "label": "Kartoffeln 2 kg, Gemüse"
+       "id": "eier",
+       "label": "Eier × 6 — Spiegeleier auf die Pyttipanna"
       },
       {
        "id": "brot",
-       "label": "Brot, Butter, Milch"
+       "label": "Brot × 2, Früchte, Milch"
+      },
+      {
+       "id": "wasser",
+       "label": "Wasser 4 l für Kvalvika",
+       "note": "auf den Bach am Strand nicht zählen"
       },
       {
        "id": "eis",
@@ -710,7 +715,8 @@
       }
      ]
     }
-   ]
+   ],
+   "intro": "Ersatz für Tromsø, falls dort niemand war — und der Proviant für die Strandnacht auf Kvalvika morgen. Leknes ist morgen nur noch ein Halt für Eis und Früchte."
   },
   {
    "id": "e7",
@@ -809,7 +815,7 @@
   "items": [
    "Frisches Fleisch und Fisch: gleicher Tag oder Tag danach. Jedes Essen im Menü ist so gebaut — improvisiert keinen dritten Tag dazu.",
    "Gepökeltes und Getrocknetes (Chorizo, Kabanossi, Salami, Hartkäse, Vakuum-Speck) ist das Rückgrat und hält über eine Woche.",
-   "Bei jedem Einkauf einen Sack Eis mitnehmen. Kühlakkus neu einfrieren geht am Hof (Tag 5 und 6), in Moskenes (Tag 10) und Molde (Tag 12) — Uttakleiv ist eine Zeltwiese ohne Tiefkühler.",
+   "Bei jedem Einkauf einen Sack Eis mitnehmen. Kühlakkus neu einfrieren geht am Hof (Tag 5 bis 7), in Moskenes (Tag 10) und Molde (Tag 12) — dazwischen liegen Wildcamp und Strand ohne Tiefkühler.",
    "Gefrorenes Fleisch aus dem Laden ist ein zusätzlicher Kühlakku und kauft einen Tag Reserve.",
    "Eier, Butter, ungeöffnete H-Milch und Gemüse gehören nicht in die Box. Die Box ist für rohes Fleisch, Fisch und geöffnete Milchprodukte.",
    "Im Schatten parkieren, selten öffnen, in den Fussraum statt in den aufgeheizten Kofferraum."
@@ -818,7 +824,7 @@
  "burners": {
   "title": "Zwei Kocher",
   "items": [
-   "Kocher 1 ist der Haupttopf, Kocher 2 macht Reis, Kartoffeln und Wasser für Kaffee und Abwasch. An Tag 5 und 6 bleiben beide im Auto — der Hof hat einen Herd.",
+   "Kocher 1 ist der Haupttopf, Kocher 2 macht Reis, Kartoffeln und Wasser für Kaffee und Abwasch. An Tag 5 bis 7 bleiben beide im Auto — der Hof hat einen Herd.",
    "Ein-Kocher-Abende (Gnocchi, Jambalaya, Couscous, Instant) sind die Windabende.",
    "Windschutz aufstellen oder aus Alufolie bauen — Wind verdoppelt den Gasverbrauch auf 68° N."
   ]

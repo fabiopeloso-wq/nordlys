@@ -19,7 +19,7 @@
     "days": 16,
     "persons": 4,
     "tollChf": 110,
-    "campingNights": 4,
+    "campingNights": 3,
     "campingPerNight": 30,
     "bookedChf": 304,
     "miscChf": 50,
@@ -39,8 +39,8 @@
     { "key": "totalKm", "label": "Gesamtstrecke", "source": "Routenplaner-Summe Hinweg via E4/E6 bis Tromsø, Skogsfjordvatnet und E10 auf die Lofoten (~4240 km) + Rückweg Küste (~3690 km). Der Abstecher zum Hof auf Ringvassøya kostet rund 650 km gegenüber der direkten Route über Narvik. ca./unterwegs feinprüfen." },
     { "key": "tollChf", "label": "Maut-Pauschale", "source": "NO ca. 800–1200 NOK via Epass24 (registriert) + Tromsø-Bomring (2× durch, je ~30 NOK) + Göteborg City-Maut. bompengekalkulator.no, Stand 06/2026, ca./prüfen." },
     { "key": "foodPerDayPerPerson", "label": "Essen pro Tag/Person", "source": "15 CHF/Tag bei Grosseinkauf in DE + Nachschub in SE (Lidl/Willys), in NO nur Nötigstes. NO-Lebensmittel ≈ +30 % vs. DE (Eurostat/Numbeo 06/2026)." },
-    { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 3 geplante Nächte (Uttakleiv, Moskenes, Molde) + 1 Reserve." },
-    { "key": "bookedChf", "label": "Gebuchte Nächte", "source": "Fixkosten, keine Schätzung: Kleines Hotel Heimfeld (Nacht 1, 24.–25.08.) 130 CHF + First Camp City-Stockholm, Bungalow (Nacht 2, 25.–26.08.) 174 CHF. Beide bestätigt, beide mit freier Stornierung. Nächte 5+6 (28.–30.08.) im Småbruk am Skogsfjordvatnet (Airbnb, Bekannter von Michi): Preis noch offen — hier eintragen, sobald er feststeht." },
+    { "key": "campingPerNight", "label": "Camping-Stopp", "source": "Zelt + 4 Pers. + Auto ca. 300–400 NOK (norcamp.de u. a.), inkl. Dusche. 2 geplante Nächte (Moskenes, Molde) + 1 Reserve — die Uttakleiv-Zeltwiese fiel am 29.08. mit dem gestrichenen Lofoten-Tag weg." },
+    { "key": "bookedChf", "label": "Gebuchte Nächte", "source": "Fixkosten, keine Schätzung: Kleines Hotel Heimfeld (Nacht 1, 24.–25.08.) 130 CHF + First Camp City-Stockholm, Bungalow (Nacht 2, 25.–26.08.) 174 CHF. Beide bestätigt, beide mit freier Stornierung. Nächte 5–7 (28.–31.08., am 29.08. um eine Nacht verlängert) im Småbruk am Skogsfjordvatnet (Airbnb, Bekannter von Michi): Preis noch offen — hier eintragen, sobald er feststeht." },
     { "key": "miscChf", "label": "Gas & Kleinkram", "source": "4–6 EN417-Kartuschen à 60–130 NOK (Biltema/XXL/Jula) + Parkgebühren Lofoten." }
   ],
   "savings": {

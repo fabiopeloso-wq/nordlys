@@ -22,7 +22,8 @@ const P = {
   bjerkvik: [17.5715, 68.5575], // E6/E10-Knoten
   nordkjosbotn: [19.5583, 69.2258],
   tromsoe: [18.9553, 69.6492],
-  skogsfjordvatnet: [19.1206, 69.9733], // Småbruk (Airbnb) — Nächte 5+6
+  skogsfjordvatnet: [19.1206, 69.9733], // Småbruk (Airbnb) — Nächte 5–7 (verlängert 29.08.)
+  hansnes: [19.63, 69.967], // Fährhafen Karlsøy — Ringvassøya-Runde Tag 7
   svolvaer: [14.568, 68.2343],
   hoven: [14.1543, 68.3247],
   unstad: [13.6084, 68.269],
@@ -59,9 +60,9 @@ const DAYS = {
   4: [P.hoegakusten, P.toere, P.kiruna, P.tornetraesk],
   5: [P.tornetraesk, P.abisko, P.bjerkvik, P.nordkjosbotn, P.tromsoe, P.skogsfjordvatnet],
   6: [P.skogsfjordvatnet, P.tromsoe, P.skogsfjordvatnet],
-  7: [P.skogsfjordvatnet, P.tromsoe, P.nordkjosbotn, P.bjerkvik, P.svolvaer, P.henningsvaer],
-  8: [P.henningsvaer, P.hoven, P.unstad, P.haukland, P.uttakleiv],
-  9: [P.uttakleiv, P.fredvang],
+  7: [P.skogsfjordvatnet, P.hansnes, P.skogsfjordvatnet],
+  8: [P.skogsfjordvatnet, P.tromsoe, P.nordkjosbotn, P.bjerkvik, P.svolvaer, P.henningsvaer],
+  9: [P.henningsvaer, P.hoven, P.unstad, P.haukland, P.uttakleiv, P.fredvang],
   10: [P.fredvang, P.reine, P.aa, P.nusfjord, P.moskenes],
   11: [P.moskenes, P.bodoe, P.saltstraumen, P.mosjoen, P.laksforsen, P.grong],
   12: [P.grong, P.trondheim, P.kristiansund, P.atlanterhavsvegen, P.molde],

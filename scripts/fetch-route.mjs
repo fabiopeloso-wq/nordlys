@@ -19,7 +19,7 @@ const OUT = [
   [17.5715, 68.5575], // Bjerkvik (E6 Nord statt E10 West)
   [19.5583, 69.2258], // Nordkjosbotn
   [18.9553, 69.6492], // Tromsø
-  [19.1206, 69.9733], // Skogsfjordvatnet — Småbruk (Airbnb, Nächte 5+6)
+  [19.1206, 69.9733], // Skogsfjordvatnet — Småbruk (Airbnb, Nächte 5–7)
   [18.9553, 69.6492], // Tromsø
   [19.5583, 69.2258], // Nordkjosbotn
   [17.5715, 68.5575], // Bjerkvik (E10 West)

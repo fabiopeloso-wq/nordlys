@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-24",
+  "stand": "2026-08-29",
   "days": [
     {
       "day": 1, "date": "2026-08-24", "title": "Vollgas nach Norden",
@@ -149,7 +149,7 @@
         "Statt links auf die Lofoten geht es rechts: E6 durchs Bardu-Tal, am Balsfjord entlang nach Tromsø, über zwei Brücken und einen Tunnel nach Ringvassøya",
         "Småbruk am Skogsfjordvatnet — eigenes Seeufer, Küche, Betten. Nördlichster Punkt der Reise: 69.97° N"
       ],
-      "stay": { "type": "hof", "text": "Småbruk ved Skogsfjordvatnet (Airbnb, Karlsøy) — Bekannter von Michi. Stillgelegter Kleinbauernhof mit eigener Uferlinie, 4 Schlafzimmer, 6 Betten, 1.5 Bäder, Küche, WLAN, Gratis-Parkplatz, Türcode statt Schlüssel. Check-in ab 15:00, Check-out bis 10:00. Nacht 1 von 2 — Daten Fr 28.–So 30.08. mit dem Gastgeber fixieren." },
+      "stay": { "type": "hof", "text": "Småbruk ved Skogsfjordvatnet (Airbnb, Karlsøy) — Bekannter von Michi. Stillgelegter Kleinbauernhof mit eigener Uferlinie, 4 Schlafzimmer, 6 Betten, 1.5 Bäder, Küche, WLAN, Gratis-Parkplatz, Türcode statt Schlüssel. Check-in ab 15:00, Check-out bis 10:00. Nacht 1 von 3 — am 29.08. um eine Nacht verlängert, Check-out Mo 31.08." },
       "image": {
         "src": "img/days/day-05.webp",
         "alt": "Der See Skogsfjordvatnet auf Ringvassøya, dahinter der schneegefleckte Nonsdagstinden unter klarem Himmel",
@@ -177,15 +177,15 @@
       "planB": "Schnee auf dem Bjørnfjell Ende August ist selten, Baustellen auf der E6 und E8 nicht — vegvesen.no am Morgen. Wer in Tromsø gleich hängen bleibt: Ishavskatedralen und Polaria liegen an der Durchfahrt. Der Hof läuft nicht weg, der Code gilt ab 15:00."
     },
     {
-      "day": 6, "date": "2026-08-29", "title": "Tromsø & der See",
-      "route": "Ringvassøya · Tromsø · Ringvassøya", "km": 150, "drive": "flexibel", "ferry": null,
+      "day": 6, "date": "2026-08-29", "title": "Ruhetag am See",
+      "route": "Skogsfjordvatnet · Ringvassøya", "km": 0, "drive": "Ruhetag", "ferry": null,
       "coord": { "lat": 69.9733, "lng": 19.1206 },
       "highlights": [
-        "Ruhetag mit Programm: Morgen am See, Nachmittag in der Arktis-Hauptstadt",
-        "Fjellheisen auf den Storsteinen (421 m): Tromsø, Sund und Lyngen-Alpen von oben",
-        "Einkauf in Tromsø: Fisch für die Fiskesuppe heute, Vorräte für die Lofoten-Fahrt morgen"
+        "Matt, Giannino und Fabio sind angeschlagen — heute wird nichts erzwungen: Betten, Küche, Dusche, See",
+        "Entscheid vom 29.08.: eine Nacht verlängern, Abfahrt erst Montag. Die Lofoten verlieren dafür einen Tag",
+        "Tromsø (Fjellheisen, Fischtheke) nur, wenn jemand fahren mag — sonst morgen oder gar nicht"
       ],
-      "stay": { "type": "hof", "text": "Zweite Nacht am Skogsfjordvatnet — kein Auf- und Abbau, Akkus und Kühlakkus laden, Kleider auslüften (keine Waschmaschine im Haus). Morgen Check-out bis 10:00." },
+      "stay": { "type": "hof", "text": "Zweite von drei Nächten am Skogsfjordvatnet — am 29.08. um eine Nacht verlängert, weil drei von vieren angeschlagen sind. Kein Auf- und Abbau, Akkus laden, Kleider auslüften (keine Waschmaschine im Haus). Check-out neu Mo 31.08." },
       "image": {
         "src": "img/days/day-06.webp",
         "alt": "Panorama von Tromsø vom Storsteinen aus: die Stadt auf der Insel Tromsøya, die Tromsøbrücke und dahinter schneebedeckte Berge",
@@ -193,37 +193,71 @@
         "source": "https://commons.wikimedia.org/wiki/File:Panorama_Troms%C3%B8_from_Fjellheisen.jpg"
       },
       "peak": {
-        "name": "Fjellheisen — Storsteinen (421 m)",
-        "text": "Vier Minuten Gondel, dann liegt die Arktis-Hauptstadt unter euch: die Insel Tromsøya, die Brücke, die Ishavskatedralen wie ein Papierflieger am Ufer, dahinter die Lyngen-Alpen. Um 21:00 geht die Sonne unter — wer bleibt, bis das Licht kippt, sieht Stadt und Fjord in der blauen Stunde und isst die Fiskesuppe eben spät. Von hier oben wurde schon manche Aurora fotografiert.",
+        "name": "Ausschlafen auf 69.97° N",
+        "text": "Fünf Tage, 3600 Kilometer, drei Nächte draussen — und dann erwischt es drei von vieren. Der Hof ist dafür der beste Ort der ganzen Reise: Betten, Heizung, ein Herd für Suppe und Tee, ein See vor der Tür, auf den man schauen kann, ohne etwas zu müssen. Wer fit ist, holt sich Tromsø: die Gondel auf den Storsteinen, die Fischtheke im Eurospar. Alle anderen bleiben liegen. Die Lofoten laufen nicht weg — sie werden nur einen Tag kürzer.",
         "facts": [
-          { "k": "Gondel", "v": "4 min · ca. 400 NOK retour (prüfen)" },
-          { "k": "Zu Fuss", "v": "Sherpatrappa, ~1200 Stufen, ~1 h" },
+          { "k": "Programm", "v": "nach Kräften — Sofa, See, Suppe" },
+          { "k": "Tromsø", "v": "76 km · 1:20 h · optional" },
           { "k": "Sonnenuntergang", "v": "29.08. ca. 21:00" }
         ]
       },
       "plan": [
-        { "t": "09:00", "title": "Langsam", "text": "Frühstück am See, niemand muss etwas abbauen. Wer will: Angel raus (Fiskekort beim Gastgeber) — oder Bad im See für die Harten." },
-        { "t": "11:00", "title": "Ringvassøya-Runde", "text": "Kurze Wanderung ab Hof, oder nach Hansnes (25 min) an den Langsund: Fährhafen, Blick auf Reinøya und Vannøya." },
-        { "t": "14:00", "title": "Tromsø", "text": "Über Kvalsund und Sandnessund in die Stadt. Ishavskatedralen (aussen gratis, innen ~70 NOK), Hafenpromenade, Polaria optional. Bomring läuft über Epass24." },
-        { "t": "15:30", "title": "Einkauf Tromsø", "text": "Eurospar oder Coop Extra mit Fischtheke: Kabeljau und Lachs für die Suppe, Rahm, Lauch — und die Vorräte für morgen: Wurst, Kartoffeln, Brot, Eis." },
-        { "t": "16:45", "title": "Fjellheisen", "text": "Talstation Tromsdalen, hoch auf den Storsteinen. Oben eine Stunde bleiben — die Lyngen-Alpen laufen nicht weg." },
-        { "t": "19:30", "title": "Fiskesuppe am Hof", "text": "Zurück über die Brücken, grosser Topf, richtige Küche. Wenn der Gastgeber vorbeischaut: für ihn mitkochen." },
-        { "t": "23:00", "title": "Aurora-Wache am See", "text": "Wache zwei, Nordblick übers Wasser. Heute nautisch fast dunkel, der Mond geht spät auf — Kamera aufs Stativ, Geduld mitbringen." }
+        { "t": "09:00", "title": "Ausschlafen", "text": "Niemand muss etwas abbauen, niemand muss fahren. Frühstück vom Herd, wenn der Magen will — Tee für alle." },
+        { "t": "11:00", "title": "Der See", "text": "Kanu am Ufer, Angel beim Gastgeber (Fiskekort), Bad für die Harten. Alles optional, alles zwei Minuten von der Haustür." },
+        { "t": "13:00", "title": "Suppe & Sofa", "text": "Bouillon, Nudeln, Rüebli und Lauch aus Bardufoss sind im Haus. Heiss essen, Decke, Serie. Die Fiskesuppe rutscht auf morgen." },
+        { "t": "15:00", "title": "Optional: Tromsø", "text": "Wer sich fit fühlt: Kvalsund, Sandnessund, Ishavskatedralen, Fischtheke, Fjellheisen bis zur blauen Stunde. Wer nicht: bleibt. Beides ist richtig." },
+        { "t": "19:00", "title": "Abendessen in der Küche", "text": "Was da ist, auf dem richtigen Herd. Früh ins Bett — morgen ist auch noch ein Ruhetag." },
+        { "t": "22:30", "title": "Nordblick vom Ufer", "text": "Kp checken, aber niemand muss raus. Wer wach ist: Der Nordhorizont überm Wasser ist frei, der Mond geht spät auf." }
       ],
-      "planB": "Regen über Tromsø: Polaria (Arktis-Aquarium), Polarmuseet, Mack-Brauerei mit Ølhallen — alles zu Fuss in der Innenstadt. Fjellheisen lohnt nur mit Sicht, Webcam vorher anschauen. Wer gar nicht fahren will: Der See ist auch ein Programm."
+      "planB": "Wer sich fit fühlt, holt sich Tromsø: Ishavskatedralen, Polaria, Fjellheisen (Webcam vorher anschauen), Eurospar-Fischtheke. Alle anderen bleiben liegen — genau dafür ist das Haus da."
     },
     {
-      "day": 7, "date": "2026-08-30", "title": "Ankunft am Ende der Welt",
-      "route": "Skogsfjordvatnet → Tromsø → Bjerkvik → Svolvær → Henningsvær", "km": 510, "drive": "8 h", "ferry": null,
-      "coord": { "lat": 68.2343, "lng": 14.568 },
+      "day": 7, "date": "2026-08-30", "title": "Auskurieren auf 70° Nord",
+      "route": "Skogsfjordvatnet · Hansnes · Skogsfjordvatnet", "km": 50, "drive": "flexibel", "ferry": null,
+      "coord": { "lat": 69.9733, "lng": 19.1206 },
       "highlights": [
-        "Check-out bis 10:00 — besser um 07:30: 510 km, der längste Tag seit Stockholm",
-        "Ab Bjerkvik wird die E10 zur Showbühne: Tjeldsund, Lødingen, Raftsundet — Brücke um Brücke",
-        "Henningsvær am Abend, wenn die Tagesbusse weg sind — erste von vier Lofoten-Nächten"
+        "Die verlängerte Nacht: gesund werden hat Vorrang — die Lofoten warten, nur einen Tag kürzer",
+        "Ringvassøya-Runde nach Hansnes an den Langsund oder Kanu auf dem See — Programm nach Kräften",
+        "Abends packen: morgen 530 km bis Henningsvær, Abfahrt 07:30, Kühlakkus ins Gefrierfach"
       ],
-      "stay": { "type": "zelt", "text": "Wildcamp auf Austvågøy, abseits der Hotspots — 150 m Abstand, max. 2 Nächte. Vier Lofoten-Nächte beginnen." },
+      "stay": { "type": "hof", "text": "Dritte und letzte Nacht am Skogsfjordvatnet — die Verlängerung. Morgen Check-out bis 10:00, besser um 07:30: 530 km bis auf die Lofoten. Haus hinterlassen, wie ihr es angetroffen habt." },
       "image": {
         "src": "img/days/day-07.webp",
+        "alt": "Der See Skogsfjordvatnet auf Ringvassøya, dahinter der schneegefleckte Nonsdagstinden unter klarem Himmel",
+        "credit": "Foto: Patrice78500 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Skogsfjordvatnet_devant_Nonsdagstinden.jpg"
+      },
+      "peak": {
+        "name": "Ringvassøya — die Insel hinter dem Tunnel",
+        "text": "Rund 650 Quadratkilometer Insel, ein einziger Tunnel als Zufahrt, mittendrin der grösste Inselsee Norwegens — und ihr habt sie fast für euch. Wer wieder auf den Beinen ist, fährt die halbe Stunde nach Hansnes an den Langsund: Fährhafen von Karlsøy, Blick auf Reinøya und Vannøya, das Ende der Strasse. Wer nicht, nimmt das Kanu. Der Punkt des Tages ist nicht die Aussicht, sondern dass morgen wieder alle vier fahren können.",
+        "facts": [
+          { "k": "Insel", "v": "ca. 650 km² · Ringvassøya" },
+          { "k": "Hansnes", "v": "26 km · 30 min · Fährhafen Karlsøy" },
+          { "k": "Morgen", "v": "530 km · Abfahrt 07:30" }
+        ]
+      },
+      "plan": [
+        { "t": "09:00", "title": "Frühstück mit Herd", "text": "Eier-Tag, richtiger Kaffee, Zeit. Wer noch hustet, schläft weiter — Abfahrt ist erst morgen." },
+        { "t": "11:00", "title": "Ringvassøya-Runde", "text": "Optional: nach Hansnes an den Langsund (26 km), Fährhafen und Inselblick — oder Kanu und Angel am See. Nach Kräften, nicht nach Plan." },
+        { "t": "14:00", "title": "Vorräte checken", "text": "Was für die Lofoten fehlt, holt ihr morgen um 16:30 in Svolvær (Rema 1000). Tromsø ist keine Pflicht — wer fahren mag, bringt Fisch für die Suppe mit." },
+        { "t": "17:00", "title": "Packen", "text": "Auto vorpacken, Zeltzeug und Schlafsäcke obenauf — die Strandnacht auf Kvalvika kommt übermorgen. Kühlakkus ins Gefrierfach, Kühlbox leeren und trocknen." },
+        { "t": "19:00", "title": "Fiskesuppe — oder Reserve-Abend", "text": "Mit Fisch aus Tromsø: der grosse Topf. Ohne: Tortellini mit Pesto und Parmesan auf dem richtigen Herd. Wenn der Gastgeber vorbeischaut: für ihn mitkochen, das ist die Miete." },
+        { "t": "22:30", "title": "Wache drei am See", "text": "Die letzte Nacht auf 70° Nord. Nordblick übers Wasser, Kamera aufs Stativ — wer schlafen will, schläft. Morgen ist der längste Fahrtag seit Stockholm." }
+      ],
+      "planB": "Wer bis Sonntag fit ist und Tromsø noch will: Fjellheisen und Fischtheke liegen 1:20 h weg — hin und zurück ein halber Tag, dann ist die Suppe echt. Wer nicht: Der See ist auch ein Programm."
+    },
+    {
+      "day": 8, "date": "2026-08-31", "title": "Ankunft am Ende der Welt",
+      "route": "Skogsfjordvatnet → Tromsø → Bjerkvik → Svolvær → Henningsvær", "km": 530, "drive": "8.5 h", "ferry": null,
+      "coord": { "lat": 68.2343, "lng": 14.568 },
+      "highlights": [
+        "Check-out 07:30: 530 km, der längste Tag seit Stockholm — und alle vier wieder fahrtauglich",
+        "Ab Bjerkvik wird die E10 zur Showbühne: Tjeldsund, Lødingen, Raftsundet — Brücke um Brücke",
+        "Henningsvær am Abend, wenn die Tagesbusse weg sind — erste von drei Lofoten-Nächten"
+      ],
+      "stay": { "type": "zelt", "text": "Wildcamp auf Austvågøy, abseits der Hotspots — 150 m Abstand, max. 2 Nächte. Drei Lofoten-Nächte beginnen." },
+      "image": {
+        "src": "img/days/day-08.webp",
         "alt": "Panorama von Svolvær: Hafen und Häuser vor der schroffen Bergkulisse der Lofoten",
         "credit": "Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Svolv%C3%A6r,_Lofoten,_Noruega,_2019-09-05,_DD_43.jpg"
@@ -232,67 +266,33 @@
         "name": "E10 ab Bjerkvik — die Showbühne",
         "text": "Hinter Bjerkvik zweigt die E10 ab, und der Teil beginnt, für den die ganze Anfahrt war: über Brücken und Dämme von Insel zu Insel, Tjeldsund, Lødingen, Raftsundet — bis in Svolvær die Lofotenwand senkrecht aus dem Meer steht. Ab hier glaubst du die Fotos.",
         "facts": [
-          { "k": "Etappe", "v": "510 km · 8 h" },
+          { "k": "Etappe", "v": "530 km · 8.5 h" },
           { "k": "Svolvær", "v": "68.23° N · Lofoten-Hauptort" },
           { "k": "Abends", "v": "Henningsvær, 25 min weiter" }
         ]
       },
       "plan": [
-        { "t": "07:30", "title": "Check-out", "text": "Haus hinterlassen, wie ihr es angetroffen habt — Michis Bekannter soll euch wieder wollen. Abfall mit, Licht aus, Tür zu." },
-        { "t": "08:45", "title": "Tromsø — nicht halten", "text": "E8 dem Balsfjord entlang bis Nordkjosbotn, dann E6 Süd. Tank ist voll, Kaffee in der Thermoskanne." },
-        { "t": "11:30", "title": "Bjerkvik", "text": "Tanken, Beine, Fahrerwechsel. Hier verabschiedet sich die E6 — die E10 übernimmt bis ans Ende der Welt." },
-        { "t": "13:30", "title": "Brücken-Kino", "text": "Tjeldsundbrua, Lødingen, Raftsundet — jede Brücke ein neues Panorama. Oft anhalten, aber nicht lang." },
-        { "t": "16:30", "title": "Svolvær", "text": "Hafenrunde mit Blick auf die Svolværgeita. Rema 1000 nur, falls etwas fehlt — Eis auf jeden Fall." },
+        { "t": "07:30", "title": "Check-out", "text": "Drei Nächte, ein Haus — hinterlassen, wie ihr es angetroffen habt. Michis Bekannter soll euch wieder wollen. Abfall mit, Licht aus, Tür zu, Kühlakkus aus dem Gefrierfach." },
+        { "t": "08:45", "title": "Tromsø — nicht halten", "text": "Kvalsund, Sandnessund, Tromsøbrua — dann E8 dem Balsfjord entlang bis Nordkjosbotn und E6 Süd. Kaffee in der Thermoskanne." },
+        { "t": "10:45", "title": "Bardufoss", "text": "Tanken, Beine — der Burger-Kiosk von Tag 5 liegt an der Strecke. Rema 1000 nur, falls für heute Abend noch etwas fehlt." },
+        { "t": "11:45", "title": "Bjerkvik", "text": "Fahrerwechsel. Hier verabschiedet sich die E6 — die E10 übernimmt bis ans Ende der Welt." },
+        { "t": "13:45", "title": "Brücken-Kino", "text": "Tjeldsundbrua, Lødingen, Raftsundet — jede Brücke ein neues Panorama. Oft anhalten, aber nicht lang." },
+        { "t": "16:30", "title": "Svolvær", "text": "Hafenrunde mit Blick auf die Svolværgeita. Rema 1000: Wurst, Kartoffeln, Zwiebeln, Eier für die Pyttipanna — und Wasser plus Brot für die Strandnacht morgen. Eis auf jeden Fall." },
         { "t": "18:30", "title": "Henningsvær", "text": "Wenn die Busse weg sind: Hafenrunde, der berühmteste Fussballplatz der Welt. Die Pyttipanna wartet im Auto." },
-        { "t": "20:30", "title": "Camp Austvågøy", "text": "Wildcamp abseits der Hotspots, Nordblick suchen. Wache drei — ab heute ist es hier nachts fast dunkel." }
+        { "t": "20:30", "title": "Camp Austvågøy", "text": "Wildcamp abseits der Hotspots, Nordblick suchen. Wache vier — ab heute ist es hier nachts fast dunkel." }
       ],
-      "planB": "Wer Senja will, kann: Tromsø → Finnsnes → Fv862 über die Insel → Fähre Gryllefjord–Andenes (1:40 h, keine Reservation, früh anstehen) → Vesterålen → Svolvær. Landschaftlich Weltklasse, zeitlich ein 11-Stunden-Tag — nur bei stabilem Wetter und wenn die Fähre noch fährt (Saisonende Anfang September, prüfen)."
+      "planB": "Wer Senja will, kann: Tromsø → Finnsnes → Fv862 über die Insel → Fähre Gryllefjord–Andenes (1:40 h, keine Reservation, früh anstehen) → Vesterålen → Svolvær. Landschaftlich Weltklasse, zeitlich ein 11-Stunden-Tag — nur bei stabilem Wetter, wenn die Fähre noch fährt (Saisonende Anfang September, prüfen) und wenn wirklich alle wieder fit sind."
     },
     {
-      "day": 8, "date": "2026-08-31", "title": "Hoven & die Karibik des Nordens",
-      "route": "Lofoten lokal · Gimsøya → Leknes → Haukland → Uttakleiv", "km": 100, "drive": "flexibel", "ferry": null,
-      "coord": { "lat": 68.2117, "lng": 13.5057 },
-      "highlights": [
-        "Hoven auf Gimsøya: 1–1.5 h für ein Maxi-Panorama — vor den Tagesgästen",
-        "Haukland Beach — türkis, auch bei 12 Grad — und der Küstenpfad nach Uttakleiv",
-        "Dusch-Stopp: endlich. Alle danken es dir."
-      ],
-      "stay": { "type": "camping", "text": "Uttakleiv-Zeltwiese (ca. 300 NOK) — Dragon's Eye und Nordhimmel direkt vor dem Zelt." },
-      "image": {
-        "src": "img/days/day-08.webp",
-        "alt": "Türkisblaue Bucht von Haukland Beach von oben, weisser Sand und Bergketten am Horizont",
-        "credit": "Foto: Michele Agostini · CC BY-SA 2.0 · Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Haukland_Beach_view.jpg"
-      },
-      "peak": {
-        "name": "Hoven (368 m) & Haukland → Uttakleiv",
-        "text": "Am Morgen der freundlichste Gipfel der Lofoten: eine gute Stunde Aufstieg auf Gimsøya, oben 360 Grad — Meer, Strände, Moor, Bergketten. Am Nachmittag Wasser wie in der Südsee, nur ehrlicher: 11 Grad. Der flache Küstenpfad ums Kap verbindet die zwei schönsten Strände der Inseln — links Brandung, rechts Felswand, eine Stunde Gehzeit, null Anstrengung, maximale Ausbeute.",
-        "facts": [
-          { "k": "Hoven", "v": "368 m · 1–1.5 h · leicht, markiert" },
-          { "k": "Küstenpfad", "v": "ca. 1 h · flach" },
-          { "k": "Uttakleiv", "v": "Dragon's Eye + Zeltwiese" }
-        ]
-      },
-      "plan": [
-        { "t": "08:30", "title": "Hoven-Aufstieg", "text": "Ab Henningsvær 40 Minuten nach Gimsøya. Vor den Tagesgästen oben sein — der Trail ist kurz, die Aussicht masslos." },
-        { "t": "11:30", "title": "Optional: Unstad", "text": "Arktis-Surfern zuschauen, Zimtschnecke im Surf-Café. Wer lieber Strand will, fährt direkt weiter." },
-        { "t": "13:00", "title": "Einkauf Leknes", "text": "Coop Prix oder Rema: frischer Kabeljau für heute Abend, Kartoffeln, Butter, Eis." },
-        { "t": "14:00", "title": "Haukland Beach", "text": "Türkis auch bei Wolken. Wer reingeht, ist 30 Sekunden lang ein Held." },
-        { "t": "15:00", "title": "Küstenpfad", "text": "Haukland → Uttakleiv ums Kap — eine Stunde Postkartenkino. Dragon's Eye bei Ebbe suchen." },
-        { "t": "17:00", "title": "Dusch-Stopp & Zeltwiese", "text": "Endlich. Alle danken es dir. Dann Kabeljau in der Pfanne, Abendlicht überm Nordmeer — Wache vier." }
-      ],
-      "planB": "Sauwetter: Lofotr-Wikingermuseum in Borg (Methalle, 15 Minuten entfernt) — danach trotzdem an den Strand. Hoven fällt bei Nebel aus, nicht bei Regen."
-    },
-    {
-      "day": 9, "date": "2026-09-01", "title": "Kvalvika & Ryten",
-      "route": "Lofoten lokal", "km": 50, "drive": "flexibel", "ferry": null,
+      "day": 9, "date": "2026-09-01", "title": "Hoven, Haukland, Kvalvika",
+      "route": "Gimsøya → Leknes → Haukland → Uttakleiv → Fredvang → Kvalvika", "km": 140, "drive": "flexibel", "ferry": null,
       "coord": { "lat": 68.1015, "lng": 13.164 },
       "highlights": [
-        "Früh am Parkplatz Fredvang sein (ca. 100 NOK, ab 10 Uhr voll) — ab Uttakleiv 45 Minuten",
-        "Ryten (543 m): der Blick runter auf Kvalvika — das Lofoten-Bild",
-        "Abstieg zum Strand, Nachmittag zwischen Felsen und Brandung — ab heute Nacht nautisch dunkel"
+        "Der gestrichene Tag in einem: Hoven am Morgen (wenn die Beine wollen), Haukland und Uttakleiv am Mittag",
+        "Ab 16:00 mit Zelt und Schlafsack von Fredvang nach Kvalvika — gut eine Stunde, Nacht am Strand im Nationalpark",
+        "Ryten (543 m) ohne Gepäck im Abendlicht — optional. Ab heute Nacht nautisch dunkel"
       ],
-      "stay": { "type": "zelt", "text": "Kvalvika Beach — Zelten im Lofotodden-Nationalpark erlaubt. Drohne bleibt im Auto (Verbot)." },
+      "stay": { "type": "zelt", "text": "Kvalvika Beach — Zelten im Lofotodden-Nationalpark erlaubt. Drohne bleibt im Auto (Verbot). Die Uttakleiv-Zeltwiese fällt mit dem gestrichenen Tag weg — die nächste Dusche ist morgen in Moskenes." },
       "image": {
         "src": "img/days/day-09.webp",
         "alt": "Kvalvika-Bucht mit goldenem Sandstrand und steilen Felswänden, davor grüne Hänge",
@@ -300,23 +300,26 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kvalvika_(Lofoten)_5502_C02.jpg"
       },
       "peak": {
-        "name": "Ryten (543 m)",
-        "text": "Oben angekommen liegt dir Kvalvika zu Füssen — goldener Strand, eingeklemmt zwischen Felswänden, dahinter nichts mehr bis Grönland. Das ist DAS Lofoten-Bild. Danach absteigen und den Nachmittag genau an diesem Strand verbringen: Bild betreten, fertig.",
+        "name": "Kvalvika & Ryten (543 m)",
+        "text": "Am Morgen der freundlichste Gipfel der Lofoten (Hoven, eine gute Stunde, oben 360 Grad), am Mittag Wasser wie in der Südsee, nur ehrlicher: 11 Grad. Und am Abend DAS Lofoten-Bild: von Kvalvika ohne Gepäck auf den Ryten, unten der goldene Strand, eingeklemmt zwischen Felswänden, dahinter nichts mehr bis Grönland. Dann absteigen und in genau diesem Bild schlafen. Zwei Tage in einem — dafür ist jede Etappe optional ausser der letzten: dem Strand.",
         "facts": [
-          { "k": "Gipfel", "v": "543 m · 1.5–2 h Aufstieg" },
-          { "k": "Parkplatz", "v": "Fredvang ~100 NOK, ab 10 Uhr voll" },
-          { "k": "Strandnacht", "v": "Nationalpark — Zelten legal" }
+          { "k": "Hoven", "v": "368 m · 1–1.5 h · optional" },
+          { "k": "Kvalvika", "v": "ab Fredvang ~1 h · Pass ca. 200 m" },
+          { "k": "Ryten", "v": "543 m · 1–1.5 h ab Strand · optional" }
         ]
       },
       "plan": [
-        { "t": "06:45", "title": "Abfahrt Uttakleiv", "text": "Zelt trocken einpacken, Tagesgepäck plus Zeltzeug für die Strandnacht schnüren." },
-        { "t": "07:30", "title": "Parkplatz Fredvang", "text": "Früh sein — ab 10 Uhr ist voll. Alles, was heute Nacht gebraucht wird, kommt auf den Rücken." },
-        { "t": "08:00", "title": "Aufstieg Ryten", "text": "Moor, Stufen, dann der Grat. Der Blick kommt auf den letzten Metern — Gänsehaut einplanen." },
-        { "t": "10:30", "title": "Gipfel", "text": "Das Lofoten-Bild in echt. Der berühmte Felsvorsprung fürs Foto liegt kurz unterm Gipfel." },
-        { "t": "12:30", "title": "Abstieg nach Kvalvika", "text": "Direkt runter an den Strand — Mittag zwischen Felsen und Brandung." },
-        { "t": "17:00", "title": "Camp am Strand", "text": "Zelt hinter den Dünen, Sonnenuntergang Richtung offenes Meer. Drohne bleibt im Auto. Wache fünf — die erste richtig dunkle Lofoten-Nacht." }
+        { "t": "07:30", "title": "Abbau Austvågøy", "text": "Zelt trocken einpacken. Alles fürs Strandbiwak heute Abend griffbereit: Zelt, Schlafsäcke, Couscous, Stirnlampen." },
+        { "t": "08:30", "title": "Optional: Hoven", "text": "Ab Henningsvær 40 Minuten nach Gimsøya. 368 m, gut markiert, oben 360 Grad. Wer noch hustet, wartet unten am Strand von Hov." },
+        { "t": "11:30", "title": "Leknes", "text": "Coop Prix oder Rema, kurz: Brot, Früchte, Eis — und 4 Liter Wasser für die Strandnacht, auf den Bach am Strand nicht zählen." },
+        { "t": "12:30", "title": "Haukland Beach", "text": "Türkis auch bei Wolken, Mittag im Sand. Wer reingeht, ist 30 Sekunden lang ein Held." },
+        { "t": "13:30", "title": "Uttakleiv", "text": "Durch den Tunnel (5 min) statt über den Küstenpfad — die Beine gehören heute Kvalvika. Dragon's Eye bei Ebbe suchen." },
+        { "t": "15:30", "title": "Parkplatz Fredvang", "text": "Ca. 100 NOK. Alles für die Nacht auf den Rücken — Zelt, Schlafsack, Couscous, Wasser, Stirnlampe. Der Rest bleibt im Auto." },
+        { "t": "16:00", "title": "Pfad nach Kvalvika", "text": "Über den Sattel und runter an den Strand, gut eine Stunde. Zelt hinter den Dünen aufstellen, bevor ihr weiter denkt." },
+        { "t": "17:30", "title": "Optional: Ryten", "text": "Vom Strand ohne Gepäck 1–1.5 h auf 543 m — der Blick runter auf Kvalvika im Abendlicht. Stirnlampe mit, Sonnenuntergang 20:38." },
+        { "t": "21:00", "title": "Camp am Strand", "text": "Couscous, Brandung, Nordblick. Drohne bleibt im Auto. Wache fünf — die erste richtig dunkle Lofoten-Nacht. Wecker 04:15: morgen Reinebringen." }
       ],
-      "planB": "Bei Sturm keine Strandnacht: Glasbläserei Vikten + Nusfjord, Nacht auf dem Campingplatz."
+      "planB": "Sturm oder ein Rest Fieber: keine Strandnacht — Kvalvika als Tagesausflug ohne Gepäck, Nacht auf dem Campingplatz bei Ramberg, Reinebringen morgen trotzdem. Hoven fällt bei Nebel, nicht bei Regen."
     },
     {
       "day": 10, "date": "2026-09-02", "title": "Reine, bevor alle kommen",

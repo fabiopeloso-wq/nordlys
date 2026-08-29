@@ -81,7 +81,7 @@ export function renderDays() {
   const el = document.querySelector('[data-render="days"]')!;
   el.innerHTML = itinerary.days
     .map((d) => {
-      const lofoten = d.day >= 7 && d.day <= 10 ? ' day-card--lofoten' : '';
+      const lofoten = d.day >= 8 && d.day <= 10 ? ' day-card--lofoten' : '';
       return `
       <article class="day-card${lofoten}" data-day="${d.day}">
         <div class="day-card__top">

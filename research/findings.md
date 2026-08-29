@@ -1,6 +1,6 @@
 # NORDLYS — Recherche-Findings
 
-**Stand: 24.08.2026** (Planänderung Tromsø, siehe §0) · Reise: 24.08.–08.09.2026 (16 Tage) · 4 Personen · Alfa Romeo Stelvio
+**Stand: 29.08.2026** (Planänderungen Tromsø 24.08. und Verlängerung 29.08., siehe §0 und §0b) · Reise: 24.08.–08.09.2026 (16 Tage) · 4 Personen · Alfa Romeo Stelvio
 Alles mit «ca./prüfen» Markiertes unterwegs nochmals verifizieren. Die `src/data/*.json` sind die Single Source of Truth für die Site.
 
 ---
@@ -39,7 +39,27 @@ Skogsfjordvatnet ist der grösste See auf einer Insel Norwegens (ca. 13 km²). Z
 
 ---
 
-## 1 · Route — ursprünglicher Entscheid (06/2026; Tag 5–12 seit 24.08. überholt, siehe §0)
+## 0b · Planänderung 29.08.2026 — dritte Nacht am Hof, Lofoten 3 statt 4 Nächte
+
+**Anlass:** Am Samstagabend (Tag 6) sind Matt, Giannino und Fabio angeschlagen. Entscheid der Crew: eine Nacht am Småbruk verlängern — Nacht Sa 29. **und** So 30.08. am Hof, Abfahrt erst **Mo 31.08.** Die Fähre Moskenes–Bodø bleibt auf Do 03.09., also verlieren die Lofoten einen Tag (3 statt 4 Nächte: Mo 31.08.–Mi 02.09.).
+
+**Was gestrichen wurde — und warum dieser Tag:** Von den drei Lofoten-Tagen (Uttakleiv-Tag, Kvalvika-Tag, Reine-Tag) ist Reine gesetzt (Moskenes Camping liegt an der Fähre). Statt Uttakleiv **oder** Kvalvika komplett zu opfern, sind die beiden zu **einem** Tag zusammengelegt (neu Tag 9, Di 01.09.): Hoven am Morgen (optional), Haukland und Uttakleiv am Mittag (Tunnel statt Küstenpfad), ab 16:00 mit Zeltzeug von Fredvang nach Kvalvika (gut 1 h, Pass ca. 200 m), Ryten ohne Gepäck im Abendlicht (optional). Verloren gehen die Uttakleiv-Zeltwiese mit Dusche, der Kabeljau-Abend und Unstad; die Kvalvika-Strandnacht und der Ryten bleiben — als Optionen, die je nach Verfassung wegfallen können (Plan B: Kvalvika als Tagesausflug, Campingplatz bei Ramberg).
+
+| Tag | Datum | Neu | Vorher |
+|---|---|---|---|
+| 6 | Sa 29.08. | **Ruhetag am See** — angeschlagen, Tromsø nur optional; Entscheid zur Verlängerung | Tromsø-Ruhetag (Fjellheisen, Fiskesuppe) |
+| 7 | So 30.08. | **Ruhetag II am Hof** (verlängerte Nacht): Ringvassøya-Runde nach Hansnes oder Kanu, packen, Fiskesuppe oder Reserve-Abend | Hof → Svolvær → Henningsvær |
+| 8 | Mo 31.08. | Hof → Tromsø → Bardufoss → Bjerkvik → E10 → Svolvær (Rema 1000) → Henningsvær am Abend (**532 km, ~9 h**, OSRM 29.08.) | Hoven/Leknes/Haukland → Uttakleiv |
+| 9 | Di 01.09. | **Hoven + Haukland/Uttakleiv + Kvalvika an einem Tag** (141 km, OSRM), Strandnacht Kvalvika, Ryten optional | Kvalvika & Ryten |
+| 10–16 | 02.–08.09. | unverändert (Reine · Fähre Do 03.09. · Grong · Trondheim/Atlantikstrasse · Trollstigen/Geiranger/Lom · Göteborg · Hamburg · Uster) | — |
+
+**Folgen für den Rest:** Proviant — Tromsø-Einkauf (e5) wird «flexibel, nur wenn jemand fahren mag», Svolvær (e6, neu statt Leknes) übernimmt die Pyttipanna-Zutaten und das Wasser für die Strandnacht; Fiskesuppe rutscht auf So (oder Reserve-Abend Tortellini); Kabeljau-Abend entfällt. Budget: Camping-Nächte 3 statt 4 (Moskenes, Molde + Reserve). Karte: Marker Hansnes (Tag 7), Lofoten-Marker eine Nummer weiter, Hinweg neu «Tag 1–8» (4150 km). Tagesbilder: Tag 7 = Skogsfjordvatnet (wie Tag 5), Tag 8 = Svolvær, Tag 9 = Kvalvika (Haukland-Bild raus). Totale ~7750 km laut Tageskilometern — die Rundzahl 7900 bleibt auf der Site stehen (real gefahren bis Tag 05: 3626 km, Plan 3580).
+
+**Offen:** Verlängerung mit dem Gastgeber bestätigen (läuft über Michi), Check-out Mo 31.08. bis 10:00 — besser 07:30. Wer am Montag noch nicht fahrtauglich ist, fährt nicht: Rotation zu dritt, notfalls Senja-Variante streichen und Svolvær ohne Umwege.
+
+---
+
+## 1 · Route — ursprünglicher Entscheid (06/2026; Tag 5–12 seit 24.08. überholt, siehe §0; Tag 6–9 seit 29.08., siehe §0b)
 
 **Empfehlung: schnell durch Schweden hoch, szenisch der Norwegen-Küste entlang zurück.**
 Hinweg Uster → Hamburg → Puttgarden–Rødby → Kopenhagen → Öresundbrücke → E4 → Töre → E10 → Narvik → Lofoten: **ca. 3450 km, ~40 h reine Fahrt** in 4.5 Tagen — machbar, weil die ersten 2 Tage Autobahn sind. Rückweg Moskenes–Bodø (Fähre) → Saltstraumen → E6 → Trondheim → Atlantikstrasse → Trollstigen → Geiranger → Lom → Oslo → Göteborg → Öresund → Rødby–Puttgarden → Uster: **ca. 3700 km, ~44 h** in 6.5 Tagen (80er-Limits, Fjordfähren).

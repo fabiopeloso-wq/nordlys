@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-24",
+  "stand": "2026-08-29",
   "summary": {
     "totalKm": 7900,
     "driveHours": 100,
@@ -7,7 +7,7 @@
     "countries": 5,
     "ferries": 5,
     "northMost": "69.97° N",
-    "legOut": { "label": "Hinweg — Schweden, Tromsø, Lofoten", "km": 4240, "days": "Tag 1–7" },
+    "legOut": { "label": "Hinweg — Schweden, Tromsø, Lofoten", "km": 4150, "days": "Tag 1–8" },
     "legBack": { "label": "Rückweg — Norwegens Küste", "km": 3690, "days": "Tag 11–16" }
   },
   "stops": [
@@ -22,11 +22,12 @@
     { "id": "abisko", "name": "Abisko / Lapporten", "lat": 68.3585, "lng": 18.7822, "day": 5, "leg": "out" },
     { "id": "bjerkvik", "name": "Bjerkvik (E6 Nord)", "lat": 68.5575, "lng": 17.5715, "day": 5, "leg": "out" },
     { "id": "skogsfjordvatnet", "name": "Skogsfjordvatnet — Småbruk (Airbnb)", "lat": 69.9733, "lng": 19.1206, "day": 5, "leg": "out" },
-    { "id": "tromsoe", "name": "Tromsø — Fjellheisen, Ishavskatedralen", "lat": 69.6492, "lng": 18.9553, "day": 6, "leg": "out" },
-    { "id": "svolvaer", "name": "Svolvær — Lofoten!", "lat": 68.2343, "lng": 14.568, "day": 7, "leg": "lofoten" },
-    { "id": "henningsvaer", "name": "Henningsvær", "lat": 68.1564, "lng": 14.204, "day": 7, "leg": "lofoten" },
-    { "id": "hoven", "name": "Hoven / Gimsøya", "lat": 68.3247, "lng": 14.1543, "day": 8, "leg": "lofoten" },
-    { "id": "haukland", "name": "Haukland / Uttakleiv", "lat": 68.1947, "lng": 13.5347, "day": 8, "leg": "lofoten" },
+    { "id": "tromsoe", "name": "Tromsø — Fjellheisen, Ishavskatedralen (optional)", "lat": 69.6492, "lng": 18.9553, "day": 6, "leg": "out" },
+    { "id": "hansnes", "name": "Hansnes — Ringvassøya-Runde (Ruhetag II)", "lat": 69.967, "lng": 19.63, "day": 7, "leg": "out" },
+    { "id": "svolvaer", "name": "Svolvær — Lofoten!", "lat": 68.2343, "lng": 14.568, "day": 8, "leg": "lofoten" },
+    { "id": "henningsvaer", "name": "Henningsvær", "lat": 68.1564, "lng": 14.204, "day": 8, "leg": "lofoten" },
+    { "id": "hoven", "name": "Hoven / Gimsøya", "lat": 68.3247, "lng": 14.1543, "day": 9, "leg": "lofoten" },
+    { "id": "haukland", "name": "Haukland / Uttakleiv", "lat": 68.1947, "lng": 13.5347, "day": 9, "leg": "lofoten" },
     { "id": "kvalvika", "name": "Kvalvika / Ryten", "lat": 68.1015, "lng": 13.164, "day": 9, "leg": "lofoten" },
     { "id": "reine", "name": "Reine / Å", "lat": 67.932, "lng": 13.0877, "day": 10, "leg": "lofoten" },
     { "id": "moskenes", "name": "Moskenes → Bodø (Fähre)", "lat": 67.8943, "lng": 13.045, "day": 11, "leg": "back", "ferry": true },
