@@ -1,0 +1,21 @@
+{
+  "day": 6,
+  "stand": "2026-08-31T07:48",
+  "items": [
+    {
+      "id": "p-001",
+      "type": "photo",
+      "orig": "WhatsApp Image 2026-08-31 at 07.43.06.jpeg",
+      "bytes": 334952,
+      "src": "log/tag-06/p-001.webp",
+      "thumb": "log/tag-06/p-001-t.webp",
+      "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoYAAsAPu1kq04ppaQiMAgBMB2JZQC7AB9AgR4u+05OQwAA/r+5p+mE9XHsgk7TdwNt3VSM6Xs8Hr1vzgrU2HHDqPW1Lbmztt7xHq/j8NFSQAYoZupismIuT0bIpsLwuCsyRHiaN1RUAA==",
+      "w": 1800,
+      "h": 832,
+      "taken": null,
+      "takenSource": "none",
+      "gps": null,
+      "camera": null
+    }
+  ]
+}

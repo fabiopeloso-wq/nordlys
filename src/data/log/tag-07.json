@@ -1,0 +1,40 @@
+{
+  "day": 7,
+  "date": "2026-08-30",
+  "status": "online",
+  "title": "Wassermelonen auf 69.97° Nord",
+  "lead": "Zweiter Ruhetag am Skogsfjordvatnet, der verlängerte: auskurieren statt Hansnes-Runde, Sofa statt Kanu. Am Abend liegen zwei Wassermelonen in Spalten geschnitten auf dem Wohnzimmertisch — Vitamine gegen den Rest der Erkältung. Und gepackt wird auch: morgen sind es 530 Kilometer bis auf die Lofoten.",
+  "place": {
+    "name": "Småbruk am Skogsfjordvatnet",
+    "region": "Ringvassøya · Karlsøy · Norwegen",
+    "lat": 69.9734,
+    "lng": 19.1203
+  },
+  "mood": "arctic",
+  "hero": "p-001",
+  "stats": {
+    "km": 0,
+    "kmTotal": 3626,
+    "night": {
+      "type": "hof",
+      "text": "Nacht 3 von 3 am Skogsfjordvatnet — die verlängerte. Morgen früh Check-out, 530 km bis auf die Lofoten."
+    }
+  },
+  "story": [
+    "Der zweite Ruhetag war genau das, wofür er verlängert wurde: gesund werden. Im Plan standen eine Ringvassøya-Runde nach Hansnes an den Langsund oder nochmal das Kanu — «Programm nach Kräften». Die Kräfte sagten: Sofa. Also blieb das Auto den zweiten Tag in Folge stehen, und der Tag verteilte sich auf Betten, Küche und das Wohnzimmer mit Seeblick.",
+    "Das Foto des Tages entstand am Abend: zwei Wassermelonen, in Spalten geschnitten, auf dem Brett auf dem Wohnzimmertisch, drei auf den Ledersofas drumherum — einer isst, einer tippt, einer greift zu. Vitaminoffensive auf 69.97° Nord, dazu läuft nebenbei das iPad. So sieht Auskurieren aus, wenn es funktioniert.",
+    "Dazwischen wurde gepackt: morgen früh Check-out, das Haus hinterlassen, wie es angetroffen wurde, und dann 530 Kilometer — zurück durch den Kvalsund-Tunnel, an Tromsø vorbei zur E6 und bei Bjerkvik rechts auf die E10, diesmal wirklich Richtung Lofoten. Die dritte Nacht am See ist die letzte auf dem nördlichsten Zipfel dieser Reise."
+  ],
+  "captions": {
+    "p-001": "Abendprogramm: zwei Wassermelonen in Spalten, drei auf den Ledersofas — Vitamine gegen den Rest der Erkältung."
+  },
+  "numbers": [
+    { "k": "Strecke", "v": "0 km — zweiter Tag in Folge" },
+    { "k": "Programm", "v": "Sofa statt Hansnes-Runde — «nach Kräften» wörtlich genommen" },
+    { "k": "Vitamine", "v": "2 Wassermelonen, in Spalten geschnitten" },
+    { "k": "Gepackt", "v": "Abends — morgen 530 km, Abfahrt möglichst 07:30" },
+    { "k": "Nacht", "v": "Bett, Nacht 3 von 3 — die letzte auf 69.97° N" }
+  ],
+  "tomorrow": "530 km: Kvalsund-Tunnel, an Tromsø vorbei zur E6, bei Bjerkvik auf die E10 — abends Svolvær und Henningsvær. Drei Nächte Lofoten.",
+  "track": "none"
+}

@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-28",
+  "stand": "2026-08-31",
   "days": [
     {
       "day": 1,
@@ -110,6 +110,50 @@
         "h": 1800
       },
       "url": "logbuch/tag-05/"
+    },
+    {
+      "day": 6,
+      "date": "2026-08-29",
+      "title": "Drei von vieren flach",
+      "lead": "Null Kilometer. Der erste Morgen in richtigen Betten seit Stockholm — und drei, die ihn am liebsten gar nicht verlassen: Matt, Giannino und Fabio sind krank. Statt Fjellheisen und Fischtheke in Tromsø also Küche, Sofa und der See vor dem Fenster. Am Abend der Entscheid: eine dritte Nacht am Hof.",
+      "place": "Småbruk am Skogsfjordvatnet",
+      "lat": 69.9734,
+      "lng": 19.1203,
+      "mood": "arctic",
+      "km": 0,
+      "kmTotal": 3626,
+      "night": "hof",
+      "photos": 1,
+      "videos": 0,
+      "hero": {
+        "thumb": "log/tag-06/p-001-t.webp",
+        "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoYAAsAPu1kq04ppaQiMAgBMB2JZQC7AB9AgR4u+05OQwAA/r+5p+mE9XHsgk7TdwNt3VSM6Xs8Hr1vzgrU2HHDqPW1Lbmztt7xHq/j8NFSQAYoZupismIuT0bIpsLwuCsyRHiaN1RUAA==",
+        "w": 1800,
+        "h": 832
+      },
+      "url": "logbuch/tag-06/"
+    },
+    {
+      "day": 7,
+      "date": "2026-08-30",
+      "title": "Wassermelonen auf 69.97° Nord",
+      "lead": "Zweiter Ruhetag am Skogsfjordvatnet, der verlängerte: auskurieren statt Hansnes-Runde, Sofa statt Kanu. Am Abend liegen zwei Wassermelonen in Spalten geschnitten auf dem Wohnzimmertisch — Vitamine gegen den Rest der Erkältung. Und gepackt wird auch: morgen sind es 530 Kilometer bis auf die Lofoten.",
+      "place": "Småbruk am Skogsfjordvatnet",
+      "lat": 69.9734,
+      "lng": 19.1203,
+      "mood": "arctic",
+      "km": 0,
+      "kmTotal": 3626,
+      "night": "hof",
+      "photos": 1,
+      "videos": 0,
+      "hero": {
+        "thumb": "log/tag-07/p-001-t.webp",
+        "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBACdASoYAAsAPu1iqU2ppaOiMAgBMB2JQBOgBFUw2AqwCSyVRS5GAAD8tPAQr/6w6LWywMQyF25BoQMX6T7ZsV4NEktv9mwOjapxOSARHg/Jn/5Ee0Q6abXXk/kxT9lDvbpTfCI7YHS41l5WO1zQk6Vi3eph0rvQ6IfeXpseiUgRGGqMnIzfBn+VJkASdAA=",
+        "w": 1800,
+        "h": 832
+      },
+      "url": "logbuch/tag-07/"
     }
   ]
 }

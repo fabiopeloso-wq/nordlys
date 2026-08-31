@@ -1,0 +1,60 @@
+{
+  "day": 6,
+  "date": "2026-08-29",
+  "status": "online",
+  "title": "Drei von vieren flach",
+  "lead": "Null Kilometer. Der erste Morgen in richtigen Betten seit Stockholm — und drei, die ihn am liebsten gar nicht verlassen: Matt, Giannino und Fabio sind krank. Statt Fjellheisen und Fischtheke in Tromsø also Küche, Sofa und der See vor dem Fenster. Am Abend der Entscheid: eine dritte Nacht am Hof.",
+  "place": {
+    "name": "Småbruk am Skogsfjordvatnet",
+    "region": "Ringvassøya · Karlsøy · Norwegen",
+    "lat": 69.9734,
+    "lng": 19.1203
+  },
+  "mood": "arctic",
+  "hero": "p-001",
+  "stats": {
+    "km": 0,
+    "kmTotal": 3626,
+    "weather": "Grau, tief hängende Wolken — mehr verrät das eine Foto des Tages nicht",
+    "night": {
+      "type": "hof",
+      "text": "Nacht 2 am Skogsfjordvatnet — am Abend auf drei verlängert: Abfahrt erst Montag, die Lofoten geben dafür eine Nacht her."
+    }
+  },
+  "story": [
+    "Der Plan für diesen Samstag hiess Ruhetag: Morgen am See, dann vielleicht Tromsø — Fjellheisen auf den Storsteinen, Fischtheke, Einkauf für die Fiskesuppe. Es kam anders. Drei von vieren wachten krank auf: Matt, Giannino und Fabio hat es erwischt, nach vier Fahrtagen, zwei Biwaknächten im Fjäll und einem Temperatursturz von Hamburg-Sommer auf sechs Grad am Torneträsk. Zum Glück steht das Auto gerade vor dem richtigen Haus dafür: Betten, Dusche, Küche, ein Wohnzimmer mit Ledersofas und Seeblick. Heute wird nichts erzwungen.",
+    "Das einzige Foto des Tages zeigt den Hof von seiner anderen Seite: die roten Nebengebäude des Småbruk, dazwischen ein alter Wohnwagen, Birken, grauer Himmel über Ringvassøya. Dahinter das kahle Fjell. Mehr Dokumentation gab es nicht — der Rest des Tages fand drinnen statt, zwischen Küche, Sofa und Teetassen.",
+    "Am Abend dann der Entscheid, der den Rest der Reise umbaut: eine dritte Nacht am Hof, Abfahrt erst am Montag. Die Fähre Moskenes–Bodø am Donnerstag bleibt gebucht, also verlieren die Lofoten eine Nacht — drei statt vier. Gesund werden hat Vorrang; die Lofoten laufen nicht weg, sie rücken nur einen Tag näher zusammen. Tromsø fällt damit wohl ganz aus dem Programm — Fjellheisen und Fischtheke bleiben für ein anderes Mal."
+  ],
+  "captions": {
+    "p-001": "Das einzige Foto des Tages: die roten Nebengebäude des Hofs, der Wohnwagen dazwischen, grauer Himmel über Ringvassøya."
+  },
+  "numbers": [
+    {
+      "k": "Strecke",
+      "v": "0 km — das Auto stand den ganzen Tag"
+    },
+    {
+      "k": "Krankenstand",
+      "v": "3 von 4 — Matt, Giannino, Fabio"
+    },
+    {
+      "k": "Tromsø",
+      "v": "ausgelassen — Fjellheisen und Fischtheke bleiben für ein anderes Mal"
+    },
+    {
+      "k": "Entscheid",
+      "v": "Dritte Nacht am Hof, Abfahrt erst Montag — die Lofoten: 3 statt 4 Nächte, Fähre bleibt Do 03.09."
+    },
+    {
+      "k": "Fotos",
+      "v": "1 — mehr war nicht drin"
+    },
+    {
+      "k": "Nacht",
+      "v": "Bett, Nacht 2 von 3"
+    }
+  ],
+  "tomorrow": "Weiter auskurieren am See — Ringvassøya-Runde nach Hansnes oder Kanu, aber nur nach Kräften. Abends packen für die Lofoten.",
+  "track": "none"
+}

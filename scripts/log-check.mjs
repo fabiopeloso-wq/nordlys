@@ -164,11 +164,16 @@ for (const [label, viewport] of [['d', { width: 1440, height: 900 }], ['m', { wi
   check((await page.evaluate(() => location.hash)) === `#${portrait.id}`, `${label}: Hash zeigt auf das Bild`);
   const fit = await lightboxFits(page);
   check(fit.ok, `${label}: Lightbox-Bild passt in den Viewport (${fit.h}px von ${fit.vh}px)`);
-  const count1 = await page.locator('[data-lb-count]').textContent();
-  await page.keyboard.press('ArrowRight');
-  await page.waitForTimeout(350);
-  const count2 = await page.locator('[data-lb-count]').textContent();
-  check(count1 !== count2, `${label}: → blättert (${count1} → ${count2})`);
+  if (expected.length > 1) {
+    const count1 = await page.locator('[data-lb-count]').textContent();
+    await page.keyboard.press('ArrowRight');
+    await page.waitForTimeout(350);
+    const count2 = await page.locator('[data-lb-count]').textContent();
+    check(count1 !== count2, `${label}: → blättert (${count1} → ${count2})`);
+  } else {
+    // Nur ein Bild: blättern gibt es nicht — beide Pfeile müssen deaktiviert sein
+    check(await page.locator('.lb__arrow--next').isDisabled(), `${label}: einziges Bild — Pfeil «→» deaktiviert`);
+  }
   await page.screenshot({ path: `${OUT}/tag-${NN}-${label}-lightbox.png` });
   await page.keyboard.press('Escape');
   check(await page.locator('.lb').waitFor({ state: 'hidden', timeout: 2000 }).then(() => true, () => false), `${label}: Esc schliesst`);
