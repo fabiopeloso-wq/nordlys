@@ -1,5 +1,5 @@
 {
-  "stand": "2026-08-31",
+  "stand": "2026-09-01",
   "days": [
     {
       "day": 1,
@@ -154,6 +154,28 @@
         "h": 832
       },
       "url": "logbuch/tag-07/"
+    },
+    {
+      "day": 8,
+      "date": "2026-08-31",
+      "title": "Acht Stunden bis Mittelerde",
+      "lead": "507 Kilometer von Ringvassøya bis auf die Lofoten: ein Rentier zum Abschied, Regen von Heia bis Hinnøya — und dann die Einfahrt in eine Landschaft wie aus einem Fantasy-Film: Austnesfjord, Svolvær, Henningsvær. Um 19:34 packt die Crew die Rucksäcke, steigt über dem Djupfjorden in den Abend und baut Zelt und Tarp auf, als es schon dunkel ist. Pasta im Stirnlampenlicht.",
+      "place": "Über dem Djupfjorden",
+      "lat": 68.193,
+      "lng": 14.243,
+      "mood": "lofoten",
+      "km": 507,
+      "kmTotal": 4133,
+      "night": "zelt",
+      "photos": 100,
+      "videos": 2,
+      "hero": {
+        "thumb": "log/tag-08/p-097-t.webp",
+        "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAADQBACdASoSABgAPu1krU+ppSQiMBgIATAdiUAWnQIOmLqqBgzQb0anw8DWEKQfQAD+ZSs1skdkkgXGnwJurWcoMa+/GgX2fNUE7wfMOLzjW5rJwjmFMdLjk/iNJpDC7bfF8+uPBWKxhLYaHKUH8tSMmiU+8aqT3AP2UVTxKp9mUotlNHqjVyQ5h79wMg2TZ6WDawS7qAAAAA==",
+        "w": 1350,
+        "h": 1800
+      },
+      "url": "logbuch/tag-08/"
     }
   ]
 }
