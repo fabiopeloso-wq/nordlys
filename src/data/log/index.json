@@ -1,5 +1,5 @@
 {
-  "stand": "2026-09-01",
+  "stand": "2026-09-02",
   "days": [
     {
       "day": 1,
@@ -176,6 +176,28 @@
         "h": 1800
       },
       "url": "logbuch/tag-08/"
+    },
+    {
+      "day": 9,
+      "date": "2026-09-01",
+      "title": "Der schönste Ort bis jetzt",
+      "lead": "Ein Tag mit tausend Jahren Spannweite: am Mittag im nachgebauten Häuptlings-Langhaus von Borg — dem grössten bekannten Gebäude der Wikingerzeit —, am Abend über die geschwungenen Fredvang-Brücken an den Torsfjorden. Dreissig Meter neben dem Auto steht das Zelt auf der Wiese am Meer, Fabio bezieht das Biwak, die Schafe schauen vorbei. Bestes Lager der Reise, sagt die Crew.",
+      "place": "Hovdan am Torsfjorden",
+      "lat": 68.08,
+      "lng": 13.162,
+      "mood": "lofoten",
+      "km": 87,
+      "kmTotal": 4220,
+      "night": "zelt",
+      "photos": 61,
+      "videos": 0,
+      "hero": {
+        "thumb": "log/tag-09/p-067-t.webp",
+        "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABwBACdASoSABgAPu1kq06ppaOiKA1RMB2JQBOgAPMuEt8MZGm1wEvmYg490ADw08pfHFsg3dmZ+DcJw+/M9SqzBTQFZkTUW221AFFtBKVmEKJ4xIrHi/Nz9J7irm0a1qfsAuJeiUiakKJg6dKJzzIDZzqVfK5cmBtNhyWh2QAcG8Ilf9OE0MZHYHL3H2MBIAA=",
+        "w": 1350,
+        "h": 1800
+      },
+      "url": "logbuch/tag-09/"
     }
   ]
 }
