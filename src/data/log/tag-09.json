@@ -5,26 +5,78 @@
   "title": "Der schönste Ort bis jetzt",
   "lead": "Ein Tag mit tausend Jahren Spannweite: am Mittag im nachgebauten Häuptlings-Langhaus von Borg — dem grössten bekannten Gebäude der Wikingerzeit —, am Abend über die geschwungenen Fredvang-Brücken an den Torsfjorden. Dreissig Meter neben dem Auto steht das Zelt auf der Wiese am Meer, Fabio bezieht das Biwak, die Schafe schauen vorbei. Bestes Lager der Reise, sagt die Crew.",
   "place": {
-    "name": "Hovdan am Torsfjorden",
+    "name": "Kvalvik am Torsfjorden",
     "region": "Fredvang · Flakstad · Lofoten",
-    "lat": 68.080,
-    "lng": 13.162
+    "lat": 68.033,
+    "lng": 13.26
   },
   "mood": "lofoten",
   "hero": "p-067",
   "heroPos": "50% 68%",
   "omit": [
-    "p-001", "p-002", "p-006", "p-013", "p-015", "p-029", "p-034", "p-035",
-    "p-045", "p-046", "p-049", "p-052", "p-055", "p-058", "p-059", "p-060",
-    "p-063", "p-065", "p-072", "p-074", "p-075", "p-076", "p-079", "p-082",
+    "p-001",
+    "p-002",
+    "p-006",
+    "p-013",
+    "p-015",
+    "p-029",
+    "p-034",
+    "p-035",
+    "p-045",
+    "p-046",
+    "p-049",
+    "p-052",
+    "p-055",
+    "p-058",
+    "p-059",
+    "p-060",
+    "p-063",
+    "p-065",
+    "p-072",
+    "p-074",
+    "p-075",
+    "p-076",
+    "p-079",
+    "p-082",
     "p-083"
   ],
   "picks": [
-    "p-003", "p-004", "p-005", "p-007", "p-008", "p-011", "p-016", "p-020",
-    "p-024", "p-026", "p-031", "p-033", "p-037", "p-038", "p-039", "p-040",
-    "p-041", "p-043", "p-047", "p-048", "p-050", "p-053", "p-056", "p-057",
-    "p-061", "p-064", "p-067", "p-069", "p-070", "p-071", "p-073", "p-077",
-    "p-080", "p-084", "p-085", "p-086"
+    "p-003",
+    "p-004",
+    "p-005",
+    "p-007",
+    "p-008",
+    "p-011",
+    "p-016",
+    "p-020",
+    "p-024",
+    "p-026",
+    "p-031",
+    "p-033",
+    "p-037",
+    "p-038",
+    "p-039",
+    "p-040",
+    "p-041",
+    "p-043",
+    "p-047",
+    "p-048",
+    "p-050",
+    "p-053",
+    "p-056",
+    "p-057",
+    "p-061",
+    "p-064",
+    "p-067",
+    "p-069",
+    "p-070",
+    "p-071",
+    "p-073",
+    "p-077",
+    "p-080",
+    "p-084",
+    "p-085",
+    "p-086"
   ],
   "stats": {
     "km": 87,
@@ -33,31 +85,90 @@
     "weather": "Grau über Borg, ab dem Nachmittag Sonne — goldener Abend an den Brücken, blaue klare Nacht",
     "night": {
       "type": "zelt",
-      "text": "Wiese am Torsfjorden bei Fredvang, dreissig Meter neben dem Auto — Zelt für drei, Biwak für Fabio, Schafe als Nachbarn. Lofoten-Nacht 2 von 3."
+      "text": "Wiese am Torsfjorden bei Kvalvik, Fredvang, dreissig Meter neben dem Auto — Zelt für drei, Biwak für Fabio, Schafe als Nachbarn. Lofoten-Nacht 2 von 3."
     }
   },
   "timeline": [
-    { "t": "14:07", "title": "Wieder auf der E10", "text": "Lager abgebaut, Berg hinunter, westwärts — der Himmel noch grau." },
-    { "t": "14:32", "title": "Borg", "text": "Auf dem Hügel taucht das Langhaus auf, ein dunkles Dach wie ein umgedrehtes Schiff." },
-    { "t": "14:55", "title": "Lofotr Vikingmuseum", "text": "Erst der Film über die Wikinger von Borg, dann das Häuptlingspaar — täuschend echt vor rotem Vorhang." },
-    { "t": "15:07", "title": "Im Langhaus", "text": "83 Meter Wikingerzeit: Feuerstellen, Webstuhl, Werkbänke, Felle — das grösste bekannte Gebäude der Epoche, in voller Grösse nachgebaut." },
-    { "t": "15:12", "title": "Das Portal", "text": "Geschnitzt und bemalt: Schlangen, Schiffe, Krieger — und einer von uns mittendrin." },
-    { "t": "15:36", "title": "«Vargfotr»", "text": "Unten am Wasser liegt das Wikingerschiff mit Drachenkopf am Steg." },
-    { "t": "17:10", "title": "Die Wolken geben auf", "text": "Blauer Himmel über Vestvågøy — der Nachmittag wird golden." },
-    { "t": "18:03", "title": "Nappstraumtunnel", "text": "Unter dem Sund hindurch nach Flakstadøya." },
-    { "t": "18:30", "title": "Fredvangbruene", "text": "Vom Aussichtspunkt: zwei geschwungene Brücken über die Sunde, dahinter die Wände von Moskenesøya." },
-    { "t": "18:37", "title": "Über die Brücken", "text": "Fv808, der Volandstinden spitz voraus — einer der Momente, für die man hierherfährt." },
-    { "t": "18:56", "title": "Torsfjorden", "text": "Angekommen auf der anderen Seite: stilles Wasser, letzte Sonne an den Graten." },
-    { "t": "19:14", "title": "Schotterstrasse", "text": "Das letzte Stück nach Hovdan — und da ist er, der Platz: Wiese, Meer, niemand." },
-    { "t": "20:20", "title": "Büro mit Aussicht", "text": "Laptop auf dem Armaturenbrett, Znacht auf dem Kocher." },
-    { "t": "22:16", "title": "Blaue Stunde mit Schafen", "text": "Zelt und Biwak stehen, die Schafe ziehen über die Strasse. Gute Nacht am Torsfjorden." }
+    {
+      "t": "14:07",
+      "title": "Wieder auf der E10",
+      "text": "Lager abgebaut, Berg hinunter, westwärts — der Himmel noch grau."
+    },
+    {
+      "t": "14:32",
+      "title": "Borg",
+      "text": "Auf dem Hügel taucht das Langhaus auf, ein dunkles Dach wie ein umgedrehtes Schiff."
+    },
+    {
+      "t": "14:55",
+      "title": "Lofotr Vikingmuseum",
+      "text": "Erst der Film über die Wikinger von Borg, dann das Häuptlingspaar — täuschend echt vor rotem Vorhang."
+    },
+    {
+      "t": "15:07",
+      "title": "Im Langhaus",
+      "text": "83 Meter Wikingerzeit: Feuerstellen, Webstuhl, Werkbänke, Felle — das grösste bekannte Gebäude der Epoche, in voller Grösse nachgebaut."
+    },
+    {
+      "t": "15:12",
+      "title": "Das Portal",
+      "text": "Geschnitzt und bemalt: Schlangen, Schiffe, Krieger — und einer von uns mittendrin."
+    },
+    {
+      "t": "15:36",
+      "title": "«Vargfotr»",
+      "text": "Unten am Wasser liegt das Wikingerschiff mit Drachenkopf am Steg."
+    },
+    {
+      "t": "17:10",
+      "title": "Die Wolken geben auf",
+      "text": "Blauer Himmel über Vestvågøy — der Nachmittag wird golden."
+    },
+    {
+      "t": "18:03",
+      "title": "Nappstraumtunnel",
+      "text": "Unter dem Sund hindurch nach Flakstadøya."
+    },
+    {
+      "t": "18:30",
+      "title": "Fredvangbruene",
+      "text": "Vom Aussichtspunkt: zwei geschwungene Brücken über die Sunde, dahinter die Wände von Moskenesøya."
+    },
+    {
+      "t": "18:37",
+      "title": "Über die Brücken",
+      "text": "Fv808, der Volandstinden spitz voraus — einer der Momente, für die man hierherfährt."
+    },
+    {
+      "t": "18:56",
+      "title": "Torsfjorden",
+      "text": "Angekommen auf der anderen Seite: stilles Wasser, letzte Sonne an den Graten."
+    },
+    {
+      "t": "19:14",
+      "title": "Schotterstrasse",
+      "text": "Das letzte Stück den Fjord entlang — und da ist er, der Platz: Wiese, Meer, niemand."
+    },
+    {
+      "t": "20:20",
+      "title": "Büro mit Aussicht",
+      "text": "Laptop auf dem Armaturenbrett, Znacht auf dem Kocher."
+    },
+    {
+      "t": "22:16",
+      "title": "Blaue Stunde mit Schafen",
+      "text": "Zelt und Biwak stehen, die Schafe ziehen über die Strasse. Gute Nacht am Torsfjorden."
+    }
   ],
   "story": [
     "Der Morgen gehörte noch dem Plateau über dem Djupfjorden: ausschlafen, Lager abbauen, alles wieder in die Rucksäcke und hinunter zum Auto. Um 14:07 rollte der Stelvio auf der E10 nach Westen, der Himmel grau wie am Vortag — und eine halbe Stunde später stand auf einem Hügel bei Borg ein Dach wie ein umgedrehtes Schiffsrumpf: das Langhaus von Lofotr.",
     "In den Achtzigern haben Archäologen hier das Haus eines Wikinger-Häuptlings ausgegraben — 83 Meter lang, das grösste bekannte Gebäude der ganzen Wikingerzeit. Das Museum hat es in voller Grösse wieder aufgebaut, ein paar Schritte neben den Fundamenten. Drinnen: Feuerstellen, ein Webstuhl mit Weberin, Werkbänke voller Werkzeug, Schilde und Felle an den Wänden, ein Häuptlingspaar in Wachs vor rotem Vorhang — und davor der Film über die Wikinger von Borg, den sich die Crew als Einstieg gab. Draussen wühlten zwei Wildschweine im Gehege, und unten am Wasser lag die «Vargfotr» am Steg, das Wikingerschiff mit Drachenkopf, die Ruderbänke voller Planen. Tausend Jahre alt gedacht, an einem Nachmittag durchschritten.",
     "Danach tat der Tag, was auf den Lofoten offenbar Programm ist: Er wurde mit jeder Stunde schöner. Über Vestvågøy riss der Himmel auf, um 18:03 tauchte die E10 in den Nappstraumtunnel und kam auf Flakstadøya wieder heraus — und dann begann das goldene Stück: Täler mit leuchtenden Hängen, Fjorde wie poliert, und am Aussichtspunkt über den Sunden die beiden geschwungenen Fredvang-Brücken, dahinter die dunklen Wände von Moskenesøya. Um 18:37 fuhr der Stelvio selbst über die Bögen, den spitzen Volandstinden genau voraus.",
-    { "quote": "Das ist meiner Meinung nach der schönste Ort, an dem wir bis jetzt übernachtet haben.", "who": "Fabio" },
-    "Hinter den Brücken, am Torsfjorden bei Hovdan, war es dann so weit: eine flache Wiese am Meer, dreissig Meter neben der Schotterstrasse, ringsum Fels und Wasser. Zelt für drei, Biwaksack für Fabio, der Kocher an — Znacht mit Aussicht, dazwischen ein Laptop auf dem Armaturenbrett als improvisiertes Büro. Und weil das noch nicht reichte, kamen die Schafe: erst neugierig ums Auto, später als Silhouetten auf der Strasse in der blauen Stunde.",
+    {
+      "quote": "Das ist meiner Meinung nach der schönste Ort, an dem wir bis jetzt übernachtet haben.",
+      "who": "Fabio"
+    },
+    "Hinter den Brücken, am Torsfjorden bei Kvalvik, war es dann so weit: eine flache Wiese am Meer, dreissig Meter neben der Schotterstrasse, ringsum Fels und Wasser. Zelt für drei, Biwaksack für Fabio, der Kocher an — Znacht mit Aussicht, dazwischen ein Laptop auf dem Armaturenbrett als improvisiertes Büro. Und weil das noch nicht reichte, kamen die Schafe: erst neugierig ums Auto, später als Silhouetten auf der Strasse in der blauen Stunde.",
     "Die Nacht blieb ruhig und klar-blau, das Wasser still, die Grate schwarz gegen den Himmel. Eine super Nacht, sagt Fabio — und allen geht es wieder deutlich besser. Lofoten-Nacht zwei von drei."
   ],
   "captions": {
@@ -93,7 +204,7 @@
     "p-067": "18:56: Die Brücke unter der Wolkenwand, vom Torsfjorden aus — fast am Ziel.",
     "p-069": "18:59: Volandstinden voraus, die Fv808 schnurgerade auf den Spitz zu.",
     "p-070": "19:00: Moor, Tümpel und Grate im letzten Licht.",
-    "p-071": "19:14: Die Schotterstrasse nach Hovdan — und irgendwo hier muss der Platz sein.",
+    "p-071": "19:14: Die Schotterstrasse den Fjord entlang — und irgendwo hier muss der Platz sein.",
     "p-073": "20:20: Büro mit Aussicht: Laptop auf dem Armaturenbrett, draussen der Torsfjorden.",
     "p-077": "21:40: Eindunkeln überm Fjord, drüben gehen die Lichter an.",
     "p-080": "22:16: Blaue Stunde am Lager.",
@@ -103,17 +214,50 @@
     "p-086": "22:21: Die Nachbarn ziehen heim — Schafe in der blauen Stunde."
   },
   "numbers": [
-    { "k": "Strecke", "v": "87 km — Rørvika → Borg → Fredvang (OSRM aus den GPS-Punkten)" },
-    { "k": "Museum", "v": "Lofotr, Borg — Langhaus 83 m, das grösste bekannte Gebäude der Wikingerzeit" },
-    { "k": "Bewohner", "v": "2 Wildschweine, 1 Häuptlingspaar aus Wachs" },
-    { "k": "Schiff", "v": "«Vargfotr» mit Drachenkopf, am Steg im Innerpollen" },
-    { "k": "Tunnel", "v": "Nappstraumtunnel → Flakstadøya, 18:03" },
-    { "k": "Brücken", "v": "Fredvangbruene, 18:37 — Volandstinden voraus" },
-    { "k": "Lager", "v": "Wiese am Torsfjorden, 30 m vom Auto — «der schönste Ort bis jetzt»" },
-    { "k": "Schlafen", "v": "Zelt ×3 · Biwak ×1 (Fabio)" },
-    { "k": "Nachbarn", "v": "Schafe — neugierig bis in die blaue Stunde" },
-    { "k": "Znacht", "v": "Gekocht am Platz, mit Fjordblick" },
-    { "k": "Gesundheit", "v": "Weiter aufwärts — Lofoten-Nacht 2 von 3" }
+    {
+      "k": "Strecke",
+      "v": "87 km — Rørvika → Borg → Fredvang (OSRM aus den GPS-Punkten)"
+    },
+    {
+      "k": "Museum",
+      "v": "Lofotr, Borg — Langhaus 83 m, das grösste bekannte Gebäude der Wikingerzeit"
+    },
+    {
+      "k": "Bewohner",
+      "v": "2 Wildschweine, 1 Häuptlingspaar aus Wachs"
+    },
+    {
+      "k": "Schiff",
+      "v": "«Vargfotr» mit Drachenkopf, am Steg im Innerpollen"
+    },
+    {
+      "k": "Tunnel",
+      "v": "Nappstraumtunnel → Flakstadøya, 18:03"
+    },
+    {
+      "k": "Brücken",
+      "v": "Fredvangbruene, 18:37 — Volandstinden voraus"
+    },
+    {
+      "k": "Lager",
+      "v": "Wiese am Torsfjorden, 30 m vom Auto — «der schönste Ort bis jetzt»"
+    },
+    {
+      "k": "Schlafen",
+      "v": "Zelt ×3 · Biwak ×1 (Fabio)"
+    },
+    {
+      "k": "Nachbarn",
+      "v": "Schafe — neugierig bis in die blaue Stunde"
+    },
+    {
+      "k": "Znacht",
+      "v": "Gekocht am Platz, mit Fjordblick"
+    },
+    {
+      "k": "Gesundheit",
+      "v": "Weiter aufwärts — Lofoten-Nacht 2 von 3"
+    }
   ],
   "tomorrow": "Reine, bevor alle kommen: früh auf den Reinebringen, dann Hamnøy und Å — abends Moskenes Camping, fünf Minuten von der Fähre nach Bodø.",
   "track": "planned"

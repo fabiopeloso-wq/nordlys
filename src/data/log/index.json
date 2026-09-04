@@ -1,5 +1,5 @@
 {
-  "stand": "2026-09-02",
+  "stand": "2026-09-04",
   "days": [
     {
       "day": 1,
@@ -182,9 +182,9 @@
       "date": "2026-09-01",
       "title": "Der schönste Ort bis jetzt",
       "lead": "Ein Tag mit tausend Jahren Spannweite: am Mittag im nachgebauten Häuptlings-Langhaus von Borg — dem grössten bekannten Gebäude der Wikingerzeit —, am Abend über die geschwungenen Fredvang-Brücken an den Torsfjorden. Dreissig Meter neben dem Auto steht das Zelt auf der Wiese am Meer, Fabio bezieht das Biwak, die Schafe schauen vorbei. Bestes Lager der Reise, sagt die Crew.",
-      "place": "Hovdan am Torsfjorden",
-      "lat": 68.08,
-      "lng": 13.162,
+      "place": "Kvalvik am Torsfjorden",
+      "lat": 68.033,
+      "lng": 13.26,
       "mood": "lofoten",
       "km": 87,
       "kmTotal": 4220,
@@ -198,6 +198,28 @@
         "h": 1800
       },
       "url": "logbuch/tag-09/"
+    },
+    {
+      "day": 10,
+      "date": "2026-09-02",
+      "title": "Starthilfe vom slowakischen Hobbit",
+      "lead": "Aufgewacht im schönsten Lager der Reise — und das Auto ist tot. Batterie leer, Panne Nummer drei der Starthilfe-Saga. Die Rettung: ein New Yorker im Urlaub, der Fabio mitnimmt, und ein Slowake, der seine Ersatzbatterie unterm Auto hervorzieht: «Nehmt sie einfach, legt sie danach zurück.» Danach wird der Tag golden: Nesland am Ende der Welt, die Postkarte von Reine, Choripan vom Foodtruck — und eine Nacht am Meer auf Moskenes Camping.",
+      "place": "Moskenes Camping",
+      "lat": 67.896,
+      "lng": 13.04,
+      "mood": "lofoten",
+      "km": 45,
+      "kmTotal": 4265,
+      "night": "camping",
+      "photos": 55,
+      "videos": 2,
+      "hero": {
+        "thumb": "log/tag-10/p-050-t.webp",
+        "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAwBACdASoYAAsAPu1iqU2ppaOiMAgBMB2JbACdMoACdiA14C9/0cjYkhAA/F4rdkRM6A0Yssmo+PzCasyO+4MJtH6SY0gFuXi2uY2XLORDONkpMlJ4QE4DW0VbZxcEtTOmGK4QisdKYcbOxpGloeMMabkh/BPET0vaDmmlmoGMtAAfH0jJGvQ/vfe4nvGdXqlz7Sb4CfYtbQAA",
+        "w": 1800,
+        "h": 832
+      },
+      "url": "logbuch/tag-10/"
     }
   ]
 }
