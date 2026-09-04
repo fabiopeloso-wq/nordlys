@@ -220,6 +220,28 @@
         "h": 832
       },
       "url": "logbuch/tag-10/"
+    },
+    {
+      "day": 11,
+      "date": "2026-09-03",
+      "title": "Mit den Zugvögeln nach Süden",
+      "lead": "Wecker um 04:45, leise packen, die frühe Fähre: dreieinhalb Stunden Abschiedskino von der Lofotenwand, Frühstück an der Tankstelle in Bodø — dann 507 Kilometer E6 bis ins Namdalen. Dort wartet die Tømmeråshøla: Bad in den Stromschnellen des Lachsflusses, ein Sonnenuntergang wie ein Finale, Tarp-Lager am Ufer. Und über allem ziehen die Wildgänse nach Süden — gleiche Richtung wie wir.",
+      "place": "Tømmeråshøla am Namsen",
+      "lat": 64.47,
+      "lng": 12.314,
+      "mood": "taiga",
+      "km": 507,
+      "kmTotal": 4772,
+      "night": "biwak",
+      "photos": 53,
+      "videos": 11,
+      "hero": {
+        "thumb": "log/tag-11/p-092-t.webp",
+        "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBACdASoSABgAPu1orE+ppiQiMBgIATAdiWMAsR9kAX5smiJqc+rxhW4gLMT6PADKkfAfrvZUNstJnKrvK6xwIpAPdWoyBwQw+YGHfrQKJD6YhxCKJGIb5Tnet9NmOIH8XvEAVcAJoLp6lxITtazF4f2SQTVNqhByOZjuoyCPJ1mhTBXmiOwemAaEQt47X+FwAA==",
+        "w": 1350,
+        "h": 1800
+      },
+      "url": "logbuch/tag-11/"
     }
   ]
 }
